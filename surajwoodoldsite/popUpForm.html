@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Suraj Wood | Products</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+    <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+
+
+
+</head>
+
+
+
+<style>
+    .wood-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .wood-title {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .wood-subtitle {
+        color: #777;
+        font-size: 14px;
+    }
+
+    /* Sticky Sidebar */
+    .sticky-sidebar {
+        position: sticky;
+        top: 20px;
+    }
+
+    .range-btn {
+        padding: 10px 12px;
+        border: 1px solid #ddd;
+        background: #fff;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+
+    .range-btn.active {
+        background: #e31e24;
+        color: white;
+        border-color: #e31e24;
+    }
+
+    .wood-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 6px;
+        transition: transform 0.4s ease;
+        /* added */
+    }
+
+    .wood-card:hover img {
+        transform: scale(1.06);
+        /* added */
+    }
+
+    .sticky-sidebar {
+        position: sticky;
+        top: 20px;
+        z-index: 10;
+    }
+
+    .page-wrapper {
+        overflow: unset;
+    }
+
+    /* --- Custom Layout Styles (MODIFIED) --- */
+
+    /* 1. Only the viewer starts hidden now */
+    .layout-viewer {
+        display: none;
+        padding-top: 100px;
+    }
+
+    /* 2. Style the inner row for transitions. All inner rows start collapsed/hidden */
+    .area>.row,
+    .layout-viewer>.row {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 0.5s ease-in-out, max-height 0.8s ease-in-out;
+    }
+
+    /* 3. The class applied by JS (.is-active-step) targets the PARENT to enable display... */
+    .is-active-step {
+        display: block !important;
+    }
+
+    /* 4. ...and then target the INNER ROW to trigger the smooth transition. */
+    .is-active-step>.row {
+        opacity: 1;
+        max-height: 1000px;
+        /* Must be a fixed large value */
+    }
+
+    /* 5. INITIAL SETUP: The area section should start active/visible. */
+    .area {
+        display: block;
+        padding-top: 100px;
+    }
+
+    /* Ensure the inner row of .area starts fully visible by applying the 'active' properties */
+    .area>.row {
+        opacity: 1;
+        max-height: none;
+    }
+
+    /* --- End Custom Layout Styles --- */
+
+    .layout-card {
+        width: 100%;
+        height: 400px;
+        margin: 16px;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .layout-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .3s ease;
+    }
+
+    .layout-card:hover img {
+        transform: scale(1.1);
+        filter: grayscale(0.1);
+    }
+
+    .layout-card .layout-title {
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+        padding: 16px 24px;
+        color: #fff;
+        text-shadow: 1px 1px 2px #ccc;
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        transform: translateY(16px);
+        transition: transform 0.4s ease-in;
+
+    }
+
+    .layout-title::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent, rgba(0, 0, 0, 0.2));
+        opacity: 0.4;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .layout-card:hover .layout-title,
+    .layout-card:hover .layout-title::before {
+        transform: translateY(0);
+    }
+
+    .layout-viewer .row>.col-lg-3 {
+        min-height: 560px;
+        max-height: 600px;
+    }
+
+    .layout-viewer .row>.col-lg-9 {
+        min-height: 560px;
+        max-height:640px;
+
+    }
+
+    /* ADDED: Apply consistent vertical padding to all columns within the viewer */
+    .layout-viewer .row>[class*="col-lg-"] {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .layout-sidebar {
+        height: 100%;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 16px 24px;
+        /* Inner padding for sidebar content */
+        border: 1px solid rgba(0, 0, 0, 0.1);
+
+    }
+
+    .layout-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .layout-item h3 {
+        font-size: 18px;
+        font-weight: 400;
+        white-space-collapse: preserve-breaks;
+    }
+
+    .layout-item .radio-container {
+        margin-top: 8px;
+
+    }
+
+    .radio-container .radio-item {
+        padding-right: 12px;
+        border: 1px solid rgba(128, 128, 128, 0.2);
+        text-align: center;
+        padding: 8px 16px;
+        margin: 8px;
+    }
+
+
+    /* Update the active style for the new finish-item div */
+    .radio-container .finish-item {
+        cursor: pointer;
+        /* Ensure it looks clickable */
+        /* Padding/styling inherited from .radio-item */
+    }
+
+    .radio-container .finish-item.is-selected {
+        background: #e31e24;
+        /* Primary brand color from .range-btn.active */
+        color: white;
+        border-color: #e31e24;
+        font-weight: 500;
+    }
+
+    .product-color {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+        padding:0 20px;
+    }
+
+    .layout-viewer {
+        height: fit-content;
+        padding: 80px 36px;
+        /* Padding for the entire layout container */
+        background-color: rgba(128, 128, 128, 0.1);
+        overflow: hidden;
+
+    }
+
+    .layout-viewer-img {
+        width: 100%;
+        height: 100%;
+        background-color: #ccc;
+        border: 1px solid rgba(128, 128, 128, 0.4);
+    }
+    .layout-viewer-img img{
+        width:100%;
+        height:100%;
+        object-fit: fill;
+    }
+
+    .border.is-selected {
+        /* Example: Add a thicker border to indicate selection */
+        outline: 3px solid #007bff;
+        outline-offset: 1px;
+    }
+    
+
+</style>
+
+<body>
+
+        
+
+
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="js/main-slider-script.js"></script>
+
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/appear.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/paroller.js"></script>
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>

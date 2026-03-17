@@ -1,0 +1,33 @@
+## PHASE 0: ACCOUNTS & ENVIRONMENT (Day 1)
+### Step 0.1 — Create Required Accounts
+### Step 0.2 — Prerequisites on Your Machine
+### Step 0.3 — Create Project & Open in Antigravity
+### Step 0.4 — Create CLAUDE.md (Paste this into Claude Code sidebar)
+## PHASE 1: SCAFFOLD FRONTEND (Sprint 1, Week 1-2)
+### Step 1.1 — Create Next.js Project
+### Step 1.2 — Set Up Sanity.io Project
+### Step 1.3 — Tailwind Config + shadcn/ui Components
+### Step 1.4 — Schema Markup System + CRM Helper
+## PHASE 2: BUILD CORE PAGES (Sprint 2-3, Weeks 3-6)
+### Step 2.1 — Root Layout + Navigation + Footer
+### Step 2.2 — Homepage
+### Step 2.3 — Product Page Template
+### Step 2.4 — Contact Page
+### Step 2.5 — About / Manufacturing Page
+## PHASE 3: PSEO + BLOG + APPLICATIONS (Sprint 4-5, Weeks 7-10)
+### Step 3.1 — PSEO Data Matrix + Template
+### Step 3.2 — Blog System
+### Step 3.3 — Application Pages + FAQ + Dealer Pages
+## PHASE 4: ANALYTICS + PERFORMANCE + SEO (Sprint 6-7, Weeks 11-14)
+### Step 4.1 — Analytics + Revalidation
+### Step 4.2 — Performance + SEO Polish
+## PHASE 5: PERFEX CRM SETUP ON GODADDY (Sprint 4, parallel)
+### Step 5.1 — Deploy the Custom API Endpoint
+### Step 5.2 — Configure Perfex CRM for Lead Management
+## PHASE 6: DEPLOYMENT (Sprint 8-9, Weeks 15-18)
+### Step 6.1 — Deploy Sanity Studio
+### Step 6.2 — Deploy Frontend to Vercel
+### Step 6.3 — Configure Cloudflare DNS
+### Step 6.4 — Vercel Domain Setup
+## PHASE 7: QA + LAUNCH (Sprint 9-10, Weeks 17-20)
+### Step 7.1 — Final QA
