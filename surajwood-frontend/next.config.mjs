@@ -26,7 +26,7 @@ const nextConfig = {
     return [
       {
         source: "/crm/:path*",
-        destination: "https://crm.surajwood.com/crm/:path*",
+        destination: "https://crm.surajwood.com/:path*",
       },
     ];
   },
