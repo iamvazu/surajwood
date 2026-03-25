@@ -22,6 +22,14 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: "/crm/:path*",
+        destination: "https://crm.surajwood.com/crm/:path*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
