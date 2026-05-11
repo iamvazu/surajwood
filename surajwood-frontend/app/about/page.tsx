@@ -56,29 +56,51 @@ export default function AboutPage() {
       <SchemaMarkup schemas={schemas} />
 
       {/* ------------------------------------------------------------------ */}
-      {/* Section 1 — Hero Banner                                             */}
+      {/* Section 1 — Hero Banner (Luxury Alignment)                       */}
       {/* ------------------------------------------------------------------ */}
-      <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-navy">
+      <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
           <Image
             src="/images/about/about-bg.jpg"
             alt="SurajWood Bahadurgarh Manufacturing Facility"
             fill
-            className="object-cover opacity-30 scale-105"
+            className="object-cover"
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/90 via-transparent to-navy/90" />
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <span className="text-copper font-bold text-sm uppercase tracking-[0.3em] mb-4 block">
-            The Source of Excellence
-          </span>
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-tight mb-6">
-            India&apos;s Technical Authority in <span className="text-copper">Acrylic Manufacturing</span>
-          </h1>
-          <p className="text-lg text-white/80 max-w-2xl mx-auto font-light leading-relaxed">
-            From our state-of-the-art Bahadurgarh facility, we engineer surfaces that outperform PETG and standard laminates through German PUR technology.
-          </p>
+
+        {/* Sophisticated Gradients (Matching Home) */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+
+        {/* Spacer to clear sticky navbar */}
+        <div className="h-32 lg:h-40" />
+
+        {/* Content Area (Left Aligned) */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
+          <div className="max-w-3xl">
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                MANUFACTURING EXCELLENCE SINCE 2011
+              </p>
+            </div>
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+              India&apos;s Technical Authority in <br />
+              <span className="text-copper">Acrylic Manufacturing</span>
+            </h1>
+
+            {/* Sub-headline */}
+            <p className="text-white/80 text-sm md:text-xl max-w-2xl leading-relaxed mb-8 font-light italic">
+              From our state-of-the-art Bahadurgarh facility, we engineer surfaces that outperform PETG and standard laminates through German PUR technology.
+            </p>
+
+            {/* Optional CTA or Scroll Indicator link could go here, but kept clean for About */}
+          </div>
         </div>
       </section>
 
