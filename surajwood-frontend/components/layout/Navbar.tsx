@@ -85,7 +85,7 @@ export default function Navbar() {
         {/* Social Icons Left */}
         <div className="flex items-center gap-4">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/surajwoodproducts"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#DC2626] transition-colors"
@@ -112,7 +112,7 @@ export default function Navbar() {
             <Linkedin size={15} />
           </a>
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@surajwoodproducts"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#DC2626] transition-colors"

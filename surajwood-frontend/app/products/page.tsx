@@ -182,7 +182,8 @@ export default function ProductsHubPage() {
               {
                 name: "AL-PROFHAN Aluminum Profiles",
                 desc: "Ottimo, Aerolinea, Luminare & more series for modular furniture.",
-                badge: "New",
+                badge: "Live",
+                href: "/products/aluminum-profiles",
               },
               {
                 name: "PetG Prelaminated Panels",
@@ -200,20 +201,38 @@ export default function ProductsHubPage() {
                 badge: "Coming",
               },
             ].map((item) => (
-              <div
-                key={item.name}
-                className="bg-cream/50 border border-cream-dark rounded-xl p-5 flex flex-col"
-              >
-                <span className="inline-block self-start text-[10px] font-bold text-white bg-copper px-2 py-0.5 rounded-full mb-3">
-                  {item.badge}
-                </span>
-                <h3 className="font-heading font-bold text-sm text-navy mb-1">
-                  {item.name}
-                </h3>
-                <p className="text-xs text-gray-500 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
+              item.href ? (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="group bg-white border border-cream-dark rounded-xl p-5 flex flex-col hover:shadow-lg transition-all"
+                >
+                  <span className="inline-block self-start text-[10px] font-bold text-white bg-green-600 px-2 py-0.5 rounded-full mb-3">
+                    {item.badge}
+                  </span>
+                  <h3 className="font-heading font-bold text-sm text-navy mb-1 group-hover:text-copper transition-colors">
+                    {item.name}
+                  </h3>
+                  <p className="text-xs text-gray-500 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </Link>
+              ) : (
+                <div
+                  key={item.name}
+                  className="bg-cream/50 border border-cream-dark rounded-xl p-5 flex flex-col"
+                >
+                  <span className="inline-block self-start text-[10px] font-bold text-white bg-copper px-2 py-0.5 rounded-full mb-3">
+                    {item.badge}
+                  </span>
+                  <h3 className="font-heading font-bold text-sm text-navy mb-1">
+                    {item.name}
+                  </h3>
+                  <p className="text-xs text-gray-500 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
+              )
             ))}
           </div>
         </div>
