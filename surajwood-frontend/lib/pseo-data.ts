@@ -56,6 +56,7 @@ export interface PSEOPageData {
     surajWood: string;
     laminate: string;
     puPaint: string;
+    petg: string;
   }[];
 }
 
