@@ -792,6 +792,102 @@ const MOCK_POSTS: SanityPost[] = [
     reading_time: 9,
     categories: ["Manufacturing", "Technical Guide"],
   },
+  {
+    id: 12,
+    slug: "anti-fingerprint-matte-acrylic-technology",
+    title: "The Science of Clean: How Anti-Fingerprint Nano-Coating Works",
+    excerpt:
+      "Struggling with smudges on your matte kitchen? Learn how our ACRYMATTE nano-coating technology repels oils and keeps your surfaces looking pristine.",
+    content: `<p>Matte finishes are beautiful, but they have historically been magnets for fingerprints. Our <a href="/products/acrymatte">ACRYMATTE</a> series changes that through advanced surface engineering.</p>
+<h2>Hydrophobic & Oleophobic Properties</h2>
+<p>The secret lies in a nano-thin layer applied during the manufacturing of our <a href="/products/acrylux">acrylic sheets</a>. This coating is both hydrophobic (water-repelling) and oleophobic (oil-repelling). When you touch the surface, the natural oils from your skin cannot 'wet' the acrylic, meaning no visible smudge is left behind.</p>
+<h2>Low Light Reflectivity</h2>
+<p>Because <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> and ACRYMATTE have zero light reflection, the tiny amount of oil that might transfer is not highlighted by glare, further enhancing the 'clean' look.</p>
+<h2>Practical Benefits</h2>
+<p>In a busy Indian kitchen where turmeric, oil, and spices are frequently handled, this technology reduces cleaning time by up to 70%. A simple wipe with a dry microfibre cloth is usually all that is needed to maintain that pure matte perfection.</p>`,
+    featured_image: { ...placeholderImage(412), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2025-11-20",
+    author: "Suraj Wood Technical Team",
+    reading_time: 6,
+    categories: ["Technology", "Maintenance"],
+  },
+  {
+    id: 13,
+    slug: "acrylic-panels-for-commercial-offices",
+    title: "Elevating Office Interiors: Why Acrylic is the Corporate Choice",
+    excerpt:
+      "From reception desks to wall cladding, discover how premium acrylic panels create a professional, high-impact environment for modern Indian offices.",
+    content: `<p>First impressions matter in business. The reception area is where your brand's story begins. For <a href="/applications/offices">modern office interiors in India</a>, the material choice is critical.</p>
+<h2>High-Impact Reception Desks</h2>
+<p>A reception counter finished in <a href="/products/acryglass">ACRYGLASS Piano Black</a> or Royal Red creates instant drama and authority. The mirror-like finish reflects the professionalism of your company.</p>
+<h2>Durable Wall Cladding</h2>
+<p>In high-traffic hallways and lift lobbies, <a href="/products/acrylux">ACRYLUX panels</a> provide a durable alternative to paint or wallpaper. They are easy to clean, impact-resistant, and maintain their color depth for decades.</p>
+<h2>Minimalist Conference Rooms</h2>
+<p>For conference room storage and credenzas, <a href="/products/acrymatte">ACRYMATTE</a> provides a non-reflective, sophisticated backdrop that doesn't distract during presentations. It pairs beautifully with our <a href="/products/aluminum-profiles">aluminum profiles</a> for a truly architectural feel.</p>`,
+    featured_image: { ...placeholderImage(413), url: "/images/gallery/office-1.jpg" },
+    date: "2025-11-05",
+    author: "Suraj Wood Design Team",
+    reading_time: 7,
+    categories: ["Commercial Design", "Offices"],
+  },
+  {
+    id: 14,
+    slug: "choosing-acrylic-panel-thickness-guide",
+    title: "1mm, 1.5mm, or 3mm? Choosing the Right Acrylic Thickness",
+    excerpt:
+      "Not all acrylic panels are created equal. We guide you through the technical differences and ideal applications for various thicknesses in modular furniture.",
+    content: `<p>A common question from architects and homeowners is: 'Which thickness do I need?' While the finish might look the same, the thickness of the <a href="/products/acrylux">acrylic layer</a> determines its structural performance.</p>
+<h2>1mm: The Standard Choice</h2>
+<p>For most residential kitchen cabinet shutters and wardrobes, 1mm acrylic laminated to 18mm MDF is the standard. It provides excellent color depth and sufficient scratch resistance for daily home use.</p>
+<h2>1.5mm: The Professional Grade</h2>
+<p>For larger shutters or high-use areas, 1.5mm offers better rigidity. It further reduces the 'telegraphing' effect (where the grain of the substrate might show through), resulting in a flatter, more premium surface.</p>
+<h2>3mm: The High-Traffic Powerhouse</h2>
+<p>In <a href="/applications/commercial">commercial applications</a>, retail counters, or wall cladding, 3mm acrylic is recommended. It is significantly more impact-resistant and provides a solid, 'built-to-last' feel that lighter sheets cannot match.</p>
+<p>All SurajWood thicknesses feature the same <a href="/about">PUR-bonded technology</a> and UV stability guarantees.</p>`,
+    featured_image: { ...placeholderImage(414), url: "/images/gallery/wardrobe-3.jpg" },
+    date: "2025-10-15",
+    author: "Suraj Wood Technical Team",
+    reading_time: 5,
+    categories: ["Technical Guide", "Material Science"],
+  },
+  {
+    id: 15,
+    slug: "living-room-feature-walls-acrylic-panels",
+    title: "TV Units & Feature Walls: Design Ideas Using Acrylic Panels",
+    excerpt:
+      "The living room is the heart of the home. See how to use Acryglass and Acrymatte to create stunning, maintenance-free feature walls and entertainment units.",
+    content: `<p>The TV unit has evolved from a simple stand to a full-height architectural feature. For <a href="/applications/wall-paneling">modern Indian living rooms</a>, acrylic panels offer a level of finish that paint or stone cannot match.</p>
+<h2>Dramatic High-Gloss Backgrounds</h2>
+<p>Using <a href="/products/acryglass">ACRYGLASS</a> as a backdrop for your TV creates a 'theatre' effect. The deep colors and mirror-finish reflect the ambient lighting, making the entertainment area the focal point of the room.</p>
+<h2>Layering Textures</h2>
+<p>Pair <a href="/products/acrymatte">ACRYMATTE</a> wall panels with stone or wood accents for a sophisticated, layered look. The matte surface provides a quiet elegance that allows other textures to pop.</p>
+<h2>Maintenance-Free Luxury</h2>
+<p>Unlike stone which may require sealing, or paint which stains easily, SurajWood panels are wipe-clean. This is especially important in living rooms where children and guests frequently interact with the furniture.</p>`,
+    featured_image: { ...placeholderImage(415), url: "/images/gallery/tv-unit-1.jpg" },
+    date: "2025-09-30",
+    author: "Suraj Wood Design Team",
+    reading_time: 6,
+    categories: ["Living Room", "Design Ideas"],
+  },
+  {
+    id: 16,
+    slug: "surajwood-manufacturing-bahadurgarh-quality",
+    title: "Behind the Brand: Our Bahadurgarh Manufacturing Excellence",
+    excerpt:
+      "Take a virtual tour of our state-of-the-art facility in Haryana. Learn how we maintain E1 emission standards and precision quality in every sheet.",
+    content: `<p>Quality isn't accidental; it's engineered. At the heart of SurajWood is our <a href="/about">manufacturing facility in Bahadurgarh, Haryana</a>, where technology meets craftsmanship.</p>
+<h2>E1-Grade MDF Standards</h2>
+<p>We believe luxury should be healthy. We exclusively use E1-grade MDF substrates that meet strict international standards for low formaldehyde emissions, ensuring your home's air remains safe for children and seniors.</p>
+<h2>Dust-Free Lamination Environment</h2>
+<p>Even a single speck of dust can ruin a high-gloss <a href="/products/acryglass">ACRYGLASS</a> panel. Our lamination lines operate in positive-pressure, filtered environments to ensure a flawless finish every time.</p>
+<h2>Zero-Tolerance Quality Control</h2>
+<p>Every sheet of <a href="/products/acrylux">ACRYLUX</a> or <a href="/products/acrymatte">ACRYMATTE</a> undergoes an 8-point inspection before it leaves our factory. We check for color consistency, bond strength, and surface flatness to ensure you receive nothing but perfection.</p>`,
+    featured_image: { ...placeholderImage(416), url: "/images/about/about-bg.jpg" },
+    date: "2025-09-10",
+    author: "Suraj Wood Manufacturing Team",
+    reading_time: 8,
+    categories: ["Manufacturing", "Brand Story"],
+  },
 ];
 
 // ---------------------------------------------------------------------------

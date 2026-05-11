@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import Link from "next/link";
+import Image from "next/image";
 
 // ---------------------------------------------------------------------------
 // Zod schemas
@@ -550,28 +551,58 @@ function DealerForm() {
 export default function ContactPageClient() {
   return (
     <>
-      {/* ------------------------------------------------------------------ */}
-      {/* Hero                                                                */}
-      {/* ------------------------------------------------------------------ */}
-      <section className="bg-navy py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <nav aria-label="Breadcrumb" className="mb-4">
-            <ol className="flex items-center gap-2 text-sm text-white/60">
-              <li>
-                <Link href="/" className="hover:text-copper transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li aria-hidden="true" className="text-copper">›</li>
-              <li className="text-white/90">Contact Us</li>
-            </ol>
-          </nav>
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white">
-            Get in Touch
-          </h1>
-          <p className="mt-3 text-lg text-white/70 max-w-xl">
-            Request samples, get a quote, or ask us anything. Our team responds within 24 hours.
-          </p>
+      {/* Hero (Luxury Alignment) */}
+      <section className="relative h-[60vh] min-h-[480px] max-h-[700px] flex flex-col justify-center overflow-hidden bg-navy">
+        {/* Background Image with Ken Burns */}
+        <div className="absolute inset-0 z-0 opacity-40">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/gallery/office-1.jpg"
+              alt="Professional Office Interior"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Sophisticated Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/40 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
+
+        <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            {/* Breadcrumb */}
+            <nav aria-label="Breadcrumb" className="mb-8">
+              <ol className="flex items-center gap-2 text-sm text-white/60">
+                <li>
+                  <Link href="/" className="hover:text-white transition-colors">
+                    Home
+                  </Link>
+                </li>
+                <li aria-hidden="true" className="text-white/40">›</li>
+                <li className="text-white font-medium">Contact Us</li>
+              </ol>
+            </nav>
+
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                Connect with Us
+              </p>
+            </div>
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-6">
+              Get in <span className="text-copper">Touch</span>
+            </h1>
+
+            {/* Sub-headline */}
+            <p className="text-white/80 text-sm md:text-lg max-w-xl leading-relaxed font-light italic">
+              Request samples, get a quote, or ask us anything. Our team responds within 24 hours.
+            </p>
+          </div>
         </div>
       </section>
 

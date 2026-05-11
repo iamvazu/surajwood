@@ -78,20 +78,25 @@ export default async function BlogPage() {
       <SchemaMarkup schemas={schemas} />
 
       {/* ------------------------------------------------------------------ */}
-      {/* HERO                                                                */}
+      {/* HERO (Luxury Alignment)                                             */}
       {/* ------------------------------------------------------------------ */}
-      <section className="relative bg-navy text-white py-24 lg:py-32 overflow-hidden">
-        {/* Background Image with Overlay */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/blog/blog-hero.jpg"
-            alt="SurajWood Journal Background"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/80 to-transparent" />
+      <section className="relative h-[70vh] min-h-[500px] max-h-[750px] flex flex-col justify-center overflow-hidden bg-navy">
+        {/* Background Image with Ken Burns */}
+        <div className="absolute inset-0 z-0 opacity-40">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/gallery/wardrobe-3.jpg"
+              alt="Luxury Interior Background"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
+
+        {/* Sophisticated Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/40 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
 
         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
@@ -110,15 +115,24 @@ export default async function BlogPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <span className="inline-block bg-copper/20 text-copper border border-copper/40 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
-              Insights & Trends
-            </span>
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              The SurajWood <span className="text-copper">Journal</span>
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                Insights & Trends
+              </p>
+            </div>
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-6">
+              The SurajWood <br />
+              <span className="text-copper">Journal</span>
             </h1>
-            <p className="text-white/80 text-lg lg:text-xl leading-relaxed max-w-2xl">
+
+            {/* Sub-headline */}
+            <p className="text-white/80 text-sm md:text-lg lg:text-xl max-w-2xl leading-relaxed font-light italic">
               Expert insights on premium acrylic panels, interior design trends, and technical
-              surface solutions for modern Indian homes and commercial spaces.
+              surface solutions for modern Indian homes.
             </p>
           </div>
         </div>
