@@ -32,7 +32,7 @@ const FEATURES: Feature[] = [
   {
     stat: "10K+",
     unit: "Projects",
-    title: "Architect\u0027s Choice",
+    title: "Architect's Choice",
     description:
       "Trusted by 10,000+ projects. Carpenter-friendly — precise cutting without chipping.",
   },

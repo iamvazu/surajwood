@@ -212,7 +212,7 @@ export default function AluminumProfilesPage() {
       <section className="bg-navy py-16 text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-heading font-bold text-3xl text-white mb-6">
-            Partner with India\u0027s Premier <br />
+            Partner with India&apos;s Premier <br />
             Aluminum Profile Manufacturer
           </h2>
           <p className="text-white/70 mb-10 leading-relaxed">

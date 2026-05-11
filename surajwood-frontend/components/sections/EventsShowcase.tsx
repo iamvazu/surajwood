@@ -20,7 +20,7 @@ const EVENTS: Event[] = [
     highlight: "Most Innovative Surface Award",
   },
   {
-    title: "Acetech Delhi 2023",
+    title: "Architect's Choice",
     location: "Pragati Maidan, Delhi",
     date: "Dec 2023",
     description: "Launch of the AL-PROFHAN aluminum profile series and premium matte-glass panels.",
@@ -30,7 +30,7 @@ const EVENTS: Event[] = [
     title: "Index Plus Mumbai",
     location: "Jio World Convention Centre",
     date: "June 2023",
-    description: "Connecting with India\u0027s top architects to showcase optical-grade PMMA clarity.",
+    description: "Connecting with India's top architects to showcase optical-grade PMMA clarity.",
     image: "/images/banner/bg3.jpg",
   },
 ];
@@ -46,7 +46,7 @@ export default function EventsShowcase() {
               Exhibitions & <span className="text-copper">Industry Events</span>
             </h2>
             <p className="mt-3 text-gray-500 text-sm leading-relaxed">
-              SurajWood regularly participates in India\u0027s premier architecture and furniture exhibitions, 
+              SurajWood regularly participates in India's premier architecture and furniture exhibitions, 
               showcasing technical excellence to the design community.
             </p>
           </div>
