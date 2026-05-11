@@ -793,9 +793,6 @@ const MOCK_POSTS: SanityPost[] = [
     categories: ["Manufacturing", "Technical Guide"],
   },
 ];
-    categories: ["Technical Guide", "For Architects"],
-  },
-];
 
 // ---------------------------------------------------------------------------
 // Mock testimonial data
