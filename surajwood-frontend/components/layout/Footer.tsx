@@ -24,7 +24,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-gradient-to-b from-[#1a1c1e] via-[#111315] to-[#080a0c] text-white">
+    <footer className="relative bg-gradient-to-b from-[#2a2d31] via-[#1a1c1e] to-[#0d0f11] text-white">
       {/* Top accent border with fine gradient */}
       <div className="h-[3px] bg-gradient-to-r from-[#DC2626] via-[#B91C1C] to-[#EF4444]" />
 
