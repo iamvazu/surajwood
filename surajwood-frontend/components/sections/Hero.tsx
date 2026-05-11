@@ -73,7 +73,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] flex flex-col justify-between overflow-hidden pt-20">
+    <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-between overflow-hidden">
       {/* Background image carousel with refined Ken Burns */}
       {HERO_SLIDES.map((slide, i) => (
         <div
@@ -103,8 +103,11 @@ export default function Hero() {
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
       <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
 
-      {/* Main Content Area */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center">
+      {/* Spacer to clear sticky navbar (approx 140px total) */}
+      <div className="h-32 lg:h-40" />
+
+      {/* Main Content Area: Centered in remaining space */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
         <div className="max-w-3xl">
           {HERO_SLIDES.map((slide, i) => (
             <div 
@@ -124,12 +127,12 @@ export default function Hero() {
                 </p>
               </motion.div>
 
-              {/* H1: Playfair Display Serif - Reduced sizing to prevent cut-off */}
+              {/* H1: Playfair Display Serif - Drastically reduced to prevent cut-off */}
               <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
+                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
                 transition={{ duration: 0.7, delay: 0.3 }}
-                className="font-playfair text-white text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-6"
+                className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6"
               >
                 {slide.title.split(' ').map((word, idx) => (
                   <span key={idx} className={idx === slide.title.split(' ').length - 1 ? "text-copper" : ""}>
@@ -138,33 +141,33 @@ export default function Hero() {
                 ))}
               </motion.h1>
 
-              {/* Sub-headline - Reduced sizing */}
+              {/* Sub-headline */}
               <motion.p
-                initial={{ opacity: 0, y: 15 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
+                initial={{ opacity: 0, y: 10 }}
+                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="text-white/80 text-base md:text-xl max-w-xl leading-relaxed mb-8 font-light italic"
+                className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic"
               >
                 {slide.subtitle}
               </motion.p>
 
-              {/* CTA buttons - Tighter padding */}
+              {/* CTA buttons */}
               <motion.div
-                initial={{ opacity: 0, y: 15 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
+                initial={{ opacity: 0, y: 10 }}
+                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className="flex flex-wrap gap-4"
               >
                 <Link
                   href="/contact?inquiry=sample-kit"
-                  className="bg-copper hover:bg-copper-light text-white font-bold px-8 py-3.5 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-sm md:text-base group"
+                  className="bg-copper hover:bg-copper-light text-white font-bold px-7 py-3 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm group"
                 >
                   Request Sample Kit
                   <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
                 </Link>
                 <button
                   onClick={handleScrollToProducts}
-                  className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-sm md:text-base"
+                  className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-7 py-3 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
                 >
                   View Collections
                 </button>
@@ -174,19 +177,19 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Trust bar: Integrated into bottom of section to stay above fold */}
-      <div className="relative z-10 w-full bg-navy/30 backdrop-blur-md border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-5 md:py-8">
+      {/* Trust bar: Anchored at bottom, transparent, always visible above fold */}
+      <div className="relative z-10 w-full bg-navy/40 backdrop-blur-md border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-5 md:py-6">
           <motion.div
             {...fadeUp(400)}
             className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12"
           >
             {TRUST_STATS.map((stat) => (
               <div key={stat.label} className="flex flex-col items-start border-l border-copper/30 pl-4 md:pl-6">
-                <span className="font-playfair font-bold text-2xl md:text-3xl text-white leading-none mb-1.5">
+                <span className="font-playfair font-bold text-xl md:text-2xl text-white leading-none mb-1">
                   {stat.value}
                 </span>
-                <span className="text-white/40 text-[9px] md:text-[10px] uppercase tracking-[0.2em] font-semibold">{stat.label}</span>
+                <span className="text-white/40 text-[8px] md:text-[9px] uppercase tracking-[0.2em] font-semibold">{stat.label}</span>
               </div>
             ))}
           </motion.div>
