@@ -431,7 +431,7 @@ export default async function ApplicationPage({
         {/* Background image */}
         <div className="absolute inset-0 opacity-20">
           <Image
-            src={`/images/gallery/${config.galleryStart}.jpg`}
+            src={config.galleryImages[0]}
             alt={`${config.name} with Suraj Wood acrylic panels`}
             fill
             priority
