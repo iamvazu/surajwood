@@ -141,6 +141,18 @@ const PRODUCT_SPECS: Record<
 };
 
 // ---------------------------------------------------------------------------
+// Product hero mapping
+// ---------------------------------------------------------------------------
+
+const PRODUCT_HERO_IMAGES: Record<string, string> = {
+  acrylux: "/images/products/acrylux/acrylux-solid-1.png",
+  acrysilk: "/images/products/acrysilk/acrysilk-1.png",
+  acrymatte: "/images/products/acrymatte/acrymatte-1.png",
+  acryglass: "/images/products/acryglass/acryglass1.png",
+  "acryglass-matte": "/images/products/acryglass-matte/acryglass-matte-1.png",
+};
+
+// ---------------------------------------------------------------------------
 // Page component
 // ---------------------------------------------------------------------------
 
@@ -151,6 +163,12 @@ export default function PSEOPage({ params }: PageProps) {
   const { product, application, city, seo, introductionParagraphs, aeoSummary, localContextHeading, localContextBody, comparisonData } = data;
   const faqs = buildFAQs(data);
   const specs = PRODUCT_SPECS[product.slug] ?? PRODUCT_SPECS.acrylux;
+  const heroImage = PRODUCT_HERO_IMAGES[product.slug] ?? PRODUCT_HERO_IMAGES.acrylux;
+
+  // Image gallery prefix based on application slug
+  const galleryPrefix = application.slug === "kitchens" ? "kitchen" :
+                        application.slug === "wardrobes" ? "wardrobe" :
+                        "commercial";
 
   // Schema markup
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -251,41 +269,56 @@ export default function PSEOPage({ params }: PageProps) {
       {/* ── Hero / H1 ───────────────────────────────────────────────────── */}
       <section className="bg-navy py-14 px-6 overflow-hidden relative">
         {/* Decorative background element */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-copper/5 -skew-x-12 transform translate-x-1/2" />
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-copper/5 -skew-x-12 transform translate-x-1/4" />
         
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="flex flex-wrap items-center gap-3 mb-6">
-            <span className="inline-block bg-copper text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
-              {product.finishLabel} Series
-            </span>
-            {city.tier === 1 && (
-              <span className="inline-block bg-white/10 text-copper-light text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-copper/30">
-                Premium Market Selection
+        <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <div className="flex flex-wrap items-center gap-3 mb-6">
+              <span className="inline-block bg-copper text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                {product.finishLabel} Series
               </span>
-            )}
-            <span className="inline-block bg-white/5 text-white/50 text-[10px] px-3 py-1 rounded-full border border-white/10 uppercase tracking-widest">
-              {city.name}, {city.state}
-            </span>
+              {city.tier === 1 && (
+                <span className="inline-block bg-white/10 text-copper-light text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-copper/30">
+                  Premium Market Selection
+                </span>
+              )}
+              <span className="inline-block bg-white/5 text-white/50 text-[10px] px-3 py-1 rounded-full border border-white/10 uppercase tracking-widest">
+                {city.name}, {city.state}
+              </span>
+            </div>
+            <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1]">
+              {seo.h1}
+            </h1>
+            <p className="mt-6 text-white/80 text-xl max-w-2xl leading-relaxed font-light italic">
+              Transforming {city.name} interiors with German-engineered acrylic excellence.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-5">
+              <a
+                href="#get-quote"
+                className="inline-flex items-center gap-2 bg-copper hover:bg-copper-light text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg shadow-copper/20 hover:-translate-y-1"
+              >
+                Get Price Quote
+              </a>
+              <a
+                href="#technical"
+                className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 border border-white/20 backdrop-blur-sm"
+              >
+                Technical Specs
+              </a>
+            </div>
           </div>
-          <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] max-w-4xl">
-            {seo.h1}
-          </h1>
-          <p className="mt-6 text-white/80 text-xl max-w-2xl leading-relaxed font-light italic">
-            Transforming {city.name} interiors with German-engineered acrylic excellence.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-5">
-            <a
-              href="#get-quote"
-              className="inline-flex items-center gap-2 bg-copper hover:bg-copper-light text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg shadow-copper/20 hover:-translate-y-1"
-            >
-              Get Price Quote
-            </a>
-            <a
-              href="#technical"
-              className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 border border-white/20 backdrop-blur-sm"
-            >
-              Technical Specs
-            </a>
+
+          <div className="relative">
+             <div className="absolute inset-0 bg-copper/20 blur-3xl rounded-full -z-10 scale-75" />
+             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/10 aspect-[4/3]">
+                <Image 
+                  src={heroImage}
+                  alt={`${product.name} in ${city.name}`}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+             </div>
           </div>
         </div>
       </section>
@@ -409,18 +442,25 @@ export default function PSEOPage({ params }: PageProps) {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {application.benefits.map((benefit, i) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[1, 2, 3, 4].map((i) => (
               <div
                 key={i}
-                className="group bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2"
+                className="group bg-white rounded-3xl p-2 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2 overflow-hidden"
               >
-                <div className="w-14 h-14 bg-cream flex items-center justify-center text-3xl rounded-2xl mb-6 group-hover:bg-copper group-hover:text-white transition-colors">
-                  {BENEFIT_ICONS[i] ?? "✨"}
+                <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+                  <Image 
+                    src={`/images/gallery/${galleryPrefix}-${i}.jpg`}
+                    alt={`${application.name} Example ${i}`}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
                 </div>
-                <p className="text-gray-800 text-lg leading-snug font-medium">
-                  {benefit}
-                </p>
+                <div className="p-4 pt-0">
+                  <p className="text-gray-800 text-lg leading-snug font-medium">
+                    {application.benefits[i-1] || application.name}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

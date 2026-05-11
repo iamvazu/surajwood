@@ -80,10 +80,19 @@ function buildSingleGroupSwatches(slug: string, count: number): SwatchGroup[] {
   return [{ label: "Available Colours", swatches }];
 }
 
+function buildAcrymatteSwatches(): SwatchGroup[] {
+  const nums = [1, 2, 3, 4, 8, 12, 13, 14, 15, 16, 17];
+  const swatches = nums.map((n) => ({
+    src: `/images/products/acrymatte/acrymatte-${n}.png`,
+    caption: `Acrymatte ${n}`,
+  }));
+  return [{ label: "Available Matte Shades", swatches }];
+}
+
 const SWATCH_CONFIGS: Record<string, () => SwatchGroup[]> = {
   acrylux: buildAcryluxSwatches,
   acrysilk: () => buildSingleGroupSwatches("acrysilk", 6),
-  acrymatte: () => buildSingleGroupSwatches("acrymatte", 11),
+  acrymatte: buildAcrymatteSwatches,
   acryglass: () => buildSingleGroupSwatches("acryglass", 6),
   "acryglass-matte": () => buildSingleGroupSwatches("acryglass-matte", 7),
 };
@@ -611,9 +620,9 @@ export default async function ProductPage({
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {Array.from({ length: 6 }).map((_, i) => {
-              const galleryNum = ((galleryOffset + i - 1) % 37) + 1;
-              const galleryImg = `/images/gallery/${galleryNum}.jpg`;
+            {[1, 2, 3, 4].map((i) => {
+              // Try to find application specific images first, fallback to general gallery
+              const galleryImg = `/images/gallery/kitchen-${i}.jpg`; 
               return (
                 <div
                   key={i}
@@ -621,7 +630,7 @@ export default async function ProductPage({
                 >
                   <Image
                     src={galleryImg}
-                    alt={`${product.name} application ${i + 1}`}
+                    alt={`${product.name} application ${i}`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
