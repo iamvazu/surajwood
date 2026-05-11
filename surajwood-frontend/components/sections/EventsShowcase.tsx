@@ -46,7 +46,7 @@ export default function EventsShowcase() {
               Exhibitions & <span className="text-copper">Industry Events</span>
             </h2>
             <p className="mt-3 text-gray-500 text-sm leading-relaxed">
-              SurajWood regularly participates in India's premier architecture and furniture exhibitions, 
+              SurajWood regularly participates in India&apos;s premier architecture and furniture exhibitions, 
               showcasing technical excellence to the design community.
             </p>
           </div>
