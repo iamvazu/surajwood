@@ -222,7 +222,7 @@ export default function AluminumProfilesPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="bg-copper hover:bg-copper-dark text-white font-bold px-10 py-4 rounded-full transition-all"
+              className="bg-copper hover:bg-copper-dark text-white font-bold px-10 py-4 rounded-full transition-all shadow-[0_0_20px_rgba(184,115,51,0.5)] hover:shadow-[0_0_30px_rgba(184,115,51,0.8)]"
             >
               Get a Callback
             </Link>

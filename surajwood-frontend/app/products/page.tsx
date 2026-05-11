@@ -167,6 +167,70 @@ export default function ProductsHubPage() {
         </div>
       </section>
 
+      {/* Aluminum Profile Systems — NEW SECTION */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex items-center gap-4 mb-10">
+            <h2 className="font-heading font-bold text-xl md:text-2xl text-navy">
+              Premium Hardware & Aluminum Profiles
+            </h2>
+            <div className="flex-1 h-px bg-cream-dark" />
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-8 items-center bg-cream rounded-3xl overflow-hidden border border-cream-dark shadow-sm">
+            <div className="w-full lg:w-1/2 relative aspect-video lg:aspect-square">
+              <Image
+                src="/images/products/aluminum/ottimo.png"
+                alt="AL-PROFHAN Aluminum Profiles"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute top-4 left-4 bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest shadow-lg">
+                New Collection Live
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2 p-8 lg:p-12">
+              <p className="text-copper font-bold text-xs uppercase tracking-widest mb-3">
+                AL-PROFHAN Series
+              </p>
+              <h3 className="font-heading font-bold text-2xl md:text-3xl text-navy mb-4 leading-tight">
+                Architectural Aluminum <br />
+                Profiles for Furniture
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                From integrated Gola handles to slim-line glass shutter profiles and LED integration — 
+                the AL-PROFHAN series offers high-precision hardware solutions for modern modular kitchens 
+                and premium wardrobes. Engineered for durability with superior anodized finishes.
+              </p>
+              <div className="grid grid-cols-2 gap-4 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-copper" />
+                  <span className="text-xs font-medium text-navy">Ottimo Gola Handles</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-copper" />
+                  <span className="text-xs font-medium text-navy">Aerolinea Glass Frames</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-copper" />
+                  <span className="text-xs font-medium text-navy">Luminare LED Profiles</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-copper" />
+                  <span className="text-xs font-medium text-navy">Velaro Sliding Systems</span>
+                </div>
+              </div>
+              <Link
+                href="/products/aluminum-profiles"
+                className="inline-flex items-center justify-center bg-navy hover:bg-black text-white font-bold px-8 py-3.5 rounded-full transition-all duration-300 text-sm"
+              >
+                Explore Hardware Range →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Coming Soon — Additional Categories */}
       <section className="bg-white py-12">
         <div className="max-w-7xl mx-auto px-6">
@@ -177,14 +241,8 @@ export default function ProductsHubPage() {
             <div className="flex-1 h-px bg-cream-dark" />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
-              {
-                name: "AL-PROFHAN Aluminum Profiles",
-                desc: "Ottimo, Aerolinea, Luminare & more series for modular furniture.",
-                badge: "Live",
-                href: "/products/aluminum-profiles",
-              },
               {
                 name: "PetG Prelaminated Panels",
                 desc: "Budget-friendly panels for cost-conscious projects.",
@@ -201,38 +259,20 @@ export default function ProductsHubPage() {
                 badge: "Coming",
               },
             ].map((item) => (
-              item.href ? (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="group bg-white border border-cream-dark rounded-xl p-5 flex flex-col hover:shadow-lg transition-all"
-                >
-                  <span className="inline-block self-start text-[10px] font-bold text-white bg-green-600 px-2 py-0.5 rounded-full mb-3">
-                    {item.badge}
-                  </span>
-                  <h3 className="font-heading font-bold text-sm text-navy mb-1 group-hover:text-copper transition-colors">
-                    {item.name}
-                  </h3>
-                  <p className="text-xs text-gray-500 leading-relaxed">
-                    {item.desc}
-                  </p>
-                </Link>
-              ) : (
-                <div
-                  key={item.name}
-                  className="bg-cream/50 border border-cream-dark rounded-xl p-5 flex flex-col"
-                >
-                  <span className="inline-block self-start text-[10px] font-bold text-white bg-copper px-2 py-0.5 rounded-full mb-3">
-                    {item.badge}
-                  </span>
-                  <h3 className="font-heading font-bold text-sm text-navy mb-1">
-                    {item.name}
-                  </h3>
-                  <p className="text-xs text-gray-500 leading-relaxed">
-                    {item.desc}
-                  </p>
-                </div>
-              )
+              <div
+                key={item.name}
+                className="bg-cream/50 border border-cream-dark rounded-xl p-6 flex flex-col group hover:bg-cream transition-colors"
+              >
+                <span className="inline-block self-start text-[10px] font-bold text-white bg-copper/80 px-2 py-0.5 rounded-full mb-3">
+                  {item.badge}
+                </span>
+                <h3 className="font-heading font-bold text-base text-navy mb-2">
+                  {item.name}
+                </h3>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  {item.desc}
+                </p>
+              </div>
             ))}
           </div>
         </div>
@@ -251,7 +291,7 @@ export default function ProductsHubPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/contact?inquiry=sample-kit"
-              className="bg-copper hover:bg-copper-dark text-white font-semibold px-7 py-3 rounded-full transition-all duration-300 text-sm shadow-copper"
+              className="bg-copper hover:bg-copper-dark text-white font-semibold px-7 py-3 rounded-full transition-all duration-300 text-sm shadow-[0_0_20px_rgba(184,115,51,0.5)] hover:shadow-[0_0_30px_rgba(184,115,51,0.8)]"
             >
               Request Free Sample Kit
             </Link>
