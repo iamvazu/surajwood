@@ -24,7 +24,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.surajwood.com"),
   title: {
-    default: "SurajWood | Premium Acrylic Panels – ACRYLUX, ACRYSILK, ACRYMATTE",
+    default: "SurajWood — Premium Acrylic Panels Manufacturer India | ACRYLUX, ACRYSILK, ACRYMATTE",
     template: "%s | SurajWood – Premium Acrylic Panels",
   },
   description:
@@ -52,10 +52,10 @@ export const metadata: Metadata = {
       "India's premium acrylic panel manufacturer. ACRYLUX, ACRYSILK, ACRYMATTE panels for modern kitchens and wardrobes.",
     images: [
       {
-        url: "/images/og-default.jpg",
+        url: "/images/banner/bg3.jpg",
         width: 1200,
         height: 630,
-        alt: "SurajWood Premium Acrylic Panels",
+        alt: "SurajWood Premium Acrylic Panels — Factory-Direct Manufacturer in India",
       },
     ],
   },
@@ -69,9 +69,7 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
+  // verification: { google: "REPLACE_WITH_ACTUAL_CODE" },
 };
 
 export default function RootLayout({

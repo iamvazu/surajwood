@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin, Phone, Mail, Clock, Instagram, Linkedin, ArrowRight } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Linkedin, Facebook, Youtube, ArrowRight } from "lucide-react";
 
 const products = [
   { name: "ACRYLUX", href: "/products/acrylux" },
@@ -70,6 +70,24 @@ export default function Footer() {
                 className="group flex items-center justify-center w-8 h-8 rounded-full border border-gray-800 hover:border-[#DC2626] hover:bg-[#DC2626]/10 transition-all duration-300"
               >
                 <Linkedin size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
+              </a>
+              <a
+                href="https://www.facebook.com/surajwoodproducts"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="group flex items-center justify-center w-8 h-8 rounded-full border border-gray-800 hover:border-[#DC2626] hover:bg-[#DC2626]/10 transition-all duration-300"
+              >
+                <Facebook size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
+              </a>
+              <a
+                href="https://www.youtube.com/@surajwoodproducts"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="group flex items-center justify-center w-8 h-8 rounded-full border border-gray-800 hover:border-[#DC2626] hover:bg-[#DC2626]/10 transition-all duration-300"
+              >
+                <Youtube size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
               </a>
             </div>
           </div>
