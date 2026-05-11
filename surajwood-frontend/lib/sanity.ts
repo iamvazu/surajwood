@@ -637,9 +637,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
 
 // ---------------------------------------------------------------------------
 // Mock blog post data
-// ---------------------------------------------------------------------------
-
-const MOCK_POSTS: SanityPost[] = [
+// -----------------------------------------------------------const MOCK_POSTS: SanityPost[] = [
   {
     id: 1,
     slug: "acrylic-vs-laminate-kitchen-panels-india",
@@ -648,17 +646,15 @@ const MOCK_POSTS: SanityPost[] = [
       "Choosing between acrylic and laminate for your kitchen? We break down durability, cost, maintenance, and aesthetics to help Indian homeowners and designers make the right call.",
     content: `<p>When it comes to modular kitchen finishes in India, two materials dominate the conversation: acrylic panels and laminates. Both have their advocates, both have their place, but they are fundamentally different products with different performance profiles.</p>
 <h2>What is Acrylic?</h2>
-<p>Acrylic kitchen panels — like Suraj Wood's ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS, and ACRYGLASS MATTE ranges — are made from PMMA (Polymethyl Methacrylate), a high-performance polymer bonded to an MDF substrate. The surface is homogenous acrylic, not a printed film.</p>
+<p>Acrylic kitchen panels — like Suraj Wood&apos;s <a href="/products/acrylux">ACRYLUX</a>, <a href="/products/acrysilk">ACRYSILK</a>, <a href="/products/acrymatte">ACRYMATTE</a>, <a href="/products/acryglass">ACRYGLASS</a>, and <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> ranges — are made from PMMA (Polymethyl Methacrylate), a high-performance polymer bonded to an MDF substrate. The surface is homogenous acrylic, not a printed film.</p>
 <h2>What is Laminate?</h2>
 <p>Laminates (HPL or LPL) are decorative paper layers saturated with resin and bonded to a core substrate. High-Pressure Laminates are more durable; Low-Pressure Laminates (membrane/foils) are more economical but less durable.</p>
 <h2>Durability Comparison</h2>
-<p>Acrylic panels consistently outperform laminates in scratch resistance (3H vs typically 2H), UV stability (10-year guarantee vs 2-5 years typical for laminate), and long-term colour retention.</p>
-<h2>Cost Comparison</h2>
-<p>Acrylic panels are priced higher than standard laminates — approximately 1.5x to 2x the cost per square foot. However, the extended life cycle and lower maintenance costs make acrylic the better long-term investment for premium kitchens.</p>
+<p>Acrylic panels consistently outperform laminates in scratch resistance (3H vs typically 2H), UV stability (10-year guarantee vs 2-5 years typical for laminate), and long-term colour retention. Our German <a href="/about">PUR hotmelt bonding</a> technology ensures zero delamination even in humid coastal climates like Mumbai or Chennai.</p>
 <h2>Verdict</h2>
-<p>For premium modular kitchens in India, acrylic is the superior choice for shutters and visible surfaces. Laminates remain a practical option for internal carcass work and budget-constrained projects.</p>`,
-    featured_image: placeholderImage(401, 1200, 630, "Acrylic vs Laminate kitchen panels"),
-    date: "2026-02-15",
+<p>For premium <a href="/applications/kitchens">modular kitchens in India</a>, acrylic is the superior choice for shutters and visible surfaces. Laminates remain a practical option for internal carcass work and budget-constrained projects.</p>`,
+    featured_image: { ...placeholderImage(401), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-04-15",
     author: "Suraj Wood Editorial Team",
     reading_time: 8,
     categories: ["Material Guide", "Kitchen Design"],
@@ -669,17 +665,15 @@ const MOCK_POSTS: SanityPost[] = [
     title: "2026 Kitchen Interior Design Trends in India",
     excerpt:
       "From japandi minimalism to bold jewel tones, we explore the kitchen design trends shaping Indian interiors in 2026 — and which Suraj Wood finishes bring them to life.",
-    content: `<p>Indian kitchen design is evolving rapidly. The days of simple white-and-chrome kitchens are behind us; today's homeowners and designers are reaching for bold statements, thoughtful material combinations, and finishes that hold up to Indian family living.</p>
+    content: `<p>Indian kitchen design is evolving rapidly. The days of simple white-and-chrome kitchens are behind us; today&apos;s homeowners and designers are reaching for bold statements, thoughtful material combinations, and finishes that hold up to Indian family living.</p>
 <h2>Trend 1: Japandi-Inspired Kitchens</h2>
-<p>The Japandi aesthetic — a blend of Japanese wabi-sabi minimalism and Scandinavian functionality — is the dominant force in premium Indian interiors in 2026. Muted naturals, warm greys, and organic forms define this look. ACRYMATTE in Warm Taupe or Olive Matte is the ideal finish.</p>
+<p>The Japandi aesthetic — a blend of Japanese wabi-sabi minimalism and Scandinavian functionality — is the dominant force in premium Indian interiors in 2026. Muted naturals, warm greys, and organic forms define this look. <a href="/products/acrymatte">ACRYMATTE</a> in Warm Taupe or Olive Matte is the ideal finish.</p>
 <h2>Trend 2: Two-Tone Kitchens</h2>
-<p>Upper cabinets in a light finish, lower in a darker tone — two-tone kitchens are everywhere. ACRYLUX Arctic White paired with ACRYMATTE Charcoal is a winning combination seen across Mumbai and Bangalore projects.</p>
-<h2>Trend 3: Statement Islands</h2>
-<p>Kitchen islands are becoming the centrepiece of Indian open-plan homes. ACRYGLASS in Piano Black or Champagne Gold makes a dramatic island statement that anchors the entire kitchen design.</p>
-<h2>Trend 4: Earthy & Botanical Palettes</h2>
+<p>Upper cabinets in a light finish, lower in a darker tone — two-tone kitchens are everywhere. ACRYLUX Arctic White paired with ACRYMATTE Charcoal is a winning combination seen across <a href="/acrylux/kitchens/mumbai">Mumbai</a> and <a href="/acrylux/kitchens/bangalore">Bangalore</a> projects.</p>
+<h2>Trend 3: Earthy & Botanical Palettes</h2>
 <p>Forest greens, terracotta, and warm ochres reflect a broader move toward nature-inspired palettes. ACRYMATTE Forest Green and Terracotta Matte are among our fastest-growing colour choices in 2026.</p>`,
-    featured_image: placeholderImage(402, 1200, 630, "2026 kitchen design trends India"),
-    date: "2026-01-20",
+    featured_image: { ...placeholderImage(402), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-03-20",
     author: "Suraj Wood Editorial Team",
     reading_time: 6,
     categories: ["Design Trends", "Kitchen Design"],
@@ -690,93 +684,115 @@ const MOCK_POSTS: SanityPost[] = [
     title: "How to Clean and Maintain High-Gloss Acrylic Kitchen Panels",
     excerpt:
       "Your complete maintenance guide for ACRYGLASS high-gloss panels — from daily cleaning to removing stubborn grease, stains, and water marks without damaging the finish.",
-    content: `<p>High-gloss acrylic panels like ACRYGLASS are beautiful and durable, but they do require proper maintenance to keep that mirror-like brilliance. With the right technique, maintenance takes under two minutes a day.</p>
+    content: `<p>High-gloss acrylic panels like <a href="/products/acryglass">ACRYGLASS</a> are beautiful and durable, but they do require proper maintenance to keep that mirror-like brilliance. With the right technique, maintenance takes under two minutes a day.</p>
 <h2>Daily Cleaning</h2>
 <p>Use a clean, dry microfibre cloth to wipe down the panels after cooking. This removes grease vapour before it can deposit and harden. For light marks, dampen the cloth with plain water — no cleaning products needed.</p>
 <h2>Weekly Deep Clean</h2>
-<p>Mix a small amount of mild dish soap with warm water. Apply with a soft microfibre cloth using straight strokes (not circular, which can create micro-scratches on gloss finishes). Rinse with a clean damp cloth, then dry immediately with a separate dry microfibre cloth to prevent water spots.</p>
-<h2>Removing Stubborn Grease</h2>
-<p>For baked-on grease near the hob, apply a small amount of white vinegar on the cloth and wipe the area. Vinegar is safe for acrylic surfaces and effective against grease without harsh chemicals.</p>
-<h2>What to Avoid</h2>
-<ul>
-<li>Never use abrasive cleaners, scouring pads, or steel wool</li>
-<li>Avoid solvent-based cleaners (acetone, bleach, thinners)</li>
-<li>Do not use paper towels — the fibres can scratch gloss surfaces</li>
-<li>Never spray water directly onto panels — apply to cloth first</li>
-</ul>
-<h2>Maintaining Matte Panels (ACRYMATTE, ACRYGLASS MATTE)</h2>
-<p>Matte panels are even easier to maintain. The same soft cloth and mild soap routine applies, but you don't need to worry about water spots or polish streaks. Simply wipe and dry.</p>`,
-    featured_image: placeholderImage(403, 1200, 630, "Cleaning acrylic kitchen panels"),
-    date: "2026-01-05",
+<p>Mix a small amount of mild dish soap with warm water. Apply with a soft microfibre cloth using straight strokes. Rinse with a clean damp cloth, then dry immediately with a separate dry microfibre cloth to prevent water spots.</p>
+<h2>Maintaining Matte Panels</h2>
+<p>Matte panels like <a href="/products/acrymatte">ACRYMATTE</a> or <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> are even easier to maintain. Their advanced anti-fingerprint nano-coating means you won&apos;t see smudge marks, and simple wiping is enough to keep them pristine.</p>`,
+    featured_image: { ...placeholderImage(403), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-03-05",
     author: "Suraj Wood Editorial Team",
     reading_time: 5,
     categories: ["Maintenance", "How-To Guide"],
   },
   {
-    id: 4,
-    slug: "acrylic-panel-thickness-guide",
-    title: "Acrylic Panel Thickness Guide: Which to Choose for Your Kitchen",
+    id: 7,
+    slug: "eco-friendly-kitchen-materials-india",
+    title: "Sustainable Surfaces: Why Acrylic is the Eco-Friendly Choice for 2026",
     excerpt:
-      "1mm, 1.5mm, or 3mm — does acrylic panel thickness matter? We explain the practical differences and help you choose the right specification for your project.",
-    content: `<p>All Suraj Wood acrylic panels are available in three thicknesses: 1mm, 1.5mm, and 3mm. The right choice depends on your application, substrate, and project requirements.</p>
-<h2>1mm Acrylic Panels</h2>
-<p>1mm is the most common specification for residential kitchen shutters and wardrobes. Applied over 18mm MDF, it provides excellent surface quality at the most economical price point. Ideal for projects where cost-efficiency is important without compromising on finish quality.</p>
-<h2>1.5mm Acrylic Panels</h2>
-<p>The 1.5mm specification is our most popular choice for premium residential and commercial projects. The additional thickness provides a noticeable improvement in surface rigidity and a more luxurious feel when touching or opening cabinet doors. Recommended for high-end modular kitchen projects.</p>
-<h2>3mm Acrylic Panels</h2>
-<p>3mm panels are specified for demanding commercial applications, high-traffic hospitality interiors, and projects requiring maximum impact resistance. The 3mm acrylic layer is also used for decorative wall cladding and feature panels where structural integrity matters. At this thickness, the panel can be edge-polished for a premium exposed-edge detail.</p>
-<h2>Choosing Your Substrate</h2>
-<p>All three thicknesses are available on 18mm MDF (standard) or 12mm HDF (for applications requiring lighter weight or higher density). For commercial wall cladding, panels can also be supplied on 6mm or 9mm substrates — please enquire with our sales team.</p>`,
-    featured_image: placeholderImage(404, 1200, 630, "Acrylic panel thickness comparison"),
-    date: "2025-12-10",
-    author: "Suraj Wood Technical Team",
-    reading_time: 5,
-    categories: ["Technical Guide", "Material Guide"],
-  },
-  {
-    id: 5,
-    slug: "modular-kitchen-material-comparison",
-    title: "Modular Kitchen Material Comparison: Acrylic vs PU vs Membrane vs Laminate",
-    excerpt:
-      "A comprehensive comparison of the four dominant modular kitchen finish materials in India — acrylic, PU paint, membrane, and laminate — across durability, cost, aesthetics, and maintenance.",
-    content: `<p>Choosing a kitchen finish material in India can feel overwhelming. Each option — acrylic, PU paint, membrane, and laminate — has its advocates and its limitations. This guide gives you the full picture.</p>
-<h2>Acrylic Panels (e.g., Suraj Wood ACRYLUX)</h2>
-<p><strong>Pros:</strong> Premium surface quality, excellent durability (3H scratch resistance), wide colour range, easy maintenance, UV stable.<br/><strong>Cons:</strong> Higher upfront cost than laminates, fingerprints visible on high-gloss variants.<br/><strong>Best for:</strong> Premium modular kitchens where longevity and aesthetics are top priorities.</p>
-<h2>PU (Polyurethane) Paint</h2>
-<p><strong>Pros:</strong> Can be colour-matched to any RAL/NCS shade, seamless finish, no visible joins.<br/><strong>Cons:</strong> Expensive, highly skilled application required, difficult to repair if chipped, long curing times.<br/><strong>Best for:</strong> Luxury bespoke kitchens with very specific colour requirements and high budgets.</p>
-<h2>Membrane (Foil/PVC)</h2>
-<p><strong>Pros:</strong> Budget-friendly, can wrap curves and routed profiles, good colour range.<br/><strong>Cons:</strong> Surface is a thin PVC film that can peel in humid or high-temperature environments, limited durability (typically 3-5 years before showing wear).<br/><strong>Best for:</strong> Budget kitchens or short-term rental properties.</p>
-<h2>Laminate (HPL/LPL)</h2>
-<p><strong>Pros:</strong> Large pattern and texture range including wood, stone, fabric effects; competitive pricing.<br/><strong>Cons:</strong> Less durable than acrylic, seams and edges visible, printed surface shows wear over time.<br/><strong>Best for:</strong> Mid-range projects, mixed material kitchens, or where specific patterns/textures unavailable in acrylic.</p>
-<h2>Verdict</h2>
-<p>For premium modular kitchens with a budget above Rs 2 lakh, acrylic panels deliver the best combination of aesthetics, durability, and long-term value. For luxury bespoke work, PU paint offers ultimate customisation. For value projects, laminate remains the practical choice.</p>`,
-    featured_image: placeholderImage(405, 1200, 630, "Kitchen material comparison chart"),
-    date: "2025-11-22",
+      "Explore the environmental benefits of choosing PMMA acrylic panels over traditional PVC foils. From recyclability to indoor air quality, we look at the green side of SurajWood.",
+    content: `<p>Sustainability is no longer a luxury; it&apos;s a necessity in Indian interior design. As we move toward 2026, homeowners are looking for materials that are both durable and environmentally responsible.</p>
+<h2>PMMA vs PVC</h2>
+<p>Unlike standard PVC foils used in membrane kitchens, PMMA (Polymethyl Methacrylate) used in <a href="/products/acrylux">SurajWood panels</a> is a safer, more stable polymer. It does not release harmful VOCs into your home, ensuring better indoor air quality for your family.</p>
+<h2>Zero-Waste Manufacturing</h2>
+<p>At our <a href="/about">Bahadurgarh facility</a>, we employ precision cutting and lamination processes that minimize material waste. Our E1-grade MDF substrates meet strict international formaldehyde emission standards.</p>
+<h2>Longevity as Sustainability</h2>
+<p>The greenest material is the one you don&apos;t have to replace. With 3H scratch resistance and 10-year UV stability, our <a href="/products/acrymatte">matte and gloss surfaces</a> are built to last a lifetime, reducing landfill waste.</p>`,
+    featured_image: { ...placeholderImage(407), url: "/images/blog/eco-kitchen.jpg" },
+    date: "2026-02-15",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Material Guide", "Comparison"],
+    reading_time: 7,
+    categories: ["Sustainability", "Material Guide"],
   },
   {
-    id: 6,
-    slug: "architects-guide-specifying-acrylic-panels",
-    title: "Architect's Complete Guide to Specifying Acrylic Panels",
+    id: 8,
+    slug: "luxury-wardrobe-ideas-acrylic-finishes",
+    title: "Master Bedroom Wardrobe Ideas: Choosing the Right Acrylic Finish",
     excerpt:
-      "A technical reference for architects and interior designers specifying Suraj Wood acrylic panels — covering material standards, installation details, edge treatments, and sustainability.",
-    content: `<p>For architects and interior designers, specifying acrylic panels correctly is critical to project success. This guide covers everything you need to know to write accurate specifications and achieve the best results with Suraj Wood panels.</p>
-<h2>Material Specification</h2>
-<p>When writing specifications for acrylic panels, use this standard clause:<br/><em>"Acrylic decorative panels: PMMA (Polymethyl Methacrylate) acrylic, minimum 1.5mm thickness, bonded to 18mm E1-grade MDF substrate using PUR hotmelt adhesive. Surface shall achieve minimum 3H pencil hardness per EN ISO 15184. UV stability: Delta E &lt; 2 after 1000 hours UV exposure per EN ISO 4892-2. Fire performance: Class B1 per DIN 4102. Manufacturer's warranty: 5 years against manufacturing defects."</em></p>
-<h2>Standard Dimensions</h2>
-<p>Standard sheet: 2440mm x 1220mm (8ft x 4ft). Non-standard sizes available on request with minimum order quantities. Allow 10mm tolerance on all cuts.</p>
-<h2>Edge Treatment Options</h2>
-<p>Three standard edge options: (1) PVC edge band — most common for kitchen shutters; (2) Acrylic edge band — premium seamless look; (3) Polished acrylic edge — for 3mm panels as a design feature. Specify edge band colour to match or contrast panel face.</p>
-<h2>Installation Notes</h2>
-<p>Panels must be acclimatised to site conditions (minimum 24 hours) before fabrication. Do not store upright — panels must be stored flat. Minimum room temperature during installation: 10°C. Do not expose to direct heat sources; maintain minimum 50mm clearance from cooking hobs.</p>
-<h2>Sustainability</h2>
-<p>All Suraj Wood panels use E1-grade MDF substrate meeting EN 622 formaldehyde emission standards. PMMA acrylic is fully recyclable. Our manufacturing facility at Bahadurgarh, Haryana operates under ISO 9001 quality management standards.</p>`,
-    featured_image: placeholderImage(406, 1200, 630, "Architect specifying acrylic panels"),
-    date: "2025-10-30",
+      "Transform your bedroom with statement wardrobes. Compare Acrysilk, Acrymatte, and Acryglass Matte to find the perfect finish for your walk-in closet or sliding wardrobe.",
+    content: `<p>Your wardrobe is the second largest visual element in your bedroom after the bed. The finish you choose defines the mood of the entire space. For <a href="/applications/wardrobes">premium wardrobes in India</a>, acrylic is the gold standard.</p>
+<h2>Acrysilk: The Touch of Elegance</h2>
+<p><a href="/products/acrysilk">ACRYSILK</a> offers a unique micro-textured surface that feels like soft silk. It diffuses light beautifully, creating a calm, relaxing atmosphere perfect for master bedrooms.</p>
+<h2>Acrymatte: The Modern Statement</h2>
+<p>For a clean, minimalist look, <a href="/products/acrymatte">ACRYMATTE</a> in charcoal or navy is unbeatable. Its anti-fingerprint surface is especially useful for handle-less sliding wardrobes that see frequent touch.</p>
+<h2>Acryglass Matte: The Depth of Glass</h2>
+<p>If you want the depth and clarity of glass without the reflective glare, <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> is the answer. It provides an ultra-premium aesthetic for luxury walk-in closets in high-end projects across <a href="/acrylux/kitchens/bangalore">Bangalore</a> and <a href="/acrylux/kitchens/delhi">Delhi</a>.</p>`,
+    featured_image: { ...placeholderImage(408), url: "/images/gallery/wardrobe-1.jpg" },
+    date: "2026-02-01",
+    author: "Suraj Wood Design Team",
+    reading_time: 6,
+    categories: ["Bedroom Design", "Wardrobes"],
+  },
+  {
+    id: 9,
+    slug: "trending-kitchen-colors-navy-copper-2026",
+    title: "Trending Kitchen Colors for 2026: Why Navy and Copper are Leading",
+    excerpt:
+      "Deep blues and metallic accents are taking over Indian kitchens. See how to pair SurajWood Midnight Navy with Copper Silk for a high-contrast, luxurious look.",
+    content: `<p>Color trends in 2026 are moving away from safe neutrals toward high-contrast, soulful palettes. The combination of deep <a href="/products/acrylux">Midnight Navy</a> and metallic <a href="/products/acrylux">Copper Silk</a> has become the signature look for luxury Indian homes.</p>
+<h2>Why Navy?</h2>
+<p>Navy blue provides a sense of stability and luxury. In a high-gloss <a href="/products/acryglass">ACRYGLASS</a> finish, it adds incredible depth to lower cabinets, making them look like polished jewels.</p>
+<h2>The Copper Accent</h2>
+<p>Copper accents — whether in handles or as feature wall panels — bring warmth to the cool blue tones. Our <a href="/products/acrylux">Copper Silk satin finish</a> reflects light with a warm, inviting glow that counters the 'industrial' feel of modern kitchens.</p>
+<h2>Design Tip</h2>
+<p>Use Navy for the main cabinet runs and Copper for the kitchen island or open shelving. This creates a balanced, curated look that feels both trendy and timeless.</p>`,
+    featured_image: { ...placeholderImage(409), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-01-10",
+    author: "Suraj Wood Editorial Team",
+    reading_time: 5,
+    categories: ["Color Trends", "Kitchen Design"],
+  },
+  {
+    id: 10,
+    slug: "integrating-aluminum-profiles-with-acrylic-panels",
+    title: "The AL-PROFHAN Advantage: Integrating Aluminum Profiles with Acrylic Panels",
+    excerpt:
+      "Hardware meets surface. Learn how to combine our architectural aluminum profiles with premium acrylic panels for the ultimate modular furniture solution.",
+    content: `<p>True luxury lies in the details. While the acrylic panel provides the visual surface, it is the hardware that provides the structural soul. Our <a href="/products/aluminum-profiles">AL-PROFHAN series</a> is designed to integrate seamlessly with all SurajWood surfaces.</p>
+<h2>Gola Handles & Acrylic</h2>
+<p>The <a href="/products/aluminum-profiles">Ottimo Gola handle</a> system creates a sleek, handle-less look that lets the beauty of <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> or <a href="/products/acrymatte">ACRYMATTE</a> shine without interruption. The anodized finish of the aluminum complements the depth of the acrylic.</p>
+<h2>Glass Shutter Profiles</h2>
+<p>Combine our <a href="/products/aluminum-profiles">Aerolinea slim-line profiles</a> with glass-grade acrylic for upper cabinets. This creates a light, airy feel in the kitchen while maintaining the durability of a metal frame.</p>
+<h2>The Perfect Synergy</h2>
+<p>By specifying both <a href="/products/acrylux">SurajWood panels</a> and AL-PROFHAN hardware, architects and designers ensure perfect compatibility in fit, finish, and longevity.</p>`,
+    featured_image: { ...placeholderImage(410), url: "/images/products/aluminum/ottimo.png" },
+    date: "2025-12-20",
     author: "Suraj Wood Technical Team",
-    reading_time: 10,
+    reading_time: 8,
+    categories: ["Hardware", "Technical Guide"],
+  },
+  {
+    id: 11,
+    slug: "pur-bonding-vs-manual-lamination-science",
+    title: "PUR Bonding vs Manual Lamination: Why SurajWood Never Peels",
+    excerpt:
+      "Discover the science behind our zero-delamination guarantee. We compare German PUR hotmelt technology with traditional contact adhesives used in India.",
+    content: `<p>The most common failure in modular furniture is delamination — where the surface peels away from the board. This usually happens because of moisture, heat, or poor adhesive quality. At SurajWood, we have solved this through science.</p>
+<h2>The German PUR Edge</h2>
+<p>Unlike traditional 'white glue' or contact adhesives used in local workshops, we use <strong className="text-navy">German PUR (Polyurethane) Hotmelt</strong> at our <a href="/about">Bahadurgarh factory</a>. This is a moisture-curing adhesive that creates a permanent chemical bond between the acrylic and the MDF.</p>
+<h2>Heat & Humidity Resistance</h2>
+<p>Once cured, PUR adhesive does not re-melt. This means even if your kitchen reaches 45&deg;C+ in a North Indian summer, or faces 90% humidity in Mumbai, the bond remains absolute. This is why we can offer a <a href="/products/acrylux">5-year zero-delamination guarantee</a>.</p>
+<h2>Flat-Lamination Precision</h2>
+<p>Our automated lines apply pressure and temperature with micron-level accuracy, ensuring a mirror-smooth surface without the 'orange peel' effect common in manual lamination.</p>`,
+    featured_image: { ...placeholderImage(411), url: "/images/about/palex.jpg" },
+    date: "2025-12-05",
+    author: "Suraj Wood Technical Team",
+    reading_time: 9,
+    categories: ["Manufacturing", "Technical Guide"],
+  },
+];
     categories: ["Technical Guide", "For Architects"],
   },
 ];

@@ -80,8 +80,20 @@ export default async function BlogPage() {
       {/* ------------------------------------------------------------------ */}
       {/* HERO                                                                */}
       {/* ------------------------------------------------------------------ */}
-      <section className="bg-navy text-white py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-navy text-white py-24 lg:py-32 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/blog/blog-hero.jpg"
+            alt="SurajWood Journal Background"
+            fill
+            className="object-cover opacity-40"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/80 to-transparent" />
+        </div>
+
+        <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="mb-8" aria-label="Breadcrumb">
             <ol className="flex items-center gap-2 text-sm text-white/60">
@@ -97,16 +109,16 @@ export default async function BlogPage() {
             </ol>
           </nav>
 
-          <div className="max-w-2xl">
-            <span className="inline-block bg-copper/20 text-copper border border-copper/40 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
-              Blog
+          <div className="max-w-3xl">
+            <span className="inline-block bg-copper/20 text-copper border border-copper/40 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+              Insights & Trends
             </span>
-            <h1 className="font-heading text-4xl sm:text-5xl font-bold mb-5 leading-tight">
-              The SurajWood Journal
+            <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              The SurajWood <span className="text-copper">Journal</span>
             </h1>
-            <p className="text-white/75 text-lg leading-relaxed">
-              Expert insights on acrylic panels, interior design trends, and surface solutions
-              for Indian homes and businesses.
+            <p className="text-white/80 text-lg lg:text-xl leading-relaxed max-w-2xl">
+              Expert insights on premium acrylic panels, interior design trends, and technical
+              surface solutions for modern Indian homes and commercial spaces.
             </p>
           </div>
         </div>
@@ -127,7 +139,7 @@ export default async function BlogPage() {
             >
               <div className="relative h-64 lg:h-auto min-h-[320px] overflow-hidden">
                 <Image
-                  src={getGalleryImage(0)}
+                  src={posts[0].featured_image?.url || getGalleryImage(0)}
                   alt={posts[0].title}
                   fill
                   priority
@@ -189,7 +201,7 @@ export default async function BlogPage() {
                   {/* Featured image */}
                   <Link href={`/blog/${post.slug}`} className="block relative h-48 overflow-hidden bg-cream">
                     <Image
-                      src={getGalleryImage(index)}
+                      src={post.featured_image?.url || getGalleryImage(index)}
                       alt={post.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
