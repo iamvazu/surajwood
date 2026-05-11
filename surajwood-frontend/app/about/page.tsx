@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
+import { motion } from "framer-motion";
 import {
   generateOrganizationSchema,
   generateBreadcrumbSchema,
@@ -59,15 +60,22 @@ export default function AboutPage() {
       {/* Section 1 — Hero Banner (Luxury Alignment)                       */}
       {/* ------------------------------------------------------------------ */}
       <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden">
-        {/* Background Image */}
+        {/* Background Image with Ken Burns (Matching Home) */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/about/about-bg.jpg"
-            alt="SurajWood Bahadurgarh Manufacturing Facility"
-            fill
-            className="object-cover"
-            priority
-          />
+          <motion.div
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.05 }}
+            transition={{ duration: 8, ease: "linear" }}
+            className="relative w-full h-full"
+          >
+            <Image
+              src="/images/about/about-bg.jpg"
+              alt="SurajWood Bahadurgarh Manufacturing Facility"
+              fill
+              className="object-cover"
+              priority
+            />
+          </motion.div>
         </div>
 
         {/* Sophisticated Gradients (Matching Home) */}
