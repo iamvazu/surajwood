@@ -430,12 +430,7 @@ export default async function ApplicationPage({
       <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden">
         {/* Background Image with Ken Burns */}
         <div className="absolute inset-0 z-0">
-          <motion.div
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.05 }}
-            transition={{ duration: 8, ease: "linear" }}
-            className="relative w-full h-full"
-          >
+          <div className="relative w-full h-full animate-ken-burns">
             <Image
               src={config.galleryImages[0]}
               alt={`${config.name} with Suraj Wood acrylic panels`}
@@ -444,7 +439,7 @@ export default async function ApplicationPage({
               className="object-cover"
               sizes="100vw"
             />
-          </motion.div>
+          </div>
         </div>
 
         {/* Sophisticated Gradients (Matching Home) */}

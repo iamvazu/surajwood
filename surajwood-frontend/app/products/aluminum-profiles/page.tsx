@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import { Hammer, Lightbulb, Maximize, Settings } from "lucide-react";
-import { motion } from "framer-motion";
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -99,12 +98,7 @@ export default function AluminumProfilesPage() {
       <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden bg-navy">
         {/* Background Image with Ken Burns */}
         <div className="absolute inset-0 z-0 opacity-40">
-          <motion.div
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.05 }}
-            transition={{ duration: 8, ease: "linear" }}
-            className="relative w-full h-full"
-          >
+          <div className="relative w-full h-full animate-ken-burns">
             <Image
               src="/images/products/aluminum/ottimo.png"
               alt="AL-PROFHAN Aluminum Profiles"
@@ -112,7 +106,7 @@ export default function AluminumProfilesPage() {
               className="object-cover"
               priority
             />
-          </motion.div>
+          </div>
         </div>
 
         {/* Sophisticated Gradients */}
