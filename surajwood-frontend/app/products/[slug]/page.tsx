@@ -313,7 +313,6 @@ export default async function ProductPage({
   const heroImageSrc = PRODUCT_HERO_IMAGES[slug] ?? product.hero_image?.url ?? "";
   const swatchGroups = SWATCH_CONFIGS[slug]?.() ?? [];
   const swatchCountLabel = SWATCH_COUNTS[slug] ?? "";
-  const galleryOffset = GALLERY_OFFSETS[slug] ?? 1;
 
   const schemas = [
     generateProductSchema(product),

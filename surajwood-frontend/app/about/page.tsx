@@ -25,39 +25,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.surajwood.com/about" },
 };
 
-const manufacturingSteps = [
-  {
-    step: 1,
-    title: "Raw Material Selection",
-    description:
-      "We source only premium-grade PMMA acrylic sheets and high-density MDF/HDF substrates. Every batch is tested for consistency in thickness, density, and colour before entering production.",
-  },
-  {
-    step: 2,
-    title: "German PUR Bonding",
-    description:
-      "Using German-engineered PUR (Polyurethane Reactive) hotmelt adhesive, the acrylic surface is bonded to the substrate under precise temperature and pressure. This creates a permanent bond that never delaminates — even under Indian climatic conditions.",
-  },
-  {
-    step: 3,
-    title: "Quality Control Testing",
-    description:
-      "Each panel undergoes scratch resistance testing (3H pencil hardness), UV stability tests, moisture exposure tests, and rigorous visual inspection before packaging. Our reject rate is under 0.3%.",
-  },
-  {
-    step: 4,
-    title: "Precision Cutting & Finishing",
-    description:
-      "Panels are precision-cut to 8 ft × 4 ft standard sheets, edge-finished, and individually wrapped in protective film for damage-free delivery to every corner of India.",
-  },
-];
 
-const stats = [
-  { value: "15+", label: "Years of Manufacturing Excellence" },
-  { value: "50+", label: "Premium Finishes Available" },
-  { value: "10,000+", label: "Projects Completed" },
-  { value: "2", label: "Delivery Centres (Delhi & Bangalore)" },
-];
 
 const leadership = [
   {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
@@ -89,16 +90,6 @@ function buildFAQs(data: PSEOPageData) {
 }
 
 // ---------------------------------------------------------------------------
-// Application benefits icon map
-// ---------------------------------------------------------------------------
-
-const BENEFIT_ICONS: Record<number, string> = {
-  0: "🛡️",
-  1: "💧",
-  2: "💎",
-  3: "🧼",
-  4: "🔥",
-};
 
 // ---------------------------------------------------------------------------
 // Product spec data
