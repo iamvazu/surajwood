@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import { Hammer, Lightbulb, Maximize, Settings } from "lucide-react";
+import { motion } from "framer-motion";
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -94,47 +95,69 @@ export default function AluminumProfilesPage() {
     <>
       <SchemaMarkup schemas={schemas} />
 
-      {/* Hero */}
-      <section className="bg-navy pt-24 pb-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-3">
+      {/* Hero (Luxury Alignment) */}
+      <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden bg-navy">
+        {/* Background Image with Ken Burns */}
+        <div className="absolute inset-0 z-0 opacity-40">
+          <motion.div
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.05 }}
+            transition={{ duration: 8, ease: "linear" }}
+            className="relative w-full h-full"
+          >
+            <Image
+              src="/images/products/aluminum/ottimo.png"
+              alt="AL-PROFHAN Aluminum Profiles"
+              fill
+              className="object-cover"
+              priority
+            />
+          </motion.div>
+        </div>
+
+        {/* Sophisticated Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/40 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
+
+        {/* Spacer to clear sticky navbar */}
+        <div className="h-32 lg:h-40" />
+
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center">
+          <div className="max-w-3xl">
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
                 Hardware Excellence
               </p>
-              <h1 className="font-heading font-bold text-4xl md:text-5xl text-white leading-tight mb-6">
-                AL-PROFHAN <br />
-                <span className="text-copper-light">Aluminum Profiles</span>
-              </h1>
-              <p className="text-white/70 text-lg leading-relaxed mb-8">
-                Precision-engineered aluminum solutions for the modern furniture industry. 
-                Our profiles are designed for seamless integration with SurajWood acrylic panels, 
-                offering a unified aesthetic for premium interiors.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link
-                  href="/downloads"
-                  className="bg-copper hover:bg-copper-dark text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 text-sm shadow-lg shadow-copper/20"
-                >
-                  Download Technical Catalog
-                </Link>
-                <Link
-                  href="/contact"
-                  className="border border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full transition-all duration-300 text-sm"
-                >
-                  Request Quotation
-                </Link>
-              </div>
             </div>
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/10">
-              <Image
-                src="/images/products/aluminum/ottimo.png"
-                alt="AL-PROFHAN Aluminum Profiles"
-                fill
-                className="object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+              AL-PROFHAN <br />
+              <span className="text-copper">Aluminum Profiles</span>
+            </h1>
+
+            {/* Sub-headline */}
+            <p className="text-white/80 text-sm md:text-lg max-w-2xl leading-relaxed mb-10 font-light italic">
+              Precision-engineered aluminum solutions for the modern furniture industry. 
+              Designed for seamless integration with premium acrylic panels.
+            </p>
+
+            {/* CTAs */}
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/downloads"
+                className="bg-copper hover:bg-copper-light text-white font-bold px-8 py-3.5 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm"
+              >
+                Download Technical Catalog
+              </Link>
+              <Link
+                href="/contact"
+                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
+              >
+                Request Quotation
+              </Link>
             </div>
           </div>
         </div>
