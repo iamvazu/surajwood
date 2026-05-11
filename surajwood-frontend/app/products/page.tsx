@@ -101,20 +101,35 @@ export default function ProductsHubPage() {
     <>
       <SchemaMarkup schemas={schemas} />
 
-      {/* Hero */}
-      <section className="bg-navy py-16 text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-3">
-            Our Product Range
-          </p>
-          <h1 className="font-heading font-bold text-3xl md:text-5xl text-white leading-tight mb-4">
-            Premium Acrylic Panels &{" "}
-            <span className="text-copper-light">Aluminum Profiles</span>
-          </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed">
-            Factory-direct from our Bahadurgarh facility. European technology.
-            50+ finishes across 5 collections. Pan-India delivery.
-          </p>
+      {/* Hero (Luxury Alignment) */}
+      <section className="relative bg-navy pt-24 pb-16 overflow-hidden">
+        {/* Subtle Background Accent */}
+        <div className="absolute inset-0 z-0 opacity-10">
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_20%,#b87333_0%,transparent_50%)]" />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
+          <div className="max-w-3xl">
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                Our Product Range
+              </p>
+            </div>
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+              Premium Acrylic Panels <br />
+              & <span className="text-copper">Aluminum Profiles</span>
+            </h1>
+
+            {/* Sub-headline */}
+            <p className="text-white/70 text-sm md:text-lg max-w-2xl leading-relaxed font-light italic">
+              Factory-direct from our Bahadurgarh facility. European technology. 
+              50+ finishes across 5 high-end collections. Pan-India delivery.
+            </p>
+          </div>
         </div>
       </section>
 
