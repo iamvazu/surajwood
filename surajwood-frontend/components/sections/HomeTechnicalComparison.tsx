@@ -37,7 +37,7 @@ const HomeTechnicalComparison = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 items-center">
           <div className="lg:w-1/3">
-            <span className="text-copper font-bold text-sm uppercase tracking-widest">Ahrefs Verified Authority</span>
+            <span className="text-copper font-bold text-sm uppercase tracking-widest">Industry Technical Benchmark</span>
             <h2 className="font-heading font-bold text-4xl text-navy mt-4 mb-6 leading-tight">
               Why Professionals Choose SurajWood Over PETG
             </h2>
