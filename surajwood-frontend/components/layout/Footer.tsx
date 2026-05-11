@@ -116,8 +116,36 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 — Contact info (Luxurious spacing) */}
-          <div className="lg:col-span-4">
+          {/* Column 4 — Regional Presence (PSEO Gateway) */}
+          <div className="lg:col-span-2">
+            <h3 className="text-white text-xs font-bold uppercase tracking-[0.15em] mb-6 relative inline-block">
+              Our Presence
+              <span className="block mt-1 w-5 h-0.5 bg-[#DC2626]"></span>
+            </h3>
+            <ul className="space-y-3">
+              {[
+                { name: "Delhi", slug: "delhi" },
+                { name: "Mumbai", slug: "mumbai" },
+                { name: "Bangalore", slug: "bangalore" },
+                { name: "Hyderabad", slug: "hyderabad" },
+                { name: "Chennai", slug: "chennai" },
+                { name: "Ahmedabad", slug: "ahmedabad" },
+                { name: "Pune", slug: "pune" },
+              ].map((city) => (
+                <li key={city.slug}>
+                  <Link
+                    href={`/acrylux/kitchens/${city.slug}`}
+                    className="text-gray-400 text-xs hover:text-[#DC2626] inline-flex items-center gap-1.5 transition-all duration-200 group"
+                  >
+                    <span className="group-hover:translate-x-1 transition-transform">SurajWood in {city.name}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 5 — Contact info (Luxurious spacing) */}
+          <div className="lg:col-span-2">
             <h3 className="text-white text-xs font-bold uppercase tracking-[0.15em] mb-6 relative inline-block">
               Connect With Us
               <span className="block mt-1 w-5 h-0.5 bg-[#DC2626]"></span>

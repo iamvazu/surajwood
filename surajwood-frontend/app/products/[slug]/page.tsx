@@ -349,7 +349,7 @@ export default async function ProductPage({
               </p>
 
               <p className="text-white/80 font-body text-base leading-relaxed mb-8 max-w-lg">
-                SurajWood's {product.name} series features factory-bonded optical-grade PMMA acrylic on multiple substrate options. Engineered with German PUR technology for a zero-void, mirror-like finish that outperforms PETG in durability, clarity, and UV stability.
+                SurajWood&apos;s {product.name} series features factory-bonded optical-grade PMMA acrylic on multiple substrate options. Engineered with German PUR technology for a zero-void, mirror-like finish that outperforms PETG in durability, clarity, and UV stability.
               </p>
 
               {/* Key stats row */}

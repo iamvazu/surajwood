@@ -42,7 +42,7 @@ const HomeTechnicalComparison = () => {
               Why Professionals Choose SurajWood Over PETG
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Don't compromise with budget PETG boards or standard laminates. SurajWood's factory-bonded prelaminated acrylic panels offer the technical durability architects demand.
+              Don&apos;t compromise with budget PETG boards or standard laminates. SurajWood&apos;s factory-bonded prelaminated acrylic panels offer the technical durability architects demand.
             </p>
             <div className="space-y-4">
               {["100% Moisture Proof", "German PUR Bonding", "95% Reflectivity"].map((item) => (

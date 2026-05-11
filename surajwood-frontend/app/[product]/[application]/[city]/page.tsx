@@ -299,7 +299,7 @@ export default function PSEOPage({ params }: PageProps) {
               Quick Summary for Architects & Homeowners
             </h2>
             <p className="text-gray-800 text-lg leading-relaxed font-medium italic">
-              "{aeoSummary}"
+              &quot;{aeoSummary}&quot;
             </p>
           </div>
         </div>
