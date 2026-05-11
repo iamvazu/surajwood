@@ -33,9 +33,9 @@ const HomeTechnicalComparison = () => {
   ];
 
   return (
-    <section className="bg-cream py-24 px-6 overflow-hidden">
+    <section className="bg-cream py-12 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-16 items-center">
+        <div className="flex flex-col lg:flex-row gap-10 items-center">
           <div className="lg:w-1/3">
             <span className="text-copper font-bold text-sm uppercase tracking-widest">Ahrefs Verified Authority</span>
             <h2 className="font-heading font-bold text-4xl text-navy mt-4 mb-6 leading-tight">

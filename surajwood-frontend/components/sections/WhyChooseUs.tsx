@@ -1,38 +1,40 @@
-import { Shield, Sparkles, Clock, Truck } from "lucide-react";
-import type { LucideIcon } from "lucide-react";
-
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 interface Feature {
-  icon: LucideIcon;
+  stat: string;
+  unit: string;
   title: string;
   description: string;
 }
 
 const FEATURES: Feature[] = [
   {
-    icon: Shield,
+    stat: "0%",
+    unit: "Delamination",
     title: "Factory Prelaminated",
     description:
-      "Every SurajWood panel is factory-bonded using German PUR hotmelt technology on E1-Grade MDF, Plywood, or Particle Board substrates for zero delamination.",
+      "German PUR hotmelt bonding on E1-Grade MDF, Plywood, or Particle Board. Zero delamination — guaranteed.",
   },
   {
-    icon: Sparkles,
+    stat: "3H",
+    unit: "Hardness",
     title: "Optical-Grade PMMA",
     description:
-      "We use pure PMMA (Acrylic) polymer — not PETG — ensuring mirror-like optical clarity, 3H scratch resistance, and 10+ years of UV stability without yellowing.",
+      "Pure PMMA acrylic — not PETG. Mirror-like clarity, 3H scratch resistance, 10+ years UV stability.",
   },
   {
-    icon: Clock,
-    title: "Technical Excellence",
+    stat: "B1",
+    unit: "Fire Rating",
+    title: "Climate Engineered",
     description:
-      "Tested for India's extreme 45°C+ heat and coastal humidity. Our panels carry a Class B1 fire rating and 95% light reflectivity for maximum visual impact.",
+      "Tested for 45°C+ heat and coastal humidity. Class B1 fire rating. 95% light reflectivity.",
   },
   {
-    icon: Truck,
-    title: "Architect's Choice",
+    stat: "10K+",
+    unit: "Projects",
+    title: "Architect\u0027s Choice",
     description:
-      "Trusted by 10,000+ projects. Carpenter-friendly design allows for precise on-site cutting and drilling without the chipping common in cheaper alternatives.",
+      "Trusted by 10,000+ projects. Carpenter-friendly — precise cutting without chipping.",
   },
 ];
 
@@ -40,52 +42,47 @@ const FEATURES: Feature[] = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section header */}
-        <div className="text-center mb-14">
-          <p className="text-copper tracking-widest text-sm uppercase font-medium mb-3">
+        {/* Section header — compact */}
+        <div className="text-center mb-8">
+          <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-2">
             Why SurajWood
           </p>
-          <h2 className="font-heading font-bold text-3xl md:text-4xl text-navy leading-tight">
+          <h2 className="font-heading font-bold text-2xl md:text-3xl text-navy leading-tight">
             Engineered for Indian Interiors
           </h2>
-          <p className="mt-4 text-gray-600 max-w-xl mx-auto text-base leading-relaxed">
-            We combine European manufacturing precision with deep knowledge of
-            the Indian climate and design sensibility.
-          </p>
         </div>
 
-        {/* Feature cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {FEATURES.map((feature) => {
-            const Icon = feature.icon;
-            return (
-              <div
-                key={feature.title}
-                className="flex flex-col items-start group"
-              >
-                {/* Icon */}
-                <div className="flex items-center justify-center w-[60px] h-[60px] rounded-full bg-copper/10 text-copper transition-colors duration-300 group-hover:bg-copper group-hover:text-white">
-                  <Icon size={26} strokeWidth={1.8} />
-                </div>
-
-                {/* Title */}
-                <h3 className="font-heading font-bold text-lg text-navy mt-4 leading-snug">
-                  {feature.title}
-                </h3>
-
-                {/* Description */}
-                <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                  {feature.description}
-                </p>
+        {/* Feature cards — stat-focused grid */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+          {FEATURES.map((feature) => (
+            <div
+              key={feature.title}
+              className="group bg-cream/50 hover:bg-navy rounded-2xl p-5 transition-all duration-300 border border-cream-dark hover:border-navy"
+            >
+              {/* Stat callout */}
+              <div className="mb-3">
+                <span className="font-heading font-bold text-3xl text-copper group-hover:text-copper-light transition-colors leading-none">
+                  {feature.stat}
+                </span>
+                <span className="block text-[10px] text-gray-500 group-hover:text-white/50 uppercase tracking-widest font-semibold mt-0.5 transition-colors">
+                  {feature.unit}
+                </span>
               </div>
-            );
-          })}
-        </div>
 
-        {/* Divider */}
-        <div className="mt-16 border-t border-cream-dark" />
+              {/* Title */}
+              <h3 className="font-heading font-bold text-sm text-navy group-hover:text-white leading-snug transition-colors">
+                {feature.title}
+              </h3>
+
+              {/* Description */}
+              <p className="text-xs text-gray-600 group-hover:text-white/70 mt-1.5 leading-relaxed transition-colors">
+                {feature.description}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

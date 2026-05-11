@@ -59,17 +59,17 @@ export default function TestimonialCarousel({
 
   return (
     <section
-      className="bg-navy py-20"
+      className="bg-navy py-12"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
       <div className="max-w-7xl mx-auto px-6">
         {/* Section header */}
-        <div className="text-center mb-12">
-          <p className="text-copper tracking-widest text-sm uppercase font-medium mb-3">
+        <div className="text-center mb-8">
+          <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-2">
             Testimonials
           </p>
-          <h2 className="font-heading font-bold text-3xl md:text-4xl text-white leading-tight">
+          <h2 className="font-heading font-bold text-2xl md:text-3xl text-white leading-tight">
             What Our Clients Say
           </h2>
         </div>

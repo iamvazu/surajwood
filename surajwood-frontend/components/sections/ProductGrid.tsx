@@ -30,25 +30,21 @@ interface ProductGridProps {
 
 export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <section id="products" className="bg-cream py-20">
+    <section id="products" className="bg-cream py-12">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section header */}
-        <div className="text-center mb-14">
-          <p className="text-copper tracking-widest text-sm uppercase font-medium mb-3">
+        {/* Section header — compact */}
+        <div className="text-center mb-8">
+          <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-2">
             Our Collections
           </p>
-          <h2 className="font-heading font-bold text-3xl md:text-4xl text-navy leading-tight">
+          <h2 className="font-heading font-bold text-2xl md:text-3xl text-navy leading-tight">
             Five Distinct Finishes.{" "}
             <span className="text-copper">Endless Possibilities.</span>
           </h2>
-          <p className="mt-4 text-gray-600 max-w-xl mx-auto text-base leading-relaxed">
-            Each collection is engineered for a specific aesthetic — find the
-            perfect surface for every room in your home.
-          </p>
         </div>
 
-        {/* Product cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Product cards — compact grid, all visible in one viewport */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {products.map((product) => {
             const imageSrc =
               PRODUCT_IMAGES[product.slug] ??
@@ -57,59 +53,49 @@ export default function ProductGrid({ products }: ProductGridProps) {
               FINISH_LABELS[product.finish_type] ?? product.finish_type;
 
             return (
-              <article
+              <Link
                 key={product.id}
-                className="rounded-2xl overflow-hidden shadow-product bg-white group transition-all duration-300 hover:-translate-y-2 hover:shadow-navy"
+                href={`/products/${product.slug}`}
+                className="group block rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Image */}
-                <div className="relative aspect-[4/3] bg-cream overflow-hidden">
+                <div className="relative aspect-square bg-cream overflow-hidden">
                   <Image
                     src={imageSrc}
                     alt={`${product.name} acrylic panel – ${finishLabel} finish`}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                   />
+                  {/* Hover overlay */}
+                  <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300" />
                 </div>
 
-                {/* Content */}
-                <div className="p-6">
-                  {/* Finish badge */}
-                  <span className="inline-block text-xs font-semibold text-copper bg-copper/10 px-3 py-1 rounded-full mb-3">
+                {/* Content — minimal */}
+                <div className="p-3 text-center">
+                  <span className="inline-block text-[10px] font-semibold text-copper bg-copper/10 px-2 py-0.5 rounded-full mb-1.5">
                     {finishLabel}
                   </span>
-
-                  {/* Product name */}
-                  <h3 className="font-heading font-bold text-xl text-navy leading-snug">
+                  <h3 className="font-heading font-bold text-sm text-navy leading-snug">
                     {product.name}
                   </h3>
-
-                  {/* Tagline */}
-                  <p className="text-sm text-gray-600 mt-1">{product.tagline}</p>
-
-                  {/* Description */}
-                  <p className="text-sm text-gray-500 mt-2 line-clamp-2 leading-relaxed">
-                    {product.description}
+                  <p className="text-[11px] text-gray-500 mt-0.5 line-clamp-1">
+                    {product.tagline}
                   </p>
-
-                  {/* CTA link */}
-                  <Link
-                    href={`/products/${product.slug}`}
-                    className="inline-block mt-4 text-copper font-medium text-sm hover:underline underline-offset-2 transition-colors"
-                  >
-                    Explore Collection →
-                  </Link>
+                  <span className="inline-block mt-2 text-copper font-semibold text-xs group-hover:underline underline-offset-2">
+                    Explore →
+                  </span>
                 </div>
-              </article>
+              </Link>
             );
           })}
         </div>
 
-        {/* View all CTA */}
-        <div className="text-center mt-12">
+        {/* View all CTA — links to products hub */}
+        <div className="text-center mt-8">
           <Link
-            href="/products/acrylux"
-            className="inline-block border-2 border-navy text-navy hover:bg-navy hover:text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 font-heading"
+            href="/products"
+            className="inline-block border-2 border-navy text-navy hover:bg-navy hover:text-white font-semibold px-6 py-2.5 rounded-full transition-all duration-300 font-heading text-sm"
           >
             View All Products
           </Link>
