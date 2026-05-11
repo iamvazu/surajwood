@@ -109,13 +109,6 @@ const SWATCH_COUNTS: Record<string, string> = {
 // Gallery images (local fallbacks to placehold.co for now)
 // ---------------------------------------------------------------------------
 
-const GALLERY_OFFSETS: Record<string, number> = {
-  acrylux: 1,
-  acrysilk: 7,
-  acrymatte: 13,
-  acryglass: 19,
-  "acryglass-matte": 25,
-};
 
 // ---------------------------------------------------------------------------
 // Metadata
