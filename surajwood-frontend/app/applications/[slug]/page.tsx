@@ -28,7 +28,7 @@ type ApplicationConfig = {
   }[];
   benefits: { icon: string; title: string; desc: string }[];
   faqExtra: { question: string; answer: string }[];
-  galleryStart: number; // which /images/gallery/ index to start from
+  galleryImages: string[];
 };
 
 const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
@@ -107,7 +107,14 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
           "Yes. Mixing finishes — for example, ACRYLUX satin for lower cabinets and ACRYGLASS high-gloss for upper cabinets — is a popular design technique that creates visual interest. Our sales team can help you select complementary colour combinations.",
       },
     ],
-    galleryStart: 1,
+    galleryImages: [
+      "/images/gallery/kitchen-1.jpg",
+      "/images/gallery/kitchen-2.jpg",
+      "/images/gallery/kitchen-3.jpg",
+      "/images/gallery/kitchen-4.jpg",
+      "/images/gallery/1.jpg",
+      "/images/gallery/2.jpg",
+    ],
   },
 
   wardrobes: {
@@ -185,7 +192,14 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
           "1mm or 1.5mm acrylic on 18mm MDF is standard for wardrobe shutters. The 1.5mm specification gives a noticeably more premium feel when handling the door — it is recommended for high-end residential projects. 3mm is not typically required for wardrobes unless specifying for a very heavy-duty commercial application.",
       },
     ],
-    galleryStart: 10,
+    galleryImages: [
+      "/images/gallery/wardrobe-1.jpg",
+      "/images/gallery/wardrobe-2.jpg",
+      "/images/gallery/wardrobe-3.jpg",
+      "/images/gallery/wardrobe-4.jpg",
+      "/images/gallery/10.jpg",
+      "/images/gallery/11.jpg",
+    ],
   },
 
   commercial: {
@@ -250,20 +264,83 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
       {
         question: "Are Suraj Wood panels fire-rated for commercial use?",
         answer:
-          "Yes. All Suraj Wood acrylic panels carry Class B1 fire rating per DIN 4102. This is the standard required for most commercial interior applications in India. For projects requiring specific fire certification documentation, contact our technical team at sales@surajwood.com.",
-      },
-      {
-        question: "Can acrylic panels be used for commercial wall cladding?",
-        answer:
-          "Yes. 1.5mm or 3mm panels on MDF or directly bonded to walls are used for commercial wall cladding. For large-format wall installations, 3mm panels provide better rigidity. Proper substrate preparation and an approved adhesive system are essential for commercial wall applications.",
-      },
-      {
-        question: "Do you offer commercial project pricing?",
-        answer:
-          "Yes. We offer project-based pricing for commercial specifications. Contact our commercial sales team with your project details, quantity requirements, and timeline for a custom quotation. Call +91-9999995553 or email sales@surajwood.com.",
+          "Yes. All Suraj Wood acrylic panels carry Class B1 fire rating per DIN 4102. This is the standard required for most commercial interior applications in India.",
       },
     ],
-    galleryStart: 20,
+    galleryImages: [
+      "/images/gallery/commercial-1.jpg",
+      "/images/gallery/commercial-2.jpg",
+      "/images/gallery/commercial-3.jpg",
+      "/images/gallery/commercial-4.jpg",
+      "/images/gallery/20.jpg",
+      "/images/gallery/21.jpg",
+    ],
+  },
+  offices: {
+    name: "Office Spaces",
+    heroTagline: "Professional Office Surfaces",
+    heroBg: "from-slate-900 via-slate-800 to-slate-900",
+    intro: "Modern office environments demand surfaces that are both durable and professional. SurajWood acrylic panels provide the perfect finish for executive desks, meeting room tables, and acoustic wall cladding.",
+    whySection: {
+      title: "The Professional Edge",
+      body: "Our panels are designed to withstand the daily rigors of a busy office while maintaining a sleek, corporate appearance. Anti-fingerprint coatings ensure that surfaces look pristine even after heavy use in conference rooms and shared workspaces.",
+    },
+    recommendedProducts: [
+      { slug: "acrymatte", name: "ACRYMATTE", reason: "Anti-fingerprint matte surfaces for distraction-free work.", finishLabel: "Matte" },
+      { slug: "acrysilk", name: "ACRYSILK", reason: "Soft-touch texture for a premium executive feel.", finishLabel: "Soft-Satin" },
+    ],
+    benefits: [
+      { icon: "💼", title: "Corporate Aesthetic", desc: "Clean lines and sophisticated finishes for modern workspaces." },
+      { icon: "🔇", title: "Acoustic Friendly", desc: "Ideal for wall paneling in quiet zones and meeting rooms." },
+    ],
+    faqExtra: [
+      { question: "Can these be used for conference tables?", answer: "Absolutely. Our 1.5mm and 3mm acrylic sheets are excellent for high-durability table surfaces." },
+    ],
+    galleryImages: ["/images/gallery/office-1.jpg", "/images/gallery/commercial-1.jpg", "/images/gallery/commercial-2.jpg"],
+  },
+  "kids-rooms": {
+    name: "Children's Rooms",
+    heroTagline: "Safe & Vibrant Spaces",
+    heroBg: "from-blue-600 via-purple-500 to-pink-500",
+    intro: "Create a playful yet premium environment for your children. SurajWood panels are non-toxic, easy to clean, and come in a variety of vibrant colors that kids love.",
+    whySection: {
+      title: "Safety Meets Style",
+      body: "We prioritize safety without compromising on design. Our panels are scratch-resistant and can handle the energetic play of children, while the smooth surfaces make cleaning up spills and artistic 'experiments' a breeze.",
+    },
+    recommendedProducts: [
+      { slug: "acrylux", name: "ACRYLUX", reason: "Vibrant solid colors to bring the room to life.", finishLabel: "Satin" },
+      { slug: "acryglass", name: "ACRYGLASS", reason: "High-gloss mirror finish for a fun, reflective look.", finishLabel: "High-Gloss" },
+    ],
+    benefits: [
+      { icon: "👶", title: "Non-Toxic", desc: "Safe materials for a healthy indoor environment." },
+      { icon: "🧼", title: "Stain Resistant", desc: "Wipe away crayons and spills with ease." },
+    ],
+    faqExtra: [
+      { question: "Are the colors safe for children?", answer: "Yes, our PMMA acrylic is an inert material and the panels are manufactured using eco-friendly processes." },
+    ],
+    galleryImages: ["/images/gallery/kids-1.jpg", "/images/gallery/15.jpg", "/images/gallery/16.jpg"],
+  },
+  "wall-paneling": {
+    name: "Wall Paneling",
+    heroTagline: "Architectural Statement Walls",
+    heroBg: "from-stone-900 via-stone-800 to-stone-900",
+    intro: "Transform plain walls into architectural statements. SurajWood large-format panels offer a seamless, mirror-like finish that adds depth and luxury to any interior space.",
+    whySection: {
+      title: "Luxury at Scale",
+      body: "Wall paneling requires precision and consistency. Our factory-bonded panels ensure a perfectly flat surface over large areas, something that is difficult to achieve with on-site painting or laminating.",
+    },
+    recommendedProducts: [
+      { slug: "acryglass", name: "ACRYGLASS", reason: "Maximum reflection to make rooms feel twice as large.", finishLabel: "High-Gloss" },
+      { slug: "acryglass-matte", name: "ACRYGLASS MATTE", reason: "Sophisticated matte-glass for a subtle luxury vibe.", finishLabel: "Matte-Glass" },
+    ],
+    benefits: [
+      { icon: "📏", title: "Seamless Look", desc: "Large format sheets minimize joins for a continuous aesthetic." },
+      { icon: "💎", title: "Premium Depth", desc: "Optical-grade acrylic provides unparalleled visual depth." },
+    ],
+    faqExtra: [
+      { question: "Can these be installed over existing walls?", answer: "Yes, they can be installed over plywood or MDF framing for a perfectly level finish." },
+    ],
+    galleryImages: ["/images/gallery/wall-1.jpg", "/images/gallery/22.jpg", "/images/gallery/23.jpg"],
   },
 };
 
@@ -276,6 +353,9 @@ export async function generateStaticParams() {
     { slug: "kitchens" },
     { slug: "wardrobes" },
     { slug: "commercial" },
+    { slug: "offices" },
+    { slug: "kids-rooms" },
+    { slug: "wall-paneling" },
   ];
 }
 
@@ -469,24 +549,21 @@ export default async function ApplicationPage({
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {Array.from({ length: 6 }).map((_, i) => {
-              const imgNum = ((config.galleryStart + i - 1) % 37) + 1;
-              return (
-                <div
-                  key={i}
-                  className="relative rounded-xl overflow-hidden aspect-[4/3] group shadow-sm hover:shadow-md transition-shadow"
-                >
-                  <Image
-                    src={`/images/gallery/${imgNum}.jpg`}
-                    alt={`${config.name} acrylic panel application ${i + 1}`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300" />
-                </div>
-              );
-            })}
+            {config.galleryImages.map((img, i) => (
+              <div
+                key={i}
+                className="relative rounded-xl overflow-hidden aspect-[4/3] group shadow-sm hover:shadow-md transition-shadow"
+              >
+                <Image
+                  src={img}
+                  alt={`${config.name} acrylic panel application ${i + 1}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300" />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -513,7 +590,14 @@ export default async function ApplicationPage({
               >
                 <div className="relative h-40 overflow-hidden bg-navy/5">
                   <Image
-                    src={`/images/products/${p.slug}/${p.slug}-${p.slug === "acryglass" ? "1" : "1"}.png`}
+                    src={
+                      p.slug === "acrylux" ? "/images/products/acrylux/acrylux-solid-1.png" :
+                      p.slug === "acryglass" ? "/images/products/acryglass/acryglass1.png" :
+                      p.slug === "acrymatte" ? "/images/products/acrymatte/acrymatte-1.png" :
+                      p.slug === "acryglass-matte" ? "/images/products/acryglass-matte/acryglass-matte-1.png" :
+                      p.slug === "acrysilk" ? "/images/products/acrysilk/acrysilk-1.png" :
+                      `/images/products/${p.slug}/${p.slug}-1.png`
+                    }
                     alt={p.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

@@ -32,22 +32,40 @@ const APPLICATIONS: ApplicationCategory[] = [
     tagline: "High-traffic durability, Class B1 rated",
   },
   {
-    slug: "kitchens",
-    label: "Wall Paneling",
-    image: "/images/gallery/kitchen-2.jpg",
-    tagline: "Statement walls with mirror-like clarity",
-  },
-  {
-    slug: "commercial",
-    label: "Retail & Display",
-    image: "/images/gallery/commercial-2.jpg",
+    slug: "retail",
+    label: "Retail Display",
+    image: "/images/gallery/retail-1.jpg",
     tagline: "First impressions that last",
   },
   {
-    slug: "wardrobes",
-    label: "Study Rooms",
-    image: "/images/gallery/wardrobe-2.jpg",
-    tagline: "Clean lines, warm wood grain options",
+    slug: "bathrooms",
+    label: "Bathroom Vanities",
+    image: "/images/gallery/bathroom-1.jpg",
+    tagline: "Water-resistant, easy-clean luxury",
+  },
+  {
+    slug: "tv-units",
+    label: "TV Units",
+    image: "/images/gallery/tv-unit-1.jpg",
+    tagline: "Glossy finishes for modern media centers",
+  },
+  {
+    slug: "offices",
+    label: "Office Spaces",
+    image: "/images/gallery/office-1.jpg",
+    tagline: "Professional surfaces for focused work",
+  },
+  {
+    slug: "kids-rooms",
+    label: "Children's Rooms",
+    image: "/images/gallery/kids-1.jpg",
+    tagline: "Non-toxic, vibrant, and durable",
+  },
+  {
+    slug: "wall-paneling",
+    label: "Wall Paneling",
+    image: "/images/gallery/wall-1.jpg",
+    tagline: "Statement walls with mirror-like clarity",
   },
 ];
 

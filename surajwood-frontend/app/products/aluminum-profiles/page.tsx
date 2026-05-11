@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.surajwood.com/products/aluminum-profiles",
     images: [
       {
-        url: "/images/banner/bg2.jpg",
+        url: "/images/products/aluminum/ottimo.png",
         width: 1200,
         height: 630,
         alt: "AL-PROFHAN Aluminum Profiles by SurajWood",
@@ -42,7 +42,7 @@ const SERIES = [
     description:
       "Handleless kitchen solutions with a seamless, minimalistic aesthetic. Available in Rose Gold, Black Graphite, and Champagne finishes.",
     features: ["Hidden integrated design", "Ergonomic grip", "Scratch-resistant anodizing"],
-    image: "/images/gallery/kitchen-1.jpg",
+    image: "/images/products/aluminum/ottimo.png",
     icon: <Maximize className="text-copper" size={24} />,
   },
   {
@@ -52,7 +52,7 @@ const SERIES = [
     description:
       "Slim-line aluminum frames for glass shutters. Perfect for display cabinets and premium wardrobe shutters with a contemporary look.",
     features: ["Ultra-slim profile", "Compatible with 4mm-6mm glass", "Concealed corner joints"],
-    image: "/images/gallery/wardrobe-1.jpg",
+    image: "/images/products/aluminum/aerolinea.png",
     icon: <Settings className="text-copper" size={24} />,
   },
   {
@@ -62,7 +62,7 @@ const SERIES = [
     description:
       "Functional lighting solutions integrated into cabinetry. Designed for heat dissipation and uniform light diffusion.",
     features: ["Optimized heat dissipation", "Spot-free diffusion", "Standard 12V/24V compatibility"],
-    image: "/images/gallery/commercial-1.jpg",
+    image: "/images/products/aluminum/luminare.png",
     icon: <Lightbulb className="text-copper" size={24} />,
   },
   {
@@ -72,7 +72,7 @@ const SERIES = [
     description:
       "High-precision sliding tracks and profiles for smooth, silent wardrobe operations. Heavy-duty load bearing capacity.",
     features: ["Silent-glide technology", "Up to 80kg load capacity", "Anti-jump safety mechanism"],
-    image: "/images/gallery/wardrobe-2.jpg",
+    image: "/images/products/aluminum/velaro.png",
     icon: <Hammer className="text-copper" size={24} />,
   },
 ];
@@ -126,9 +126,9 @@ export default function AluminumProfilesPage() {
                 </Link>
               </div>
             </div>
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/10">
               <Image
-                src="/images/banner/bg2.jpg"
+                src="/images/products/aluminum/ottimo.png"
                 alt="AL-PROFHAN Aluminum Profiles"
                 fill
                 className="object-cover"

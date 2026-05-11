@@ -25,6 +25,9 @@ const applications = [
   { name: "Kitchens", href: "/applications/kitchens" },
   { name: "Wardrobes", href: "/applications/wardrobes" },
   { name: "Commercial", href: "/applications/commercial" },
+  { name: "Office Spaces", href: "/applications/offices" },
+  { name: "Children's Rooms", href: "/applications/kids-rooms" },
+  { name: "Wall Paneling", href: "/applications/wall-paneling" },
 ];
 
 const resources = [
