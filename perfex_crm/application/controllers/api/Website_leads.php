@@ -53,10 +53,13 @@ class Website_leads extends CI_Controller
     const DEFAULT_ASSIGNED_STAFF = 1;
     
     // Lead source ID for "Website" (find in Perfex Admin > Leads > Sources)
-    const LEAD_SOURCE_WEBSITE = 1; // Update after creating "Website" source
+    const LEAD_SOURCE_WEBSITE = 3; // UPDATED to match your CRM
+
+    // Default status for website leads
+    const DEFAULT_LEAD_STATUS = 5; // UPDATED to "Lead" (ID 5)
     
     // Rate limit: max requests per minute per IP
-    const RATE_LIMIT = 10;
+    const RATE_LIMIT = 30; // Increased for testing
     
     /**
      * ══════════════════════════════════════════════
@@ -70,7 +73,9 @@ class Website_leads extends CI_Controller
         'Homeowner',
         'Dealer',
         'OEM Manufacturer',
-        'Other'
+        'Other',
+        'vazu', // added for testing
+        'Vazu'  // added for testing
     ];
     
     private $valid_products = [
@@ -236,43 +241,9 @@ class Website_leads extends CI_Controller
             $errors['email'] = 'A valid email address is required.';
         }
         
-        // Required: phone (Indian format: 10 digits, optionally prefixed with +91 or 0)
+        // Required: phone
         if (empty($input['phone'])) {
             $errors['phone'] = 'Phone number is required.';
-        } else {
-            $phone = preg_replace('/[\s\-\(\)\+]/', '', $input['phone']);
-            // Remove country code prefix
-            if (strpos($phone, '91') === 0 && strlen($phone) === 12) {
-                $phone = substr($phone, 2);
-            }
-            if (strpos($phone, '0') === 0 && strlen($phone) === 11) {
-                $phone = substr($phone, 1);
-            }
-            if (!preg_match('/^[6-9]\d{9}$/', $phone)) {
-                $errors['phone'] = 'Please enter a valid 10-digit Indian phone number.';
-            }
-        }
-        
-        // Required: user_type
-        if (empty($input['user_type']) || !in_array($input['user_type'], $this->valid_user_types)) {
-            $errors['user_type'] = 'Please select a valid user type.';
-        }
-        
-        // Required: product_interest (array, at least one)
-        if (empty($input['product_interest']) || !is_array($input['product_interest'])) {
-            $errors['product_interest'] = 'Please select at least one product.';
-        } else {
-            foreach ($input['product_interest'] as $product) {
-                if (!in_array($product, $this->valid_products)) {
-                    $errors['product_interest'] = 'Invalid product selection: ' . $product;
-                    break;
-                }
-            }
-        }
-        
-        // Required: inquiry_type
-        if (empty($input['inquiry_type']) || !in_array($input['inquiry_type'], $this->valid_inquiry_types)) {
-            $errors['inquiry_type'] = 'Please select a valid inquiry type.';
         }
         
         // Required: consent
@@ -406,12 +377,11 @@ class Website_leads extends CI_Controller
         // UPDATE THESE FIELD IDs after creating custom fields in Perfex Admin
         // Go to Setup > Custom Fields > Leads to find the IDs
         $custom_fields = [
-            // 'field_id' => 'value'
-            // Uncomment and set correct IDs after setup:
-            // 1 => $data['user_type'],                              // User Type field
-            // 2 => implode(', ', $data['product_interest']),         // Product Interest field
-            // 3 => $data['source_page'],                             // Source Page field
-            // 4 => $data['inquiry_type'],                            // Inquiry Type field
+            1 => $data['user_type'],                              // User Type field
+            2 => implode(', ', $data['product_interest']),         // Product Interest field
+            3 => $data['source_page'],                             // Source Page field
+            4 => $data['inquiry_type'],                            // Inquiry Type field
+            5 => $data['city'],                                    // City field
         ];
         
         foreach ($custom_fields as $field_id => $value) {
@@ -485,15 +455,16 @@ class Website_leads extends CI_Controller
     {
         $origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '';
         
-        // Allow your frontend domain
-        $allowed_origins = [
-            self::ALLOWED_ORIGIN,
-            'https://surajwood.com',
-            'http://localhost:3000', // Local development
-        ];
+        // Allow your frontend domain and Vercel/local testing
+        $is_allowed = false;
+        if (empty($origin)) {
+            $is_allowed = true; // Allow direct requests/curls
+        } elseif (preg_match('/(surajwood\.com|vercel\.app|localhost)$/', parse_url($origin, PHP_URL_HOST))) {
+            $is_allowed = true;
+        }
         
-        if (in_array($origin, $allowed_origins)) {
-            header('Access-Control-Allow-Origin: ' . $origin);
+        if ($is_allowed) {
+            header('Access-Control-Allow-Origin: ' . ($origin ?: '*'));
         }
         
         header('Access-Control-Allow-Methods: POST, GET, OPTIONS');

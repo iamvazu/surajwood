@@ -12,27 +12,27 @@ interface Feature {
 const FEATURES: Feature[] = [
   {
     icon: Shield,
-    title: "European Technology",
+    title: "Factory Prelaminated",
     description:
-      "German PUR hotmelt adhesive and European flat lamination technology ensures panels that never delaminate or warp — even in India's extreme climate conditions.",
+      "Every SurajWood panel is factory-bonded using German PUR hotmelt technology on E1-Grade MDF, Plywood, or Particle Board substrates for zero delamination.",
   },
   {
     icon: Sparkles,
-    title: "50+ Premium Finishes",
+    title: "Optical-Grade PMMA",
     description:
-      "From mirror-gloss to matte, satin to silk — our range covers every modern interior design aesthetic. Over 50 hand-selected shades across five collections.",
+      "We use pure PMMA (Acrylic) polymer — not PETG — ensuring mirror-like optical clarity, 3H scratch resistance, and 10+ years of UV stability without yellowing.",
   },
   {
     icon: Clock,
-    title: "15+ Years of Excellence",
+    title: "Technical Excellence",
     description:
-      "Trusted by 10,000+ projects across India. Architects, designers, and homeowners rely on Suraj Wood quality for kitchens, wardrobes, and commercial spaces.",
+      "Tested for India's extreme 45°C+ heat and coastal humidity. Our panels carry a Class B1 fire rating and 95% light reflectivity for maximum visual impact.",
   },
   {
     icon: Truck,
-    title: "Pan-India Delivery",
+    title: "Architect's Choice",
     description:
-      "Direct factory dispatch to Delhi, Mumbai, Bangalore, Hyderabad, Chennai and all major cities. Secure packaging, on-time delivery, every single order.",
+      "Trusted by 10,000+ projects. Carpenter-friendly design allows for precise on-site cutting and drilling without the chipping common in cheaper alternatives.",
   },
 ];
 

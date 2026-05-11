@@ -341,30 +341,30 @@ export default async function ProductPage({
               </span>
 
               <h1 className="font-heading text-4xl sm:text-5xl font-bold leading-tight mb-4">
-                {product.name}
+                {product.name} Prelaminated Acrylic
               </h1>
 
               <p className="text-white/70 text-lg font-body italic mb-4">
-                {product.tagline}
+                The premium PMMA alternative to PETG and local laminates.
               </p>
 
               <p className="text-white/80 font-body text-base leading-relaxed mb-8 max-w-lg">
-                {product.description}
+                SurajWood's {product.name} series features factory-bonded optical-grade PMMA acrylic on multiple substrate options. Engineered with German PUR technology for a zero-void, mirror-like finish that outperforms PETG in durability, clarity, and UV stability.
               </p>
 
               {/* Key stats row */}
               <div className="flex flex-wrap gap-6 mb-10">
                 <div className="text-center">
                   <div className="text-copper font-bold text-xl">{product.thickness}</div>
-                  <div className="text-white/50 text-xs mt-0.5">Thickness Options</div>
+                  <div className="text-white/50 text-xs mt-0.5">Thickness (Inc. Substrate)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-copper font-bold text-xl">3H</div>
-                  <div className="text-white/50 text-xs mt-0.5">Pencil Hardness</div>
+                  <div className="text-white/50 text-xs mt-0.5">Scratch Hardness</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-copper font-bold text-xl">5 Yr</div>
-                  <div className="text-white/50 text-xs mt-0.5">Warranty</div>
+                  <div className="text-copper font-bold text-xl">German PUR</div>
+                  <div className="text-white/50 text-xs mt-0.5">Bonding Tech</div>
                 </div>
                 <div className="text-center">
                   <div className="text-copper font-bold text-xl">Class B1</div>
@@ -521,30 +521,30 @@ export default async function ProductPage({
                   Physical Properties
                 </h3>
                 <dl>
-                  <SpecRow label="Material" value="PMMA (Polymethyl Methacrylate) Acrylic" />
-                  <SpecRow label="Adhesive" value="German PUR Hotmelt Adhesive" />
+                  <SpecRow label="Material" value="Optical-Grade PMMA Acrylic (Not PETG)" />
+                  <SpecRow label="Lamination" value="Factory Prelaminated (German PUR)" />
                   <SpecRow label="Standard Size" value={product.dimensions} />
-                  <SpecRow label="Thickness Options" value={product.thickness} />
-                  <SpecRow label="Core Material" value="18mm MDF or 12mm HDF" />
+                  <SpecRow label="Substrate Options" value="18mm E1 MDF, Premium Plywood, or Particle Board (PB)" />
+                  <SpecRow label="Balancing Layer" value="Matching Backer Included for 100% Stability" />
                   <SpecRow label="Surface Hardness" value="3H Pencil Hardness (EN ISO 15184)" />
                 </dl>
               </div>
 
               <div className="bg-gray-50 rounded-2xl p-6">
                 <h3 className="font-heading font-semibold text-navy text-base mb-4">
-                  Performance Properties
+                  Performance Blueprint
                 </h3>
                 <dl>
                   <SpecRow
-                    label="Scratch Resistance"
-                    value={product.technical_specs.scratch_resistance}
+                    label="Reflectivity"
+                    value="95% (Highest Optical Clarity)"
                   />
                   <SpecRow label="UV Stability" value={product.technical_specs.uv_stability} />
                   <SpecRow
                     label="Anti-Fingerprint"
-                    value={product.technical_specs.anti_fingerprint ? "Yes — nano-coating" : "No"}
+                    value={product.technical_specs.anti_fingerprint ? "Yes — Advanced Nano-coating" : "No"}
                   />
-                  <SpecRow label="Moisture Resistance" value="Excellent — non-porous PMMA surface" />
+                  <SpecRow label="Processing" value="Carpenter Friendly: On-site cutting & drilling" />
                   <SpecRow label="Fire Rating" value={product.technical_specs.fire_rating} />
                   <SpecRow label="Warranty" value={product.technical_specs.warranty} />
                 </dl>

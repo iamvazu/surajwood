@@ -2,20 +2,21 @@ import { getHomepageData } from "@/lib/sanity";
 import Hero from "@/components/sections/Hero";
 import ProductGrid from "@/components/sections/ProductGrid";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import HomeTechnicalComparison from "@/components/sections/HomeTechnicalComparison";
 import ApplicationShowcase from "@/components/sections/ApplicationShowcase";
 import TestimonialCarousel from "@/components/sections/TestimonialCarousel";
 import CTABanner from "@/components/sections/CTABanner";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SurajWood | Premium Acrylic Panels for Indian Interiors",
+  title: "SurajWood | Premium Factory Prelaminated Acrylic Panels",
   description:
-    "India's leading acrylic panel manufacturer. Shop ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS panels for kitchens, wardrobes & commercial spaces. Factory at Bahadurgarh, Haryana. Pan-India delivery.",
+    "India's leading manufacturer of prelaminated PMMA acrylic panels. SurajWood outperforms PETG and laminates with German PUR technology, 3H scratch resistance, and optical clarity. Shop ACRYLUX, ACRYSILK, and more.",
   alternates: { canonical: "https://www.surajwood.com" },
   openGraph: {
-    title: "SurajWood | Premium Acrylic Panels for Indian Interiors",
+    title: "SurajWood | Technical Authority in Acrylic Panels",
     description:
-      "India's leading acrylic panel manufacturer. European technology, Indian manufacturing, pan-India delivery.",
+      "Superior to PETG and laminates. Factory prelaminated PMMA acrylic panels on MDF, Plywood, and PB substrates.",
     url: "https://www.surajwood.com",
     siteName: "SurajWood",
     locale: "en_IN",
@@ -31,6 +32,7 @@ export default async function HomePage() {
       <Hero />
       <ProductGrid products={data.featured_products} />
       <WhyChooseUs />
+      <HomeTechnicalComparison />
       <ApplicationShowcase />
       <TestimonialCarousel testimonials={data.testimonials} />
       <CTABanner />

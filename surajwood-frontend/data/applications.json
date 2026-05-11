@@ -1,0 +1,69 @@
+{
+  "applications": [
+    {
+      "slug": "kitchens",
+      "name": "Kitchen",
+      "namePlural": "Kitchens",
+      "benefits": [
+        "Oil and turmeric resistant surface — no permanent stains from cooking",
+        "Moisture-proof PMMA acrylic prevents substrate swelling in humid cooking areas",
+        "3H pencil hardness scratch resistance handles daily utensil friction",
+        "Class B1 fire-rated for enhanced safety near cooking zones",
+        "German PUR bonding technology ensures no delamination from heat/steam"
+      ],
+      "roomContext": "The kitchen is the 'stress-test' area of any home. SurajWood acrylic panels are engineered to handle the unique combination of high heat, moisture, and spices found in Indian cooking environments."
+    },
+    {
+      "slug": "wardrobes",
+      "name": "Wardrobe",
+      "namePlural": "Wardrobes",
+      "benefits": [
+        "Advanced anti-fingerprint coating keeps large door faces pristine",
+        "Lightweight PMMA layer reduces strain on high-rise wardrobe hinges",
+        "Mirror-finish high gloss makes bedrooms feel larger and more premium",
+        "Zero-fading UV stability even if placed directly facing windows",
+        "Available in 50+ shades to match any bedroom interior theme"
+      ],
+      "roomContext": "Bedroom wardrobes demand large, flat, and flawless surfaces. SurajWood's perfectly calibrated panels ensure your shutters remain straight and stunning for decades."
+    },
+    {
+      "slug": "tv-units",
+      "name": "TV Unit",
+      "namePlural": "TV Units",
+      "benefits": [
+        "High-clarity acrylic glass finish for a sophisticated entertainment zone",
+        "Dust-repellent matte surfaces reduce cleaning effort around electronics",
+        "Sophisticated light reflection enhances the home theatre experience",
+        "Machinable edges allow for seamless handle-less and grooved designs",
+        "Class B1 fire-rated for safety around electrical equipment"
+      ],
+      "roomContext": "The TV unit is the focal point of the living room. Our panels provide the premium backdrop needed for high-end electronics and sophisticated lighting setups."
+    },
+    {
+      "slug": "bathroom-vanities",
+      "name": "Bathroom Vanity",
+      "namePlural": "Bathroom Vanities",
+      "benefits": [
+        "100% moisture-resistant surface — zero damage from water splashes",
+        "Non-porous PMMA prevents mould and fungal growth in damp areas",
+        "Easy-wipe surface handles soap scum and toothpaste marks effortlessly",
+        "Consistent colour matching for cabinets and under-sink units",
+        "PUR adhesive technology prevents edge-failure in high-humidity zones"
+      ],
+      "roomContext": "Bathroom interiors are often neglected but require the most durable materials. SurajWood acrylic is the perfect upgrade from moisture-prone laminates."
+    },
+    {
+      "slug": "wall-paneling",
+      "name": "Wall Paneling",
+      "namePlural": "Wall Paneling",
+      "benefits": [
+        "Large 8ft x 4ft sheets provide seamless vertical coverage",
+        "Conceals wall imperfections while adding a luxury architectural finish",
+        "Impact-resistant surface for high-traffic corridors and lobbies",
+        "Easy installation over existing walls for rapid interior upgrades",
+        "Sophisticated light diffusion from Acrysilk and Acrymatte finishes"
+      ],
+      "roomContext": "Wall cladding transforms cold walls into warm, textured architectural features. Our panels offer a lightweight, durable, and premium alternative to stone or wood cladding."
+    }
+  ]
+}

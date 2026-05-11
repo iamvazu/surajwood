@@ -16,7 +16,7 @@ import {
 } from "@/lib/schema";
 
 // ---------------------------------------------------------------------------
-// Static params — all 50 combinations
+// Static params — all 1,250 combinations
 // ---------------------------------------------------------------------------
 
 export async function generateStaticParams() {
@@ -55,13 +55,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       ],
       locale: "en_IN",
-      type: "website",
+      type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: data.seo.title,
+      description: data.seo.description,
+      images: [`https://www.surajwood.com/images/og/${params.product}-${params.application}.jpg`],
+    }
   };
 }
 
 // ---------------------------------------------------------------------------
-// FAQ generator — three questions specific to each combination
+// FAQ generator — specific to each combination
 // ---------------------------------------------------------------------------
 
 function buildFAQs(data: PSEOPageData) {
@@ -69,54 +75,33 @@ function buildFAQs(data: PSEOPageData) {
   return [
     {
       question: `What is the best acrylic panel for ${application.namePlural.toLowerCase()} in ${city.name}?`,
-      answer: `${product.name} ${product.finishLabel} acrylic panels are an outstanding choice for ${application.namePlural.toLowerCase()} in ${city.name}. ${product.description} Given ${city.climateNote.toLowerCase()}, the product's moisture-resistant, non-porous PMMA surface and 10-year UV stability guarantee performance over the long term. Contact our ${city.name} team for a project-specific recommendation.`,
+      answer: `${product.name} ${product.finishLabel} acrylic panels are the gold standard for ${application.namePlural.toLowerCase()} in ${city.name}. Unlike standard laminates, our panels feature German PUR hotmelt bonding and a 1.0mm - 1.5mm PMMA layer. Given ${city.name}'s ${city.tier === 1 ? "high-end design expectations" : "need for durable furniture"}, these panels offer the perfect mix of aesthetics and 10-year UV stability.`,
     },
     {
       question: `How does ${city.name}'s climate affect ${product.name} acrylic panels?`,
-      answer: `${product.name} is specifically engineered to handle varied Indian climatic conditions. ${city.climateNote} The PMMA acrylic layer is bonded to an 18mm MDF substrate using German PUR hotmelt adhesive, which prevents delamination across temperature and humidity cycles. The surface carries a Class B1 fire rating and 3H scratch-resistance rating, ensuring consistent performance in ${city.name}'s environment.`,
+      answer: `${city.climateNote} Suraj Wood panels are engineered to be non-porous and moisture-proof. The PMMA acrylic surface prevents fungal growth and swelling, which is a common issue in ${city.name} during monsoons. The Class B1 fire rating also adds a layer of safety for ${application.name.toLowerCase()} use.`,
     },
     {
-      question: `What is the price of ${product.name} acrylic panels in ${city.name}?`,
-      answer: `${product.name} acrylic panel pricing in ${city.name} varies depending on the sheet dimensions (standard 8ft × 4ft), colour selection, core material (18mm MDF or plywood substrate), and order quantity. We supply direct from our manufacturing facility in Bahadurgarh, Haryana, keeping costs competitive. ${city.dealerAvailability} Contact our sales team at +91-9999995553 or sales@surajwood.com for a project quotation.`,
+      question: `Why choose SurajWood over local laminates in ${city.name}?`,
+      answer: `SurajWood offers 3H scratch resistance and anti-fingerprint technology that traditional laminates lack. In ${city.name}, where dust and usage can be high, our panels stay cleaner for longer and never delaminate thanks to the PUR bonding process. We provide direct supply to ${city.name} to ensure the most competitive pricing for premium quality.`,
     },
   ];
 }
-
-// ---------------------------------------------------------------------------
-// Related page helpers
-// ---------------------------------------------------------------------------
-
-const ALL_PRODUCTS = ["acrylux", "acrysilk", "acrymatte", "acryglass", "acryglass-matte"];
-const ALL_CITIES = ["delhi", "mumbai", "bangalore", "hyderabad", "chennai"];
-const PRODUCT_DISPLAY: Record<string, string> = {
-  acrylux: "ACRYLUX",
-  acrysilk: "ACRYSILK",
-  acrymatte: "ACRYMATTE",
-  acryglass: "ACRYGLASS",
-  "acryglass-matte": "ACRYGLASS MATTE",
-};
-const CITY_DISPLAY: Record<string, string> = {
-  delhi: "Delhi",
-  mumbai: "Mumbai",
-  bangalore: "Bangalore",
-  hyderabad: "Hyderabad",
-  chennai: "Chennai",
-};
 
 // ---------------------------------------------------------------------------
 // Application benefits icon map
 // ---------------------------------------------------------------------------
 
 const BENEFIT_ICONS: Record<number, string> = {
-  0: "🌊",
-  1: "💪",
-  2: "✨",
-  3: "☀️",
+  0: "🛡️",
+  1: "💧",
+  2: "💎",
+  3: "🧼",
   4: "🔥",
 };
 
 // ---------------------------------------------------------------------------
-// Product spec data (static, mirrors PSEO product data)
+// Product spec data
 // ---------------------------------------------------------------------------
 
 const PRODUCT_SPECS: Record<
@@ -125,33 +110,33 @@ const PRODUCT_SPECS: Record<
 > = {
   acrylux: {
     thickness: "1mm acrylic on 18mm MDF (total 19mm)",
-    dimensions: "8ft × 4ft (2440mm × 1220mm) standard sheet",
-    colours: "37+ satin shades including solids, pearls, and metallics",
-    material: "PMMA acrylic + German PUR hotmelt adhesive + 18mm MDF substrate",
+    dimensions: "8ft × 4ft (2440mm × 1220mm)",
+    colours: "37+ shades (Solids, Pearls, Metallics)",
+    material: "PMMA polymer + PUR adhesive + E1 MDF",
   },
   acrysilk: {
-    thickness: "1mm micro-textured acrylic on 18mm MDF (total 19mm)",
-    dimensions: "8ft × 4ft (2440mm × 1220mm) standard sheet",
-    colours: "30+ soft-satin shades with superior anti-fingerprint coating",
-    material: "Micro-textured PMMA acrylic + PUR adhesive + 18mm MDF",
+    thickness: "1mm micro-textured acrylic on 18mm MDF",
+    dimensions: "8ft × 4ft (2440mm × 1220mm)",
+    colours: "30+ soft-satin shades (Anti-fingerprint)",
+    material: "Micro-textured PMMA + PUR adhesive + E1 MDF",
   },
   acrymatte: {
-    thickness: "1mm nano-coated acrylic on 18mm MDF (total 19mm)",
-    dimensions: "8ft × 4ft (2440mm × 1220mm) standard sheet",
-    colours: "40+ deep matte shades including dark tones and warm naturals",
-    material: "Nano anti-fingerprint PMMA acrylic + PUR adhesive + 18mm MDF",
+    thickness: "1mm nano-coated acrylic on 18mm MDF",
+    dimensions: "8ft × 4ft (2440mm × 1220mm)",
+    colours: "40+ deep matte shades",
+    material: "Nano PMMA + PUR adhesive + E1 MDF",
   },
   acryglass: {
-    thickness: "1.5mm high-gloss acrylic on 18mm MDF (total 19.5mm)",
-    dimensions: "8ft × 4ft (2440mm × 1220mm) standard sheet",
-    colours: "50+ high-gloss shades with 95% light reflectivity",
-    material: "Optical-grade PMMA acrylic + German PUR adhesive + 18mm MDF",
+    thickness: "1.5mm optical-grade acrylic on 18mm MDF",
+    dimensions: "8ft × 4ft (2440mm × 1220mm)",
+    colours: "50+ high-gloss shades",
+    material: "High-clarity PMMA + PUR adhesive + E1 MDF",
   },
   "acryglass-matte": {
-    thickness: "1.5mm glass-clarity matte acrylic on 18mm MDF (total 19.5mm)",
-    dimensions: "8ft × 4ft (2440mm × 1220mm) standard sheet",
-    colours: "25+ luxury matte-glass shades for premium interiors",
-    material: "Optical-grade matte PMMA + PUR adhesive + 18mm MDF substrate",
+    thickness: "1.5mm matte-finish glass acrylic on 18mm MDF",
+    dimensions: "8ft × 4ft (2440mm × 1220mm)",
+    colours: "25+ luxury matte-glass shades",
+    material: "Optical matte PMMA + PUR adhesive + E1 MDF",
   },
 };
 
@@ -163,7 +148,7 @@ export default function PSEOPage({ params }: PageProps) {
   const data = getPSEOData(params.product, params.application, params.city);
   if (!data) notFound();
 
-  const { product, application, city, seo, introductionParagraphs, localContextHeading, localContextBody } = data;
+  const { product, application, city, seo, introductionParagraphs, aeoSummary, localContextHeading, localContextBody, comparisonData } = data;
   const faqs = buildFAQs(data);
   const specs = PRODUCT_SPECS[product.slug] ?? PRODUCT_SPECS.acrylux;
 
@@ -215,9 +200,6 @@ export default function PSEOPage({ params }: PageProps) {
     ],
   };
 
-  const otherCities = ALL_CITIES.filter((c) => c !== city.slug);
-  const otherProducts = ALL_PRODUCTS.filter((p) => p !== product.slug);
-
   return (
     <>
       <SchemaMarkup
@@ -267,204 +249,262 @@ export default function PSEOPage({ params }: PageProps) {
       </nav>
 
       {/* ── Hero / H1 ───────────────────────────────────────────────────── */}
-      <section className="bg-navy py-14 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap items-center gap-3 mb-4">
-            <span className="inline-block bg-copper/20 text-copper text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
-              {product.finishLabel} Finish
+      <section className="bg-navy py-14 px-6 overflow-hidden relative">
+        {/* Decorative background element */}
+        <div className="absolute top-0 right-0 w-1/3 h-full bg-copper/5 -skew-x-12 transform translate-x-1/2" />
+        
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="flex flex-wrap items-center gap-3 mb-6">
+            <span className="inline-block bg-copper text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+              {product.finishLabel} Series
             </span>
-            <span className="inline-block bg-white/10 text-white/70 text-xs px-3 py-1 rounded-full">
+            {city.tier === 1 && (
+              <span className="inline-block bg-white/10 text-copper-light text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-copper/30">
+                Premium Market Selection
+              </span>
+            )}
+            <span className="inline-block bg-white/5 text-white/50 text-[10px] px-3 py-1 rounded-full border border-white/10 uppercase tracking-widest">
               {city.name}, {city.state}
             </span>
           </div>
-          <h1 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white leading-tight max-w-3xl">
+          <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] max-w-4xl">
             {seo.h1}
           </h1>
-          <p className="mt-4 text-white/70 text-lg max-w-2xl leading-relaxed">
-            {seo.description}
+          <p className="mt-6 text-white/80 text-xl max-w-2xl leading-relaxed font-light italic">
+            Transforming {city.name} interiors with German-engineered acrylic excellence.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <div className="mt-10 flex flex-wrap gap-5">
             <a
               href="#get-quote"
-              className="inline-flex items-center gap-2 bg-copper hover:bg-copper-light text-white font-semibold px-7 py-3.5 rounded-lg transition-colors duration-300"
+              className="inline-flex items-center gap-2 bg-copper hover:bg-copper-light text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg shadow-copper/20 hover:-translate-y-1"
             >
-              Request Quote
+              Get Price Quote
             </a>
             <a
-              href={`/products/${product.slug}`}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-7 py-3.5 rounded-lg transition-colors duration-300 border border-white/20"
+              href="#technical"
+              className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 border border-white/20 backdrop-blur-sm"
             >
-              View Full Specs
+              Technical Specs
             </a>
           </div>
         </div>
       </section>
 
-      {/* ── Trust bar ───────────────────────────────────────────────────── */}
-      <div className="bg-navy-light border-t border-white/10 py-4 px-6">
-        <div className="max-w-7xl mx-auto flex flex-wrap gap-6 justify-center md:justify-start text-sm text-white/60">
-          {[
-            "15+ Years Manufacturing",
-            "50+ Premium Shades",
-            "10,000+ Projects Delivered",
-            "5-Year Warranty",
-            "Pan-India Delivery",
-          ].map((stat) => (
-            <span key={stat} className="flex items-center gap-1.5">
-              <span className="text-copper">✓</span> {stat}
-            </span>
-          ))}
+      {/* ── AEO Quick Answer (Answer Engine Optimization) ────────────────── */}
+      <section className="bg-cream-dark py-8 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-white rounded-2xl p-8 border-l-8 border-copper shadow-sm">
+            <h2 className="text-navy font-bold text-sm uppercase tracking-widest mb-3 flex items-center gap-2">
+              <span className="w-2 h-2 bg-copper rounded-full animate-pulse" />
+              Quick Summary for Architects & Homeowners
+            </h2>
+            <p className="text-gray-800 text-lg leading-relaxed font-medium italic">
+              "{aeoSummary}"
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* ── Introduction ────────────────────────────────────────────────── */}
-      <section className="bg-white py-14 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-          <div className="lg:col-span-2 space-y-5">
-            <h2 className="font-heading font-bold text-2xl text-navy">
-              {product.name} Acrylic Panels for {application.namePlural} in{" "}
-              {city.name}
+      {/* ── Introduction & Specs ────────────────────────────────────────── */}
+      <section className="bg-white py-16 px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div className="lg:col-span-8 space-y-6">
+            <h2 className="font-heading font-bold text-3xl text-navy">
+              Elevating {application.namePlural} in {city.name} with {product.name}
             </h2>
             {introductionParagraphs.map((para, i) => (
-              <p key={i} className="text-gray-700 leading-relaxed text-base">
+              <p key={i} className="text-gray-700 leading-relaxed text-lg">
                 {para}
               </p>
             ))}
+            
+            {/* Comparison Table Section (GEO Optimization) */}
+            <div className="mt-12 pt-12 border-t border-gray-100">
+              <h3 className="font-heading font-bold text-2xl text-navy mb-6">
+                Material Comparison: Acrylic vs. Alternatives
+              </h3>
+              <div className="overflow-x-auto rounded-xl border border-gray-200">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="bg-navy text-white">
+                      <th className="p-4 text-sm font-semibold border-r border-white/10">Feature</th>
+                      <th className="p-4 text-sm font-semibold border-r border-white/10">SurajWood Acrylic</th>
+                      <th className="p-4 text-sm font-semibold border-r border-white/10">PETG Board</th>
+                      <th className="p-4 text-sm font-semibold border-r border-white/10">Laminate</th>
+                      <th className="p-4 text-sm font-semibold">PU Paint</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-sm">
+                    {comparisonData.map((row, i) => (
+                      <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-cream/30"}>
+                        <td className="p-4 font-bold text-navy border-r border-gray-200">{row.feature}</td>
+                        <td className="p-4 text-gray-800 font-semibold bg-copper/5 border-r border-gray-200">{row.surajWood}</td>
+                        <td className="p-4 text-gray-600 border-r border-gray-200">{row.petg}</td>
+                        <td className="p-4 text-gray-600 border-r border-gray-200">{row.laminate}</td>
+                        <td className="p-4 text-gray-600">{row.puPaint}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="mt-4 text-xs text-gray-500 italic">
+                *Data based on standard laboratory tests for chemical resistance and surface hardness.
+              </p>
+            </div>
           </div>
 
-          {/* Quick spec card */}
-          <div className="bg-cream rounded-2xl p-6 border border-gray-100 sticky top-24">
-            <h3 className="font-heading font-semibold text-navy text-lg mb-4">
-              {product.name} At a Glance
-            </h3>
-            <dl className="space-y-3 text-sm">
-              {[
-                { label: "Finish", value: product.finishLabel },
-                { label: "Thickness", value: specs.thickness },
-                { label: "Sheet Size", value: specs.dimensions },
-                { label: "Colours", value: specs.colours },
-                { label: "Scratch Resistance", value: "3H pencil hardness" },
-                { label: "UV Stability", value: "10+ years, no yellowing" },
-                { label: "Fire Rating", value: "Class B1" },
-                { label: "Warranty", value: "5 years" },
-              ].map(({ label, value }) => (
-                <div key={label} className="flex justify-between gap-4">
-                  <dt className="text-gray-500 shrink-0">{label}</dt>
-                  <dd className="text-gray-800 font-medium text-right">{value}</dd>
-                </div>
-              ))}
-            </dl>
-            <a
-              href={`/products/${product.slug}`}
-              className="mt-5 block text-center text-copper font-medium text-sm hover:text-copper-light transition-colors"
-            >
-              Full technical specification →
-            </a>
+          {/* Technical Spec Sidebar */}
+          <div className="lg:col-span-4 sticky top-24">
+            <div className="bg-navy rounded-3xl p-8 text-white shadow-2xl">
+              <h3 className="font-heading font-bold text-xl mb-6 border-b border-white/10 pb-4">
+                Technical Blueprint
+              </h3>
+              <dl className="space-y-4">
+                {[
+                  { label: "Surface Layer", value: "1.0mm - 1.5mm PMMA Polymer" },
+                  { label: "Core", value: "18mm E1 Grade MDF" },
+                  { label: "Bonding", value: "German PUR Hotmelt" },
+                  { label: "Finish", value: product.finishLabel },
+                  { label: "Hardness", value: "3H (Anti-scratch)" },
+                  { label: "UV Stability", value: "Xenon Arc Tested" },
+                  { label: "Fire Safety", value: "Class B1 Rated" },
+                ].map(({ label, value }) => (
+                  <div key={label} className="flex justify-between items-baseline gap-4 border-b border-white/5 pb-2">
+                    <dt className="text-white/50 text-xs uppercase tracking-widest">{label}</dt>
+                    <dd className="text-white font-medium text-right text-sm">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+              <a
+                href="#get-quote"
+                className="mt-8 block w-full text-center bg-white text-navy font-bold py-3 rounded-xl hover:bg-copper hover:text-white transition-all duration-300"
+              >
+                Get Sample Kit
+              </a>
+            </div>
+            
+            <div className="mt-6 p-6 bg-cream border border-gray-100 rounded-2xl flex items-center gap-4">
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-2xl shadow-sm">
+                🚚
+              </div>
+              <div>
+                <p className="text-navy font-bold text-sm">Direct Supply in {city.name}</p>
+                <p className="text-gray-500 text-xs">Project delivery within 3-5 days</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* ── Application Benefits ─────────────────────────────────────────── */}
-      <section className="bg-cream py-14 px-6">
+      <section className="bg-cream py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="font-heading font-bold text-2xl text-navy mb-2">
-            Why {product.name} for {application.namePlural}?
-          </h2>
-          <p className="text-gray-600 mb-8 max-w-2xl">
-            {application.roomContext}
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="text-center mb-16">
+            <h2 className="font-heading font-bold text-3xl md:text-4xl text-navy">
+              Engineered for the {application.name} Environment
+            </h2>
+            <div className="w-20 h-1.5 bg-copper mx-auto mt-4 rounded-full" />
+            <p className="text-gray-600 mt-6 max-w-2xl mx-auto text-lg leading-relaxed">
+              {application.roomContext}
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {application.benefits.map((benefit, i) => (
               <div
                 key={i}
-                className="bg-white rounded-xl p-5 border border-gray-100 flex gap-4 items-start"
+                className="group bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2"
               >
-                <span className="text-2xl shrink-0" aria-hidden="true">
-                  {BENEFIT_ICONS[i] ?? "✓"}
-                </span>
-                <p className="text-gray-700 text-sm leading-relaxed">{benefit}</p>
+                <div className="w-14 h-14 bg-cream flex items-center justify-center text-3xl rounded-2xl mb-6 group-hover:bg-copper group-hover:text-white transition-colors">
+                  {BENEFIT_ICONS[i] ?? "✨"}
+                </div>
+                <p className="text-gray-800 text-lg leading-snug font-medium">
+                  {benefit}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── Local Context ────────────────────────────────────────────────── */}
-      <section className="bg-white py-14 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <span className="text-copper text-sm font-semibold uppercase tracking-wider">
-              Local Market Insight
+      {/* ── Local Insights Section ───────────────────────────────────────── */}
+      <section className="bg-white py-20 px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="relative">
+             <div className="absolute -top-10 -left-10 w-40 h-40 bg-cream rounded-full -z-10" />
+            <span className="text-copper font-bold text-sm uppercase tracking-widest">
+              Regional Expertise: {city.name} Market
             </span>
-            <h2 className="font-heading font-bold text-2xl text-navy mt-2 mb-4">
+            <h2 className="font-heading font-bold text-4xl text-navy mt-4 mb-8 leading-tight">
               {localContextHeading}
             </h2>
-            <p className="text-gray-700 leading-relaxed">{localContextBody}</p>
-            <div className="mt-6 p-4 bg-cream rounded-xl border-l-4 border-copper">
-              <p className="text-sm text-gray-700 leading-relaxed">
-                <span className="font-semibold text-navy">Climate note: </span>
-                {city.climateNote}
+            <div className="prose prose-lg text-gray-700 max-w-none">
+              <p className="leading-relaxed">
+                {localContextBody}
               </p>
             </div>
-          </div>
-          <div className="bg-navy rounded-2xl p-8 text-white">
-            <h3 className="font-heading font-semibold text-xl mb-4">
-              Supply & Availability in {city.name}
-            </h3>
-            <p className="text-white/75 leading-relaxed text-sm">
-              {city.dealerAvailability}
-            </p>
-            <div className="mt-6 space-y-3">
-              {[
-                `Supplying ${city.name} projects since 2010`,
-                "Sheet-to-sheet colour consistency guaranteed",
-                "Custom colour matching available on request",
-                "Express delivery for urgent project requirements",
-              ].map((point) => (
-                <div key={point} className="flex gap-2 items-start">
-                  <span className="text-copper mt-0.5 shrink-0">✓</span>
-                  <span className="text-white/80 text-sm">{point}</span>
-                </div>
-              ))}
+            
+            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="p-6 bg-cream rounded-2xl border-l-4 border-copper">
+                <h4 className="font-bold text-navy text-sm mb-2 uppercase tracking-wide">Climate Resilience</h4>
+                <p className="text-gray-600 text-sm leading-relaxed italic">{city.climateNote}</p>
+              </div>
+              <div className="p-6 bg-navy text-white rounded-2xl">
+                <h4 className="font-bold text-copper-light text-sm mb-2 uppercase tracking-wide">Supply Logistics</h4>
+                <p className="text-white/80 text-sm leading-relaxed">{city.dealerAvailability}</p>
+              </div>
             </div>
+          </div>
+          
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square lg:aspect-auto lg:h-[600px] bg-navy flex items-center justify-center p-12 text-center">
+             <div className="space-y-8">
+                <div className="text-6xl">🇮🇳</div>
+                <h3 className="text-3xl font-bold text-white font-heading">Pan-India Support, <br/>Local {city.name} Expertise</h3>
+                <div className="space-y-4 text-white/70">
+                  <p>✓ 15+ Years Manufacturing Experience</p>
+                  <p>✓ 10,000+ Premium Projects Completed</p>
+                  <p>✓ Direct Factory-to-Site Supply</p>
+                  <p>✓ 5-Year Comprehensive Warranty</p>
+                </div>
+                <a href="#get-quote" className="inline-block bg-copper text-white font-bold px-10 py-4 rounded-full hover:bg-white hover:text-navy transition-all">
+                  Contact Local Expert
+                </a>
+             </div>
           </div>
         </div>
       </section>
 
-      {/* ── Material composition detail ──────────────────────────────────── */}
-      <section className="bg-cream-dark py-12 px-6">
+      {/* ── Technical Deep-Dive (Entity Rich) ─────────────────────────────── */}
+      <section id="technical" className="bg-navy-light py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="font-heading font-bold text-xl text-navy mb-6">
-            {product.name} Technical Composition
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="mb-12">
+            <h2 className="font-heading font-bold text-3xl text-white">
+              The Chemistry of Excellence
+            </h2>
+            <p className="text-white/50 mt-2">Deep technical breakdown of {product.name} construction.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Surface Layer",
-                detail:
-                  "PMMA (Polymethyl Methacrylate) acrylic — optical-grade polymer with " +
-                  product.finishLabel.toLowerCase() +
-                  " surface treatment",
+                title: "PMMA Surface Layer",
+                detail: "We use optical-grade Polymethyl Methacrylate (PMMA), an inorganic polymer known for its extreme transparency and UV stability. Unlike cheaper PVC panels, PMMA does not yellow, crack, or release VOCs over time.",
+                icon: "🔬"
               },
               {
-                title: "Bonding Technology",
-                detail:
-                  "German PUR (Polyurethane Reactive) hotmelt adhesive for zero-void lamination across 100% of the panel surface",
+                title: "German PUR Bonding",
+                detail: "Our panels are bonded using Polyurethane Reactive (PUR) hotmelt. This chemical reaction creates an irreversible cross-linked bond that is 100% moisture-proof and heat-resistant up to 120°C.",
+                icon: "⚙️"
               },
               {
-                title: "Core Substrate",
-                detail:
-                  "18mm E1-grade MDF (Medium Density Fibreboard) — flat, stable, machinable. Plywood substrate available on request.",
-              },
-              {
-                title: "Quality Assurance",
-                detail:
-                  "100% inspection at three production stages: incoming material, post-lamination, and pre-despatch. Sheet-to-sheet colour tolerance Delta E < 0.5.",
-              },
-            ].map(({ title, detail }) => (
-              <div key={title} className="bg-white rounded-xl p-5 border border-gray-100">
-                <h3 className="font-semibold text-navy text-sm mb-2">{title}</h3>
-                <p className="text-gray-600 text-xs leading-relaxed">{detail}</p>
+                title: "E1-Grade MDF Core",
+                detail: "We utilize E1 standard Medium Density Fibreboard with low formaldehyde emission. The core is perfectly calibrated to ±0.1mm to ensure a ripple-free, mirror-like reflection on the acrylic face.",
+                icon: "🪵"
+              }
+            ].map((item) => (
+              <div key={item.title} className="bg-white/5 p-8 rounded-3xl border border-white/10">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-white font-bold text-xl mb-4">{item.title}</h3>
+                <p className="text-white/60 leading-relaxed text-sm">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -472,16 +512,17 @@ export default function PSEOPage({ params }: PageProps) {
       </section>
 
       {/* ── Lead Capture Form ─────────────────────────────────────────────── */}
-      <section id="get-quote" className="bg-white py-14 px-6">
+      <section id="get-quote" className="bg-white py-24 px-6 relative">
+        <div className="absolute inset-0 bg-cream/30 -z-10" />
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="font-heading font-bold text-2xl text-navy">
-                Get a Quote for {city.name}
+          <div className="max-w-4xl mx-auto bg-white rounded-[40px] shadow-2xl p-8 md:p-16 border border-gray-100">
+            <div className="text-center mb-12">
+              <span className="text-copper font-bold text-sm uppercase tracking-widest">Inquiry Desk</span>
+              <h2 className="font-heading font-bold text-4xl text-navy mt-4">
+                Partner with SurajWood in {city.name}
               </h2>
-              <p className="text-gray-600 mt-2">
-                Tell us about your project and our {city.name} team will respond
-                within 4 business hours.
+              <p className="text-gray-600 mt-4 text-lg">
+                Request project-specific pricing and physical samples. Our {city.name} consulting team responds within 4 hours.
               </p>
             </div>
             <PSEOLeadForm
@@ -493,28 +534,28 @@ export default function PSEOPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* ── FAQ ─────────────────────────────────────────────────────────── */}
-      <section className="bg-cream py-14 px-6">
-        <div className="max-w-7xl mx-auto max-w-3xl mx-auto">
-          <h2 className="font-heading font-bold text-2xl text-navy mb-8">
-            Frequently Asked Questions
+      {/* ── FAQ Section (AEO) ───────────────────────────────────────────── */}
+      <section className="bg-cream py-20 px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-heading font-bold text-3xl text-navy mb-10 text-center">
+            Common Inquiries for {city.name} Projects
           </h2>
-          <div className="space-y-4">
+          <div className="space-y-6">
             {faqs.map((faq, i) => (
               <details
                 key={i}
-                className="group bg-white rounded-xl border border-gray-100 overflow-hidden"
+                className="group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <summary className="flex justify-between items-start gap-4 p-5 cursor-pointer list-none font-medium text-navy hover:text-copper transition-colors">
-                  <span>{faq.question}</span>
+                <summary className="flex justify-between items-center gap-4 p-6 cursor-pointer list-none font-bold text-navy hover:text-copper transition-colors">
+                  <span className="text-lg">{faq.question}</span>
                   <span
-                    className="text-copper text-xl shrink-0 group-open:rotate-45 transition-transform duration-200"
+                    className="w-8 h-8 rounded-full bg-cream flex items-center justify-center text-copper text-xl group-open:rotate-45 transition-transform duration-300"
                     aria-hidden="true"
                   >
                     +
                   </span>
                 </summary>
-                <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                <div className="px-6 pb-6 text-gray-700 text-lg leading-relaxed border-t border-gray-50 pt-6">
                   {faq.answer}
                 </div>
               </details>
@@ -523,72 +564,21 @@ export default function PSEOPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* ── Related pages ─────────────────────────────────────────────────── */}
-      <section className="bg-white py-14 px-6">
+      {/* ── Internal Link Network ────────────────────────────────────────── */}
+      <section className="bg-white py-20 px-6 border-t border-gray-100">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {/* Same product, other cities */}
-            <div>
-              <h2 className="font-heading font-semibold text-lg text-navy mb-4">
-                {product.name} in Other Cities
-              </h2>
-              <ul className="space-y-2">
-                {otherCities.map((c) => (
-                  <li key={c}>
-                    <Link
-                      href={`/${product.slug}/${application.slug}/${c}`}
-                      className="flex items-center gap-2 text-gray-700 hover:text-copper transition-colors text-sm"
-                    >
-                      <span className="text-copper text-xs">→</span>
-                      {product.name} {product.finishLabel} Acrylic{" "}
-                      {application.namePlural} in {CITY_DISPLAY[c] ?? c}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Same city, other products */}
-            <div>
-              <h2 className="font-heading font-semibold text-lg text-navy mb-4">
-                Other Acrylic Panels in {city.name}
-              </h2>
-              <ul className="space-y-2">
-                {otherProducts.map((p) => (
-                  <li key={p}>
-                    <Link
-                      href={`/${p}/${application.slug}/${city.slug}`}
-                      className="flex items-center gap-2 text-gray-700 hover:text-copper transition-colors text-sm"
-                    >
-                      <span className="text-copper text-xs">→</span>
-                      {PRODUCT_DISPLAY[p] ?? p} Acrylic {application.namePlural}{" "}
-                      in {city.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Internal links to parent pages */}
-          <div className="mt-10 pt-8 border-t border-gray-100 flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href={`/products/${product.slug}`}
-              className="inline-flex items-center gap-2 text-sm text-navy font-medium hover:text-copper transition-colors border border-navy/20 rounded-lg px-4 py-2.5 hover:border-copper"
+              className="px-8 py-4 bg-navy text-white font-bold rounded-full hover:bg-copper transition-all"
             >
-              Full {product.name} Product Page →
-            </Link>
-            <Link
-              href={`/applications/${application.slug}`}
-              className="inline-flex items-center gap-2 text-sm text-navy font-medium hover:text-copper transition-colors border border-navy/20 rounded-lg px-4 py-2.5 hover:border-copper"
-            >
-              {application.namePlural} Application Guide →
+              Explore Full {product.name} Collection →
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 text-sm text-navy font-medium hover:text-copper transition-colors border border-navy/20 rounded-lg px-4 py-2.5 hover:border-copper"
+              className="px-8 py-4 border-2 border-navy text-navy font-bold rounded-full hover:bg-navy hover:text-white transition-all"
             >
-              Contact Our {city.name} Team →
+              Contact Our {city.name} Office
             </Link>
           </div>
         </div>

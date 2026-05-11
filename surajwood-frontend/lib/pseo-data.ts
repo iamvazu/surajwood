@@ -1,6 +1,9 @@
+import citiesData from "@/data/cities.json";
+import appsData from "@/data/applications.json";
+
 /**
  * PSEO (Programmatic SEO) data matrix for SurajWood.
- * 5 products × 2 applications × 5 cities = 50 pages.
+ * 5 products × 5 applications × 50 cities = 1,250 pages.
  */
 
 // ---------------------------------------------------------------------------
@@ -27,6 +30,7 @@ export interface PSEOCity {
   slug: string;
   name: string;
   state: string;
+  tier: number;
   climateNote: string;
   designTrend: string;
   dealerAvailability: string;
@@ -44,8 +48,15 @@ export interface PSEOPageData {
   city: PSEOCity;
   seo: PSEOSEOMeta;
   introductionParagraphs: string[];
+  aeoSummary: string;
   localContextHeading: string;
   localContextBody: string;
+  comparisonData: {
+    feature: string;
+    surajWood: string;
+    laminate: string;
+    puPaint: string;
+  }[];
 }
 
 export interface PSEOParams {
@@ -102,101 +113,16 @@ const PSEO_PRODUCTS: Record<string, PSEOProduct> = {
 };
 
 // ---------------------------------------------------------------------------
-// Applications
+// Load from JSON
 // ---------------------------------------------------------------------------
 
-const PSEO_APPLICATIONS: Record<string, PSEOApplication> = {
-  kitchens: {
-    slug: "kitchens",
-    name: "Kitchen",
-    namePlural: "Kitchens",
-    benefits: [
-      "Moisture-resistant non-porous surface resists cooking humidity",
-      "3H scratch resistance handles daily kitchen use",
-      "Easy-clean surface wipes down in seconds after cooking",
-      "UV-stable finish maintains colour under kitchen lighting for 10+ years",
-      "Class B1 fire-rated for kitchen safety compliance",
-    ],
-    roomContext:
-      "The kitchen is the most demanding environment for interior surfaces — combining heat, moisture, oil vapour, and daily cleaning cycles. Suraj Wood acrylic panels are engineered specifically to handle these conditions.",
-  },
-  wardrobes: {
-    slug: "wardrobes",
-    name: "Wardrobe",
-    namePlural: "Wardrobes",
-    benefits: [
-      "Premium surface maintains finish through years of daily door handling",
-      "Anti-fingerprint coating keeps shutter faces clean",
-      "Available in 50+ colours including subtle wood textures and metallics",
-      "Lightweight construction reduces load on wardrobe frames",
-      "UV stable — no colour fading even near windows",
-    ],
-    roomContext:
-      "Bedroom wardrobes demand a finish that looks premium year after year while handling the gentle but constant use of daily door opening and closing. Suraj Wood acrylic panels are the preferred choice for luxury bedroom storage.",
-  },
-};
+const PSEO_CITIES: Record<string, PSEOCity> = Object.fromEntries(
+  citiesData.cities.map((c) => [c.slug, c as PSEOCity])
+);
 
-// ---------------------------------------------------------------------------
-// Cities
-// ---------------------------------------------------------------------------
-
-const PSEO_CITIES: Record<string, PSEOCity> = {
-  delhi: {
-    slug: "delhi",
-    name: "Delhi",
-    state: "Delhi NCR",
-    climateNote:
-      "Engineered for North India's extreme temperature variations, from 45°C summers to near-freezing winters. Our panels are tested to withstand these thermal cycles without warping or delamination.",
-    designTrend:
-      "Delhi's premium residential market favours bold statements — large format kitchens with dramatic colour contrasts, high-gloss surfaces for luxury apartments in South Delhi and Gurugram, and robust matte finishes for family homes in the NCR suburbs.",
-    dealerAvailability:
-      "Stocked and supplied direct from our factory at Bahadurgarh, Haryana — just 35km from central Delhi. Same-day despatch available for Delhi NCR orders.",
-  },
-  mumbai: {
-    slug: "mumbai",
-    name: "Mumbai",
-    state: "Maharashtra",
-    climateNote:
-      "Built for Mumbai's high-humidity coastal environment. Our moisture-resistant acrylic surface prevents swelling and warping common with wood-based alternatives in tropical climates.",
-    designTrend:
-      "Mumbai's premium apartment market, from Bandra to Worli to Lower Parel, demands surfaces that handle monsoon humidity without compromise. Compact, efficient kitchen designs and wardrobe solutions that maximise space in Mumbai's premium but space-constrained apartments are the dominant brief.",
-    dealerAvailability:
-      "Authorised dealers across Mumbai, Thane, and Navi Mumbai with stock held in Mumbai warehouses for quick project turnaround.",
-  },
-  bangalore: {
-    slug: "bangalore",
-    name: "Bangalore",
-    state: "Karnataka",
-    climateNote:
-      "Ideal for Bangalore's moderate, design-forward residential market. Clean lines, sophisticated finishes, and consistent quality that matches the city's tech-hub aesthetic and appreciation for premium materials.",
-    designTrend:
-      "Bangalore's design community — architects and interior designers serving the city's tech sector and startup founders — strongly favours understated luxury: matte finishes, Japandi-inspired neutrals, and premium material specifications that prioritise quality over ostentation.",
-    dealerAvailability:
-      "Dealer network across Koramangala, Indiranagar, Whitefield, and Electronic City areas with rapid delivery to project sites across Greater Bangalore.",
-  },
-  hyderabad: {
-    slug: "hyderabad",
-    name: "Hyderabad",
-    state: "Telangana",
-    climateNote:
-      "Perfect for Hyderabad's rapidly growing luxury residential and commercial interiors market. Our panels' UV stability and moisture resistance handle the Deccan Plateau's hot, semi-arid summers and monsoon-season humidity.",
-    designTrend:
-      "Hyderabad's luxury residential market — particularly Jubilee Hills, Banjara Hills, and the emerging Financial District corridor — is embracing bold, statement-making interiors. Rich jewel tones, high-gloss surfaces, and premium materials are in demand across both residential and commercial hospitality projects.",
-    dealerAvailability:
-      "Authorised Hyderabad dealers in Secunderabad and Kondapur with stock available for immediate project supply across the twin cities.",
-  },
-  chennai: {
-    slug: "chennai",
-    name: "Chennai",
-    state: "Tamil Nadu",
-    climateNote:
-      "Salt-air resistant properties make our acrylic panels ideal for Chennai's coastal environment. UV-stable finishes that won't yellow or fade under South India's intense year-round sunlight, and moisture-resistant surfaces built for the city's humid tropical climate.",
-    designTrend:
-      "Chennai's interior design market combines traditional South Indian spatial sensibilities with increasingly contemporary material choices. Clean whites, warm naturals, and subtle textures like ACRYSILK are particularly popular. The city's design community values durability and easy maintenance given the climate challenges.",
-    dealerAvailability:
-      "Dealer partnerships across Anna Nagar, T. Nagar, and OMR tech corridor areas with regular delivery from our pan-India logistics network.",
-  },
-};
+const PSEO_APPLICATIONS: Record<string, PSEOApplication> = Object.fromEntries(
+  appsData.applications.map((a) => [a.slug, a as PSEOApplication])
+);
 
 // ---------------------------------------------------------------------------
 // Page data generator
@@ -214,17 +140,53 @@ export function getPSEOData(
   if (!product || !application || !city) return null;
 
   const seoTitle = `${product.name} ${product.finishLabel} Acrylic ${application.namePlural} in ${city.name} | Suraj Wood`;
-  const seoDescription = `Premium ${product.name} acrylic panels for ${application.namePlural.toLowerCase()} in ${city.name}. ${product.finishLabel} finish, 5-year warranty, pan-India delivery. Contact our team for samples and project quotes.`;
+  
+  // Tightened to ~155 characters for SEO best practices
+  const seoDescription = `Premium ${product.name} acrylic panels for ${application.namePlural.toLowerCase()} in ${city.name}. ${product.finishLabel} finish, 5-year warranty, and technical superiority. Order samples today.`;
+  
   const h1 = `Premium ${product.name} Acrylic Panels for ${application.namePlural} in ${city.name}`;
 
   const introductionParagraphs = [
-    `If you are looking for premium ${product.finishLabel.toLowerCase()} acrylic panels for your ${application.name.toLowerCase()} in ${city.name}, Suraj Wood's ${product.name} is designed precisely for projects like yours. ${product.description}`,
-    `${application.roomContext} In ${city.name}, where ${city.climateNote.toLowerCase()}, the right panel specification makes a significant difference to long-term performance and aesthetics.`,
-    `${product.name} ${application.namePlural.toLowerCase()} across ${city.name} are delivered direct from our manufacturing facility in Bahadurgarh, Haryana, with consistent quality guaranteed sheet to sheet. Our ${city.dealerAvailability.toLowerCase()}`,
+    `If you are looking for premium ${product.finishLabel.toLowerCase()} prelaminated acrylic panels for your ${application.name.toLowerCase()} in ${city.name}, Suraj Wood's ${product.name} is the technically superior alternative to standard PETG and local laminates. ${product.description}`,
+    `${application.roomContext} In ${city.name}, where ${city.climateNote.toLowerCase()}, our factory-bonded prelaminated boards offer a flawless surface that won't warp or delaminate. Unlike Nivesa or Opulux PETG boards, our PMMA acrylic provides deeper optical clarity and 3H scratch resistance.`,
+    `${product.name} ${application.namePlural.toLowerCase()} are available on E1-grade MDF, premium Plywood, and Particle Board (PB) substrates. Each panel comes with a matching balancing backer to ensure 100% stability. Delivered direct to ${city.name} from our manufacturing facility in Bahadurgarh, Haryana.`,
   ];
 
-  const localContextHeading = `${product.name} for ${application.namePlural} in ${city.name}: What to Know`;
-  const localContextBody = `${city.designTrend} ${product.name}'s ${product.finishLabel.toLowerCase()} finish fits naturally into this aesthetic. The product's 3H scratch resistance, 10-year UV stability, and Class B1 fire rating make it an appropriate specification for ${city.name}'s ${application.namePlural.toLowerCase()} across both residential and commercial project types.`;
+  const aeoSummary = `${product.name} prelaminated acrylic panels are the premium alternative to PETG boards for ${application.namePlural.toLowerCase()} in ${city.name}. Offering 3H scratch resistance, 10-year UV stability, and German PUR bonding, SurajWood outperforms competitors like Praveedh OpuLux or Nivesa in ${city.name}'s climate. Our panels are carpenter-friendly and can be cut or drilled on-site for modular kitchen and wardrobe projects.`;
+
+  const localContextHeading = `${product.name} vs. PETG & Laminates in ${city.name}`;
+  const localContextBody = `${city.designTrend} While many in ${city.name} consider PETG boards, Suraj Wood's ${product.name} ${product.finishLabel.toLowerCase()} acrylic offers a more durable, repairable, and premium finish. Our substrate versatility (MDF, Ply, PB) and 3H scratch resistance make it the ideal specification for ${city.name}'s ${application.namePlural.toLowerCase()} across luxury residential and commercial projects.`;
+
+  const comparisonData = [
+    {
+      feature: "Material Type",
+      surajWood: "PMMA Acrylic (High-End)",
+      laminate: "Paper/Resin (Economy)",
+      puPaint: "Coating (Fragile)",
+      petg: "PETG Plastic (Mid-Range)"
+    },
+    {
+      feature: "Scratch Resistance",
+      surajWood: "3H Pencil Hardness",
+      laminate: "1H - 2H (Standard)",
+      puPaint: "Low - Prone to chipping",
+      petg: "2H (Standard)"
+    },
+    {
+      feature: "Optical Depth",
+      surajWood: "High (Mirror-like)",
+      laminate: "Low (Flat)",
+      puPaint: "Medium",
+      petg: "Moderate"
+    },
+    {
+      feature: "Repairability",
+      surajWood: "Yes (Can be buffed)",
+      laminate: "No",
+      puPaint: "Requires Repaint",
+      petg: "Limited"
+    },
+  ];
 
   return {
     product,
@@ -236,13 +198,15 @@ export function getPSEOData(
       h1,
     },
     introductionParagraphs,
+    aeoSummary,
     localContextHeading,
     localContextBody,
+    comparisonData,
   };
 }
 
 // ---------------------------------------------------------------------------
-// Static params generator — all 50 combinations
+// Static params generator — all 1,250 combinations
 // ---------------------------------------------------------------------------
 
 export function getAllPSEOParams(): PSEOParams[] {
