@@ -11,12 +11,12 @@ const products = [
 ];
 
 const quickLinks = [
-  { name: "About Us", href: "/about" },
-  { name: "Applications", href: "/applications/kitchens" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
-  { name: "Request Sample", href: "/contact#sample" },
-  { name: "Dealer Enquiry", href: "/contact#dealer" },
+  { name: "Manufacturing Hub", href: "/about" },
+  { name: "Technical Resources", href: "/downloads" },
+  { name: "Industry Exhibitions", href: "/#events" },
+  { name: "Design Blog", href: "/blog" },
+  { name: "Dealer Enquiry", href: "/dealers" },
+  { name: "Privacy Policy", href: "/privacy-policy" },
 ];
 
 export default function Footer() {
@@ -213,19 +213,7 @@ export default function Footer() {
             &copy; {currentYear} Suraj Wood Products. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <Link
-              href="/privacy-policy"
-              className="text-gray-600 text-xs hover:text-[#DC2626] transition-colors"
-            >
-              Privacy Policy
-            </Link>
-            <span className="text-gray-800">|</span>
-            <Link
-              href="/terms-of-service"
-              className="text-gray-600 text-xs hover:text-[#DC2626] transition-colors"
-            >
-              Terms of Service
-            </Link>
+            <span className="text-gray-800 text-xs">ISO 9001:2015 Certified Manufacturing</span>
           </div>
         </div>
       </div>

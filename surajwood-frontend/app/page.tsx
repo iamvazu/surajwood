@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import HomeTechnicalComparison from "@/components/sections/HomeTechnicalComparison";
 import ApplicationShowcase from "@/components/sections/ApplicationShowcase";
 import TestimonialCarousel from "@/components/sections/TestimonialCarousel";
+import EventsShowcase from "@/components/sections/EventsShowcase";
 import CTABanner from "@/components/sections/CTABanner";
 import type { Metadata } from "next";
 
@@ -43,6 +44,7 @@ export default async function HomePage() {
       <HomeTechnicalComparison />
       <ApplicationShowcase />
       <TestimonialCarousel testimonials={data.testimonials} />
+      <EventsShowcase />
       <CTABanner />
     </>
   );
