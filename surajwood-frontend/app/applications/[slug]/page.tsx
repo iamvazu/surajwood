@@ -425,61 +425,88 @@ export default async function ApplicationPage({
       <SchemaMarkup schemas={schemas} />
 
       {/* ------------------------------------------------------------------ */}
-      {/* HERO                                                                */}
+      {/* HERO (Luxury Alignment with Homepage)                            */}
       {/* ------------------------------------------------------------------ */}
-      <section className={`relative bg-gradient-to-br ${config.heroBg} text-white py-24 overflow-hidden`}>
-        {/* Background image */}
-        <div className="absolute inset-0 opacity-20">
-          <Image
-            src={config.galleryImages[0]}
-            alt={`${config.name} with Suraj Wood acrylic panels`}
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
+      <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden">
+        {/* Background Image with Ken Burns */}
+        <div className="absolute inset-0 z-0">
+          <motion.div
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.05 }}
+            transition={{ duration: 8, ease: "linear" }}
+            className="relative w-full h-full"
+          >
+            <Image
+              src={config.galleryImages[0]}
+              alt={`${config.name} with Suraj Wood acrylic panels`}
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
+          </motion.div>
         </div>
-        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
+
+        {/* Sophisticated Gradients (Matching Home) */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+
+        {/* Spacer to clear sticky navbar */}
+        <div className="h-32 lg:h-40" />
+
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
+          {/* Subtle Breadcrumb Overlay */}
           <nav className="mb-8" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-sm text-white/60">
+            <ol className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-white/40">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link href="/" className="hover:text-copper transition-colors">
                   Home
                 </Link>
               </li>
-              <li className="text-white/40">›</li>
+              <li>›</li>
               <li>
-                <span className="text-white/60">Applications</span>
+                <Link href="/#applications" className="hover:text-copper transition-colors">
+                  Applications
+                </Link>
               </li>
-              <li className="text-white/40">›</li>
-              <li className="text-white font-medium" aria-current="page">
+              <li>›</li>
+              <li className="text-white/60" aria-current="page">
                 {config.name}
               </li>
             </ol>
           </nav>
 
           <div className="max-w-3xl">
-            <span className="inline-block bg-copper/20 text-copper border border-copper/40 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
-              {config.heroTagline}
-            </span>
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Premium Acrylic Panels for{" "}
-              <span className="text-copper">{config.name}</span>
+            {/* Eyebrow */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                {config.heroTagline}
+              </p>
+            </div>
+
+            {/* H1: Playfair Display Serif */}
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+              Premium Acrylic Panels <br />
+              for <span className="text-copper">{config.name}</span>
             </h1>
-            <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-2xl">
-              {config.intro}
+
+            {/* Sub-headline / Intro */}
+            <p className="text-white/80 text-sm md:text-lg max-w-2xl leading-relaxed mb-10 font-light italic">
+              {config.intro.split('.')[0]}. {config.intro.split('.')[1]}.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+
+            {/* CTA buttons */}
+            <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center bg-copper hover:bg-copper-light text-white font-semibold text-sm px-8 py-3.5 rounded-lg transition-colors duration-200"
+                className="bg-copper hover:bg-copper-light text-white font-bold px-8 py-3.5 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm"
               >
                 Request Free Sample Kit
               </Link>
               <a
                 href="tel:+919999995553"
-                className="inline-flex items-center justify-center border border-white/30 hover:border-white/60 text-white font-semibold text-sm px-8 py-3.5 rounded-lg transition-colors duration-200"
+                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
               >
                 Call +91-9999995553
               </a>
