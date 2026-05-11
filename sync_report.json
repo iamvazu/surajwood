@@ -1,0 +1,92 @@
+[
+  {
+    "lead": "E-Studio",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Ace Interiors & Architects",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "DECFORT",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "DesignMatters",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Elevate Interio",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Archiville Design Studio – Interior Studio Curating Premium Spaces",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Cee Bee Design Studio - Interior Designer in Bangalore",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Modern Living Interiors",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Gensler",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  },
+  {
+    "lead": "Mandarin decors",
+    "tier": "LUXURY",
+    "crm_result": {
+      "success": false,
+      "error": "Non-JSON response: 500",
+      "body": ""
+    }
+  }
+]

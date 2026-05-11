@@ -63,7 +63,7 @@ export async function generateMetadata({
   const post = await getPostBySlug(slug);
   if (!post) return { title: "Article Not Found | SurajWood" };
 
-  const imgSrc = getPostImage(post.slug, post.featured_image.url);
+  const imgSrc = getPostImage(post.slug, post.featured_image?.url);
 
   return {
     title: `${post.title} | SurajWood Blog`,
@@ -243,7 +243,7 @@ export default async function BlogPostPage({
 
   if (!post) notFound();
 
-  const featuredImageSrc = getPostImage(post.slug, post.featured_image.url);
+  const featuredImageSrc = getPostImage(post.slug, post.featured_image?.url);
 
   const schemas = [
     generateArticleSchema(post),
@@ -448,7 +448,7 @@ export default async function BlogPostPage({
                 >
                   <div className="relative h-40 overflow-hidden bg-cream">
                     <Image
-                      src={getPostImage(relPost.slug, relPost.featured_image.url, i + 2)}
+                      src={getPostImage(relPost.slug, relPost.featured_image?.url, i + 2)}
                       alt={relPost.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"

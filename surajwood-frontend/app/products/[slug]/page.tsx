@@ -131,7 +131,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${product.name} — ${finishLabel} Acrylic Panels | SurajWood`,
       description: product.seo_description,
-      images: [{ url: product.hero_image.url ?? "", width: 1440, height: 900 }],
+      images: [{ url: product.hero_image?.url ?? "", width: 1440, height: 900 }],
     },
     twitter: {
       card: "summary_large_image",
@@ -255,7 +255,7 @@ function SwatchTile({ src, caption }: { src: string; caption: string }) {
 // Product card for related products
 function RelatedProductCard({ product }: { product: SanityProduct }) {
   const heroSrc =
-    PRODUCT_HERO_IMAGES[product.slug] ?? product.hero_image.url;
+    PRODUCT_HERO_IMAGES[product.slug] ?? product.hero_image?.url ?? "";
   return (
     <Link
       href={`/products/${product.slug}`}
@@ -301,7 +301,7 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const relatedProducts = allProducts.filter((p) => p.slug !== slug);
-  const heroImageSrc = PRODUCT_HERO_IMAGES[slug] ?? product.hero_image.url;
+  const heroImageSrc = PRODUCT_HERO_IMAGES[slug] ?? product.hero_image?.url ?? "";
   const swatchGroups = SWATCH_CONFIGS[slug]?.() ?? [];
   const swatchCountLabel = SWATCH_COUNTS[slug] ?? "";
   const galleryOffset = GALLERY_OFFSETS[slug] ?? 1;

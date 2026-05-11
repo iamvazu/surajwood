@@ -38,38 +38,41 @@ class Website_leads extends CI_Controller
      * CONFIGURATION - UPDATE THESE VALUES
      * ══════════════════════════════════════════════
      */
-
+    
     // Your frontend domain (Vercel deployment URL)
+    // Update this after deploying to Vercel, or set to '*' for local testing only
     const ALLOWED_ORIGIN = 'https://www.surajwood.com';
 
-    // API Key - generate a random 32-character string and use the same in your Next.js .env
-    // Example: openssl rand -hex 16
+    // API Key — set this to a secure random 32-char string.
+    // Generate one: openssl rand -hex 16
+    // Then set the SAME value in your Next.js .env: PERFEX_API_KEY=<same value>
+    // TODO: Replace the placeholder below before going live
     const API_KEY = '7f8d3c1a9e2b6d5f0c4a8b7d9e1f2c3a';
-
+    
     // Default staff member ID to assign leads to (find in Perfex Admin > Staff)
     const DEFAULT_ASSIGNED_STAFF = 1;
-
+    
     // Lead source ID for "Website" (find in Perfex Admin > Leads > Sources)
-    const LEAD_SOURCE_WEBSITE = 1; // Update after creating "Website" source
-
+    const LEAD_SOURCE_WEBSITE = 3; // Update after creating "Website" source
+    
     // Rate limit: max requests per minute per IP
     const RATE_LIMIT = 10;
-
+    
     /**
      * ══════════════════════════════════════════════
      * VALID VALUES FOR VALIDATION
      * ══════════════════════════════════════════════
      */
-
+    
     private $valid_user_types = [
         'Architect',
-        'Interior Designer',
+        'Interior Designer', 
         'Homeowner',
         'Dealer',
         'OEM Manufacturer',
         'Other'
     ];
-
+    
     private $valid_products = [
         'ACRYLUX',
         'ACRYSILK',
@@ -77,7 +80,7 @@ class Website_leads extends CI_Controller
         'ACRYGLASS',
         'ACRYGLASS MATTE'
     ];
-
+    
     private $valid_inquiry_types = [
         'Request Quote',
         'Sample Kit',
@@ -85,23 +88,23 @@ class Website_leads extends CI_Controller
         'Technical Query',
         'Other'
     ];
-
+    
     /**
      * ══════════════════════════════════════════════
      * CONSTRUCTOR
      * ══════════════════════════════════════════════
      */
-
+    
     public function __construct()
     {
         parent::__construct();
         $this->load->model('leads_model');
         $this->load->helper(['security', 'string']);
-
+        
         // Handle CORS preflight
         $this->_handle_cors();
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * MAIN ENDPOINT: POST /api/website_leads/create
@@ -133,70 +136,68 @@ class Website_leads extends CI_Controller
      */
     public function create()
     {
+
         // Only allow POST
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
             $this->_respond(405, ['success' => false, 'error' => 'Method not allowed. Use POST.']);
             return;
         }
-
+        
         // Authenticate API key
         if (!$this->_authenticate()) {
             $this->_respond(401, ['success' => false, 'error' => 'Invalid or missing API key.']);
             return;
         }
-
-        // Rate limiting
+        
+        /*// Rate limiting
         if (!$this->_check_rate_limit()) {
             $this->_respond(429, ['success' => false, 'error' => 'Rate limit exceeded. Try again in 60 seconds.']);
             return;
         }
-
+        */
         // Parse JSON body
         $input = json_decode(file_get_contents('php://input'), true);
-
+        
         if (!$input || !is_array($input)) {
             $this->_respond(400, ['success' => false, 'error' => 'Invalid JSON body.']);
             return;
         }
-
+        
         // Honeypot check (spam prevention)
         if (!empty($input['honeypot'])) {
             // Bot detected - return fake success to not reveal the check
             $this->_respond(200, ['success' => true, 'lead_id' => 0, 'message' => 'Thank you for your inquiry.']);
             return;
         }
-
+        
         // Validate required fields
         $errors = $this->_validate($input);
         if (!empty($errors)) {
             $this->_respond(422, ['success' => false, 'error' => 'Validation failed.', 'errors' => $errors]);
             return;
         }
-
+        
         // Sanitize all input
         $data = $this->_sanitize($input);
-
+        
         // Create lead in Perfex CRM
         $lead_id = $this->_create_lead($data);
-
+        
         if ($lead_id) {
-            // Log successful submission
             log_activity('Website Lead Created [ID: ' . $lead_id . '] from ' . $data['source_page']);
-
-            $this->_respond(201, [
-                'success' => true,
-                'lead_id' => $lead_id,
-                'message' => 'Thank you for your inquiry. Our team will contact you within 24 hours.'
-            ]);
-        }
-        else {
-            $this->_respond(500, [
+            $this->_respond(201, ['success' => true, 'lead_id' => $lead_id]);
+            } else {
+            // DEBUG MODE ACTIVATED: Print exact Database error
+            $db_error = $this->db->error();
+            $this->_respond(200, [
                 'success' => false,
-                'error' => 'Failed to create lead. Please try again or contact us directly.'
+                'error' => 'Perfex rejected the lead.',
+                'database_error' => $db_error
             ]);
+            } // 👈 This only closes the "else" statement
         }
-    }
 
+    
     /**
      * ══════════════════════════════════════════════
      * HEALTH CHECK: GET /api/website_leads/health
@@ -214,7 +215,7 @@ class Website_leads extends CI_Controller
             'timestamp' => date('c')
         ]);
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: VALIDATE INPUT
@@ -223,22 +224,21 @@ class Website_leads extends CI_Controller
     private function _validate($input)
     {
         $errors = [];
-
+        
         // Required: full_name
         if (empty($input['full_name']) || strlen(trim($input['full_name'])) < 2) {
             $errors['full_name'] = 'Name is required (minimum 2 characters).';
         }
-
+        
         // Required: email
         if (empty($input['email']) || !filter_var($input['email'], FILTER_VALIDATE_EMAIL)) {
             $errors['email'] = 'A valid email address is required.';
         }
-
+        
         // Required: phone (Indian format: 10 digits, optionally prefixed with +91 or 0)
         if (empty($input['phone'])) {
             $errors['phone'] = 'Phone number is required.';
-        }
-        else {
+        } else {
             $phone = preg_replace('/[\s\-\(\)\+]/', '', $input['phone']);
             // Remove country code prefix
             if (strpos($phone, '91') === 0 && strlen($phone) === 12) {
@@ -251,17 +251,16 @@ class Website_leads extends CI_Controller
                 $errors['phone'] = 'Please enter a valid 10-digit Indian phone number.';
             }
         }
-
+        
         // Required: user_type
         if (empty($input['user_type']) || !in_array($input['user_type'], $this->valid_user_types)) {
             $errors['user_type'] = 'Please select a valid user type.';
         }
-
+        
         // Required: product_interest (array, at least one)
         if (empty($input['product_interest']) || !is_array($input['product_interest'])) {
             $errors['product_interest'] = 'Please select at least one product.';
-        }
-        else {
+        } else {
             foreach ($input['product_interest'] as $product) {
                 if (!in_array($product, $this->valid_products)) {
                     $errors['product_interest'] = 'Invalid product selection: ' . $product;
@@ -269,20 +268,20 @@ class Website_leads extends CI_Controller
                 }
             }
         }
-
+        
         // Required: inquiry_type
         if (empty($input['inquiry_type']) || !in_array($input['inquiry_type'], $this->valid_inquiry_types)) {
             $errors['inquiry_type'] = 'Please select a valid inquiry type.';
         }
-
+        
         // Required: consent
         if (empty($input['consent']) || $input['consent'] !== true) {
             $errors['consent'] = 'You must agree to receive communications.';
         }
-
+        
         return $errors;
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: SANITIZE INPUT
@@ -291,21 +290,21 @@ class Website_leads extends CI_Controller
     private function _sanitize($input)
     {
         $clean = [];
-
-        $clean['full_name'] = strip_tags(trim($input['full_name']));
-        $clean['email'] = filter_var(trim($input['email']), FILTER_SANITIZE_EMAIL);
-        $clean['phone'] = preg_replace('/[^\d\+]/', '', $input['phone']);
-        $clean['company'] = !empty($input['company']) ? strip_tags(trim($input['company'])) : '';
-        $clean['user_type'] = $input['user_type']; // already validated
+        
+        $clean['full_name']        = strip_tags(trim($input['full_name']));
+        $clean['email']            = filter_var(trim($input['email']), FILTER_SANITIZE_EMAIL);
+        $clean['phone']            = preg_replace('/[^\d\+]/', '', $input['phone']);
+        $clean['company']          = !empty($input['company']) ? strip_tags(trim($input['company'])) : '';
+        $clean['user_type']        = $input['user_type']; // already validated
         $clean['product_interest'] = $input['product_interest']; // already validated (array)
-        $clean['inquiry_type'] = $input['inquiry_type']; // already validated
-        $clean['city'] = !empty($input['city']) ? strip_tags(trim($input['city'])) : '';
-        $clean['message'] = !empty($input['message']) ? strip_tags(trim($input['message'])) : '';
-        $clean['source_page'] = !empty($input['source_page']) ? filter_var($input['source_page'], FILTER_SANITIZE_URL) : '';
-        $clean['utm_source'] = !empty($input['utm_source']) ? strip_tags(trim($input['utm_source'])) : '';
-        $clean['utm_medium'] = !empty($input['utm_medium']) ? strip_tags(trim($input['utm_medium'])) : '';
-        $clean['utm_campaign'] = !empty($input['utm_campaign']) ? strip_tags(trim($input['utm_campaign'])) : '';
-
+        $clean['inquiry_type']     = $input['inquiry_type']; // already validated
+        $clean['city']             = !empty($input['city']) ? strip_tags(trim($input['city'])) : '';
+        $clean['message']          = !empty($input['message']) ? strip_tags(trim($input['message'])) : '';
+        $clean['source_page']      = !empty($input['source_page']) ? filter_var($input['source_page'], FILTER_SANITIZE_URL) : '';
+        $clean['utm_source']       = !empty($input['utm_source']) ? strip_tags(trim($input['utm_source'])) : '';
+        $clean['utm_medium']       = !empty($input['utm_medium']) ? strip_tags(trim($input['utm_medium'])) : '';
+        $clean['utm_campaign']     = !empty($input['utm_campaign']) ? strip_tags(trim($input['utm_campaign'])) : '';
+        
         // Normalize phone to 10 digits
         $phone = preg_replace('/[\s\-\(\)\+]/', '', $clean['phone']);
         if (strpos($phone, '91') === 0 && strlen($phone) === 12) {
@@ -315,10 +314,10 @@ class Website_leads extends CI_Controller
             $phone = substr($phone, 1);
         }
         $clean['phone'] = $phone;
-
+        
         return $clean;
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: CREATE LEAD IN PERFEX CRM
@@ -328,39 +327,38 @@ class Website_leads extends CI_Controller
     {
         // Map inquiry type to Perfex lead status
         $status_map = [
-            'Request Quote' => 1, // Hot (update these IDs to match your Perfex setup)
-            'Sample Kit' => 2, // Warm
-            'Dealer Enquiry' => 3, // Warm
-            'Technical Query' => 4, // Cold
-            'Other' => 5, // Default
+            'Request Quote'   => 1, // Hot (update these IDs to match your Perfex setup)
+            'Sample Kit'      => 2, // Warm
+            'Dealer Enquiry'  => 3, // Warm
+            'Technical Query'  => 4, // Cold
+            'Other'           => 5, // Default
         ];
-
+        
         // Build lead data array for Perfex leads_model
         $lead_data = [
-            'name' => $data['full_name'],
-            'email' => $data['email'],
+            'name'        => $data['full_name'],
+            'email'       => $data['email'],
             'phonenumber' => $data['phone'],
-            'company' => $data['company'],
-            'city' => $data['city'],
-            'source' => null, // Bypass FK constraint if ID 1 doesn't exist
-            'assigned' => null, // Bypass FK constraint if ID 1 doesn't exist
-            'addedfrom' => 0, // Bypass missing staff reference crash
-            'status' => isset($status_map[$data['inquiry_type']]) ? $status_map[$data['inquiry_type']] : 1,
-            'is_public' => 1,
+            'company'     => $data['company'],
+            'city'        => $data['city'],
+            'source'      => self::LEAD_SOURCE_WEBSITE,
+            'assigned'    => self::DEFAULT_ASSIGNED_STAFF,
+            'status'      => isset($status_map[$data['inquiry_type']]) ? $status_map[$data['inquiry_type']] : 1,
+            'is_public'   => 1,
             'description' => $this->_build_description($data),
         ];
-
+        
         // Add lead via Perfex model
         $lead_id = $this->leads_model->add($lead_data);
-
+        
         if ($lead_id) {
             // Add custom field values
             $this->_save_custom_fields($lead_id, $data);
         }
-
+        
         return $lead_id;
     }
-
+    
     /**
      * Build a rich description from the lead data
      */
@@ -372,29 +370,29 @@ class Website_leads extends CI_Controller
         $lines[] = "User Type: " . $data['user_type'];
         $lines[] = "Products Interested: " . implode(', ', $data['product_interest']);
         $lines[] = "City: " . $data['city'];
-
+        
         if (!empty($data['message'])) {
             $lines[] = "";
             $lines[] = "Message:";
             $lines[] = $data['message'];
         }
-
+        
         $lines[] = "";
         $lines[] = "=== Tracking ===";
         $lines[] = "Source Page: " . $data['source_page'];
-
+        
         if (!empty($data['utm_source'])) {
             $lines[] = "UTM Source: " . $data['utm_source'];
             $lines[] = "UTM Medium: " . $data['utm_medium'];
             $lines[] = "UTM Campaign: " . $data['utm_campaign'];
         }
-
+        
         $lines[] = "Submitted: " . date('Y-m-d H:i:s');
         $lines[] = "IP: " . $this->input->ip_address();
-
+        
         return implode("\n", $lines);
     }
-
+    
     /**
      * Save custom field values for the lead
      * 
@@ -414,19 +412,19 @@ class Website_leads extends CI_Controller
             // 3 => $data['source_page'],                             // Source Page field
             // 4 => $data['inquiry_type'],                            // Inquiry Type field
         ];
-
+        
         foreach ($custom_fields as $field_id => $value) {
             if (!empty($value)) {
                 $this->db->insert('tblcustomfieldsvalues', [
-                    'relid' => $lead_id,
+                    'relid'   => $lead_id,
                     'fieldid' => $field_id,
                     'fieldto' => 'leads',
-                    'value' => $value,
+                    'value'   => $value,
                 ]);
             }
         }
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: AUTHENTICATION
@@ -435,15 +433,15 @@ class Website_leads extends CI_Controller
     private function _authenticate()
     {
         $api_key = $this->input->get_request_header('X-API-Key', true);
-
+        
         if (empty($api_key)) {
             // Also check query param as fallback (not recommended for production)
             $api_key = $this->input->get('api_key');
         }
-
+        
         return $api_key === self::API_KEY;
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: RATE LIMITING (File-based, simple)
@@ -453,30 +451,30 @@ class Website_leads extends CI_Controller
     {
         $ip = $this->input->ip_address();
         $cache_file = APPPATH . 'cache/api_ratelimit_' . md5($ip) . '.json';
-
+        
         $now = time();
         $window = 60; // 60 seconds
-
+        
         $requests = [];
         if (file_exists($cache_file)) {
             $requests = json_decode(file_get_contents($cache_file), true) ?: [];
         }
-
+        
         // Remove expired entries
-        $requests = array_filter($requests, function ($timestamp) use ($now, $window) {
+        $requests = array_filter($requests, function($timestamp) use ($now, $window) {
             return ($now - $timestamp) < $window;
         });
-
+        
         if (count($requests) >= self::RATE_LIMIT) {
             return false;
         }
-
+        
         $requests[] = $now;
         file_put_contents($cache_file, json_encode(array_values($requests)));
-
+        
         return true;
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: CORS HANDLING
@@ -485,30 +483,30 @@ class Website_leads extends CI_Controller
     private function _handle_cors()
     {
         $origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '';
-
+        
         // Allow your frontend domain
         $allowed_origins = [
             self::ALLOWED_ORIGIN,
             'https://surajwood.com',
             'http://localhost:3000', // Local development
         ];
-
+        
         if (in_array($origin, $allowed_origins)) {
             header('Access-Control-Allow-Origin: ' . $origin);
         }
-
+        
         header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
         header('Access-Control-Allow-Headers: Content-Type, X-API-Key, Authorization');
         header('Access-Control-Max-Age: 86400');
         header('Content-Type: application/json; charset=UTF-8');
-
+        
         // Handle preflight OPTIONS request
         if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
             http_response_code(204);
             exit;
         }
     }
-
+    
     /**
      * ══════════════════════════════════════════════
      * PRIVATE: JSON RESPONSE HELPER
@@ -517,11 +515,8 @@ class Website_leads extends CI_Controller
     private function _respond($status_code, $data)
     {
         http_response_code($status_code);
-        while (ob_get_level())
-            ob_end_clean(); // Flush any buffers holding back output
-        header('Content-Type: application/json; charset=UTF-8');
         echo json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-        exit(0);
+        exit;
     }
 }
 
