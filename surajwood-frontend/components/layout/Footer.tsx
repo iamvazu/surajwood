@@ -8,6 +8,7 @@ const products = [
   { name: "ACRYMATTE", href: "/products/acrymatte" },
   { name: "ACRYGLASS", href: "/products/acryglass" },
   { name: "ACRYGLASS MATTE", href: "/products/acryglass-matte" },
+  { name: "Aluminum Profiles", href: "/products/aluminum-profiles" },
 ];
 
 const quickLinks = [
@@ -23,7 +24,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#080808] text-white">
+    <footer className="relative bg-gradient-to-b from-[#1a1c1e] via-[#111315] to-[#080a0c] text-white">
       {/* Top accent border with fine gradient */}
       <div className="h-[3px] bg-gradient-to-r from-[#DC2626] via-[#B91C1C] to-[#EF4444]" />
 
