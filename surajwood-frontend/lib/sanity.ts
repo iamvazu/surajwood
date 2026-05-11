@@ -636,8 +636,8 @@ const MOCK_PRODUCTS: SanityProduct[] = [
 ];
 
 // ---------------------------------------------------------------------------
-// Mock blog post data
-// -----------------------------------------------------------const MOCK_POSTS: SanityPost[] = [
+// ---------------------------------------------------------------------------
+const MOCK_POSTS: SanityPost[] = [
   {
     id: 1,
     slug: "acrylic-vs-laminate-kitchen-panels-india",
