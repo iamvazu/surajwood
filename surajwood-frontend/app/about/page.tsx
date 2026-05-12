@@ -193,13 +193,18 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-navy mb-16">The Directors</h2>
           <div className="grid md:grid-cols-2 gap-12">
              {leadership.map((person) => (
-               <div key={person.name} className="flex flex-col items-center bg-cream/30 p-10 rounded-[40px] border border-cream">
-                  <div className="w-24 h-24 bg-navy rounded-full flex items-center justify-center text-copper text-2xl font-bold mb-6">
-                    {person.initials}
+               <div key={person.name} className="flex flex-col items-center bg-cream/30 p-10 rounded-[40px] border border-cream group hover:bg-white hover:shadow-2xl transition-all duration-500">
+                  <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-copper mb-6 shadow-lg group-hover:scale-105 transition-transform">
+                    <Image
+                      src={`/images/about/director-${person.initials.toLowerCase()}.jpg`}
+                      alt={person.name}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                   <h3 className="text-2xl font-bold text-navy">{person.name}</h3>
                   <div className="text-copper font-semibold text-sm uppercase tracking-widest mt-2 mb-4">{person.role}</div>
-                  <p className="text-gray-600 leading-relaxed">{person.bio}</p>
+                  <p className="text-gray-600 leading-relaxed text-sm">{person.bio}</p>
                </div>
              ))}
           </div>

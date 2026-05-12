@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
-import { generateBreadcrumbSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { Hammer, Lightbulb, Maximize, Settings, Zap, Layers, Package, Palette, Download, ArrowRight } from "lucide-react";
 
 // ---------------------------------------------------------------------------
@@ -137,6 +137,21 @@ const FINISHES = [
 // Page
 // ---------------------------------------------------------------------------
 
+const AL_FAQS = [
+  {
+    question: "What is the standard length of AL-PROFHAN aluminum profiles?",
+    answer: "Our standard profiles are manufactured in 3-meter (approx. 10 feet) lengths, which is the industry standard for modular kitchen and wardrobe applications in India."
+  },
+  {
+    question: "What grade of aluminum is used?",
+    answer: "We use high-grade 6063-T5 architectural aluminum alloy for superior structural integrity and finish."
+  },
+  {
+    question: "Do you offer profiles compatible with LED lighting?",
+    answer: "Yes, our Luminare Series is specifically designed for integrated LED lighting with frosted diffusers."
+  }
+];
+
 export default function AluminumProfilesPage() {
   const schemas = [
     generateBreadcrumbSchema([
@@ -144,6 +159,7 @@ export default function AluminumProfilesPage() {
       { name: "Products", url: "https://www.surajwood.com/products" },
       { name: "Aluminum Profiles", url: "https://www.surajwood.com/products/aluminum-profiles" },
     ]),
+    generateFAQSchema(AL_FAQS),
   ];
 
   return (
@@ -256,18 +272,38 @@ export default function AluminumProfilesPage() {
                   </p>
 
                   <div className="mb-10 space-y-4">
-                    <p className="text-xs font-bold text-navy uppercase tracking-widest border-b border-gray-200 pb-2 mb-4">Product Breakdown</p>
-                    {item.products.map((p) => (
-                      <div key={p.code} className="flex justify-between items-start border-b border-gray-50 pb-3">
-                        <div>
-                          <p className="text-sm font-bold text-navy">{p.code}</p>
-                          <p className="text-xs text-gray-500">{p.desc}</p>
-                        </div>
-                        <div className="text-right">
-                          <p className="text-xs text-gray-400">{p.size}</p>
-                        </div>
+                    <div className="flex justify-between items-end border-b border-gray-200 pb-2 mb-4">
+                      <p className="text-xs font-bold text-navy uppercase tracking-widest">Product Breakdown</p>
+                      <p className="text-[10px] font-bold text-copper uppercase tracking-widest">Cross-Section Specs</p>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div className="space-y-4">
+                        {item.products.map((p) => (
+                          <div key={p.code} className="flex justify-between items-start border-b border-gray-50 pb-3">
+                            <div>
+                              <p className="text-sm font-bold text-navy">{p.code}</p>
+                              <p className="text-xs text-gray-500">{p.desc}</p>
+                            </div>
+                            <div className="text-right">
+                              <p className="text-xs text-gray-400">{p.size}</p>
+                            </div>
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                      
+                      <div className="bg-white rounded-2xl p-4 border border-gray-100 shadow-inner flex flex-col items-center justify-center">
+                        <div className="relative w-full aspect-square opacity-60 hover:opacity-100 transition-opacity">
+                          <Image
+                            src="/images/products/aluminum/technical-diagram.png"
+                            alt={`${item.name} Technical Dimension Diagram`}
+                            fill
+                            className="object-contain"
+                          />
+                        </div>
+                        <p className="text-[8px] text-gray-400 uppercase tracking-tighter mt-2 font-bold">Standard 1.5mm Gauge Wall Thickness</p>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="flex flex-wrap gap-4">

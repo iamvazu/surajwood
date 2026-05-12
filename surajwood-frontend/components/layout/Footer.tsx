@@ -82,13 +82,31 @@ export default function Footer() {
                 <Facebook size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
               </a>
               <a
-                href="https://www.youtube.com/@surajwoodproducts"
+                href="https://youtube.com/@surajwoodproducts"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
                 className="group flex items-center justify-center w-8 h-8 rounded-full border border-gray-800 hover:border-[#DC2626] hover:bg-[#DC2626]/10 transition-all duration-300"
               >
                 <Youtube size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
+              </a>
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="group flex items-center justify-center w-8 h-8 rounded-full border border-gray-800 hover:border-[#DC2626] hover:bg-[#DC2626]/10 transition-all duration-300"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  className="text-gray-400 group-hover:text-[#DC2626] transition-colors"
+                >
+                  <path d="M12.6,2 L14,2 L10,6.5 L14.7,13 L11,13 L8.2,9 L4.8,13 L3.5,13 L7.8,8.2 L3.2,2 L7,2 L9.5,5.6 L12.6,2 Z M12,12 L13.3,12 L5.5,3 L4,3 L12,12 Z" />
+                </svg>
               </a>
             </div>
           </div>

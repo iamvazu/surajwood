@@ -180,12 +180,12 @@ export async function generateMetadata({
   const heroImg = product.hero_image?.url ?? PRODUCT_HERO_IMAGES[slug] ?? "/images/banner/bg3.jpg";
 
   return {
-    title: `${product.name} Acrylic Panels | ${finishLabel} Finish | SurajWood`,
+    title: `${product.name} Acrylic Panels | ${finishLabel} Finish`,
     description: product.seo_description,
     openGraph: {
-      title: `${product.name} — ${finishLabel} Acrylic Panels | SurajWood`,
+      title: `${product.name} — ${finishLabel} Acrylic Panels`,
       description: product.seo_description,
-      images: [{ url: heroImg, width: 1440, height: 900 }],
+      images: [{ url: heroImg, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
@@ -296,7 +296,7 @@ function SwatchTile({ src, caption }: { src: string; caption: string }) {
       <div className="w-20 h-20 rounded-lg overflow-hidden ring-2 ring-transparent group-hover:ring-copper transition-all duration-200 shadow-sm">
         <Image
           src={src}
-          alt={caption}
+          alt={`SurajWood ${caption} Acrylic Panel Shade`}
           width={80}
           height={80}
           className="w-full h-full object-cover"

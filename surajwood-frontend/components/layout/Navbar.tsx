@@ -204,22 +204,22 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Products Mega Menu */}
+            {/* Acrylic Panels Dropdown */}
             <li 
               ref={productsRef} 
-              className="static lg:relative"
+              className="relative"
               onMouseEnter={() => setProductsOpen(true)}
               onMouseLeave={() => setProductsOpen(false)}
             >
               <button
                 onClick={() => setProductsOpen((v) => !v)}
                 className={`flex items-center gap-1 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${linkColor} hover:text-[#DC2626] ${
-                  pathname.startsWith("/products") ? "text-[#DC2626]" : ""
+                  pathname.startsWith("/products") && !pathname.includes("aluminum") ? "text-[#DC2626]" : ""
                 }`}
                 aria-expanded={productsOpen}
                 aria-haspopup="true"
               >
-                Products
+                Acrylic Panels
                 <ChevronDown
                   size={15}
                   className={`transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`}
@@ -227,81 +227,60 @@ export default function Navbar() {
               </button>
 
               {productsOpen && (
-                <div className="absolute top-full left-0 w-screen max-w-[calc(100vw-48px)] lg:max-w-4xl bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 z-50 grid grid-cols-1 md:grid-cols-3 gap-8 -translate-x-1/2 lg:left-1/2 transform">
-                  {/* Column 1: Acrylic Panels */}
-                  <div>
-                    <h3 className="text-[10px] font-bold text-copper uppercase tracking-widest mb-4 border-b border-gray-50 pb-2">
-                      PMMA Acrylic Panels
-                    </h3>
-                    <div className="space-y-1">
-                      {acrylicProducts.map((p) => (
-                        <Link
-                          key={p.href}
-                          href={p.href}
-                          onClick={() => setProductsOpen(false)}
-                          className="flex flex-col px-3 py-2 hover:bg-[#F5F1EB] rounded-lg group transition-colors"
-                        >
-                          <span className="text-sm font-bold text-[#1F1F1F] group-hover:text-[#DC2626] transition-colors">
-                            {p.name}
-                          </span>
-                          <span className="text-[10px] text-gray-500 mt-0.5">{p.desc}</span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Column 2: Aluminum Profiles */}
-                  <div>
-                    <h3 className="text-[10px] font-bold text-copper uppercase tracking-widest mb-4 border-b border-gray-50 pb-2">
-                      Aluminum Profiles
-                    </h3>
-                    <div className="space-y-1">
-                      {aluminumSeries.map((p) => (
-                        <Link
-                          key={p.href}
-                          href={p.href}
-                          onClick={() => setProductsOpen(false)}
-                          className="flex flex-col px-3 py-2 hover:bg-[#F5F1EB] rounded-lg group transition-colors"
-                        >
-                          <span className="text-sm font-bold text-[#1F1F1F] group-hover:text-[#DC2626] transition-colors">
-                            {p.name}
-                          </span>
-                          <span className="text-[10px] text-gray-500 mt-0.5">{p.desc}</span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Column 3: Resources & Featured */}
-                  <div className="bg-cream/30 rounded-xl p-5">
-                    <h3 className="text-[10px] font-bold text-navy uppercase tracking-widest mb-4 pb-2">
-                      Professional Hub
-                    </h3>
-                    <div className="space-y-3">
-                      {resources.map((r) => (
-                        <Link
-                          key={r.href}
-                          href={r.href}
-                          onClick={() => setProductsOpen(false)}
-                          className="flex items-start gap-3 group"
-                        >
-                          <div className="w-1.5 h-1.5 rounded-full bg-copper mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform" />
-                          <div>
-                            <span className="block text-sm font-bold text-navy group-hover:text-copper transition-colors">
-                              {r.name}
-                            </span>
-                            <span className="block text-[10px] text-gray-500">{r.desc}</span>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-lg border border-gray-100 py-4 z-50">
+                  {acrylicProducts.map((p) => (
                     <Link
-                      href="/products"
-                      className="mt-6 block text-center py-2 bg-navy text-white text-xs font-bold rounded-lg hover:bg-[#000000] transition-colors"
+                      key={p.href}
+                      href={p.href}
+                      onClick={() => setProductsOpen(false)}
+                      className="flex flex-col px-5 py-2.5 hover:bg-[#F5F1EB] group transition-colors"
                     >
-                      View All Collections
+                      <span className="text-sm font-bold text-[#1F1F1F] group-hover:text-[#DC2626] transition-colors">
+                        {p.name}
+                      </span>
+                      <span className="text-[10px] text-gray-500 mt-0.5">{p.desc}</span>
                     </Link>
-                  </div>
+                  ))}
+                </div>
+              )}
+            </li>
+
+            {/* Aluminum Profiles Dropdown */}
+            <li 
+              className="relative"
+              onMouseEnter={() => setMobileApplicationsOpen(true)}
+              onMouseLeave={() => setMobileApplicationsOpen(false)}
+            >
+              <button
+                onClick={() => setMobileApplicationsOpen((v) => !v)}
+                className={`flex items-center gap-1 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${linkColor} hover:text-[#DC2626] ${
+                  pathname.includes("aluminum") ? "text-[#DC2626]" : ""
+                }`}
+                aria-expanded={mobileApplicationsOpen}
+                aria-haspopup="true"
+              >
+                Aluminum Profiles
+                <ChevronDown
+                  size={15}
+                  className={`transition-transform duration-200 ${mobileApplicationsOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+
+              {mobileApplicationsOpen && (
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-lg border border-gray-100 py-4 z-50">
+                  {aluminumSeries.map((p) => (
+                    <Link
+                      key={p.href}
+                      href={p.href}
+                      onClick={() => setMobileApplicationsOpen(false)}
+                      className="flex flex-col px-5 py-2.5 hover:bg-[#F5F1EB] group transition-colors"
+                    >
+                      <span className="text-sm font-bold text-[#1F1F1F] group-hover:text-[#DC2626] transition-colors">
+                        {p.name}
+                      </span>
+                      <span className="text-[10px] text-gray-500 mt-0.5">{p.desc}</span>
+                    </Link>
+                  ))}
                 </div>
               )}
             </li>
@@ -311,7 +290,6 @@ export default function Navbar() {
               <button
                 onClick={() => {
                   setApplicationsOpen((v) => !v);
-                  setProductsOpen(false);
                 }}
                 className={`flex items-center gap-1 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${linkColor} hover:text-[#DC2626] ${
                   pathname.startsWith("/applications") ? "text-[#DC2626]" : ""
@@ -340,6 +318,18 @@ export default function Navbar() {
                   ))}
                 </div>
               )}
+            </li>
+
+            {/* Downloads */}
+            <li>
+              <Link
+                href="/downloads"
+                className={`px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${linkColor} hover:text-[#DC2626] ${
+                  isActive("/downloads") ? "text-[#DC2626]" : ""
+                }`}
+              >
+                Downloads
+              </Link>
             </li>
 
             {/* Blog */}

@@ -1,24 +1,27 @@
 import { getHomepageData } from "@/lib/sanity";
 import Hero from "@/components/sections/Hero";
 import ProductGrid from "@/components/sections/ProductGrid";
+import AluminumHomeSection from "@/components/sections/AluminumHomeSection";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import HomeTechnicalComparison from "@/components/sections/HomeTechnicalComparison";
 import ApplicationShowcase from "@/components/sections/ApplicationShowcase";
 import TestimonialCarousel from "@/components/sections/TestimonialCarousel";
 import EventsShowcase from "@/components/sections/EventsShowcase";
 import CTABanner from "@/components/sections/CTABanner";
+import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SurajWood — Premium Acrylic Panels Manufacturer India",
+  title: "SurajWood — India's Premium Acrylic Panel Manufacturer",
   description:
-    "India's leading manufacturer of prelaminated PMMA acrylic panels. SurajWood outperforms PETG and laminates with German PUR technology, 3H scratch resistance, and optical clarity. Shop ACRYLUX, ACRYSILK, and more.",
-  alternates: { canonical: "https://www.surajwood.com" },
+    "Factory-direct PMMA acrylic panels pre-laminated with German PUR technology. Explore ACRYLUX, ACRYSILK, and AL-PROFHAN hardware. Precision-engineered for modern interiors.",
+  alternates: { canonical: "https://surajwood.com" },
   openGraph: {
-    title: "SurajWood — Premium Acrylic Panels Manufacturer India",
+    title: "SurajWood — Premium Acrylic Panels & Profiles",
     description:
-      "Factory-direct PMMA acrylic panels on MDF, Plywood, and PB substrates. Superior to PETG and laminates. German PUR bonding. Pan-India delivery.",
-    url: "https://www.surajwood.com",
+      "India's leading manufacturer of prelaminated PMMA acrylic panels and aluminum profiles. Superior durability and optical clarity for kitchens & wardrobes.",
+    url: "https://surajwood.com",
     siteName: "SurajWood",
     locale: "en_IN",
     type: "website",
@@ -27,7 +30,7 @@ export const metadata: Metadata = {
         url: "/images/banner/bg3.jpg",
         width: 1200,
         height: 630,
-        alt: "SurajWood Premium Acrylic Panels — Factory-Direct Manufacturer",
+        alt: "SurajWood Premium Acrylic Panels Manufacturing",
       },
     ],
   },
@@ -36,10 +39,18 @@ export const metadata: Metadata = {
 export default async function HomePage() {
   const data = await getHomepageData();
 
+  const schemas = [
+    generateOrganizationSchema(),
+    generateLocalBusinessSchema(),
+    generateWebSiteSchema(),
+  ];
+
   return (
     <>
+      <SchemaMarkup schemas={schemas} />
       <Hero />
       <ProductGrid products={data.featured_products} />
+      <AluminumHomeSection />
       <WhyChooseUs />
       <HomeTechnicalComparison />
       <ApplicationShowcase />

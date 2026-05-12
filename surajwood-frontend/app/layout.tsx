@@ -31,22 +31,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.surajwood.com"),
   title: {
-    default: "SurajWood — Premium Acrylic Panels Manufacturer India | ACRYLUX, ACRYSILK, ACRYMATTE",
-    template: "%s | SurajWood – Premium Acrylic Panels",
+    default: "SurajWood — Premium Acrylic Panels Manufacturer India",
+    template: "%s | SurajWood",
   },
   description:
-    "India's premium acrylic panel manufacturer. ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS panels for kitchens & wardrobes. European technology, pan-India delivery. Call +91-9999995553.",
-  keywords: [
-    "acrylic panels India",
-    "acrylic kitchen panels",
-    "ACRYLUX panels",
-    "premium acrylic panels",
-    "acrylic wardrobe panels",
-    "modular kitchen acrylic",
-    "Suraj Wood",
-    "SurajWood panels",
-    "acrylic panel manufacturer India",
-  ],
+    "India's premium acrylic panel manufacturer. ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS panels for kitchens & wardrobes. European technology, pan-India delivery.",
   authors: [{ name: "Suraj Wood Products Pvt. Ltd." }],
   creator: "Suraj Wood Products Pvt. Ltd.",
   openGraph: {
@@ -76,7 +65,6 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  // verification: { google: "REPLACE_WITH_ACTUAL_CODE" },
 };
 
 export default function RootLayout({

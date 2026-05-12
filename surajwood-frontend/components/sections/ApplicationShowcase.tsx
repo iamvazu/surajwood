@@ -28,7 +28,7 @@ const APPLICATIONS: ApplicationCategory[] = [
   {
     slug: "commercial",
     label: "Commercial Spaces",
-    image: "/images/gallery/commercial-1.jpg",
+    image: "/images/gallery/commercial-premium.png",
     tagline: "High-traffic durability, Class B1 rated",
   },
   {

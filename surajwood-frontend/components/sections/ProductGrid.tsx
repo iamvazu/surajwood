@@ -30,7 +30,7 @@ interface ProductGridProps {
 
 export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <section id="products" className="bg-cream py-12">
+    <section id="products" className="bg-cream py-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section header — compact */}
         <div className="text-center mb-8">
@@ -58,8 +58,8 @@ export default function ProductGrid({ products }: ProductGridProps) {
                 href={`/products/${product.slug}`}
                 className="group block rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
-                {/* Image */}
-                <div className="relative aspect-square bg-cream overflow-hidden">
+                {/* Image — Efficient Aspect Ratio */}
+                <div className="relative aspect-[4/3] bg-cream overflow-hidden">
                   <Image
                     src={imageSrc}
                     alt={`${product.name} acrylic panel – ${finishLabel} finish`}

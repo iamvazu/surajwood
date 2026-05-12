@@ -27,7 +27,7 @@ const HERO_SLIDES = [
     subtitle: "ACRYGLASS high-gloss finishes that redefine modern Indian kitchens."
   },
   { 
-    src: "/images/gallery/commercial-1.jpg", 
+    src: "/images/gallery/commercial-premium.png", 
     alt: "Commercial interior with SurajWood surfaces",
     title: "Architectural Authority",
     subtitle: "Durable, high-traffic surfaces for premium commercial environments."

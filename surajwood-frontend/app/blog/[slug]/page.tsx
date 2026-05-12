@@ -96,21 +96,7 @@ function CategoryBadge({ category }: { category: string }) {
   );
 }
 
-function AuthorCard({ author, date }: { author: string; date: string }) {
-  return (
-    <div className="flex items-center gap-4 py-6 border-t border-b border-gray-100 my-8">
-      <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center shrink-0">
-        <span className="text-white font-bold font-heading text-base">
-          {author.charAt(0).toUpperCase()}
-        </span>
-      </div>
-      <div>
-        <p className="font-semibold text-navy text-sm">{author}</p>
-        <p className="text-gray-400 text-xs mt-0.5">Published {formatDate(date)}</p>
-      </div>
-    </div>
-  );
-}
+// ... (deleted AuthorCard)
 
 function SidebarSampleCTA() {
   return (
@@ -328,16 +314,40 @@ export default async function BlogPostPage({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             {/* Article (8/12) */}
             <main className="lg:col-span-8">
-              {/* Excerpt lead */}
-              <p className="text-gray-500 text-lg leading-relaxed border-l-4 border-copper pl-5 mb-8 italic">
-                {post.excerpt}
-              </p>
+              {/* TL;DR Quick Summary box — Optimized for AEO/GEO */}
+              <div className="bg-copper/5 border-l-4 border-copper p-6 mb-10 rounded-r-2xl">
+                <h2 className="text-copper font-heading font-bold text-lg mb-2 mt-0 uppercase tracking-widest flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Quick Summary
+                </h2>
+                <p className="text-navy font-semibold text-base leading-relaxed italic mb-0">
+                  {post.excerpt}
+                </p>
+              </div>
 
               {/* Article body */}
               <ArticleContent html={post.content} />
 
-              {/* Author card */}
-              <AuthorCard author={post.author} date={post.date} />
+              {/* Author card — Updated for Trust & E-E-A-T */}
+              <div className="flex items-center gap-6 py-8 border-t border-b border-gray-100 my-12 bg-cream/20 px-6 rounded-2xl">
+                <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-copper shrink-0">
+                  <Image
+                    src="/images/about/director-ms.jpg" // Placeholder for Mayank Singhal
+                    alt={post.author}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div>
+                  <p className="font-bold text-navy text-lg">{post.author}</p>
+                  <p className="text-copper font-semibold text-xs uppercase tracking-widest mt-1">Director at SurajWood Products</p>
+                  <p className="text-gray-500 text-sm mt-2 leading-relaxed">
+                    Industry expert with 15+ years in high-end surface manufacturing and European PUR bonding technology.
+                  </p>
+                </div>
+              </div>
 
               {/* Tags / categories */}
               <div className="flex flex-wrap gap-2 mt-6">

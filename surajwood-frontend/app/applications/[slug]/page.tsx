@@ -268,7 +268,7 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
       },
     ],
     galleryImages: [
-      "/images/gallery/commercial-1.jpg",
+      "/images/gallery/commercial-premium.png",
       "/images/gallery/commercial-2.jpg",
       "/images/gallery/commercial-3.jpg",
       "/images/gallery/commercial-4.jpg",
@@ -296,7 +296,7 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
     faqExtra: [
       { question: "Can these be used for conference tables?", answer: "Absolutely. Our 1.5mm and 3mm acrylic sheets are excellent for high-durability table surfaces." },
     ],
-    galleryImages: ["/images/gallery/office-1.jpg", "/images/gallery/commercial-1.jpg", "/images/gallery/commercial-2.jpg"],
+    galleryImages: ["/images/gallery/office-1.jpg", "/images/gallery/commercial-premium.png", "/images/gallery/commercial-2.jpg"],
   },
   "kids-rooms": {
     name: "Children's Rooms",
