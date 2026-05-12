@@ -61,7 +61,7 @@ export default function DownloadsPage() {
     email: "",
     phone: "",
     company: "",
-    user_type: "Architect/Interior Designer",
+    user_type: "Architect",
   });
 
   const handleSubmit = async (e: FormEvent) => {
@@ -93,7 +93,7 @@ export default function DownloadsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-cream pt-24 pb-20">
+    <div className="min-h-screen bg-white pt-36 pb-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl mb-16">
@@ -198,11 +198,12 @@ export default function DownloadsPage() {
                       value={formData.user_type}
                       onChange={(e) => setFormData({ ...formData, user_type: e.target.value })}
                     >
-                      <option>Architect/Interior Designer</option>
-                      <option>Furniture Manufacturer/OEM</option>
-                      <option>Dealer/Retailer</option>
-                      <option>Contractor</option>
+                      <option>Architect</option>
+                      <option>Interior Designer</option>
                       <option>Homeowner</option>
+                      <option>Dealer</option>
+                      <option>OEM Manufacturer</option>
+                      <option>Other</option>
                     </select>
                   </div>
                   <button

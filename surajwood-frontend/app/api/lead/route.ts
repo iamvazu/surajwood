@@ -8,7 +8,7 @@ import { z } from "zod";
 const leadSchema = z.object({
   full_name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
-  phone: z.string().regex(/^[6-9]\d{9}$/, "Invalid Indian phone number"),
+  phone: z.string().min(10, "Phone number must be at least 10 digits"),
   company: z.string().optional(),
   user_type: z.string().optional(),
   product_interest: z.union([z.string(), z.array(z.string())]).optional(),
