@@ -100,7 +100,7 @@ function CategoryBadge({ category }: { category: string }) {
 
 function SidebarSampleCTA() {
   return (
-    <div className="bg-navy rounded-2xl p-6 text-white sticky top-24">
+    <div className="bg-navy rounded-2xl p-6 text-white mb-8">
       <div className="text-copper text-xs font-semibold uppercase tracking-widest mb-3">
         Free Sample Kit
       </div>
@@ -254,10 +254,10 @@ export default async function BlogPostPage({
           alt={post.title}
           fill
           priority
-          className="object-cover opacity-50"
+          className="object-cover opacity-80"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/40 to-transparent" />
 
         <div className="absolute inset-0 flex flex-col justify-end">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-12">
@@ -387,10 +387,12 @@ export default async function BlogPostPage({
               </div>
             </main>
 
-            {/* Sidebar (4/12) */}
+            {/* Sidebar (4/12) — Clean Sticky Layout */}
             <aside className="lg:col-span-4">
-              <SidebarSampleCTA />
-              <SidebarRelated posts={allPosts} currentSlug={slug} />
+              <div className="lg:sticky lg:top-32">
+                <SidebarSampleCTA />
+                <SidebarRelated posts={allPosts} currentSlug={slug} />
+              </div>
             </aside>
           </div>
         </div>
