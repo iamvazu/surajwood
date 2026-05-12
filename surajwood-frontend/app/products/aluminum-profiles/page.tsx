@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { generateBreadcrumbSchema } from "@/lib/schema";
-import { Hammer, Lightbulb, Maximize, Settings, Zap, Layers, Package, Palette } from "lucide-react";
+import { Hammer, Lightbulb, Maximize, Settings, Zap, Layers, Package, Palette, Download, ArrowRight } from "lucide-react";
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -39,97 +39,88 @@ const SERIES = [
     id: "ottimo",
     name: "OTTIMO SERIES",
     tagline: "Integrated Gola & Profile Handles",
-    pages: "01-02",
-    description: "The gold standard for handleless kitchen design, offering a seamless and ergonomic grip system.",
+    description: "The gold standard for handleless kitchen design, offering a seamless and ergonomic grip system for the modern home.",
+    image: "/images/products/aluminum/ottimo.png",
     icon: <Maximize className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-5220", desc: "Aluminum Shutter L Profile Handle with Gasket", size: "3mtr", price: "₹3,100 - 3,350" },
-      { code: "PAPS-5221", desc: "Aluminum Shutter C Profile Handle", size: "3mtr", price: "₹2,400 - 2,600" },
-      { code: "PAPS-5311", desc: "Aluminum Wall Gola Profile Handle with Gasket", size: "3mtr", price: "₹2,600 - 2,850" },
-      { code: "PAPS-5313", desc: "Aluminum 3 Side Profile", size: "3mtr", price: "₹3,050 - 3,350" },
-      { code: "E/CAPS", desc: "End Caps: PACP-5220, PACP-5221, PACP-5311", size: "2pc", price: "₹130 - 150" },
-      { code: "CONN", desc: "Connectors: PACP-5313A (Steel) / 5313B (Alu)", size: "2pc", price: "₹320" },
+      { code: "PAPS-5220", desc: "Aluminum Shutter L Profile Handle with Gasket", size: "3mtr" },
+      { code: "PAPS-5221", desc: "Aluminum Shutter C Profile Handle", size: "3mtr" },
+      { code: "PAPS-5311", desc: "Aluminum Wall Gola Profile Handle with Gasket", size: "3mtr" },
+      { code: "PAPS-5313", desc: "Aluminum 3 Side Profile", size: "3mtr" },
     ]
   },
   {
     id: "aerolinea",
     name: "AEROLINEA SERIES",
     tagline: "Premium Shutter & Edge Profiles",
-    pages: "03-04",
-    description: "Slim-line architectural frames designed for minimalist glass shutters and clean cabinetry edges.",
+    description: "Slim-line architectural frames designed for minimalist glass shutters and clean cabinetry edges with a contemporary aesthetic.",
+    image: "/images/products/aluminum/aerolinea.png",
     icon: <Settings className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-6631", desc: "Aluminum Shutter L Profile Handle with Gasket", size: "3mtr", price: "₹3,300 - 3,600" },
-      { code: "PAPS-6632", desc: "Aluminum Shutter C Profile Handle", size: "3mtr", price: "₹2,200 - 2,400" },
-      { code: "PAPS-6634", desc: "Aluminum Edge Profile / T Patti", size: "3mtr", price: "₹800 - 900" },
-      { code: "E/CAPS", desc: "End Caps: PACP-6631, PACP-6632", size: "2pc", price: "₹130 - 150" },
-      { code: "C/CAPS", desc: "Corner Caps: PACP-6634", size: "2pc", price: "₹60" },
+      { code: "PAPS-6631", desc: "Aluminum Shutter L Profile Handle with Gasket", size: "3mtr" },
+      { code: "PAPS-6632", desc: "Aluminum Shutter C Profile Handle", size: "3mtr" },
+      { code: "PAPS-6634", desc: "Aluminum Edge Profile / T Patti", size: "3mtr" },
     ]
   },
   {
     id: "handle",
     name: "HANDLE PROFILES",
     tagline: "Ergonomic Shutter Solutions",
-    pages: "05-06",
-    description: "High-precision J and L profile handles for modern wardrobe and kitchen shutter operations.",
+    description: "High-precision J and L profile handles engineered for effortless operation in high-end wardrobes and modular kitchens.",
+    image: "/images/banner/pro5.jpg",
     icon: <Hammer className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-1336", desc: "Aluminum Shutter L Profile Handle", size: "3mtr", price: "₹2,700 - 3,000" },
-      { code: "PAPS-5677", desc: "Aluminum Shutter J Profile Handle with Gasket", size: "3mtr", price: "₹2,900 - 3,150" },
-      { code: "PAPS-1335", desc: "Aluminum Shutter Profile Handle with Gasket", size: "3mtr", price: "₹3,200 - 3,500" },
-      { code: "METAL", desc: "Metal End Caps (PACP-1336)", size: "2pc", price: "₹180" },
-      { code: "PVC", desc: "PVC End Caps (PACP-1335)", size: "2pc", price: "₹80" },
+      { code: "PAPS-1336", desc: "Aluminum Shutter L Profile Handle", size: "3mtr" },
+      { code: "PAPS-5677", desc: "Aluminum Shutter J Profile Handle with Gasket", size: "3mtr" },
+      { code: "PAPS-1335", desc: "Aluminum Shutter Profile Handle with Gasket", size: "3mtr" },
     ]
   },
   {
     id: "shelf",
     name: "SHELF PROFILES",
     tagline: "Architectural Glass Support",
-    pages: "07-08",
-    description: "Specialized aluminum profiles for glass shelves with integrated structural support and lighting readiness.",
+    description: "Specialized aluminum profiles for glass shelves with integrated structural support and lighting readiness for retail and luxury interiors.",
+    image: "/images/banner/pro6.jpg",
     icon: <Layers className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-5037", desc: "Aluminum Profile for Glass Shelf", size: "3mtr", price: "₹3,900 - 4,300" },
-      { code: "PAPS-5037A", desc: "Aluminum Profile for LED Glass Shelf", size: "3mtr", price: "₹3,850 - 4,200" },
-      { code: "PAHL-5037", desc: "Aluminum Glass Shelf Profile Holder", size: "4pc", price: "₹470" },
-      { code: "CONN", desc: "Shelf Connectors: PACN-5037 / 5037A", size: "4pc", price: "₹470" },
+      { code: "PAPS-5037", desc: "Aluminum Profile for Glass Shelf", size: "3mtr" },
+      { code: "PAPS-5037A", desc: "Aluminum Profile for LED Glass Shelf", size: "3mtr" },
     ]
   },
   {
     id: "luminare",
     name: "LUMINARE SERIES",
     tagline: "LED Integrated Lighting Profiles",
-    pages: "09-10",
-    description: "Functional lighting ecosystems designed for optimal heat dissipation and spot-free diffusion.",
+    description: "Functional lighting ecosystems designed for optimal heat dissipation and spot-free diffusion in high-end cabinetry.",
+    image: "/images/products/aluminum/luminare.png",
     icon: <Lightbulb className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-3136A", desc: "Aluminum 45° Degree LED Light Profile", size: "3mtr", price: "₹1,950 - 2,100" },
-      { code: "PAPS-3062A", desc: "Aluminum LED Light Profile", size: "3mtr", price: "₹1,350 - 1,450" },
+      { code: "PAPS-3136A", desc: "Aluminum 45° Degree LED Light Profile", size: "3mtr" },
+      { code: "PAPS-3062A", desc: "Aluminum LED Light Profile", size: "3mtr" },
     ]
   },
   {
     id: "hanging",
     name: "HANGING ROD",
     tagline: "Wardrobe Illumination Systems",
-    pages: "09",
-    description: "Premium aluminum wardrobe rods with integrated LED capabilities for luxury walk-in closets.",
+    description: "Premium aluminum wardrobe rods with integrated LED capabilities, creating a boutique walk-in closet experience.",
+    image: "/images/gallery/wardrobe-3.jpg",
     icon: <Zap className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-6413", desc: "Aluminum LED Hanging Rod for Clothes", size: "3mtr", price: "₹2,920 - 3,120" },
-      { code: "PACP-6414", desc: "Aluminum Clothes Hanging Bracket", size: "2pc", price: "₹890" },
+      { code: "PAPS-6413", desc: "Aluminum LED Hanging Rod for Clothes", size: "3mtr" },
+      { code: "PACP-6414", desc: "Aluminum Clothes Hanging Bracket", size: "2pc" },
     ]
   },
   {
     id: "velaro",
     name: "VELARO SERIES",
     tagline: "Luxury Glass Shutter Systems",
-    pages: "11-12",
-    description: "High-precision sliding and fixed glass shutter profiles for sophisticated furniture design.",
+    description: "High-precision sliding and fixed glass shutter profiles for sophisticated furniture design and architectural partitioning.",
+    image: "/images/banner/pro4.jpg",
     icon: <Package className="text-copper" size={24} />,
     products: [
-      { code: "PAPS-1351A", desc: "Glass Shutter Profile with Gasket", size: "3mtr", price: "₹3,000 - 3,160" },
-      { code: "PAHD-1351C", desc: "Aluminum Handle (128mm)", size: "4pc", price: "₹1,675" },
-      { code: "PACN-1351A", desc: "Steel Connector", size: "4pc", price: "₹520" },
+      { code: "PAPS-1351A", desc: "Glass Shutter Profile with Gasket", size: "3mtr" },
+      { code: "PAHD-1351C", desc: "Aluminum Handle (128mm)", size: "4pc" },
     ]
   },
 ];
@@ -159,7 +150,7 @@ export default function AluminumProfilesPage() {
     <>
       <SchemaMarkup schemas={schemas} />
 
-      {/* Hero (Luxury Alignment) */}
+      {/* Hero (Perfect Alignment with Home) */}
       <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden bg-navy">
         <div className="absolute inset-0 z-0 opacity-40">
           <div className="relative w-full h-full animate-ken-burns">
@@ -187,109 +178,204 @@ export default function AluminumProfilesPage() {
               </p>
             </div>
 
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
               AL-PROFHAN <br />
               <span className="text-copper">Aluminum Profiles</span>
             </h1>
 
-            <p className="text-white/80 text-sm md:text-lg max-w-2xl leading-relaxed mb-10 font-light italic">
+            <p className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-10 font-light italic">
               European-standard aluminum sourcing for modern kitchens, wardrobes, and commercial furniture. 
               A complete hardware ecosystem by Suraj Wood.
             </p>
 
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/downloads"
-                className="bg-copper hover:bg-copper-light text-white font-bold px-8 py-3.5 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm"
+                href="/contact?inquiry=hardware-catalog"
+                className="bg-copper hover:bg-copper-light text-white font-bold px-7 py-3 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm group"
               >
-                Technical Catalog
+                Download Catalog
+                <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </Link>
               <Link
                 href="/contact"
-                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
+                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-7 py-3 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
               >
-                Inquire Now
+                Get Pricing Info
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Trust Stats */}
-      <section className="bg-white border-b border-gray-100 py-10">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { label: "Standard Length", val: "3 Meters", desc: "Precision Cut" },
-              { label: "Sourcing", val: "European", desc: "Grade 6063 T5 Aluminum" },
-              { label: "Applications", val: "Modular", desc: "Kitchens & Wardrobes" },
-              { label: "Integration", val: "Acrylic", desc: "100% Compatible" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center md:text-left">
-                <p className="text-[10px] uppercase font-bold text-gray-400 tracking-widest mb-1">{stat.label}</p>
-                <p className="font-heading font-bold text-2xl text-navy">{stat.val}</p>
-                <p className="text-xs text-gray-500 mt-1">{stat.desc}</p>
+      {/* Intro */}
+      <section className="bg-white py-12 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <p className="text-gray-500 italic max-w-2xl mx-auto">
+            Explore the complete AL-PROFHAN hardware ecosystem. Each series is designed for seamless 
+            integration with our premium acrylic panels.
+          </p>
+        </div>
+      </section>
+
+      {/* Series Overhaul: Alternating Layout */}
+      <section className="bg-cream">
+        {SERIES.map((item, idx) => (
+          <div 
+            key={item.id} 
+            className={`py-20 border-b border-gray-100 ${idx % 2 === 1 ? 'bg-white' : 'bg-cream'}`}
+          >
+            <div className="max-w-7xl mx-auto px-6">
+              <div className={`flex flex-col lg:flex-row items-center gap-12 lg:gap-20 ${idx % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
+                {/* Image Block */}
+                <div className="w-full lg:w-1/2">
+                  <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl group">
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-navy/10 group-hover:bg-transparent transition-colors duration-500" />
+                  </div>
+                </div>
+
+                {/* Content Block */}
+                <div className="w-full lg:w-1/2">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-12 h-12 rounded-2xl bg-navy/5 flex items-center justify-center">
+                      {item.icon}
+                    </div>
+                    <div>
+                      <h2 className="font-playfair text-3xl md:text-4xl text-navy">{item.name}</h2>
+                      <p className="text-copper font-bold text-[10px] uppercase tracking-widest">{item.tagline}</p>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 text-lg leading-relaxed mb-8 italic">
+                    {item.description}
+                  </p>
+
+                  <div className="mb-10 space-y-4">
+                    <p className="text-xs font-bold text-navy uppercase tracking-widest border-b border-gray-200 pb-2 mb-4">Product Breakdown</p>
+                    {item.products.map((p) => (
+                      <div key={p.code} className="flex justify-between items-start border-b border-gray-50 pb-3">
+                        <div>
+                          <p className="text-sm font-bold text-navy">{p.code}</p>
+                          <p className="text-xs text-gray-500">{p.desc}</p>
+                        </div>
+                        <div className="text-right">
+                          <p className="text-xs text-gray-400">{p.size}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="flex flex-wrap gap-4">
+                    <Link
+                      href={`/contact?inquiry=${item.id}-pricing`}
+                      className="bg-navy text-white font-bold px-8 py-3.5 rounded-xl hover:bg-copper transition-all duration-300 shadow-lg text-sm flex items-center gap-2"
+                    >
+                      Request Pricing Details
+                      <ArrowRight size={16} />
+                    </Link>
+                    <Link
+                      href="/downloads"
+                      className="border-2 border-navy/10 text-navy font-bold px-8 py-3.5 rounded-xl hover:border-navy transition-all duration-300 text-sm flex items-center gap-2"
+                    >
+                      <Download size={16} />
+                      Download Specs
+                    </Link>
+                  </div>
+                </div>
               </div>
-            ))}
+            </div>
+          </div>
+        ))}
+      </section>
+
+      {/* Finishes Section (Full Width Hero Style) */}
+      <section className="relative py-32 overflow-hidden bg-navy">
+        <div className="absolute inset-0 z-0 opacity-30">
+          <Image
+            src="/images/banner/pro6.jpg"
+            alt="Finishes Background"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/80 to-transparent" />
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          <div className="max-w-2xl">
+            <div className="mb-6 flex items-center gap-3">
+              <div className="w-8 h-[2px] bg-copper" />
+              <p className="text-copper tracking-[0.3em] text-[10px] uppercase font-bold">Aesthetic Variety</p>
+            </div>
+            <h2 className="font-playfair text-4xl md:text-5xl text-white mb-8">Available Finishes</h2>
+            <p className="text-white/70 text-lg leading-relaxed mb-12 italic">
+              Our profiles are available in a curated selection of premium finishes, 
+              meticulously crafted to complement high-end cabinetry and architectural surfaces.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+              {FINISHES.map((f) => (
+                <div key={f.name} className="group">
+                  <div 
+                    className="w-16 h-16 rounded-2xl mb-4 shadow-2xl border border-white/10 group-hover:scale-110 transition-transform duration-500" 
+                    style={{ backgroundColor: f.color }}
+                  />
+                  <p className="text-sm font-bold text-white mb-1">{f.name}</p>
+                  {f.note && <p className="text-[10px] text-white/40">{f.note}</p>}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Series Grid */}
-      <section className="bg-cream py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-16 text-center lg:text-left">
-            <h2 className="font-playfair text-4xl md:text-5xl text-navy mb-4">Product Series</h2>
-            <p className="text-gray-500 max-w-2xl italic">Explore the complete AL-PROFHAN hardware ecosystem, from handleless gola systems to illuminated hanging rods.</p>
+      {/* Lead Capture Footer */}
+      <section className="bg-cream py-24 text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="inline-flex items-center justify-center p-4 bg-white rounded-3xl shadow-xl mb-8">
+            <Palette className="text-copper" size={32} />
           </div>
-
-          <div className="grid grid-cols-1 gap-12">
-            {SERIES.map((item) => (
-              <div 
-                key={item.id} 
-                className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col lg:flex-row"
-              >
-                <div className="lg:w-1/3 bg-navy/5 p-8 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-gray-100">
-                  <div>
-                    <div className="mb-6">{item.icon}</div>
-                    <h3 className="font-heading font-bold text-2xl text-navy mb-1">{item.name}</h3>
-                    <p className="text-copper font-semibold text-xs mb-4 uppercase tracking-wider">{item.tagline}</p>
-                    <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">{item.description}</p>
-                  </div>
-                  <div className="text-[10px] text-gray-400 uppercase tracking-widest">
-                    Catalog Pages: {item.pages}
-                  </div>
-                </div>
-                
-                <div className="lg:w-2/3 p-6 md:p-10">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-left">
-                      <thead>
-                        <tr className="border-b border-gray-100">
-                          <th className="pb-4 text-[10px] uppercase tracking-widest text-gray-400">Code</th>
-                          <th className="pb-4 text-[10px] uppercase tracking-widest text-gray-400">Description</th>
-                          <th className="pb-4 text-[10px] uppercase tracking-widest text-gray-400 text-right">Length</th>
-                          <th className="pb-4 text-[10px] uppercase tracking-widest text-gray-400 text-right">Est. Price</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-gray-50">
-                        {item.products.map((p) => (
-                          <tr key={p.code} className="group">
-                            <td className="py-4 text-xs font-bold text-navy group-hover:text-copper transition-colors">{p.code}</td>
-                            <td className="py-4 text-xs text-gray-600">{p.desc}</td>
-                            <td className="py-4 text-xs text-gray-500 text-right">{p.size}</td>
-                            <td className="py-4 text-xs font-semibold text-navy text-right whitespace-nowrap">{p.price}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            ))}
+          <h2 className="font-playfair text-4xl md:text-5xl text-navy mb-8">
+            Elevate Your <br /> Designs Today
+          </h2>
+          <p className="text-gray-500 text-lg mb-12 italic">
+            Join the community of leading architects and furniture manufacturers who 
+            trust AL-PROFHAN for their hardware requirements.
+          </p>
+          <div className="bg-white p-8 md:p-12 rounded-[40px] shadow-2xl border border-gray-100">
+            <h3 className="font-bold text-xl mb-6">Receive Technical Catalog & Pricing</h3>
+            <form className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <input type="text" placeholder="Your Name" className="bg-gray-50 border border-gray-100 rounded-xl px-6 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-copper/50" />
+              <input type="email" placeholder="Email Address" className="bg-gray-50 border border-gray-100 rounded-xl px-6 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-copper/50" />
+              <button className="bg-copper text-white font-bold rounded-xl px-6 py-4 hover:bg-copper-dark transition-all shadow-lg shadow-copper/20">
+                Get Catalog
+              </button>
+            </form>
+            <p className="text-[10px] text-gray-400 mt-6 uppercase tracking-widest">Immediate delivery to your inbox</p>
           </div>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <section className="bg-navy py-16 text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="flex flex-wrap justify-center gap-8">
+            <Link href="/products/acrylux" className="text-white/50 hover:text-white font-bold transition-all flex items-center gap-2">
+              <ArrowRight size={16} /> Explore ACRYLUX
+            </Link>
+            <Link href="/products/acrymatte" className="text-white/50 hover:text-white font-bold transition-all flex items-center gap-2">
+              <ArrowRight size={16} /> Explore ACRYMATTE
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
 
       {/* Finishes Section */}
       <section className="bg-white py-20">
