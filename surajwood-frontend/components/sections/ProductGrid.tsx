@@ -30,21 +30,22 @@ interface ProductGridProps {
 
 export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <section id="products" className="bg-white pt-0 pb-16">
+    <section id="products" className="bg-[#F9F9F7] pt-24 pb-24">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section header — compact */}
-        <div className="text-center mb-8">
-          <p className="text-copper tracking-widest text-xs uppercase font-semibold mb-2">
-            Our Collections
+        {/* Section header */}
+        <div className="text-center mb-16">
+          <p className="text-copper tracking-[0.2em] text-xs uppercase font-black mb-3">
+            The Acrylic Collections
           </p>
-          <h2 className="font-heading font-bold text-2xl md:text-3xl text-navy leading-tight">
-            Five Distinct Finishes.{" "}
-            <span className="text-copper">Endless Possibilities.</span>
+          <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-navy leading-tight">
+            Five Distinct <span className="text-copper underline decoration-copper/20 underline-offset-8">Acrylic Panel</span> Finishes.{" "}
+            <br className="hidden md:block" />
+            Endless Possibilities.
           </h2>
         </div>
 
-        {/* Product cards — compact grid, all visible in one viewport */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        {/* Product cards — vertical slabs */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {products.map((product) => {
             const imageSrc =
               PRODUCT_IMAGES[product.slug] ??
@@ -56,48 +57,48 @@ export default function ProductGrid({ products }: ProductGridProps) {
               <Link
                 key={product.id}
                 href={`/products/${product.slug}`}
-                className="group block rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className="group block rounded-2xl overflow-hidden bg-white border border-[#E5E5E0] shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
               >
-                {/* Image — Efficient Aspect Ratio */}
-                <div className="relative aspect-[4/3] bg-cream overflow-hidden">
+                {/* Image — Vertical Aspect Ratio for Panels */}
+                <div className="relative aspect-[3/4] bg-white overflow-hidden p-4">
                   <Image
                     src={imageSrc}
                     alt={`${product.name} acrylic panel – ${finishLabel} finish`}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-contain p-2 transition-transform duration-700 group-hover:scale-110"
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                   />
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300" />
+                  {/* Subtle edge highlight for white panels */}
+                  <div className="absolute inset-0 border-[8px] border-white/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
 
-                {/* Content — minimal */}
-                <div className="p-3 text-center">
-                  <span className="inline-block text-[10px] font-semibold text-copper bg-copper/10 px-2 py-0.5 rounded-full mb-1.5">
+                {/* Content */}
+                <div className="p-6 text-center border-t border-[#F5F5F0]">
+                  <span className="inline-block text-[10px] font-black uppercase tracking-widest text-copper bg-copper/5 px-3 py-1 rounded-full mb-3">
                     {finishLabel}
                   </span>
-                  <h3 className="font-heading font-bold text-sm text-navy leading-snug">
+                  <h3 className="font-heading font-bold text-lg text-navy mb-1 group-hover:text-copper transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-[11px] text-gray-500 mt-0.5 line-clamp-1">
+                  <p className="text-[12px] text-gray-500 font-medium line-clamp-2 min-h-[2rem]">
                     {product.tagline}
                   </p>
-                  <span className="inline-block mt-2 text-copper font-semibold text-xs group-hover:underline underline-offset-2">
-                    Explore →
-                  </span>
+                  <div className="mt-4 flex items-center justify-center gap-1 text-copper font-black text-xs uppercase tracking-wider group-hover:gap-2 transition-all">
+                    Explore Details <span>→</span>
+                  </div>
                 </div>
               </Link>
             );
           })}
         </div>
 
-        {/* View all CTA — links to products hub */}
-        <div className="text-center mt-8">
+        {/* View all CTA */}
+        <div className="text-center mt-16">
           <Link
             href="/products"
-            className="inline-block border-2 border-navy text-navy hover:bg-navy hover:text-white font-semibold px-6 py-2.5 rounded-full transition-all duration-300 font-heading text-sm"
+            className="inline-flex items-center gap-3 bg-navy text-white hover:bg-copper font-bold px-10 py-4 rounded-xl transition-all duration-300 shadow-xl shadow-navy/10 active:scale-95"
           >
-            View All Products
+            View Entire Range <ArrowRight size={18} />
           </Link>
         </div>
       </div>
