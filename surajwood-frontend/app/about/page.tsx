@@ -58,7 +58,10 @@ export default function AboutPage() {
       {/* ------------------------------------------------------------------ */}
       {/* Section 1 — Hero Banner (Luxury Alignment)                       */}
       {/* ------------------------------------------------------------------ */}
-      <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden">
+      {/* ------------------------------------------------------------------ */}
+      {/* Section 1 — Hero Banner (Cinematic Alignment)                    */}
+      {/* ------------------------------------------------------------------ */}
+      <section className="relative h-screen flex flex-col justify-between overflow-hidden">
         {/* Background Image with Ken Burns (Matching Home) */}
         <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full animate-ken-burns">
@@ -79,7 +82,7 @@ export default function AboutPage() {
         {/* Spacer to clear sticky navbar */}
         <div className="h-32 lg:h-40" />
 
-        {/* Content Area (Left Aligned) */}
+        {/* Content Area (Left Aligned - Matching Home) */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
           <div className="max-w-3xl">
             {/* Eyebrow */}
@@ -90,20 +93,38 @@ export default function AboutPage() {
               </p>
             </div>
 
-            {/* H1: Playfair Display Serif */}
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+            {/* H1: Playfair Display Serif - Matching Home Scale */}
+            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
               India&apos;s Technical Authority in <br />
               <span className="text-copper">Acrylic Manufacturing</span>
             </h1>
 
-            {/* Sub-headline */}
-            <p className="text-white/80 text-sm md:text-xl max-w-2xl leading-relaxed mb-8 font-light italic">
+            {/* Sub-headline - Matching Home Style */}
+            <p className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic">
               From our state-of-the-art Bahadurgarh facility, we engineer surfaces that outperform PETG and standard laminates through German PUR technology.
             </p>
 
-            {/* Optional CTA or Scroll Indicator link could go here, but kept clean for About */}
+            {/* CTA buttons */}
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/contact"
+                className="bg-copper hover:bg-copper-light text-white font-black px-9 py-4 rounded-xl transition-all duration-300 shadow-2xl shadow-copper/40 hover:-translate-y-1 text-sm md:text-base group"
+              >
+                Plan a Visit
+                <span className="inline-block ml-3 group-hover:translate-x-1 transition-transform font-bold">→</span>
+              </Link>
+              <Link
+                href="/contact#sample"
+                className="bg-white/10 backdrop-blur-xl border border-white/30 text-white hover:bg-white hover:text-navy font-black px-9 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1 text-sm md:text-base shadow-xl"
+              >
+                Request Sample
+              </Link>
+            </div>
           </div>
         </div>
+
+        {/* Subtle Bottom Accent (Matching Home fold feel) */}
+        <div className="relative z-10 w-full h-1 bg-gradient-to-r from-copper/50 to-transparent" />
       </section>
 
       {/* ------------------------------------------------------------------ */}
