@@ -1,7 +1,7 @@
 import Script from "next/script";
 
 interface JsonLdProps {
-  schemas: any[];
+  schemas: Record<string, unknown>[];
 }
 
 export default function JsonLd({ schemas }: JsonLdProps) {

@@ -30,11 +30,7 @@ const applications = [
   { name: "Wall Paneling", href: "/applications/wall-paneling" },
 ];
 
-const resources = [
-  { name: "Downloads", href: "/downloads", desc: "Shade Cards & Catalogs" },
-  { name: "Exhibitions", href: "/#events", desc: "Latest Industry Shows" },
-  { name: "Blog", href: "/blog", desc: "Design & Maintenance Guides" },
-];
+
 
 
 export default function Navbar() {
