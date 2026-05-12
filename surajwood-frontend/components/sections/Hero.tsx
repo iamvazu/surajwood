@@ -73,7 +73,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-between overflow-hidden">
+    <section className="relative h-screen flex flex-col justify-between overflow-hidden">
       {/* Background image carousel with refined Ken Burns */}
       {HERO_SLIDES.map((slide, i) => (
         <div
@@ -160,14 +160,14 @@ export default function Hero() {
               >
                 <Link
                   href="/contact?inquiry=sample-kit"
-                  className="bg-copper hover:bg-copper-light text-white font-bold px-7 py-3 rounded transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm group"
+                  className="bg-copper hover:bg-copper-light text-white font-black px-9 py-4 rounded-xl transition-all duration-300 shadow-2xl shadow-copper/40 hover:-translate-y-1 text-sm md:text-base group"
                 >
                   Request Sample Kit
-                  <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                  <span className="inline-block ml-3 group-hover:translate-x-1 transition-transform font-bold">→</span>
                 </Link>
                 <button
                   onClick={handleScrollToProducts}
-                  className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-7 py-3 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
+                  className="bg-white/10 backdrop-blur-xl border border-white/30 text-white hover:bg-white hover:text-navy font-black px-9 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1 text-sm md:text-base shadow-xl"
                 >
                   View Collections
                 </button>

@@ -30,7 +30,7 @@ interface ProductGridProps {
 
 export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <section id="products" className="bg-cream py-8">
+    <section id="products" className="bg-white pt-0 pb-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section header — compact */}
         <div className="text-center mb-8">
