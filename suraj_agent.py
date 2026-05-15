@@ -1,6 +1,14 @@
 import os
+import sys
 import json
 import requests # Ensure 'pip install requests'
+
+# Fix Windows non-TTY background execution crashes with emojis
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 # CONFIGURATION
 CRM_API_ENDPOINT = "http://localhost:8080/api/leads" # Your internal CRM

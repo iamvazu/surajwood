@@ -2,6 +2,13 @@ import requests
 import json
 import sys
 
+# Fix Windows non-TTY background execution crashes with emojis
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
 # --- 🔑 CONFIGURATION ---
 # Replace with your actual GoDaddy CRM details
 PERFEX_API_URL = "https://crm.surajwood.com/api/leads/create"
