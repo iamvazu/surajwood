@@ -81,13 +81,6 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
         <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
         {/* Schema markup placeholder — import SchemaMarkup + schema generators when lib/schema.ts is ready */}
-      </head>
-      <body className="font-[family-name:var(--font-dm-sans)] antialiased">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-        <WhatsAppWidget />
-        <Analytics />
         {gaId && (
           <>
             <Script
@@ -99,6 +92,13 @@ export default function RootLayout({
             </Script>
           </>
         )}
+      </head>
+      <body className="font-[family-name:var(--font-dm-sans)] antialiased">
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+        <WhatsAppWidget />
+        <Analytics />
       </body>
     </html>
   );
