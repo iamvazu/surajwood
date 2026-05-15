@@ -12,8 +12,24 @@ const CATALOGS = {
   aluminium: "https://www.surajwood.com/catalogs/aluminium_2025.pdf"
 };
 
+interface Session {
+  step: string;
+  data: {
+    full_name: string;
+    phone: string;
+    product_interest?: string[];
+    user_type?: string;
+    inquiry_type?: string;
+    email?: string;
+    message?: string;
+    city?: string;
+    consent?: boolean;
+    honeypot?: string;
+  };
+}
+
 // In-memory session store (Note: Use Redis/DB for production)
-const sessions: Record<string, any> = {};
+const sessions: Record<string, Session> = {};
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -67,7 +83,7 @@ export async function POST(req: NextRequest) {
   }
 }
 
-async function handleFlow(from: string, session: any, text: string, buttonId?: string) {
+async function handleFlow(from: string, session: Session, text: string, buttonId?: string) {
   switch (session.step) {
     case 'START':
       await sendInteractiveButtons(from, 
@@ -165,7 +181,7 @@ async function handleFlow(from: string, session: any, text: string, buttonId?: s
   }
 }
 
-async function syncToCRM(data: any) {
+async function syncToCRM(data: Session['data']) {
   try {
     const response = await fetch(PERFEX_API_URL, {
       method: 'POST',
