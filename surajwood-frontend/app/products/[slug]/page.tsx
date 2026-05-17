@@ -449,13 +449,13 @@ export default async function ProductPage({
 
             {/* Right: Product image */}
             <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] bg-white">
                 <Image
                   src={heroImageSrc}
                   alt={`${product.name} ${finishLabel} acrylic panel`}
                   fill
                   priority
-                  className="object-cover"
+                  className="object-contain p-8 mix-blend-multiply"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>

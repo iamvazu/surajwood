@@ -61,16 +61,14 @@ export default function ProductGrid({ products }: ProductGridProps) {
                 className="group block rounded-2xl overflow-hidden bg-white border border-[#E5E5E0] shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
               >
                 {/* Image — Vertical Aspect Ratio for Panels */}
-                <div className="relative aspect-[3/4] bg-white overflow-hidden p-4">
+                <div className="relative aspect-[3/4] bg-white overflow-hidden">
                   <Image
                     src={imageSrc}
                     alt={`${product.name} acrylic panel – ${finishLabel} finish`}
                     fill
-                    className="object-contain p-2 transition-transform duration-700 group-hover:scale-110"
+                    className="object-contain mix-blend-multiply p-4 transition-transform duration-300 ease-out group-hover:scale-[1.05]"
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                   />
-                  {/* Subtle edge highlight for white panels */}
-                  <div className="absolute inset-0 border-[8px] border-white/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
 
                 {/* Content */}
@@ -84,7 +82,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
                   <p className="text-[12px] text-gray-500 font-medium line-clamp-2 min-h-[2rem]">
                     {product.tagline}
                   </p>
-                  <div className="mt-4 flex items-center justify-center gap-1 text-copper font-black text-xs uppercase tracking-wider group-hover:gap-2 transition-all">
+                  <div className="mt-4 flex items-center justify-center gap-1 text-gray-400 font-black text-xs uppercase tracking-wider group-hover:text-copper transition-colors">
                     Explore Details <span>→</span>
                   </div>
                 </div>
