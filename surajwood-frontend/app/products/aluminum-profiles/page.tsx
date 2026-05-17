@@ -167,7 +167,7 @@ export default function AluminumProfilesPage() {
       <SchemaMarkup schemas={schemas} />
 
       {/* Hero (Perfect Alignment with Home) */}
-      <section className="relative h-[80vh] min-h-[580px] max-h-[850px] flex flex-col justify-center overflow-hidden bg-navy">
+      <section className="relative h-screen flex flex-col justify-between overflow-hidden bg-navy">
         <div className="absolute inset-0 z-0 opacity-40">
           <div className="relative w-full h-full animate-ken-burns">
             <Image
@@ -221,6 +221,9 @@ export default function AluminumProfilesPage() {
             </div>
           </div>
         </div>
+
+        {/* Subtle Bottom Accent (Matching Home/About fold feel) */}
+        <div className="relative z-10 w-full h-1 bg-gradient-to-r from-copper/50 to-transparent" />
       </section>
 
       {/* Intro */}
