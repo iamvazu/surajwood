@@ -80,9 +80,9 @@ export default async function BlogPage() {
       {/* ------------------------------------------------------------------ */}
       {/* HERO (Luxury Alignment)                                             */}
       {/* ------------------------------------------------------------------ */}
-      <section className="relative h-[70vh] min-h-[500px] max-h-[750px] flex flex-col justify-center overflow-hidden bg-navy">
-        {/* Background Image with Ken Burns */}
-        <div className="absolute inset-0 z-0 opacity-40">
+      <section className="relative h-screen flex flex-col justify-between overflow-hidden">
+        {/* Background Image with Ken Burns (Matching Home) */}
+        <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full animate-ken-burns">
             <Image
               src="/images/gallery/wardrobe-3.jpg"
@@ -94,27 +94,31 @@ export default async function BlogPage() {
           </div>
         </div>
 
-        {/* Sophisticated Gradients */}
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/40 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
+        {/* Sophisticated Gradients (Matching Home) */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
 
-        <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
-          <nav className="mb-8" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-sm text-white/60">
-              <li>
-                <Link href="/" className="hover:text-white transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li className="text-white/40">›</li>
-              <li className="text-white font-medium" aria-current="page">
-                Blog
-              </li>
-            </ol>
-          </nav>
+        {/* Spacer to clear sticky navbar */}
+        <div className="h-32 lg:h-40" />
 
+        {/* Content Area (Left Aligned - Matching Home) */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
           <div className="max-w-3xl">
+            {/* Breadcrumb */}
+            <nav className="mb-8" aria-label="Breadcrumb">
+              <ol className="flex items-center gap-2 text-sm text-white/60">
+                <li>
+                  <Link href="/" className="hover:text-white transition-colors">
+                    Home
+                  </Link>
+                </li>
+                <li className="text-white/40">›</li>
+                <li className="text-white font-medium" aria-current="page">
+                  Blog
+                </li>
+              </ol>
+            </nav>
+
             {/* Eyebrow */}
             <div className="flex items-center gap-3 mb-6">
               <div className="w-8 h-[2px] bg-copper" />
@@ -136,6 +140,9 @@ export default async function BlogPage() {
             </p>
           </div>
         </div>
+
+        {/* Subtle Bottom Accent (Matching Home fold feel) */}
+        <div className="relative z-10 w-full h-1 bg-gradient-to-r from-copper/50 to-transparent" />
       </section>
 
       {/* ------------------------------------------------------------------ */}

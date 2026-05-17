@@ -551,10 +551,9 @@ function DealerForm() {
 export default function ContactPageClient() {
   return (
     <>
-      {/* Hero (Luxury Alignment) */}
-      <section className="relative h-[60vh] min-h-[480px] max-h-[700px] flex flex-col justify-center overflow-hidden bg-navy">
-        {/* Background Image with Ken Burns */}
-        <div className="absolute inset-0 z-0 opacity-40">
+      <section className="relative h-screen flex flex-col justify-between overflow-hidden">
+        {/* Background Image with Ken Burns (Matching Home) */}
+        <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full animate-ken-burns">
             <Image
               src="/images/gallery/office-1.jpg"
@@ -566,12 +565,16 @@ export default function ContactPageClient() {
           </div>
         </div>
 
-        {/* Sophisticated Gradients */}
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/40 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
+        {/* Sophisticated Gradients (Matching Home) */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
 
-        <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto">
+        {/* Spacer to clear sticky navbar */}
+        <div className="h-32 lg:h-40" />
+
+        {/* Content Area (Left Aligned - Matching Home) */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
+          <div className="max-w-3xl">
             {/* Breadcrumb */}
             <nav aria-label="Breadcrumb" className="mb-8">
               <ol className="flex items-center gap-2 text-sm text-white/60">
@@ -604,6 +607,9 @@ export default function ContactPageClient() {
             </p>
           </div>
         </div>
+
+        {/* Subtle Bottom Accent (Matching Home fold feel) */}
+        <div className="relative z-10 w-full h-1 bg-gradient-to-r from-copper/50 to-transparent" />
       </section>
 
       {/* ------------------------------------------------------------------ */}
@@ -708,17 +714,31 @@ export default function ContactPageClient() {
               </div>
 
               {/* Google Maps */}
-              <div className="rounded-2xl overflow-hidden border border-cream-dark shadow-sm aspect-[4/3]">
-                <iframe
-                  src="https://maps.google.com/maps?q=28.6562,76.7219&hl=en&z=14&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="SurajWood factory location — Bahadurgarh, Haryana"
-                />
+              <div className="rounded-2xl overflow-hidden border border-cream-dark shadow-sm aspect-[4/3] relative group">
+                <a
+                  href="https://maps.app.goo.gl/iUHqrGrSFW4rcUgS9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full h-full relative"
+                >
+                  <Image
+                    src="/images/contact/google-map-location.png"
+                    alt="SurajWood Bahadurgarh Factory Location on Google Maps"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  {/* Subtle Dark Overlay on Hover */}
+                  <div className="absolute inset-0 bg-navy/10 group-hover:bg-navy/0 transition-colors duration-300" />
+                  
+                  {/* Hover Floating Glassmorphic Badge */}
+                  <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-md border border-cream-dark text-navy px-4 py-2 rounded-xl text-xs font-semibold shadow-lg flex items-center gap-2 group-hover:bg-copper group-hover:text-white transition-all duration-300 group-hover:-translate-y-1">
+                    <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Open in Google Maps
+                  </div>
+                </a>
               </div>
             </div>
           </div>
