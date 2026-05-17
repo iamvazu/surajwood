@@ -186,12 +186,17 @@ export default function PSEOPage({ params }: PageProps) {
     name: `${product.name} Acrylic ${application.namePlural} Panels`,
     description: product.description,
     brand: { "@type": "Brand", name: "Suraj Wood" },
+    image: `https://www.surajwood.com${heroImage}`,
     url: `https://www.surajwood.com/${product.slug}/${application.slug}/${city.slug}`,
     material: specs.material,
     offers: {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
       priceCurrency: "INR",
+      lowPrice: "850",
+      highPrice: "2500",
+      offerCount: "5",
       availability: "https://schema.org/InStock",
+      priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
       seller: {
         "@type": "Organization",
         name: "Suraj Wood Products Pvt. Ltd.",
