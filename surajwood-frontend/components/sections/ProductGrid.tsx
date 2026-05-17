@@ -7,7 +7,7 @@ import type { SanityProduct, FinishType } from "@/types/sanity";
 
 const PRODUCT_IMAGES: Record<string, string> = {
   acrylux: "/images/products/acrylux.png",
-  acrysilk: "/images/products/acrysilk.png",
+  acrysilk: "/images/products/acrysilk.jpg",
   acrymatte: "/images/products/acrymatte.png",
   acryglass: "/images/products/acryglass.png",
   "acryglass-matte": "/images/products/acryglass-matte.png",
