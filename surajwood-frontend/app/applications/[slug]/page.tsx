@@ -30,12 +30,14 @@ type ApplicationConfig = {
   benefits: { icon: string; title: string; desc: string }[];
   faqExtra: { question: string; answer: string }[];
   galleryImages: string[];
+  heroBgImage?: string;
 };
 
 const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
   kitchens: {
     name: "Kitchens",
     heroTagline: "India's Premium Kitchen Surface",
+    heroBgImage: "/images/gallery/kitchen-hero-new.jpg",
     heroBg: "from-navy via-navy to-navy/80",
     intro:
       "Transform your kitchen with India's premium acrylic panels. Moisture-resistant, heat-tolerant, and available in 50+ finishes — ACRYLUX and ACRYGLASS panels are the preferred choice of India's top kitchen designers. Engineered to handle the demands of Indian cooking environments: high heat, oil vapour, humidity, and daily intensive cleaning — without compromising on aesthetics.",
@@ -433,7 +435,7 @@ export default async function ApplicationPage({
         <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full animate-ken-burns">
             <Image
-              src={config.galleryImages[0]}
+              src={config.heroBgImage || config.galleryImages[0]}
               alt={`${config.name} with Suraj Wood acrylic panels`}
               fill
               priority
@@ -443,9 +445,13 @@ export default async function ApplicationPage({
           </div>
         </div>
 
-        {/* Sophisticated Gradients (Matching Home) */}
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+        {/* Sophisticated Gradients (Matching Home) - Excluded for kitchens as requested */}
+        {slug !== "kitchens" && (
+          <>
+            <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
+            <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+          </>
+        )}
 
         {/* Spacer to clear sticky navbar */}
         <div className="h-32 lg:h-40" />
@@ -453,7 +459,7 @@ export default async function ApplicationPage({
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
           {/* Subtle Breadcrumb Overlay */}
           <nav className="mb-8" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-white/40">
+            <ol className={`flex items-center gap-2 text-[10px] uppercase tracking-widest ${slug === "kitchens" ? "text-navy/80 font-bold" : "text-white/40"}`}>
               <li>
                 <Link href="/" className="hover:text-copper transition-colors">
                   Home
@@ -466,7 +472,7 @@ export default async function ApplicationPage({
                 </Link>
               </li>
               <li>›</li>
-              <li className="text-white/60" aria-current="page">
+              <li className={slug === "kitchens" ? "text-navy" : "text-white/60"} aria-current="page">
                 {config.name}
               </li>
             </ol>
@@ -476,19 +482,19 @@ export default async function ApplicationPage({
             {/* Eyebrow */}
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-[2px] bg-copper" />
-              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+              <p className={`text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold ${slug === "kitchens" ? "[text-shadow:_0_1px_4px_rgba(255,255,255,0.7)]" : ""}`}>
                 {config.heroTagline}
               </p>
             </div>
 
-            {/* H1: Playfair Display Serif */}
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6">
+            {/* H1: Playfair Display Serif with custom text-shadow for kitchens */}
+            <h1 className={`font-playfair text-white text-3xl md:text-5xl lg:text-7xl leading-[1.1] mb-6 ${slug === "kitchens" ? "text-navy [text-shadow:_0_1px_8px_rgba(255,255,255,0.65)]" : ""}`}>
               Premium Acrylic Panels <br />
               for <span className="text-copper">{config.name}</span>
             </h1>
 
             {/* Sub-headline / Intro */}
-            <p className="text-white/80 text-sm md:text-lg max-w-2xl leading-relaxed mb-10 font-light italic">
+            <p className={`text-sm md:text-lg max-w-2xl leading-relaxed mb-10 ${slug === "kitchens" ? "text-navy/90 font-bold" : "text-white/80 font-light italic"}`}>
               {config.intro.split('.')[0]}. {config.intro.split('.')[1]}.
             </p>
 
@@ -502,7 +508,7 @@ export default async function ApplicationPage({
               </Link>
               <a
                 href="tel:+919009171819"
-                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
+                className={`font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm ${slug === "kitchens" ? "bg-navy text-white hover:bg-copper hover:text-white" : "bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy"}`}
               >
                 Call +91-9009171819
               </a>
