@@ -30,10 +30,10 @@ export async function generateStaticParams() {
 // ---------------------------------------------------------------------------
 
 const PRODUCT_HERO_IMAGES: Record<string, string> = {
-  acrylux: "/images/products/acrylux.jpg",
-  acrysilk: "/images/products/acrysilk.jpg",
-  acrymatte: "/images/products/acrymatte.jpg",
-  acryglass: "/images/products/acryglass.jpg",
+  acrylux: "/images/products/acrylux.png",
+  acrysilk: "/images/products/acrysilk.png",
+  acrymatte: "/images/products/acrymatte.png",
+  acryglass: "/images/products/acryglass.png",
   "acryglass-matte": "/images/products/acryglass-matte.png",
 };
 

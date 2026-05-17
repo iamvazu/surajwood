@@ -6,10 +6,10 @@ import type { SanityProduct, FinishType } from "@/types/sanity";
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 const PRODUCT_IMAGES: Record<string, string> = {
-  acrylux: "/images/products/acrylux.jpg",
-  acrysilk: "/images/products/acrysilk.jpg",
-  acrymatte: "/images/products/acrymatte.jpg",
-  acryglass: "/images/products/acryglass.jpg",
+  acrylux: "/images/products/acrylux.png",
+  acrysilk: "/images/products/acrysilk.png",
+  acrymatte: "/images/products/acrymatte.png",
+  acryglass: "/images/products/acryglass.png",
   "acryglass-matte": "/images/products/acryglass-matte.png",
 };
 
