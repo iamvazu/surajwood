@@ -112,8 +112,8 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
       "/images/gallery/kitchen-new-2.jpg",
       "/images/gallery/kitchen-new-3.jpg",
       "/images/gallery/kitchen-new-4.png",
-      "/images/gallery/kitchen-1.jpg",
-      "/images/gallery/kitchen-2.jpg",
+      "/images/gallery/kitchen-new-5.png",
+      "/images/gallery/kitchen-new-6.jpg",
     ],
   },
 
