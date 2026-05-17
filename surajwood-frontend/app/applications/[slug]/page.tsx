@@ -5,6 +5,7 @@ import {
   generateOrganizationSchema,
 } from "@/lib/schema";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
+import ApplicationGalleryClient from "@/components/gallery/ApplicationGalleryClient";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -563,35 +564,11 @@ export default async function ApplicationPage({
       {/* ------------------------------------------------------------------ */}
       {/* GALLERY                                                             */}
       {/* ------------------------------------------------------------------ */}
-      <section className="bg-cream py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <p className="text-copper text-sm font-semibold uppercase tracking-widest mb-2">
-              Gallery
-            </p>
-            <h2 className="font-heading text-3xl font-bold text-navy">
-              {config.name} Inspiration
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {config.galleryImages.map((img, i) => (
-              <div
-                key={i}
-                className="relative rounded-xl overflow-hidden aspect-[4/3] group shadow-sm hover:shadow-md transition-shadow"
-              >
-                <Image
-                  src={img}
-                  alt={`${config.name} acrylic panel application ${i + 1}`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ApplicationGalleryClient 
+        slug={slug} 
+        appName={config.name} 
+        fallbackImages={config.galleryImages} 
+      />
 
       {/* ------------------------------------------------------------------ */}
       {/* RECOMMENDED PRODUCTS                                                */}
