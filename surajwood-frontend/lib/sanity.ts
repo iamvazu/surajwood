@@ -264,7 +264,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       placeholderImage(213, 800, 600, "ACRYSILK colour palette"),
     ],
     ideal_for: ["kitchens", "wardrobes", "bedrooms"],
-    thickness: "1mm, 1.5mm, 3mm",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft x 4ft (2440mm x 1220mm) standard sheet",
     material_composition:
       "PMMA acrylic with micro-textured surface treatment laminated to 18mm MDF using German PUR hotmelt adhesive.",
@@ -350,7 +350,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       placeholderImage(223, 800, 600, "ACRYMATTE colour palette"),
     ],
     ideal_for: ["kitchens", "wardrobes", "offices", "commercial"],
-    thickness: "1mm, 1.5mm, 3mm",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft x 4ft (2440mm x 1220mm) standard sheet",
     material_composition:
       "PMMA acrylic with full-matte surface coating laminated to 18mm MDF using German PUR hotmelt adhesive.",

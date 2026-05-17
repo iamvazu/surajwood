@@ -106,13 +106,13 @@ const PRODUCT_SPECS: Record<
     material: "PMMA polymer + PUR adhesive + E1 MDF",
   },
   acrysilk: {
-    thickness: "1mm micro-textured acrylic on 18mm MDF",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft × 4ft (2440mm × 1220mm)",
     colours: "30+ soft-satin shades (Anti-fingerprint)",
     material: "Micro-textured PMMA + PUR adhesive + E1 MDF",
   },
   acrymatte: {
-    thickness: "1mm nano-coated acrylic on 18mm MDF",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft × 4ft (2440mm × 1220mm)",
     colours: "40+ deep matte shades",
     material: "Nano PMMA + PUR adhesive + E1 MDF",
