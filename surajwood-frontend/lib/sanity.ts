@@ -183,7 +183,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
     material_composition:
       "PMMA (Polymethyl Methacrylate) acrylic laminated to 18mm MDF substrate using German PUR hotmelt adhesive. The acrylic layer is co-extruded for uniform thickness and bonded under controlled pressure and temperature.",
     surface_properties:
-      "Smooth satin finish with 3H pencil hardness scratch resistance. UV-stable coating guarantees no yellowing for 10 years. Anti-fingerprint treatment available on select colours.",
+      "Smooth, flawless mirror-like high-gloss finish with 3H pencil hardness scratch resistance. UV-stable coating guarantees no yellowing for 10 years. Anti-fingerprint treatment available on select colours.",
     colour_range: [
       {
         colour_name: "Arctic White",
@@ -222,12 +222,12 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       {
         question: "What is ACRYLUX made of?",
         answer:
-          "ACRYLUX is made from high-grade PMMA (Polymethyl Methacrylate) acrylic bonded to an 18mm MDF substrate using German PUR hotmelt adhesive. This combination gives you the premium surface quality of acrylic with the structural stability of engineered wood.",
+          "ACRYLUX is made from high-grade PMMA (Polymethyl Methacrylate) acrylic bonded to an MDF substrate using German PUR hotmelt adhesive. This combination gives you the premium surface quality of acrylic with the structural stability of engineered wood.",
       },
       {
         question: "How do I clean and maintain ACRYLUX panels?",
         answer:
-          "ACRYLUX requires minimal maintenance. Wipe with a soft damp microfibre cloth for everyday cleaning. For grease or stubborn marks, use a mild dish soap solution. Avoid abrasive cleaners, scouring pads, or solvent-based products that can dull the satin finish.",
+          "ACRYLUX requires minimal maintenance. Wipe with a soft damp microfibre cloth for everyday cleaning. For grease or stubborn marks, use a mild dish soap solution. Avoid abrasive cleaners, scouring pads, or solvent-based products that can dull the high-gloss finish.",
       },
       {
         question: "Can ACRYLUX be used in humid areas like bathrooms?",
@@ -237,17 +237,32 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       {
         question: "What thickness should I choose for my kitchen?",
         answer:
-          "For kitchen cabinet shutters, 1mm or 1.5mm ACRYLUX on 18mm MDF is the standard choice. For high-traffic areas or commercial projects requiring extra durability, the 3mm option provides additional rigidity and impact resistance.",
+          "For kitchen cabinet shutters, 8mm, 18mm, or 25mm ACRYLUX is the standard choice depending on the structural and visual depth required for the design.",
       },
       {
         question: "How is ACRYLUX different from laminate?",
         answer:
-          "Unlike laminates, ACRYLUX uses a solid PMMA acrylic layer that gives deeper colour saturation, a luxurious feel, and significantly higher scratch resistance. Laminates are printed paper under a thin resin layer; ACRYLUX is a true acrylic surface. The satin finish also has a warmth that printed laminates cannot replicate.",
+          "Unlike laminates, ACRYLUX uses a solid PMMA acrylic layer that gives deeper colour saturation, a luxurious feel, and significantly higher scratch resistance. Laminates are printed paper under a thin resin layer; ACRYLUX is a true acrylic surface. The high-gloss finish also has a depth and clarity that printed laminates cannot replicate.",
+      },
+      {
+        question: "What is the price range of ACRYLUX panels?",
+        answer:
+          "ACRYLUX is a premium architectural product. Pricing varies based on sheet thickness (8mm, 18mm, 25mm) and your total order volume. For an exact quote tailored to your project requirements, please contact our sales team using the 'Request Quote' form.",
+      },
+      {
+        question: "How long does delivery take?",
+        answer:
+          "Standard solid and metallic colors are typically dispatched within 3-5 business days. Custom orders or large bulk shipments may require 7-10 business days for manufacturing and secure logistics delivery.",
+      },
+      {
+        question: "Is there a minimum order quantity (MOQ)?",
+        answer:
+          "For standard stock shades, there is no minimum order quantity. You can order as little as one sheet. For custom colors or special sizes, a minimum order may apply. Contact us directly to discuss your specific needs.",
       },
     ],
     seo_title: "ACRYLUX High Gloss Acrylic Panels | Premium Kitchen & Wardrobe Finish | Suraj Wood",
     seo_description:
-      "ACRYLUX by Suraj Wood — India's leading high gloss finish acrylic panel. PMMA acrylic on 18mm MDF, 37+ colours, 5-year warranty. Ideal for modular kitchens and wardrobes across India.",
+      "ACRYLUX by Suraj Wood — India's leading high gloss finish acrylic panel. PMMA acrylic on E1 MDF, 37+ colours, 5-year warranty. Ideal for modular kitchens and wardrobes across India.",
   },
   {
     id: 2,
