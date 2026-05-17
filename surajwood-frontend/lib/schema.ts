@@ -68,9 +68,13 @@ export function generateProductSchema(product: SanityProduct) {
     url: `https://www.surajwood.com/products/${product.slug}`,
     material: product.material_composition,
     offers: {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
       priceCurrency: "INR",
+      lowPrice: "850",
+      highPrice: "2500",
+      offerCount: "5",
       availability: "https://schema.org/InStock",
+      priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
       seller: {
         "@type": "Organization",
         name: "Suraj Wood Products Pvt. Ltd.",

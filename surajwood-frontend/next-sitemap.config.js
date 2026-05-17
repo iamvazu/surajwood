@@ -11,7 +11,7 @@ module.exports = {
       "https://www.surajwood.com/sitemap.xml",
     ],
   },
-  exclude: ["/api/*"],
+  exclude: ["/api/*", "/test-logos"],
   changefreq: "weekly",
   priority: 0.7,
   // Page-specific priority overrides
