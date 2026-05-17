@@ -741,10 +741,10 @@ export default async function ProductPage({
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a
-                  href="tel:+919999995553"
+                  href="tel:+919009171819"
                   className="inline-flex items-center justify-center bg-navy text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-navy-light transition-colors"
                 >
-                  Call +91-9999995553
+                  Call +91-9009171819
                 </a>
                 <Link
                   href="/contact"
@@ -805,7 +805,7 @@ export default async function ProductPage({
             <span className="text-xs font-semibold">Get Quote</span>
           </Link>
           <a
-            href="tel:+919999995553"
+            href="tel:+919009171819"
             className="flex-1 flex flex-col items-center justify-center py-3 text-navy hover:bg-cream transition-colors"
           >
             <svg
@@ -824,7 +824,7 @@ export default async function ProductPage({
             <span className="text-xs font-semibold">Call Now</span>
           </a>
           <a
-            href="https://wa.me/919999995553?text=Hi%2C%20I%20am%20interested%20in%20your%20acrylic%20panels"
+            href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20your%20acrylic%20panels"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex flex-col items-center justify-center py-3 text-navy hover:bg-cream transition-colors"

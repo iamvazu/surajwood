@@ -74,10 +74,10 @@ const PSEO_PRODUCTS: Record<string, PSEOProduct> = {
   acrylux: {
     slug: "acrylux",
     name: "ACRYLUX",
-    finishType: "satin",
-    finishLabel: "Satin",
+    finishType: "high-gloss",
+    finishLabel: "High Gloss",
     description:
-      "Our flagship satin-finish acrylic panel, combining smooth light reflection with exceptional durability and a 37+ colour palette.",
+      "Our flagship high gloss finish acrylic panel, combining smooth light reflection with exceptional durability and a 37+ colour palette.",
   },
   acrysilk: {
     slug: "acrysilk",

@@ -180,12 +180,12 @@ function ContactForm() {
         <p className="text-navy/60 text-sm">
           You can also WhatsApp us at{" "}
           <a
-            href="https://wa.me/919999995553"
+            href="https://wa.me/919009171819"
             className="text-copper hover:underline font-medium"
             target="_blank"
             rel="noopener noreferrer"
           >
-            +91-9999995553
+            +91-9009171819
           </a>
           .
         </p>
@@ -637,10 +637,10 @@ export default function ContactPageClient() {
                     <div>
                       <p className="text-navy/50 text-xs mb-0.5 uppercase tracking-wide">Phone</p>
                       <a
-                        href="tel:+919999995553"
+                        href="tel:+919009171819"
                         className="text-navy font-medium hover:text-copper transition-colors"
                       >
-                        +91-9999995553
+                        +91-9009171819
                       </a>
                     </div>
                   </li>
@@ -692,7 +692,7 @@ export default function ContactPageClient() {
                 </ul>
 
                 <a
-                  href="https://wa.me/919999995553?text=Hi%2C%20I%20am%20interested%20in%20Suraj%20Wood%20acrylic%20panels."
+                  href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20Suraj%20Wood%20acrylic%20panels."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-5 flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold py-2.5 px-4 rounded-lg transition-colors"

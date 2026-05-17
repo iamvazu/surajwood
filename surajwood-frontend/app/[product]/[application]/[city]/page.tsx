@@ -100,7 +100,7 @@ const PRODUCT_SPECS: Record<
   { thickness: string; dimensions: string; colours: string; material: string }
 > = {
   acrylux: {
-    thickness: "1mm acrylic on 18mm MDF (total 19mm)",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft × 4ft (2440mm × 1220mm)",
     colours: "37+ shades (Solids, Pearls, Metallics)",
     material: "PMMA polymer + PUR adhesive + E1 MDF",

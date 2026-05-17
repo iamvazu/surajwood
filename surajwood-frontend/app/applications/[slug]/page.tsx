@@ -500,10 +500,10 @@ export default async function ApplicationPage({
                 Request Free Sample Kit
               </Link>
               <a
-                href="tel:+919999995553"
+                href="tel:+919009171819"
                 className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-8 py-3.5 rounded transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm"
               >
-                Call +91-9999995553
+                Call +91-9009171819
               </a>
             </div>
           </div>
@@ -695,7 +695,7 @@ export default async function ApplicationPage({
               Request Free Sample Kit
             </Link>
             <a
-              href="https://wa.me/919999995553?text=Hi%2C%20I%20am%20interested%20in%20acrylic%20panels%20for%20my%20project"
+              href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20acrylic%20panels%20for%20my%20project"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-white/60 text-white font-semibold px-10 py-4 rounded-lg transition-colors duration-200"

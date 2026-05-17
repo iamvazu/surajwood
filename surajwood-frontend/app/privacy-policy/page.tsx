@@ -134,7 +134,7 @@ export default function PrivacyPolicyPage() {
                   <p className="font-bold">Suraj Wood Products</p>
                   <p>45 KM Stone, Bahadurgarh, Haryana, India</p>
                   <p>Email: <a href="mailto:sales@surajwood.com" className="text-copper hover:underline">sales@surajwood.com</a></p>
-                  <p>Phone: +91-9999995553</p>
+                  <p>Phone: +91-9009171819</p>
                 </div>
               </div>
             </div>

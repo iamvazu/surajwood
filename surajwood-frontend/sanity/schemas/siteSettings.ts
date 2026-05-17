@@ -53,7 +53,7 @@ export default defineType({
       name: "contactPhone",
       type: "string",
       title: "Contact Phone",
-      initialValue: "+91-9999995553",
+      initialValue: "+91-9009171819",
     }),
     defineField({
       name: "contactEmail",
@@ -80,7 +80,7 @@ export default defineType({
       fields: [
         defineField({ name: "instagram", type: "url", title: "Instagram URL" }),
         defineField({ name: "linkedin", type: "url", title: "LinkedIn URL" }),
-        defineField({ name: "whatsapp", type: "string", title: "WhatsApp Number", placeholder: "919999995553" }),
+        defineField({ name: "whatsapp", type: "string", title: "WhatsApp Number", placeholder: "919009171819" }),
       ],
     }),
     defineField({

@@ -14,7 +14,7 @@ export function generateOrganizationSchema() {
     logo: "https://www.surajwood.com/images/logo/suraj-logo.png",
     description:
       "India's premium acrylic panel manufacturer. European technology, precision manufacturing, pan-India delivery of ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS and ACRYGLASS MATTE panels.",
-    telephone: "+91-9999995553",
+    telephone: "+91-9009171819",
     email: "sales@surajwood.com",
     address: {
       "@type": "PostalAddress",
@@ -133,7 +133,7 @@ const LOCATIONS: Record<string, LocalBusinessCity> = {
     addressRegion: "Haryana",
     postalCode: "124501",
     streetAddress: "45 KM Stone, VPO Rohad",
-    telephone: "+91-9999995553",
+    telephone: "+91-9009171819",
   },
   bangalore: {
     name: "Bangalore",
@@ -142,7 +142,7 @@ const LOCATIONS: Record<string, LocalBusinessCity> = {
     addressRegion: "Karnataka",
     postalCode: "560001",
     streetAddress: "Bangalore Dealer Network",
-    telephone: "+91-9999995553",
+    telephone: "+91-9009171819",
   },
 };
 
@@ -159,7 +159,7 @@ export function generateLocalBusinessSchema(city?: string) {
     url: "https://www.surajwood.com",
     logo: "https://www.surajwood.com/images/logo/suraj-logo.png",
     image: "https://www.surajwood.com/images/factory/surajwood-factory.jpg",
-    telephone: location.telephone ?? "+91-9999995553",
+    telephone: location.telephone ?? "+91-9009171819",
     email: "sales@surajwood.com",
     address: {
       "@type": "PostalAddress",

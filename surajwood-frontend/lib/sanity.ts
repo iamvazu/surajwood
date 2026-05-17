@@ -166,11 +166,11 @@ const MOCK_PRODUCTS: SanityProduct[] = [
     id: 1,
     slug: "acrylux",
     name: "ACRYLUX",
-    finish_type: "satin",
-    tagline: "The Original Premium Satin",
+    finish_type: "high-gloss",
+    tagline: "The Original High Gloss Finish",
     description:
-      "ACRYLUX is our flagship acrylic panel line featuring a smooth satin finish that reflects light beautifully without harsh glare. Perfect for modern Indian kitchens and wardrobes where you want elegance without maintenance headaches.",
-    hero_image: placeholderImage(101, 1440, 900, "ACRYLUX satin acrylic panel"),
+      "ACRYLUX is our flagship acrylic panel line featuring a smooth high gloss finish that reflects light beautifully. Perfect for modern Indian kitchens and wardrobes where you want elegance without maintenance headaches.",
+    hero_image: placeholderImage(101, 1440, 900, "ACRYLUX high gloss acrylic panel"),
     gallery: [
       placeholderImage(201, 800, 600, "ACRYLUX kitchen application"),
       placeholderImage(202, 800, 600, "ACRYLUX wardrobe application"),
@@ -178,7 +178,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       placeholderImage(204, 800, 600, "ACRYLUX close-up texture"),
     ],
     ideal_for: ["kitchens", "wardrobes", "commercial", "offices"],
-    thickness: "1mm, 1.5mm, 3mm",
+    thickness: "8mm, 18mm, 25mm",
     dimensions: "8ft x 4ft (2440mm x 1220mm) standard sheet",
     material_composition:
       "PMMA (Polymethyl Methacrylate) acrylic laminated to 18mm MDF substrate using German PUR hotmelt adhesive. The acrylic layer is co-extruded for uniform thickness and bonded under controlled pressure and temperature.",
@@ -245,9 +245,9 @@ const MOCK_PRODUCTS: SanityProduct[] = [
           "Unlike laminates, ACRYLUX uses a solid PMMA acrylic layer that gives deeper colour saturation, a luxurious feel, and significantly higher scratch resistance. Laminates are printed paper under a thin resin layer; ACRYLUX is a true acrylic surface. The satin finish also has a warmth that printed laminates cannot replicate.",
       },
     ],
-    seo_title: "ACRYLUX Satin Acrylic Panels | Premium Kitchen & Wardrobe Finish | Suraj Wood",
+    seo_title: "ACRYLUX High Gloss Acrylic Panels | Premium Kitchen & Wardrobe Finish | Suraj Wood",
     seo_description:
-      "ACRYLUX by Suraj Wood — India's leading satin-finish acrylic panel. PMMA acrylic on 18mm MDF, 37+ colours, 5-year warranty. Ideal for modular kitchens and wardrobes across India.",
+      "ACRYLUX by Suraj Wood — India's leading high gloss finish acrylic panel. PMMA acrylic on 18mm MDF, 37+ colours, 5-year warranty. Ideal for modular kitchens and wardrobes across India.",
   },
   {
     id: 2,
@@ -621,7 +621,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       {
         question: "Is ACRYGLASS MATTE available in custom sizes?",
         answer:
-          "Our standard sheet size is 8ft x 4ft (2440mm x 1220mm). For commercial or large-format projects requiring custom sizes, please contact our sales team at sales@surajwood.com or call +91-9999995553.",
+          "Our standard sheet size is 8ft x 4ft (2440mm x 1220mm). For commercial or large-format projects requiring custom sizes, please contact our sales team at sales@surajwood.com or call +91-9009171819.",
       },
       {
         question: "What applications is ACRYGLASS MATTE best suited for?",
@@ -970,7 +970,7 @@ const MOCK_FAQS: SanityFAQ[] = [
     id: 3,
     question: "Are Suraj Wood panels available across India?",
     answer:
-      "Yes. We supply pan-India from our manufacturing facility in Bahadurgarh, Haryana. We have dealer networks in Delhi, Mumbai, Bangalore, Hyderabad, Chennai, Pune, Ahmedabad, and other major cities. Contact us at +91-9999995553 to find your nearest dealer.",
+      "Yes. We supply pan-India from our manufacturing facility in Bahadurgarh, Haryana. We have dealer networks in Delhi, Mumbai, Bangalore, Hyderabad, Chennai, Pune, Ahmedabad, and other major cities. Contact us at +91-9009171819 to find your nearest dealer.",
     category: "general",
   },
   {
@@ -984,7 +984,7 @@ const MOCK_FAQS: SanityFAQ[] = [
     id: 5,
     question: "Do you offer samples?",
     answer:
-      "Yes. We offer free sample kits containing swatches of all five product lines in selected colours. Request your sample kit via our website or call +91-9999995553. Sample kits are dispatched within 2-3 business days.",
+      "Yes. We offer free sample kits containing swatches of all five product lines in selected colours. Request your sample kit via our website or call +91-9009171819. Sample kits are dispatched within 2-3 business days.",
     category: "general",
   },
   {

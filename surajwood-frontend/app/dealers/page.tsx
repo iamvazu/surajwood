@@ -172,10 +172,10 @@ export default function DealersPage() {
                 Apply for Dealership
               </a>
               <a
-                href="tel:+919999995553"
+                href="tel:+919009171819"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-7 py-3.5 rounded-lg transition-colors duration-300 border border-white/20"
               >
-                Call: +91-9999995553
+                Call: +91-9009171819
               </a>
             </div>
           </div>
@@ -416,10 +416,10 @@ export default function DealersPage() {
                   Apply Now
                 </a>
                 <a
-                  href="tel:+919999995553"
+                  href="tel:+919009171819"
                   className="mt-3 block text-center text-white/60 text-sm hover:text-white transition-colors"
                 >
-                  Or call +91-9999995553 to speak directly with our dealer team
+                  Or call +91-9009171819 to speak directly with our dealer team
                 </a>
               </div>
             </div>
@@ -489,13 +489,13 @@ export default function DealersPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="tel:+919999995553"
+              href="tel:+919009171819"
               className="inline-flex items-center gap-2 bg-white text-navy font-semibold px-7 py-3.5 rounded-lg hover:bg-cream transition-colors"
             >
-              Call +91-9999995553
+              Call +91-9009171819
             </a>
             <a
-              href="https://wa.me/919999995553?text=Hi,%20I%27m%20interested%20in%20becoming%20a%20SurajWood%20dealer."
+              href="https://wa.me/919009171819?text=Hi,%20I%27m%20interested%20in%20becoming%20a%20SurajWood%20dealer."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-7 py-3.5 rounded-lg transition-colors border border-white/20"

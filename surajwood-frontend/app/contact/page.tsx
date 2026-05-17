@@ -10,7 +10,7 @@ import ContactPageClient from "./ContactPageClient";
 export const metadata: Metadata = {
   title: "Contact Us | Get Acrylic Panel Samples & Quotes | SurajWood",
   description:
-    "Contact Suraj Wood Products Pvt. Ltd. for acrylic panel samples, quotes, dealer enquiries, and technical support. Call +91-9999995553 or email sales@surajwood.com.",
+    "Contact Suraj Wood Products Pvt. Ltd. for acrylic panel samples, quotes, dealer enquiries, and technical support. Call +91-9009171819 or email sales@surajwood.com.",
   openGraph: {
     title: "Contact SurajWood — Request Samples & Quotes",
     description:

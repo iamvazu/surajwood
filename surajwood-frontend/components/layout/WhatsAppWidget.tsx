@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const WHATSAPP_URL =
-  "https://wa.me/919999995553?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20acrylic%20panels";
+  "https://wa.me/919009171819?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20acrylic%20panels";
 
 // Inline WhatsApp SVG icon (official brand green icon)
 function WhatsAppIcon({ size = 28 }: { size?: number }) {

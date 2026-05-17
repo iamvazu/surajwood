@@ -96,10 +96,10 @@ export default function PSEOLeadForm({ city, productInterest, sourcePage }: Prop
         <p className="text-gray-500 text-xs mt-3">
           Need faster response? Call us at{" "}
           <a
-            href="tel:+919999995553"
+            href="tel:+919009171819"
             className="text-copper font-medium hover:underline"
           >
-            +91-9999995553
+            +91-9009171819
           </a>
         </p>
       </div>
@@ -188,8 +188,8 @@ export default function PSEOLeadForm({ city, productInterest, sourcePage }: Prop
       {status === "error" && (
         <p className="text-red-600 text-xs text-center bg-red-50 border border-red-100 rounded-lg p-3">
           Something went wrong. Please try again or call us at{" "}
-          <a href="tel:+919999995553" className="font-medium underline">
-            +91-9999995553
+          <a href="tel:+919009171819" className="font-medium underline">
+            +91-9009171819
           </a>
         </p>
       )}

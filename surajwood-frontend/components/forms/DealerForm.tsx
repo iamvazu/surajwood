@@ -159,10 +159,10 @@ export default function DealerForm() {
         <p className="text-gray-500 text-sm mt-5">
           Need immediate assistance?{" "}
           <a
-            href="tel:+919999995553"
+            href="tel:+919009171819"
             className="text-copper font-medium hover:underline"
           >
-            Call +91-9999995553
+            Call +91-9009171819
           </a>
         </p>
       </div>
@@ -354,8 +354,8 @@ export default function DealerForm() {
         <div className="bg-red-50 border border-red-100 rounded-lg p-4 text-red-700 text-sm">
           Something went wrong submitting your application. Please try again or
           call us directly at{" "}
-          <a href="tel:+919999995553" className="font-medium underline">
-            +91-9999995553
+          <a href="tel:+919009171819" className="font-medium underline">
+            +91-9009171819
           </a>
         </div>
       )}

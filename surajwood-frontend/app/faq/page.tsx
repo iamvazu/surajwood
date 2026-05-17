@@ -160,7 +160,7 @@ export default async function FAQPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="tel:+919999995553"
+              href="tel:+919009171819"
               className="inline-flex items-center gap-2 bg-navy text-white font-semibold px-6 py-3 rounded-lg hover:bg-navy-light transition-colors"
             >
               <svg
@@ -180,7 +180,7 @@ export default async function FAQPage() {
               Call Us
             </a>
             <a
-              href="https://wa.me/919999995553?text=Hi%2C%20I%20have%20a%20question%20about%20Suraj%20Wood%20panels."
+              href="https://wa.me/919009171819?text=Hi%2C%20I%20have%20a%20question%20about%20Suraj%20Wood%20panels."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold px-6 py-3 rounded-lg transition-colors"

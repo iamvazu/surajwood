@@ -109,8 +109,8 @@ export default function Navbar() {
             <a href="https://x.com/surajwood" className="hover:text-[#C0392B] transition-colors"><Twitter size={15} /></a>
           </div>
           <div className="flex items-center gap-8">
-            <a href="tel:+919999995553" className="flex items-center gap-2 hover:text-[#C0392B] transition-colors">
-              <Phone size={14} /> +91-9999995553
+            <a href="tel:+919009171819" className="flex items-center gap-2 hover:text-[#C0392B] transition-colors">
+              <Phone size={14} /> +91-9009171819
             </a>
             <span className="opacity-20">|</span>
             <a href="mailto:sales@surajwood.com" className="hover:text-[#C0392B] transition-colors not-italic lowercase">
