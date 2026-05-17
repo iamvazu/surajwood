@@ -101,6 +101,11 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
       caption: "Premium Corporate Reception Accent Wall — Metallic Bronze ACRYLUX",
       tag: "Corporate Lobby",
     },
+    {
+      src: "/images/gallery/commercial-new-showroom.png",
+      caption: "Luxury Automobile Showroom Cladding — Arctic White ACRYLUX & Concrete Finish Reception",
+      tag: "Luxury Showroom",
+    },
   ],
   offices: [
     {
