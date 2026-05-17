@@ -140,6 +140,21 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
       caption: "Vibrant Creative Playroom — Sunflower Yellow & Royal Blue ACRYLUX Modular Cabinetry",
       tag: "Playroom Cabinets",
     },
+    {
+      src: "/images/gallery/kids-new-teen-purple.jpg",
+      caption: "Cozy Teen Study Bedroom — Warm Wood Textured Wardrobes & Lilac Purple Accent Wall",
+      tag: "Teen Study Bedroom",
+    },
+    {
+      src: "/images/gallery/kids-new-pink-nook.png",
+      caption: "Elegant Princess Bedroom — Matte Cream & Coral Pink Corner Wardrobes with Custom Shelving",
+      tag: "Princess Wardrobe",
+    },
+    {
+      src: "/images/gallery/kids-new-blue-study.png",
+      caption: "Modern Children's Study Bedroom — Cobalt Blue & Mustard Yellow Modular Cabinets",
+      tag: "Study & Cabinets",
+    },
   ],
   "wall-paneling": [
     {
