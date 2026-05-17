@@ -109,18 +109,18 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
   ],
   offices: [
     {
-      src: "/images/gallery/office-1.jpg",
-      caption: "Corporate Boardroom Console — Jet Black ACRYLUX [Client Project]",
+      src: "/images/gallery/office-new-executive.png",
+      caption: "Bespoke Executive Director Suite — Warm Walnut Wood Clad Wall & Premium Matte Charcoal Desk",
       tag: "Executive Office",
     },
     {
-      src: "/images/gallery/commercial-premium.png",
-      caption: "Anti-Fingerprint Reception Desk — Arctic White ACRYMATTE",
-      tag: "Reception Console",
+      src: "/images/gallery/office-new-pantry.png",
+      caption: "Modern Corporate Pantry & Café Lounge — Bright Canary Yellow & Frost White Gloss Cabinets",
+      tag: "Pantry Cabinets",
     },
     {
-      src: "/images/gallery/commercial-2.jpg",
-      caption: "Modern Meeting Room Wall Paneling — Graphite Storm ACRYLUX",
+      src: "/images/gallery/office-new-boardroom.png",
+      caption: "State-of-the-Art Corporate Boardroom — Mirror-Gloss Jet Black Conference Table & Seamless Cladding",
       tag: "Meeting Room",
     },
   ],
