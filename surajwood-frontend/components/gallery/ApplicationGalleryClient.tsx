@@ -60,19 +60,19 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
       tag: "Master Wardrobe",
     },
     {
-      src: "/images/gallery/wardrobe-4.jpg",
-      caption: "Anti-Fingerprint Bedroom Wardrobe — Matte Sage ACRYMATTE",
-      tag: "Dressing Room",
+      src: "/images/gallery/wardrobe-new-kids.png",
+      caption: "Vibrant Children's Bedroom Wardrobe — Sky Blue & Sunshine Yellow ACRYLUX",
+      tag: "Kids Wardrobe",
     },
     {
-      src: "/images/gallery/10.jpg",
-      caption: "Premium Walk-In Closet Wardrobes — Soft Ivory ACRYSILK",
-      tag: "Dressing Room",
-    },
-    {
-      src: "/images/gallery/11.jpg",
-      caption: "Optical Glass Clarity Wardrobe Cabinets — Frost White ACRYGLASS",
+      src: "/images/gallery/wardrobe-new-sliding.png",
+      caption: "High-Gloss Bedroom Sliding Wardrobe — Arctic White ACRYLUX [Client Project]",
       tag: "Master Wardrobe",
+    },
+    {
+      src: "/images/gallery/wardrobe-new-luxury.jpg",
+      caption: "Luxury Glass Modular Wardrobe with Lit Vanity Mirror — Mirror Red ACRYGLASS",
+      tag: "Luxury Walk-In",
     },
   ],
   commercial: [
