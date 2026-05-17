@@ -73,7 +73,7 @@ export default function Footer() {
                 <Linkedin size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
               </a>
               <a
-                href="https://www.facebook.com/surajwoodproducts"
+                href="https://www.facebook.com/surajwood"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -91,7 +91,7 @@ export default function Footer() {
                 <Youtube size={14} className="text-gray-400 group-hover:text-[#DC2626] transition-colors" />
               </a>
               <a
-                href="https://x.com/"
+                href="https://x.com/surajwood_"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X"
@@ -191,9 +191,11 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#DC2626] flex-shrink-0 mt-0.5" />
                 <address className="not-italic text-gray-400 text-sm leading-relaxed font-light">
-                  45 KM Stone, VPO Rohad,
-                  <br />
-                  Bahadurgarh, Haryana 124501
+                  <a href="https://maps.app.goo.gl/iUHqrGrSFW4rcUgS9" target="_blank" rel="noopener noreferrer" className="hover:text-[#DC2626] transition-colors">
+                    45 KM Stone, VPO Rohad,<br />
+                    Bahadurgarh, Distt. Jhajjar,<br />
+                    Haryana - 124501.
+                  </a>
                 </address>
               </li>
               <li className="flex items-center gap-3">

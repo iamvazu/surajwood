@@ -670,8 +670,11 @@ export default function ContactPageClient() {
                     <div>
                       <p className="text-navy/50 text-xs mb-0.5 uppercase tracking-wide">Factory Address</p>
                       <address className="not-italic text-navy font-medium leading-snug">
-                        45 KM Stone, VPO Rohad<br />
-                        Bahadurgarh, Haryana 124501
+                        <a href="https://maps.app.goo.gl/iUHqrGrSFW4rcUgS9" target="_blank" rel="noopener noreferrer" className="hover:text-copper transition-colors">
+                          45 KM Stone, VPO Rohad,<br />
+                          Bahadurgarh, Distt. Jhajjar,<br />
+                          Haryana - 124501.
+                        </a>
                       </address>
                     </div>
                   </li>

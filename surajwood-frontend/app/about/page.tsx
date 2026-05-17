@@ -157,7 +157,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
                 <p>
-                  At Suraj Wood Products, we don&apos;t just sell panels; we engineer them. Located at <strong className="text-navy">45 KM Stone, Bahadurgarh</strong>, our facility is designed around a single goal: absolute surface perfection.
+                  At Suraj Wood Products, we don&apos;t just sell panels; we engineer them. Located at <strong className="text-navy">45 KM Stone, VPO Rohad, Bahadurgarh, Distt. Jhajjar, Haryana - 124501</strong>, our facility is designed around a single goal: absolute surface perfection.
                 </p>
                 <p>
                   Unlike local manual lamination, our **Factory-Direct** process uses automated flat-lamination lines. We utilize <strong className="text-navy">German PUR (Polyurethane) Hotmelt</strong>, which creates a chemical bond that is impervious to the humidity and heat of the Indian climate.

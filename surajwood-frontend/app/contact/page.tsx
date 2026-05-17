@@ -35,7 +35,7 @@ const CONTACT_FAQS = [
   },
   {
     question: "Where is the SurajWood factory located?",
-    answer: "Our state-of-the-art manufacturing facility is located at 45 KM Stone, VPO Rohad, Bahadurgarh, Haryana – 124501."
+    answer: "Our state-of-the-art manufacturing facility is located at 45 KM Stone, VPO Rohad, Bahadurgarh, Distt. Jhajjar, Haryana - 124501."
   },
   {
     question: "What are your customer support timings?",

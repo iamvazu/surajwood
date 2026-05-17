@@ -102,11 +102,11 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between text-[12px] tracking-wider uppercase font-medium">
           <div className="flex items-center gap-6">
-            <a href="https://facebook.com/surajwoodproducts" className="hover:text-[#C0392B] transition-colors"><Facebook size={15} /></a>
+            <a href="https://www.facebook.com/surajwood" className="hover:text-[#C0392B] transition-colors"><Facebook size={15} /></a>
             <a href="https://instagram.com/surajwood_" className="hover:text-[#C0392B] transition-colors"><Instagram size={15} /></a>
             <a href="https://linkedin.com/company/surajwood" className="hover:text-[#C0392B] transition-colors"><Linkedin size={15} /></a>
             <a href="https://youtube.com/@surajwoodproducts" className="hover:text-[#C0392B] transition-colors"><Youtube size={15} /></a>
-            <a href="https://x.com/surajwood" className="hover:text-[#C0392B] transition-colors"><Twitter size={15} /></a>
+            <a href="https://x.com/surajwood_" className="hover:text-[#C0392B] transition-colors"><Twitter size={15} /></a>
           </div>
           <div className="flex items-center gap-8">
             <a href="tel:+919009171819" className="flex items-center gap-2 hover:text-[#C0392B] transition-colors">
