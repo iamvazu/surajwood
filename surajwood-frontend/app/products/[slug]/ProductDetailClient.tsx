@@ -186,68 +186,71 @@ export default function ProductDetailClient({
             </ol>
           </nav>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
             {/* Left: Info */}
             <div className="flex flex-col justify-center">
               {/* Eyebrow */}
-              <div className="flex items-center gap-3 mb-3">
+              <div className="flex items-center gap-3 mb-2">
                 <div className="w-8 h-[2px] bg-copper" />
                 <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-extrabold">
                   {finishLabel} Collection
                 </p>
               </div>
 
-              {/* H1 Title: Size beautifully compact to avoid overlaps */}
-              <h1 className="font-playfair text-white text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-4">
+              {/* H1 Title */}
+              <h1 className="font-playfair text-white text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.1] mb-3">
                 {product.name} <br />
                 <span className="text-copper">Prelaminated Acrylic</span>
               </h1>
 
               {/* Sub-tagline */}
-              <p className="text-white/80 text-sm md:text-base font-body italic mb-3 leading-relaxed">
+              <p className="text-white/80 text-sm font-body italic mb-2 leading-relaxed">
                 {product.slug === "acrylux" 
                   ? "The original flawless mirror-gloss alternative to PETG and local laminates." 
                   : product.tagline}
               </p>
 
-              {/* Main description description - compact font & margins */}
-              <p className="text-white/70 font-body text-xs md:text-sm leading-relaxed mb-6 max-w-lg">
+              {/* Description */}
+              <p className="text-white/60 font-body text-xs leading-relaxed mb-4 max-w-lg">
                 {product.slug === "acrylux"
                   ? "SurajWood's ACRYLUX series features factory-bonded optical-grade PMMA acrylic on multiple substrate options. Engineered with German PUR technology for a zero-void, mirror-like finish that outperforms PETG in durability, clarity, and UV stability."
                   : product.description}
               </p>
 
-              {/* Redesigned Specifications Row - compact card margins */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition-colors duration-300">
-                  <div className="text-copper font-bold text-sm md:text-base lg:text-lg line-clamp-1">{product.thickness}</div>
-                  <div className="text-white/50 text-[9px] uppercase tracking-wider mt-1 font-semibold">Thickness</div>
+              {/* Compact inline specs row — no bulky cards */}
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-5 text-xs">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-copper font-bold">{product.thickness}</span>
+                  <span className="text-white/40 uppercase tracking-wider text-[9px] font-semibold">Thickness</span>
                 </div>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition-colors duration-300">
-                  <div className="text-copper font-bold text-sm md:text-base lg:text-lg">3H</div>
-                  <div className="text-white/50 text-[9px] uppercase tracking-wider mt-1 font-semibold">Hardness</div>
+                <div className="w-px h-3 bg-white/20 hidden sm:block" />
+                <div className="flex items-center gap-1.5">
+                  <span className="text-copper font-bold">3H</span>
+                  <span className="text-white/40 uppercase tracking-wider text-[9px] font-semibold">Hardness</span>
                 </div>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition-colors duration-300">
-                  <div className="text-copper font-bold text-sm md:text-base lg:text-lg">German PUR</div>
-                  <div className="text-white/50 text-[9px] uppercase tracking-wider mt-1 font-semibold">Bonding</div>
+                <div className="w-px h-3 bg-white/20 hidden sm:block" />
+                <div className="flex items-center gap-1.5">
+                  <span className="text-copper font-bold">German PUR</span>
+                  <span className="text-white/40 uppercase tracking-wider text-[9px] font-semibold">Bonding</span>
                 </div>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition-colors duration-300">
-                  <div className="text-copper font-bold text-sm md:text-base lg:text-lg">Class B1</div>
-                  <div className="text-white/50 text-[9px] uppercase tracking-wider mt-1 font-semibold">Fire Rating</div>
+                <div className="w-px h-3 bg-white/20 hidden sm:block" />
+                <div className="flex items-center gap-1.5">
+                  <span className="text-copper font-bold">Class B1</span>
+                  <span className="text-white/40 uppercase tracking-wider text-[9px] font-semibold">Fire Rating</span>
                 </div>
               </div>
 
-              {/* CTAs */}
+              {/* CTAs — fully visible */}
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/contact?inquiry=quote"
-                  className="inline-flex items-center justify-center bg-copper hover:bg-copper-light text-white font-bold text-xs px-6 py-3.5 rounded-lg transition-colors duration-200 shadow-lg shadow-copper/20"
+                  className="inline-flex items-center justify-center bg-copper hover:bg-copper-light text-white font-bold text-xs px-7 py-3 rounded-lg transition-colors duration-200 shadow-lg shadow-copper/20"
                 >
                   Request Quote
                 </Link>
                 <Link
                   href="/downloads"
-                  className="inline-flex items-center justify-center border border-white/30 hover:border-white text-white font-bold text-xs px-6 py-3.5 rounded-lg transition-all duration-200"
+                  className="inline-flex items-center justify-center border border-white/30 hover:border-white text-white font-bold text-xs px-7 py-3 rounded-lg transition-all duration-200"
                 >
                   <Download className="w-3.5 h-3.5 mr-2" />
                   Download Brochure
