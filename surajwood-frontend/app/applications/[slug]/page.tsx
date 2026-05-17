@@ -613,19 +613,19 @@ export default async function ApplicationPage({
                 href={`/products/${p.slug}`}
                 className="group flex flex-col bg-cream rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="relative h-40 overflow-hidden bg-navy/5">
+                <div className="relative h-48 overflow-hidden bg-white">
                   <Image
                     src={
-                      p.slug === "acrylux" ? "/images/products/acrylux/acrylux-solid-1.png" :
-                      p.slug === "acryglass" ? "/images/products/acryglass/acryglass1.png" :
-                      p.slug === "acrymatte" ? "/images/products/acrymatte/acrymatte-1.png" :
-                      p.slug === "acryglass-matte" ? "/images/products/acryglass-matte/acryglass-matte-1.png" :
-                      p.slug === "acrysilk" ? "/images/products/acrysilk/acrysilk-1.png" :
+                      p.slug === "acrylux" ? "/images/products/acrylux.png" :
+                      p.slug === "acryglass" ? "/images/products/acryglass.png" :
+                      p.slug === "acrymatte" ? "/images/products/acrymatte.png" :
+                      p.slug === "acryglass-matte" ? "/images/products/acryglass-matte.png" :
+                      p.slug === "acrysilk" ? "/images/products/acrysilk.jpg" :
                       `/images/products/${p.slug}/${p.slug}-1.png`
                     }
                     alt={p.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain mix-blend-multiply p-4 transition-transform duration-300 ease-out group-hover:scale-[1.05]"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                 </div>
