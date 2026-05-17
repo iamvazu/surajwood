@@ -126,19 +126,19 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
   ],
   "kids-rooms": [
     {
-      src: "/images/gallery/kids-1.jpg",
-      caption: "Non-Toxic Children Wardrobe Shutters — Sky Blue ACRYLUX [Client Project]",
-      tag: "Kids Closet",
+      src: "/images/gallery/kids-new-bunkbed.png",
+      caption: "Cozy Shared Children's Bedroom — Bright Orange Gloss ACRYLUX Wardrobes & Sky Blue Bunk Bed",
+      tag: "Bunk Bed & Wardrobe",
     },
     {
-      src: "/images/gallery/15.jpg",
-      caption: "Stain-Resistant Children Play Console — Soft Lemon ACRYLUX",
-      tag: "Play Area",
+      src: "/images/gallery/kids-new-nursery.png",
+      caption: "Charming Baby Nursery — Pastel Mint Green ACRYMATTE Storage Cabinets & Toy Shelving",
+      tag: "Nursery Storage",
     },
     {
-      src: "/images/gallery/16.jpg",
-      caption: "Vibrant Scratch-Resistant Kids Bed Cladding — Lavender Mist ACRYLUX",
-      tag: "Kids Bed",
+      src: "/images/gallery/kids-new-playroom.png",
+      caption: "Vibrant Creative Playroom — Sunflower Yellow & Royal Blue ACRYLUX Modular Cabinetry",
+      tag: "Playroom Cabinets",
     },
   ],
   "wall-paneling": [
