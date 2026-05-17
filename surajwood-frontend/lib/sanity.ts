@@ -466,7 +466,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       placeholderImage(233, 800, 600, "ACRYGLASS colour palette"),
     ],
     ideal_for: ["kitchens", "wardrobes", "commercial", "feature walls"],
-    thickness: "1mm, 1.5mm, 3mm",
+    thickness: "8mm, 20mm, 26mm",
     dimensions: "8ft x 4ft (2440mm x 1220mm) standard sheet",
     material_composition:
       "Optical-grade PMMA acrylic with high-gloss mirror polish laminated to 18mm MDF using German PUR hotmelt adhesive.",
@@ -552,7 +552,7 @@ const MOCK_PRODUCTS: SanityProduct[] = [
       placeholderImage(243, 800, 600, "ACRYGLASS MATTE colour palette"),
     ],
     ideal_for: ["kitchens", "wardrobes", "offices", "luxury residential"],
-    thickness: "1mm, 1.5mm, 3mm",
+    thickness: "8mm, 20mm, 26mm",
     dimensions: "8ft x 4ft (2440mm x 1220mm) standard sheet",
     material_composition:
       "Optical-grade PMMA acrylic with precision matte surface treatment (matte-glass finish) laminated to 18mm MDF using German PUR hotmelt adhesive.",

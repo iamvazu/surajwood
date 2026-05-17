@@ -118,13 +118,13 @@ const PRODUCT_SPECS: Record<
     material: "Nano PMMA + PUR adhesive + E1 MDF",
   },
   acryglass: {
-    thickness: "1.5mm optical-grade acrylic on 18mm MDF",
+    thickness: "8mm, 20mm, 26mm",
     dimensions: "8ft × 4ft (2440mm × 1220mm)",
     colours: "50+ high-gloss shades",
     material: "High-clarity PMMA + PUR adhesive + E1 MDF",
   },
   "acryglass-matte": {
-    thickness: "1.5mm matte-finish glass acrylic on 18mm MDF",
+    thickness: "8mm, 20mm, 26mm",
     dimensions: "8ft × 4ft (2440mm × 1220mm)",
     colours: "25+ luxury matte-glass shades",
     material: "Optical matte PMMA + PUR adhesive + E1 MDF",
