@@ -64,6 +64,7 @@ export default function EventsShowcase() {
                   alt={event.title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
                 {event.highlight && (
                   <div className="absolute top-4 left-4 bg-copper text-white text-[10px] font-bold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">

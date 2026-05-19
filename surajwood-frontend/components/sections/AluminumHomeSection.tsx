@@ -53,6 +53,7 @@ export default function AluminumHomeSection() {
                 alt={item.name}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent" />
               

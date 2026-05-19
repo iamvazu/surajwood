@@ -57,10 +57,22 @@ const fadeUp = (delay: number) => ({
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isMounted, setIsMounted] = useState(false);
+  const [hasVisited, setHasVisited] = useState<number[]>([0]);
 
   const advance = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
   }, []);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (isMounted && !hasVisited.includes(currentSlide)) {
+      setHasVisited((prev) => [...prev, currentSlide]);
+    }
+  }, [currentSlide, isMounted, hasVisited]);
 
   useEffect(() => {
     const timer = setInterval(advance, 6000);
@@ -75,29 +87,38 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex flex-col justify-between overflow-hidden">
       {/* Background image carousel with refined Ken Burns */}
-      {HERO_SLIDES.map((slide, i) => (
-        <div
-          key={slide.src}
-          className={`absolute inset-0 z-0 transition-opacity duration-[2000ms] ${
-            i === currentSlide ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <motion.div
-            animate={i === currentSlide ? { scale: 1.05 } : { scale: 1 }}
-            transition={{ duration: 8, ease: "linear" }}
-            className="relative w-full h-full"
+      {HERO_SLIDES.map((slide, i) => {
+        // Optimize preloading: only render the current, next, or already visited slides
+        // to prevent downloading all background images at once on initial load.
+        const isNext = (currentSlide + 1) % HERO_SLIDES.length === i;
+        const shouldRender = i === 0 || (isMounted && (i === currentSlide || isNext || hasVisited.includes(i)));
+
+        if (!shouldRender) return null;
+
+        return (
+          <div
+            key={slide.src}
+            className={`absolute inset-0 z-0 transition-opacity duration-[2000ms] ${
+              i === currentSlide ? "opacity-100" : "opacity-0"
+            }`}
           >
-            <Image
-              src={slide.src}
-              alt={slide.alt}
-              fill
-              priority={i === 0}
-              className="object-cover object-center"
-              sizes="100vw"
-            />
-          </motion.div>
-        </div>
-      ))}
+            <motion.div
+              animate={i === currentSlide ? { scale: 1.05 } : { scale: 1 }}
+              transition={{ duration: 8, ease: "linear" }}
+              className="relative w-full h-full"
+            >
+              <Image
+                src={slide.src}
+                alt={slide.alt}
+                fill
+                priority={i === 0}
+                className="object-cover object-center"
+                sizes="100vw"
+              />
+            </motion.div>
+          </div>
+        );
+      })}
 
       {/* Left-focused gradient for text readability */}
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
