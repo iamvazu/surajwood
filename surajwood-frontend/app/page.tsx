@@ -8,17 +8,18 @@ import ApplicationShowcase from "@/components/sections/ApplicationShowcase";
 import TestimonialCarousel from "@/components/sections/TestimonialCarousel";
 import EventsShowcase from "@/components/sections/EventsShowcase";
 import CTABanner from "@/components/sections/CTABanner";
+import SEOContent from "@/components/sections/SEOContent";
 import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SurajWood — India's Premium Acrylic Panel Manufacturer",
+  title: "SurajWood — India's Best Acrylic Panel Manufacturer | PMMA Kitchen & Wardrobe Panels",
   description:
     "Factory-direct PMMA acrylic panels pre-laminated with German PUR technology. Explore ACRYLUX, ACRYSILK, and AL-PROFHAN hardware. Precision-engineered for modern interiors.",
   alternates: { canonical: "https://surajwood.com" },
   openGraph: {
-    title: "SurajWood — Premium Acrylic Panels & Profiles",
+    title: "SurajWood — India's Best Acrylic Panel Manufacturer | PMMA Kitchen & Wardrobe Panels",
     description:
       "India's leading manufacturer of prelaminated PMMA acrylic panels and aluminum profiles. Superior durability and optical clarity for kitchens & wardrobes.",
     url: "https://surajwood.com",
@@ -56,6 +57,7 @@ export default async function HomePage() {
       <ApplicationShowcase />
       <TestimonialCarousel testimonials={data.testimonials} />
       <EventsShowcase />
+      <SEOContent />
       <CTABanner />
     </>
   );

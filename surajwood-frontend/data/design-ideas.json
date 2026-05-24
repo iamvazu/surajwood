@@ -1,0 +1,642 @@
+{
+  "categories": [
+    {
+      "slug": "kitchen",
+      "name": "Kitchens",
+      "description": "Premium modular kitchen layout designs utilizing high-gloss and matte PMMA acrylic boards."
+    },
+    {
+      "slug": "bedroom",
+      "name": "Bedrooms",
+      "description": "Relaxing and sophisticated master bedroom interior concepts with satin finishes."
+    },
+    {
+      "slug": "wardrobe",
+      "name": "Wardrobes",
+      "description": "Stunning wardrobe shutter and closet designs engineered for lifetime performance."
+    },
+    {
+      "slug": "living-room",
+      "name": "Living Rooms",
+      "description": "Statement TV units, feature wall claddings, and media centers built with high-clarity acrylic."
+    },
+    {
+      "slug": "bathroom",
+      "name": "Bathrooms",
+      "description": "Waterproof under-sink cabinets and luxury vanities that stand up to constant moisture."
+    },
+    {
+      "slug": "office",
+      "name": "Offices",
+      "description": "Professional, clean, and scratch-resistant surfaces for desks and conference rooms."
+    },
+    {
+      "slug": "retail",
+      "name": "Retail & Shops",
+      "description": "Showroom displays and high-impact reception desks built for active public spaces."
+    },
+    {
+      "slug": "other-rooms",
+      "name": "Other Spaces",
+      "description": "Durable finishes for kids' bedrooms, study rooms, and sacred pooja room claddings."
+    }
+  ],
+  "ideas": [
+    {
+      "category": "kitchen",
+      "slug": "kitchen-design",
+      "title": "Modern Modular Kitchen Design Ideas",
+      "intro": "The ultimate blueprint for contemporary Indian modular kitchens. Combine high-gloss PMMA acrylic cabinets with German PUR bonding for a heat-proof, moisture-proof masterpiece.",
+      "benefits": ["Mirror-like 95% reflection", " turmeric and spice stain resistant", "Class B1 fire-rated safety", "Zero edge delamination guaranteed"],
+      "comparison": {
+        "feature": "Indian Kitchen Suitability",
+        "surajwood": "Extremely High (PUR Bonded PMMA)",
+        "laminate": "Moderate (Prone to moisture swelling)",
+        "paint": "Low (Chips under utensil impacts)"
+      },
+      "products": ["acrylux", "acryglass"],
+      "faq": [
+        {"q": "What is the best material for modular kitchen shutters in India?", "a": "PMMA Acrylic is widely considered the premium benchmark for Indian modular kitchen shutters due to its high scratch resistance (3H) and resistance to heat and turmeric stains. Cheaper PETG or manual laminates easily swell or delaminate within 3-5 years under Indian moisture levels."},
+        {"q": "How does moisture affect kitchen cabinets?", "a": "High humidity and steam from cooking causes local carpenter-pasted glue to fail. SurajWood uses German Polyurethane (PUR) hotmelt bonding, creating a waterproof seal that resists steam and high temperatures."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "l-shape-kitchen",
+      "title": "L-Shape Modular Kitchen Designs",
+      "intro": "Maximize corner storage and efficiency with space-saving L-shape modular kitchen layouts. Perfect for small to medium-sized Indian apartments demanding an optimized workflow.",
+      "benefits": ["Golden work-triangle optimization", "Concealed magic-corner storage compatibility", "Seamless long runs", "Clean architectural look"],
+      "comparison": {
+        "feature": "Corner Space Utilization",
+        "surajwood": "Excellent (Seamless customized sizing)",
+        "laminate": "Moderate (Visible edge lines)",
+        "paint": "Moderate"
+      },
+      "products": ["acrylux", "acrymatte"],
+      "faq": [
+        {"q": "Are L-shape kitchens good for compact apartments?", "a": "Yes, L-shape layouts utilize two adjoining walls, leaving the rest of the room open. This makes smaller kitchens feel much more expansive, especially when paired with high-gloss ACRYLUX shutters that bounce light around the room."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "u-shape-kitchen",
+      "title": "U-Shape Modular Kitchen Layouts",
+      "intro": "Expansive counters and continuous storage options define the U-shape modular kitchen. Ideal for large families and intensive multi-cook meal preparation.",
+      "benefits": ["Maximum counter space", "Separate prep and cooking zones", "Vast under-counter drawer grids", "Elite look for larger villas"],
+      "comparison": {
+        "feature": "Counter Workspace",
+        "surajwood": "Maximum (Consistent shade across vast runs)",
+        "laminate": "Moderate",
+        "paint": "High"
+      },
+      "products": ["acrylux", "acryglass-matte"],
+      "faq": [
+        {"q": "Can I use two different colors in a U-shape kitchen?", "a": "Absolutely. A popular premium design trend is to use deep dark matte (like ACRYMATTE Charcoal) for lower cabinets, and pristine high-gloss white (like ACRYGLASS Pure White) for upper runs to keep the overhead space feeling light and airy."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "parallel-kitchen",
+      "title": "Parallel & Galley Kitchen Designs",
+      "intro": "The professional chef's favorite layout. Two parallel counter runs provide an unhindered working corridor with dedicated dry and wet zones.",
+      "benefits": ["Highly efficient dual-counter workflow", "Separate dry and wet zones", "Ideal for narrow rectangular layouts", "Ergonomic placement of appliances"],
+      "comparison": {
+        "feature": "Ergonomic Speed",
+        "surajwood": "Excellent (Smooth handle-less Gola integration)",
+        "laminate": "Moderate",
+        "paint": "Moderate"
+      },
+      "products": ["acrymatte", "acrysilk"],
+      "faq": [
+        {"q": "What is the recommended corridor width for parallel kitchens?", "a": "Maintain at least 4 to 5 feet of corridor width between parallel counters to allow cabinet and oven doors to open fully while ensuring comfortable movement."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "small-modular-kitchen",
+      "title": "Small & Compact Modular Kitchen Ideas",
+      "intro": "Ingenious storage hacks and light-reflecting materials that make compact kitchens feel double their size. Fully functional and highly premium.",
+      "benefits": ["Light-bouncing mirror surfaces", "Handle-less profile shutters", "Integrated spice racks & pull-outs", "Decluttered visual layout"],
+      "comparison": {
+        "feature": "Visual Expansion",
+        "surajwood": "Outstanding (95% light-reflecting high gloss)",
+        "laminate": "Low (Flat, printed reflection)",
+        "paint": "Moderate"
+      },
+      "products": ["acryglass", "acrylux"],
+      "faq": [
+        {"q": "How can I make a small kitchen look larger?", "a": "Use a light, high-gloss surface like ACRYGLASS Pure White for all shutters. This bounces daylight around the room and creates optical depth, making the boundaries of the room feel wider."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "island-kitchen",
+      "title": "Luxury Island Modular Kitchen Concepts",
+      "intro": "The pinnacle of social cooking. A central island counter serves as a prep hub, dining counter, and entertainment focal point for premium open-plan homes.",
+      "benefits": ["Social cooking hub", "Extra dining & bar counter space", "Premium visual anchor", "Additional deep-pot storage drawers"],
+      "comparison": {
+        "feature": "Social Centerpiece Impact",
+        "surajwood": "Palatial (Perfect, ripple-free mirror reflection)",
+        "laminate": "Low (Basic texture)",
+        "paint": "High (Prone to chair scuffs)"
+      },
+      "products": ["acryglass-matte", "acryglass"],
+      "faq": [
+        {"q": "What is the best material for kitchen island shutters?", "a": "Since island counters face high public view and frequent seating impacts, we recommend ACRYGLASS MATTE. It offers the luxurious depth of glass with a nano-surface that resists scuffs, fingerprints, and impacts."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "open-kitchen",
+      "title": "Open Concept Modular Kitchen Ideas",
+      "intro": "Seamless transitions between the cooking zone and the living room. Coordinate surface finishes to match your living area furniture.",
+      "benefits": ["Seamless visual integration", "Enhanced daylight sharing", "Perfect for social hosting", "Spacious open living feel"],
+      "comparison": {
+        "feature": "Visual Integration",
+        "surajwood": "Flawless (Wide cohesive color range)",
+        "laminate": "Moderate",
+        "paint": "High"
+      },
+      "products": ["acrysilk", "acrymatte"],
+      "faq": [
+        {"q": "How do I prevent kitchen odors in an open kitchen?", "a": "Always specify a high-suction auto-clean chimney. Additionally, use SurajWood ACRYMATTE shutters, which repel grease vapours and can be wiped clean with a single stroke."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "kitchen-cabinet-design",
+      "title": "Modular Kitchen Cabinet & Shutter Designs",
+      "intro": "A guide to selecting cabinet profiles, handle-less grooves, and glass shutters. Integrate premium European hardware with German PUR-bonded panels.",
+      "benefits": ["Precision Gola handle integration", "Zero-chipping on edge bands", "Heavy-duty hinge compatibility", "Custom calibrated thickness support"],
+      "comparison": {
+        "feature": "Fabrication Calibration",
+        "surajwood": "Precise (±0.1mm tolerance for perfect fitting)",
+        "laminate": "Poor (Chips easily on cutting)",
+        "paint": "Moderate"
+      },
+      "products": ["acrylux", "acrysilk"],
+      "faq": [
+        {"q": "Why does factory edge-banding matter for cabinets?", "a": "Local manual edge-banding leaves visible black glue lines that trap dirt. SurajWood factory edge-banding uses hotmelt PUR, leaving a perfectly seamless, dirt-free finish."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "kitchen-cupboard-design",
+      "title": "Kitchen Cupboard & Pantry Storage Designs",
+      "intro": "Organize heavy pantry items, vertical pull-out larders, and cutlery drawers with moisture-resistant, robust backing substrates.",
+      "benefits": ["Calibrated core E1 MDF strength", "Smooth vertical drawer pulls", "Heavy load carrying capacity", "Anti-fungal PMMA cleanliness"],
+      "comparison": {
+        "feature": "Structural Integrity",
+        "surajwood": "E1 MDF Core (Resists high weights)",
+        "laminate": "Varies by local core quality",
+        "paint": "N/A (Surface only)"
+      },
+      "products": ["acrylux", "acrymatte"],
+      "faq": [
+        {"q": "Can I use acrylic panels inside pantry cupboards?", "a": "Yes, though usually specified for external faces. SurajWood provides matching balanced backers so that the inside and outside of your premium cabinet doors look cohesive."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "kitchen-color-combination",
+      "title": "Modular Kitchen Color Combination Trends",
+      "intro": "Pair rich solid hues, brushed metallic surfaces, and natural wood grains. Curate cohesive color combinations engineered for Indian lighting.",
+      "benefits": ["37+ matched color swatches", "High-contrast duo-tone options", "Earthy and botanical matches", "Champagne and metallic accents"],
+      "comparison": {
+        "feature": "Color Depth & Consistency",
+        "surajwood": "100% Consistent (Optical PMMA dye control)",
+        "laminate": "Inconsistent (Batch variations)",
+        "paint": "Varies by mixing technician"
+      },
+      "products": ["acrylux", "acrymatte"],
+      "faq": [
+        {"q": "What color combos are trending in 2026?", "a": "The leading duo-tone combination is Midnight Navy (for lower shutters) paired with Brushed Copper or Champagne Gold (for upper accents), creating a warm, regal environment."}
+      ]
+    },
+    {
+      "category": "kitchen",
+      "slug": "modular-kitchen-acrylic",
+      "title": "Why Choose Acrylic Modular Kitchens",
+      "intro": "The ultimate scientific comparison. Explore PMMA layers, German hotmelt adhesives, E1 MDF cores, and 3H anti-scratch performance.",
+      "benefits": ["3H pencil scratch hardness", "120°C temperature tolerance", "Class B1 fire protection", "10-year color fastness"],
+      "comparison": {
+        "feature": "Overall Durability",
+        "surajwood": "Supreme (10+ Year Lifetime)",
+        "laminate": "Low (Fails in 3 years)",
+        "paint": "Low (Chips under impacts)"
+      },
+      "products": ["acrylux", "acryglass"],
+      "faq": [
+        {"q": "Is acrylic better than PU paint for kitchen cabinets?", "a": "Yes. Acrylic is far more scratch-resistant, impact-resistant, and easily repairable compared to delicate PU painted shutters that chip under daily utensil contact."}
+      ]
+    },
+    {
+      "category": "bedroom",
+      "slug": "bedroom-design",
+      "title": "Luxury Bedroom Interior Designs",
+      "intro": "Create serene, relaxing master bedrooms. Use micro-textured soft-satin finishes that diffuse light and pair beautifully with warm lighting.",
+      "benefits": ["Soft-satin light diffusion", "Anti-fingerprint cleanliness", "Warm, inviting aesthetics", "Quiet handle-less sliding closets"],
+      "products": ["acrysilk", "acryglass-matte"],
+      "comparison": {
+        "feature": "Light Glare Control",
+        "surajwood": "Outstanding (Micro-textured glare-free diffusion)",
+        "laminate": "Poor (Reflects harsh bulb glare)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "What finish is best for bedroom cupboards?", "a": "ACRYSILK is the preferred choice. Its fine micro-texture diffuses night lighting softly, creating a relaxing, glare-free bedroom environment."}
+      ]
+    },
+    {
+      "category": "bedroom",
+      "slug": "master-bedroom",
+      "title": "Master Bedroom Interior Styling",
+      "intro": "Palatial bedroom designs featuring floor-to-ceiling closets, statement headboards, and cohesive dresser panels.",
+      "benefits": ["Seamless vertical vertical lines", "Rich soft-touch surfaces", "cohesive dressing room matches", "Optical-grade luxury depth"],
+      "products": ["acrysilk", "acryglass-matte"],
+      "comparison": {
+        "feature": "Boutique Hotel Look",
+        "surajwood": "Palatial (Silk-touch polymer luxury)",
+        "laminate": "Low (Flat printed sheets)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "How can I get a boutique-hotel look in my bedroom?", "a": "Install floor-to-ceiling sliding wardrobes in ACRYSILK Dusk Mauve or Warm Grey, paired with concealed ambient lighting that highlights the soft-satin texture."}
+      ]
+    },
+    {
+      "category": "bedroom",
+      "slug": "small-bedroom",
+      "title": "Small Bedroom Space Hacks",
+      "intro": "Leverage mirror-like high gloss wardrobe shutters to reflect light, making compact bedrooms feel bright and spacious.",
+      "benefits": ["Reflective visual expansion", "Handle-less sliding closet panels", "Bright daylight amplification", "Built-in vanity integration"],
+      "products": ["acryglass", "acrylux"],
+      "comparison": {
+        "feature": "Space Amplification",
+        "surajwood": "95% Reflectivity (Acts like vertical mirrors)",
+        "laminate": "Low (Basic printed gloss)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Can I use gloss wardrobes in small bedrooms?", "a": "Yes. Bouncing light is the best way to expand a room visually. High-gloss ACRYGLASS shutters act like soft mirrors, making narrow walls feel significantly wider."}
+      ]
+    },
+    {
+      "category": "bedroom",
+      "slug": "guest-bedroom-design",
+      "title": "Contemporary Guest Bedroom Concepts",
+      "intro": "Elegant, low-maintenance guest rooms designed to make visitors feel pampered. Durable surfaces that stay spotless over time.",
+      "benefits": ["Anti-fingerprint smudge resistance", "Zero fading under closed blinds", "Wipe-and-go easy cleaning", "Neutral luxury palettes"],
+      "products": ["acrymatte", "acrylux"],
+      "comparison": {
+        "feature": "Maintenance Interval",
+        "surajwood": "Extremely Low (Nano anti-dust surface)",
+        "laminate": "Moderate",
+        "paint": "Poor (Stains easily)"
+      },
+      "faq": [
+        {"q": "How do I maintain a guest bedroom shutter?", "a": "Because guest rooms are used intermittently, they can collect dust. SurajWood ACRYMATTE panels have anti-static surface properties that repel dust, staying pristine longer."}
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "slug": "wardrobe-design",
+      "title": "Premium Bedroom Wardrobe Designs",
+      "intro": "The ultimate closet guide. Use perfectly calibrated 18mm E1-grade boards to ensure tall wardrobe shutters stay 100% straight and flat for a decade.",
+      "benefits": [" calibrated straight shutters", "German hotmelt PUR waterproof seal", "3H scratch-resistant door faces", "Anti-fingerprint nano surface"],
+      "products": ["acrylux", "acrysilk"],
+      "comparison": {
+        "feature": "Tall Door Warpage Control",
+        "surajwood": "Excellent (Balanced E1 core + calibrated backer)",
+        "laminate": "Poor (Manually pasted sheets warp tall doors)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Why do closet doors warp and how does SurajWood prevent it?", "a": "Warping happens when unequal tension is applied to the front and back of a board. SurajWood prevents this by factory-laminating identical tension balanced backing sheets to the E1-grade MDF core."}
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "slug": "walk-in-wardrobe",
+      "title": "Luxury Walk-In Wardrobe Layouts",
+      "intro": "The boutique closet experience. Custom islands, glass-door showcases, and soft-touch drawers in deep matte charcoal or navy.",
+      "benefits": ["Elite walk-in aesthetics", "Integrated LED strip channels", "Soft-touch luxury drawers", "Dust-repellent nano surface"],
+      "products": ["acryglass-matte", "acrymatte"],
+      "comparison": {
+        "feature": "Luxury Boutique Value",
+        "surajwood": "Outstanding (Deep velvet nano-matte look)",
+        "laminate": "Low (Economy feel)",
+        "paint": "High"
+      },
+      "faq": [
+        {"q": "What finish is recommended for walk-in wardrobes?", "a": "ACRYGLASS MATTE is the gold standard for walk-in closets. It provides the velvet-like depth of frosted glass with a micro-texture that feels highly premium to handle."}
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "slug": "sliding-wardrobe",
+      "title": "Modern Sliding Wardrobe Designs",
+      "intro": "Save walking corridor space with smooth-glide sliding wardrobes. Lightweight PMMA sheets reduce strain on high-rise modular tracks.",
+      "benefits": ["Zero corridor block", "Lightweight doors reduce track wear", "Perfect flat surface aesthetics", "Vast floor-to-ceiling mirror-panels"],
+      "products": ["acrysilk", "acryglass"],
+      "comparison": {
+        "feature": "Sliding Track Longevity",
+        "surajwood": "Lightweight PMMA (Reduces load on hardware)",
+        "laminate": "Heavier manually pasted panels",
+        "paint": "Heavier panels"
+      },
+      "faq": [
+        {"q": "Are sliding wardrobe doors heavy?", "a": "Cheaper multi-layered boards are heavy and damage sliding tracks over time. SurajWood PMMA layers are lightweight yet structurally rigid, ensuring smooth sliding operation."}
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "slug": "wardrobe-for-small-bedroom",
+      "title": "Wardrobe Designs for Small Bedrooms",
+      "intro": "Integrate mirror panel doors, multi-tier wardrobes, and built-in dressing setups to maximize storage in compact spaces.",
+      "benefits": ["Reflective light bouncing", "Built-in vertical dressers", "Handle-less profile rails", "Integrated loft cupboards"],
+      "products": ["acrylux", "acryglass"],
+      "comparison": {
+        "feature": "Light Amplification",
+        "surajwood": "Supreme (Mirror gloss ACRYGLASS)",
+        "laminate": "Low",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Should I use lofts in small bedrooms?", "a": "Yes. Lofts extend storage to the ceiling. Using high-gloss white ACRYLUX for both the main closet and loft shutters keeps the tall setup from feeling visually heavy."}
+      ]
+    },
+    {
+      "category": "living-room",
+      "slug": "living-room-design",
+      "title": "Luxury Living Room Wall Panels",
+      "intro": "Dazzle your guests with optical-grade acrylic feature walls. Large 8ft x 4ft seamless panels conceal wall imperfections while adding absolute luxury.",
+      "benefits": ["Seamless 8ft cladding", "Class B1 fire safety", "Easy vertical installation", "Stunning light reflection"],
+      "products": ["acryglass", "acryglass-matte"],
+      "comparison": {
+        "feature": "Cladding Flatness",
+        "surajwood": "100% Flat (Perfect calibrated E1 MDF backing)",
+        "laminate": "Wavy (Visible joins & seams)",
+        "paint": "Prone to plaster cracks"
+      },
+      "faq": [
+        {"q": "Can I install acrylic panels directly on walls?", "a": "They should be installed over a calibrated plywood framework to ensure a perfectly level, ripple-free surface."}
+      ]
+    },
+    {
+      "category": "living-room",
+      "slug": "living-room-wall-panels",
+      "title": "Statement Wall Paneling Ideas",
+      "intro": "Incorporate geometric grooved panel designs, metallic highlights, and warm wood textures into your master living spaces.",
+      "benefits": ["Geometric groove routing ready", "Brushed metal and wood swatches", "Sound-deadening substrate support", "Luxury hotel-like corridors"],
+      "products": ["acrylux", "acrysilk"],
+      "comparison": {
+        "feature": "Groove Routing Capability",
+        "surajwood": "Outstanding (Clean CNC cuts without chipping)",
+        "laminate": "Impossible (Paper chips at edges)",
+        "paint": "Requires complex plastering"
+      },
+      "faq": [
+        {"q": "Can SurajWood panels be carved or grooved?", "a": "Yes. Our E1-grade MDF core can be routed on standard CNC machinery to create geometric fluted or grooved panel designs without chipping the acrylic surface."}
+      ]
+    },
+    {
+      "category": "living-room",
+      "slug": "tv-unit-design",
+      "title": "Premium TV Unit & Media Wall Designs",
+      "intro": "The modern entertainment zone. ACRYGLASS backdrops provide a high-contrast reflective frame that makes large TV screens blend in beautifully.",
+      "benefits": ["High-contrast media frame", "Dust-repellent matte drawers", "Concealed wire channel setups", "Safe Class B1 fire protection"],
+      "products": ["acryglass", "acrymatte"],
+      "comparison": {
+        "feature": "Dust Repellency",
+        "surajwood": "Anti-static (Nano coating repels room dust)",
+        "laminate": "Attracts dust easily",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "What backdrop is best for a wall-mounted TV?", "a": "A high-gloss ACRYGLASS backdrop in Piano Black or Smoked Charcoal creates a stunning mirror-like media wall. When the TV is off, it blends seamlessly into the dark gloss panel."}
+      ]
+    },
+    {
+      "category": "bathroom",
+      "slug": "bathroom-design",
+      "title": "Moisture-Proof Bathroom Cabinet Designs",
+      "intro": "100% waterproof PMMA surfaces that protect bathroom storage cabinets from aggressive splashes, daily humidity, and soap mold.",
+      "benefits": ["100% Moisture resistant PMMA", "Anti-fungal non-porous surface", "German PUR waterproof edge", "Easy-wipe toothpaste/soap cleanup"],
+      "products": ["acrymatte", "acrylux"],
+      "comparison": {
+        "feature": "Mold & Swell Resistance",
+        "surajwood": "Supreme (Hygienic PMMA barrier)",
+        "laminate": "Poor (Manual glue fails in steam)",
+        "paint": "Moderate (Fungal peeling)"
+      },
+      "faq": [
+        {"q": "Is acrylic safe for high-moisture bathrooms?", "a": "Yes. PMMA acrylic is completely non-porous and acts as a water barrier, preventing moisture from ever reaching the internal wood core."}
+      ]
+    },
+    {
+      "category": "bathroom",
+      "slug": "bathroom-vanity",
+      "title": "Luxury Bathroom Vanity Concepts",
+      "intro": "Sleek under-sink drawer units and mirror cabinets built with waterproof edge-banding, perfect for upscale hotel and residential vanities.",
+      "benefits": ["Waterproof PUR edge-banding", "Compact floating drawer grids", "Toothpaste & chemical resistance", "Consistent shade pairing"],
+      "products": ["acrymatte", "acrylux"],
+      "comparison": {
+        "feature": "Chemical & Soap Resistance",
+        "surajwood": "Excellent (Resists mild acids and soaps)",
+        "laminate": "Poor (Stains easily at edges)",
+        "paint": "Low (Water spotting)"
+      },
+      "faq": [
+        {"q": "How do I clean bathroom acrylic vanity cabinets?", "a": "Simply wipe down with a damp microfiber cloth. For grease or makeup smudges, a drop of mild baby soap or dish wash solution works perfectly."}
+      ]
+    },
+    {
+      "category": "office",
+      "slug": "office-design",
+      "title": "Modern Corporate Office Furniture Surfaces",
+      "intro": "Create inspiring corporate offices with durable, scratch-resistant surfaces for desks, conference tables, and executive offices.",
+      "benefits": ["3H Scratch-resistant workspaces", "Class B1 building fire code compliant", "Dust-repellent matte desks", "Seamless vertical lobby paneling"],
+      "products": ["acrymatte", "acrylux"],
+      "comparison": {
+        "feature": "Commercial High-Traffic Hardness",
+        "surajwood": "3H Pencil Hardness (Resists keys/pens)",
+        "laminate": "1H - 2H (Standard scuffing)",
+        "paint": "Poor (Rapid degradation)"
+      },
+      "faq": [
+        {"q": "Can acrylic be used for office reception desks?", "a": "Yes, ACRYGLASS is highly popular for corporate reception counters due to its premium, mirror-like corporate presentation and scratch resistance."}
+      ]
+    },
+    {
+      "category": "office",
+      "slug": "reception-design",
+      "title": "Luxury Reception Counter Concepts",
+      "intro": "First impressions matter. High-impact mirror gloss counters and textured satin feature walls designed to leave a lasting impact on visitors.",
+      "benefits": ["95% Reflective high-gloss impact", "Clean corporate branding backing", "3H scratch-resistant key desks", "Large-format seamless columns"],
+      "products": ["acryglass", "acrysilk"],
+      "comparison": {
+        "feature": "First Impression Value",
+        "surajwood": "Supreme (Mirror polished crystal depth)",
+        "laminate": "Low (Basic texture sheets)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Is high-gloss safe from fingerprints at receptions?", "a": "For public-facing fronts, use ACRYGLASS high-gloss to maximize impact, and specify ACRYMATTE or ACRYSILK anti-fingerprint for the internal writing desk faces."}
+      ]
+    },
+    {
+      "category": "office",
+      "slug": "conference-room",
+      "title": "Corporate Conference Room Interfaces",
+      "intro": "Premium media walls, presentation boards, and writing desks designed for quiet, glare-free executive conference spaces.",
+      "benefits": ["Glare-free matte projection backdrop", "Class B1 fire code safety", "Smooth executive writing desks", "Concealed screen cabling setups"],
+      "products": ["acrymatte", "acryglass-matte"],
+      "comparison": {
+        "feature": "Camera Glare Control",
+        "surajwood": "True Matte (Ideal for video conferencing spaces)",
+        "laminate": "Poor (Reflects lighting)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Why is matte preferred for conference tables?", "a": "During video-conferencing, high gloss finishes cause bright overhead lighting to reflect glare directly into cameras. SurajWood ACRYMATTE eliminates this glare completely."}
+      ]
+    },
+    {
+      "category": "retail",
+      "slug": "shop-interior",
+      "title": "High-Traffic Retail & Shop Interiors",
+      "intro": "Sleek retail display walls, checkout counters, and jewelry showcases built to withstand intensive public impact and constant cleaning.",
+      "benefits": ["3H scratch resistant product walls", "Class B1 fire code compliance", "Easy wipe public counters", "True-color branding matching"],
+      "products": ["acrylux", "acryglass"],
+      "comparison": {
+        "feature": "Public Wear and Tear",
+        "surajwood": "Outstanding (Extremely resilient PMMA)",
+        "laminate": "Poor (Dulls rapidly)",
+        "paint": "Poor"
+      },
+      "faq": [
+        {"q": "How does SurajWood handle public retail wear?", "a": "Our E1-grade calibrated core MDF is highly impact-resistant, and the PMMA polymer skin is flexible, resisting shattering or cracking under public impact."}
+      ]
+    },
+    {
+      "category": "retail",
+      "slug": "showroom-design",
+      "title": "Luxury Showroom Display Walls",
+      "intro": "Jewelry, fashion, and lifestyle display backdrops requiring true-color illumination, mirror gloss, and absolute flat mounting.",
+      "benefits": ["True color lighting matching", "95% Reflective product stands", "Seamless vertical sheet mounting", "Anodized metal profile compatibility"],
+      "products": ["acryglass", "acryglass-matte"],
+      "comparison": {
+        "feature": "Product Illumination Backdrop",
+        "surajwood": "Supreme (Optical-grade polymer clarity)",
+        "laminate": "Low (Wavy printed reflection)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Can I route LED strips into these panels?", "a": "Yes. SurajWood panels route cleanly on CNC machines, allowing contractors to carve precise recessed channels for LED lighting strips."}
+      ]
+    },
+    {
+      "category": "retail",
+      "slug": "retail-display",
+      "title": "Commercial Product Display Fixtures",
+      "intro": "Multi-tier display columns, modular product racks, and checkout counters built for busy commercial malls and high-street retail.",
+      "benefits": ["calibrated E1 MDF strength", "Easy soap and dust cleanups", "Consistent pan-India chain shading", "Robust metal frame compatibility"],
+      "products": ["acrylux", "acrymatte"],
+      "comparison": {
+        "feature": "Sanitizer and Chemical Resistance",
+        "surajwood": "Excellent (Unperturbed by rubbing alcohol)",
+        "laminate": "Poor (Edge banding degrades)",
+        "paint": "Low"
+      },
+      "faq": [
+        {"q": "Can chemical sanitizers damage acrylic displays?", "a": "Standard PMMA acrylic resists isopropyl alcohol sanitizers and chemical cleanups without clouding or peeling, making it highly hygienic for public checkout desks."}
+      ]
+    },
+    {
+      "category": "other-rooms",
+      "slug": "study-room",
+      "title": "Durable Children&apos;s Study Room Furnishings",
+      "intro": "Calm study zones featuring anti-glare writing desks, sturdy bookshelves, and scratch-proof drawer setups that survive years of school use.",
+      "benefits": ["Glare-free soft-satin tables", "3H scratch-resistant desk faces", "Calibrated E1 heavy book shelves", "Anti-dust static repelling surface"],
+      "products": ["acrysilk", "acrymatte"],
+      "comparison": {
+        "feature": "Pencil & Key Scratching",
+        "surajwood": "3H Hardness (Stands up to high daily stress)",
+        "laminate": "Low (Shows deep scratches)",
+        "paint": "Low (Chips easily)"
+      },
+      "faq": [
+        {"q": "What finish is best for study tables?", "a": "ACRYSILK is the absolute best. Its micro-textured satin finish is extremely comfortable for writing, has zero light-glare, and hides pencil or compass scratches perfectly."}
+      ]
+    },
+    {
+      "category": "other-rooms",
+      "slug": "kids-room",
+      "title": "Vibrant and Safe Kids&apos; Room Surface Designs",
+      "intro": "Create non-toxic, safe bedroom spaces for your children. Easy-wipe panels in high-gloss primary solids and durable pastel shades.",
+      "benefits": ["Non-toxic PMMA polymer", "Crayon, ink & spill stain resistant", "Smooth shatterproof door faces", "Vibrant and matched color options"],
+      "products": ["acrylux", "acrymatte"],
+      "comparison": {
+        "feature": "Crayon and Ink Cleaning",
+        "surajwood": "100% Easy (Ink wipes off with soapy water)",
+        "laminate": "Difficult (Permanent pen stains)",
+        "paint": "Impossible (Requires repainting)"
+      },
+      "faq": [
+        {"q": "Are the colors safe for toddlers?", "a": "Yes. SurajWood PMMA acrylic is completely inert and certified lead-free/VOC-free, meeting international indoor air quality and child safety standards."}
+      ]
+    },
+    {
+      "category": "other-rooms",
+      "slug": "pooja-room",
+      "title": "Sacred Pooja Room Panel Claddings",
+      "intro": "Transform sacred pooja rooms. Pair warm illuminated panels, wooden textured acrylics, and CNC-cut geometric jaali backdrops.",
+      "benefits": ["Geometric jaali CNC routing ready", "Class B1 fire code safety near lamps", "Warm wood and champagne swatches", "Easy-wipe incense soot cleanup"],
+      "products": ["acrylux", "acrysilk"],
+      "comparison": {
+        "feature": "Oil and Soot Resistance",
+        "surajwood": "Excellent (Soot wipes off instantly)",
+        "laminate": "Moderate (Edges absorb soot)",
+        "paint": "Low (Soot yellows paint)"
+      },
+      "faq": [
+        {"q": "Can I use acrylic panels near deepam lamps?", "a": "Yes. Our Class B1 fire rating adds an extra layer of safety. Always ensure a standard safety gap is maintained between open flame sources and wood panels."}
+      ]
+    },
+    {
+      "category": "other-rooms",
+      "slug": "dining-room",
+      "title": "Luxury Dining Room Cabinet & Sideboard Panels",
+      "intro": "Sleek crockery units, dining backdrops, and sideboards built to withstand hot dish exposure, oil drips, and chemical spills.",
+      "benefits": ["Hot dish temperature resistant", "Turmeric and curry stain proof", "Mirror gloss ACRYGLASS showcase", "Smooth Gola handle drawers"],
+      "products": ["acryglass", "acryglass-matte"],
+      "comparison": {
+        "feature": "Turmeric Curry Stain Resistance",
+        "surajwood": "100% Stainproof (Non-porous PMMA layer)",
+        "laminate": "Poor (Stains easily)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "Are sideboards stainproof against hot curries?", "a": "Yes, PMMA is an inert polymer. Even aggressive turmeric curries left overnight will not stain or penetrate the panel, and can be wiped off with mild soapy water."}
+      ]
+    },
+    {
+      "category": "other-rooms",
+      "slug": "drawing-room",
+      "title": "Luxury Drawing Room Cladding & Sideboards",
+      "intro": "Sophisticated formal lounges demanding a luxury boutique feel. Seamless wall paneling, elegant sideboards, and sleek TV unit frames.",
+      "benefits": ["Palatial mirror reflectivity", "Anodized aluminum profile slots", "Smooth velvet nano matte touch", " calibrated E1 flat alignment"],
+      "products": ["acryglass-matte", "acrysilk"],
+      "comparison": {
+        "feature": "Luxury Showcase Impact",
+        "surajwood": "Supreme (Mirror polished pristine depth)",
+        "laminate": "Low (Economy presentation)",
+        "paint": "Moderate"
+      },
+      "faq": [
+        {"q": "What colors fit formal drawing rooms?", "a": "We recommend pairing ACRYSILK Dusk Mauve or Warm Grey with ACRYMATTE Blush Beige, illuminated by soft golden profiles to create a relaxed luxury lounge feel."}
+      ]
+    }
+  ]
+}

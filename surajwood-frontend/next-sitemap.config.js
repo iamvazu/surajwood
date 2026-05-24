@@ -86,6 +86,11 @@ module.exports = {
   },
   // Include all 50 PSEO pages
   additionalPaths: async (config) => {
+    const citiesData = require("./data/cities.json");
+    const appsData = require("./data/applications.json");
+    const shadesData = require("./data/shades.json");
+    const designsData = require("./data/design-ideas.json");
+
     const products = [
       "acrylux",
       "acrysilk",
@@ -93,9 +98,10 @@ module.exports = {
       "acryglass",
       "acryglass-matte",
     ];
-    const applications = ["kitchens", "wardrobes"];
-    const cities = ["delhi", "mumbai", "bangalore", "hyderabad", "chennai"];
+    const applications = appsData.applications.map((a) => a.slug);
+    const cities = citiesData.cities.map((c) => c.slug);
 
+    // 1,250 PSEO pages
     const pseoPages = products.flatMap((product) =>
       applications.flatMap((application) =>
         cities.map((city) => ({
@@ -107,6 +113,30 @@ module.exports = {
       )
     );
 
-    return pseoPages;
+    // 15 Shades pages
+    const shadePages = shadesData.map((shade) => ({
+      loc: `/shades/${shade.slug}`,
+      changefreq: "weekly",
+      priority: 0.6,
+      lastmod: new Date().toISOString(),
+    }));
+
+    // 35+ Design Ideas pages
+    const designPages = designsData.ideas.map((idea) => ({
+      loc: `/design-ideas/${idea.category}/${idea.slug}`,
+      changefreq: "weekly",
+      priority: 0.7,
+      lastmod: new Date().toISOString(),
+    }));
+
+    // Design category pages
+    const designCatPages = designsData.categories.map((cat) => ({
+      loc: `/design-ideas/${cat.slug}`,
+      changefreq: "weekly",
+      priority: 0.7,
+      lastmod: new Date().toISOString(),
+    }));
+
+    return [...pseoPages, ...shadePages, ...designPages, ...designCatPages];
   },
 };

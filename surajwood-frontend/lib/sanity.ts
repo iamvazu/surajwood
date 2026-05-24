@@ -903,6 +903,595 @@ const MOCK_POSTS: SanityPost[] = [
     reading_time: 8,
     categories: ["Manufacturing", "Brand Story"],
   },
+  {
+    id: 17,
+    slug: "acrylic-vs-laminate-vs-pu-vs-glass-kitchen-guide",
+    title: "Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Material Guide",
+    excerpt:
+      "Planning a premium modular kitchen in India? We compare PMMA Acrylic, HPL Laminates, PU Painted shutters, and Glass profiles across durability, maintenance, and costs.",
+    content: `<p>Choosing the right surfacing material for modular kitchen shutters is the most critical decision when planning a new home. In this comprehensive guide, we compare the four leading choices in the Indian market: prelaminated PMMA acrylic panels, standard laminates, PU painted shutters, and glass profiles.</p>
+<h2>1. PMMA Acrylic (The Premium Standard)</h2>
+<p>PMMA acrylic panels (like SurajWood <a href="/products/acrylux">ACRYLUX</a>) offer the ultimate combination of high reflectivity (95%), 3H scratch resistance, and waterproof edge lamination. With German PUR hotmelt adhesive, these boards are guaranteed against delamination or swelling caused by steam and humidity.</p>
+<h2>2. High-Pressure Laminates (The Economy Choice)</h2>
+<p>Laminates (often referred to as sunmica or mica sheets) are highly economical but lack the deep gloss or velvet matte depth of true acrylic. Manually-pasted laminates often bubble or peel around edges under intense cooking heat.</p>
+<h2>3. PU Painted Shutters (The Seamless Finish)</h2>
+<p>PU (Polyurethane) painted surfaces offer a seamless, handle-less profile look but are extremely fragile. They chip easily under utensils contact and require expensive full resprays when stained by oil or turmeric.</p>
+<h2>4. Glass Shutters (The High-End Glass Vibe)</h2>
+<p>Glass shutters are stunning but heavy and prone to shattering. SurajWood <a href="/products/acryglass-matte">ACRYGLASS MATTE</a> offers the sophisticated velvet depth of glass with a lightweight, highly durable polymer layer that never shatters.</p>`,
+    featured_image: { ...placeholderImage(417), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-05-18",
+    author: "Suraj Wood Design Desk",
+    reading_time: 10,
+    categories: ["Material Guide", "Kitchen Design"],
+  },
+  {
+    id: 18,
+    slug: "modular-kitchen-cost-breakdown-india-guide",
+    title: "Modular Kitchen Cost Breakdown: Material-by-Material Guide for Indian Apartments",
+    excerpt:
+      "Struggling to budget your kitchen renovation? We analyze the square foot costs of cabinet carcasses, premium PMMA shutters, and Gola profiles to reveal actual modular costs.",
+    content: `<p>Understanding modular kitchen pricing in India can be overwhelming. The final cost of your kitchen depends on two major factors: the internal carcass material (Plywood vs Particle Board) and the visible cabinet shutter finish (Acrylic vs Laminate vs PU paint).</p>
+<h2>1. Shutter Material Cost Analysis (Per Sq Ft)</h2>
+<ul>
+  <li><strong>Premium PMMA Acrylic:</strong> INR 850 - INR 2,200 per sq ft. Highly durable, 100% factory edge-banded, and buff-repairable.</li>
+  <li><strong>PU Painted Shutters:</strong> INR 1,200 - INR 2,500 per sq ft. Premium and seamless but easily chipped.</li>
+  <li><strong>HPL Laminate Sheets:</strong> INR 450 - INR 950 per sq ft. Budget-friendly but prone to edge failure.</li>
+</ul>
+<h2>2. The True Carcass Investment</h2>
+<p>Always specify Boiling Water Resistant (BWR) plywood or high-density calibrated MDF for internal cabinets. Never compromise on the carcass material to save costs, as it forms the structural backbone of your counters.</p>
+<h2>3. Fabrication & Installation Cost Savings</h2>
+<p>While local carpenter pasting seems cheaper upfront, factory prelaminated PMMA acrylic panels (like SurajWood ACRYMATTE) are carpenter-friendly, require no on-site manual pasting labor, and reduce assembly times by 60%.</p>`,
+    featured_image: { ...placeholderImage(418), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-05-10",
+    author: "Suraj Wood Finance Desk",
+    reading_time: 8,
+    categories: ["Finance", "Kitchen Design"],
+  },
+  {
+    id: 19,
+    slug: "petg-vs-pmma-acrylic-optical-grade-guide",
+    title: "PETG vs PMMA Acrylic: Why Optical Grade Matters for Modern Surfaces",
+    excerpt:
+      "What is the difference between PETG boards and optical-grade PMMA panels? We break down the chemical differences, UV stability, and repair parameters.",
+    content: `<p>In premium interior design, two polymer finishes dominate: PETG (Polyethylene Chronology Glycol) and PMMA (Polymethyl Methacrylate) acrylic. While both offer glossy and matte options, they are chemically and structurally very different.</p>
+<h2>1. Chemical Composition & Optical Depth</h2>
+<p>PMMA acrylic (used in SurajWood <a href="/products/acrylux">ACRYLUX</a>) is an optical-grade polymer with unmatched light transmission (92%). This gives high-gloss cabinets a deep, mirror-like clarity. PETG is a modified polyester plastic that has a slightly lower light reflectivity and can showcase a mild 'orange peel' waviness under close light.</p>
+<h2>2. UV Resistance & Yellowing</h2>
+<p>PMMA has inherently superior UV resistance. SurajWood offers a 10-year UV stability guarantee, ensuring that pristine white shutters stay perfectly white. PETG is more prone to organic degradation and will show mild yellowing or dullness within 3-5 years of high daylight exposure.</p>
+<h2>3. Surface Hardness & Repairability</h2>
+<p>All SurajWood PMMA sheets undergo a hardening process to reach <strong>3H pencil scratch hardness</strong>. Cheaper PETG sheets typically have a 2H hardness, making them more prone to daily scuffs. Crucially, PMMA is <strong>buff-repairable</strong>, allowing micro-scratches to be easily buffed out using standard polishing compounds.</p>`,
+    featured_image: { ...placeholderImage(419), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-05-01",
+    author: "Suraj Wood Chemical Desk",
+    reading_time: 9,
+    categories: ["Material Science", "Technology"],
+  },
+  {
+    id: 20,
+    slug: "royale-touche-vs-surajwood-acrylux-honest-comparison",
+    title: "Royale Touche Acrylic vs SurajWood ACRYLUX: An Honest Comparison",
+    excerpt:
+      "Choosing a premium surface brand? We compare Royale Touche decorative laminates with SurajWood's specialized factory prelaminated PMMA acrylic panels.",
+    content: `<p>Royale Touche is a well-established household name in the Indian decorative surfaces market, famous for their high-pressure paper laminates. However, when it comes to true PMMA acrylic panels pre-laminated at a factory level, SurajWood's specialized range offers significant advantages.</p>
+<h2>1. Factory Prelamination vs Local Pasting</h2>
+<p>Royale Touche primarily sells loose laminate and acrylic sheets that must be manually glued onto wood boards at the customer's site. This manual process is prone to bubbles, edge warping, and dust entrapment. SurajWood exclusively manufactures <strong>factory prelaminated panels</strong> under positive-pressure cleanroom conditions using German PUR hotmelt, ensuring a 100% flat surface.</p>
+<h2>2. Product Focus & Specialization</h2>
+<p>While Royale Touche has a massive catalog spanning hundreds of decorative papers, stone, and crystal textures, SurajWood specializes intensely in <strong>German PUR-bonded PMMA acrylic surfaces</strong> (ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS). This tight technological focus allows us to maintain strict ±0.1mm tolerances and deliver superior scratch performance.</p>
+<h2>3. Cost-to-Value Ratio</h2>
+<p>By purchasing factory-direct prelaminated panels from SurajWood's Bahadurgarh facility, architects and project managers eliminate local pasting labor costs, cut down assembly times, and receive a direct 5-year zero-delamination warranty.</p>`,
+    featured_image: { ...placeholderImage(420), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-04-20",
+    author: "Suraj Wood Commercial Desk",
+    reading_time: 7,
+    categories: ["Brand Comparison", "Material Guide"],
+  },
+  {
+    id: 21,
+    slug: "top-10-acrylic-panel-brands-india-2026",
+    title: "Top 10 Acrylic Panel Brands in India (2026 Edition)",
+    excerpt:
+      "A curated review of India's leading prelaminated acrylic panel brands, evaluating substrate quality, scratch resistance, PUR adhesion, and swatch colors.",
+    content: `<p>Surfacing quality determines the longevity of luxury homes. In this comprehensive review, we evaluate the top ten premium prelaminated acrylic panel brands in India in 2026, comparing technical features, substrate standards, and warranties.</p>
+<h2>1. SurajWood (ACRYLUX & ACRYMATTE)</h2>
+<p>SurajWood leads the specialized PMMA market, utilizing German PUR lamination, optical-grade PMMA polymers, and E1-grade low-emission MDF substrates. Backed by a 5-year delamination warranty and 10-year UV color fastness, it is the premier specification for leading architects across Delhi, Mumbai, and Bangalore.</p>
+<h2>2. Nivesa & Opulux</h2>
+<p>Well-regarded mid-range brands offering various PETG and standard gloss finishes. While highly cost-competitive, they utilize lower surface hardness layers compared to SurajWood's 3H PMMA acrylic.</p>
+<h2>3. Euro Pratik & REHAU</h2>
+<p>Strong global brands with premium pricing. They offer excellent technical quality but typically have longer delivery times for customized sizes and lower cost-to-value ratios for large scale projects.</p>
+<h2>4. Action TESA & Greenlam</h2>
+<p>Massive board conglomerates that cover standard particle and pre-laminated boards. While having a vast national presence, their specialized acrylic high-gloss sheens are less specialized than SurajWood's dedicated PMMA lines.</p>`,
+    featured_image: { ...placeholderImage(421), url: "/images/gallery/wardrobe-1.jpg" },
+    date: "2026-04-10",
+    author: "Suraj Wood Architectural Panel Review",
+    reading_time: 11,
+    categories: ["Architectural Review", "Material Guide"],
+  },
+  {
+    id: 22,
+    slug: "50-modern-modular-kitchen-design-ideas",
+    title: "50 Modern Modular Kitchen Design Ideas with Acrylic",
+    excerpt: "Get inspired by 50 breathtaking modern kitchen designs utilizing ACRYLUX and ACRYGLASS sheens. From minimalist open concepts to palatial villa setups.",
+    content: `<p>A modular kitchen is the centerpiece of the modern Indian home. In this comprehensive showcase, we compile 50 outstanding kitchen design concepts that utilize premium factory-laminated PMMA acrylic panels to deliver absolute visual clarity and lifetime durability.</p>
+<h2>1. Minimalist Monochromes</h2>
+<p>Clean lines and flat runs. Pairing pure high-gloss white upper cabinets with deep matte charcoal lower doors creates a timeless monochrome environment that is easy to clean daily.</p>
+<h2>2. Bold Botanical Palettes</h2>
+<p>Greens and sage tones are highly trending in 2026. ACRYMATTE Sage Green paired with warm oak wood structures brings a fresh, organic kitchen vibe.</p>
+<h2>3. Metallic & Copper Accents</h2>
+<p>Incorporate Gola profiles in anodized copper or gold to complement high-gloss Midnight Navy panel runs, adding a touch of palatial luxury.</p>`,
+    featured_image: { ...placeholderImage(422), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-04-05",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Kitchen Design", "Inspiration"],
+  },
+  {
+    id: 23,
+    slug: "l-shape-kitchen-design-ideas-indian-apartments",
+    title: "L-Shape Kitchen Design Ideas for Indian Apartments",
+    excerpt: "Maximize corner space and workflow efficiency in rectangular apartment kitchens. Optimize corner pullouts and vertical pantry setups.",
+    content: `<p>Indian apartments often feature rectangular layouts where the L-shape modular kitchen is the most efficient configuration. It utilizes two adjoining walls, leaving the third wall completely free for dining tables or refrigerator placement.</p>
+<h2>1. The Work Triangle Principle</h2>
+<p>Ergonomics is key. An L-shape layout naturally separates your sink, cooking hob, and refrigerator into a highly functional triangle, minimizing walking steps during intensive meal prep.</p>
+<h2>2. Corner Storage Solutions</h2>
+<p>Don't waste deep corner cabinets. Modern hardware like magic corners, LeMans corners, or carousel drawers slide out fully, making corner storage highly accessible.</p>
+<h2>3. Brightening Narrow Corridors</h2>
+<p>Narrow apartments can feel dark. Specifying high-gloss ACRYLUX Arctic White for all shutters reflects natural window light, making the entire apartment corridor feel wider.</p>`,
+    featured_image: { ...placeholderImage(423), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-04-02",
+    author: "Suraj Wood Design Desk",
+    reading_time: 6,
+    categories: ["Kitchen Design", "Apartment Living"],
+  },
+  {
+    id: 24,
+    slug: "white-kitchen-cabinets-high-gloss-acrylic",
+    title: "White Kitchen Cabinets: Design Ideas with High Gloss Acrylic",
+    excerpt: "Discover why pristine white kitchens stay perfectly white with SurajWood's 10-year UV anti-yellowing PMMA acrylic coating.",
+    content: `<p>A high-gloss white modular kitchen is the ultimate design statement. It represents absolute cleanliness, spaciousness, and modern architectural elegance. However, Indian homeowners often worry about grease staining and discolouration over time.</p>
+<h2>1. Why Cheap PVC and Laminates Turn Yellow</h2>
+<p>Standard PVC foil or paper laminates contain organic structures that degrade rapidly under direct sunlight and UV exposure, turning yellowish-brown within 2-3 years. SurajWood uses inorganic PMMA polymer panels tested to EN standards, guaranteeing 10+ years of color fastness.</p>
+<h2>2. Tackling Turmeric & Spill Stains</h2>
+<p>Indian cooking involves heavy turmeric and oil vapours. Because PMMA acrylic is a non-porous material, spills cannot penetrate the surface and can be wiped clean with standard soapy water without leaving stains.</p>
+<h2>3. Styling with Contrast</h2>
+<p>Pair high-gloss white upper shutters with matte walnut or dark grey lower cabinets to anchor the design beautifully and add warm visual interest.</p>`,
+    featured_image: { ...placeholderImage(424), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-03-28",
+    author: "Suraj Wood Material Desk",
+    reading_time: 7,
+    categories: ["Kitchen Design", "Color Selection"],
+  },
+  {
+    id: 25,
+    slug: "small-kitchen-design-ideas-2bhk-apartments",
+    title: "Small Kitchen Design Ideas for 2BHK Apartments",
+    excerpt: "Smart space hacks, handle-less profile options, and bright reflective panels that make small kitchens look double their size.",
+    content: `<p>A 2BHK apartment modular kitchen typically measures between 60 to 90 square feet. Designing for this compact footprint requires utilizing every vertical inch while maintaining an uncluttered, spacious aesthetic.</p>
+<h2>1. Floor-to-Ceiling Loft Cabinets</h2>
+<p>Maximize vertical storage by extending cabinets all the way to the ceiling. Use lofts to store seasonal items that are used less frequently, keeping the main counters clean.</p>
+<h2>2. Handle-less Profile Rails</h2>
+<p>Protruding cabinet handles reduce walking space and create visual clutter. Integrating Gola profile handle rails creates a sleek, continuous run that is highly comfortable in narrow spaces.</p>
+<h2>3. High-Gloss daylight sharing</h2>
+<p>Reflecting light is a powerful optical trick. Bouncing light from high-reflectivity ACRYGLASS shutters expands the visual boundary of the room, making a small compact kitchen feel double its actual size.</p>`,
+    featured_image: { ...placeholderImage(425), url: "/images/gallery/kitchen-new-1.png" },
+    date: "2026-03-24",
+    author: "Suraj Wood Apartment Desk",
+    reading_time: 6,
+    categories: ["Apartment Living", "Kitchen Design"],
+  },
+  {
+    id: 26,
+    slug: "color-combinations-for-kitchen-cabinets-2026",
+    title: "Color Combinations for Kitchen Cabinets 2026",
+    excerpt: "Evaluate trending modular kitchen color duos for 2026, pairing rich solids, metallics, and organic wood textures.",
+    content: `<p>Monochromatic kitchens are giving way to high-contrast, double-tone palettes that reflect the homeowner&apos;s personality. Curate cohesive modular combinations engineered for Indian lighting.</p>
+<h2>1. Midnight Navy & Champagne Gold</h2>
+<p>The definitive luxury combination of 2026. Deep high-gloss blue under-counter drawers anchored by soft golden-metallic upper cabinet shutters, highlighted by concealed warm lighting.</p>
+<h2>2. Forest Green & Natural Oak</h2>
+<p>A serene, organic Japandi-inspired palette. Matte Forest Green nano-matte panels paired with light oak textures create a highly soothing environment that feels close to nature.</p>
+<h2>3. Charcoal Matte & Brushed Silver</h2>
+<p>For a sleek, high-tech industrial aesthetic. Pair nano-coated ACRYMATTE Charcoal doors with brushed silver aluminum profile frames to create a highly functional, chef-like kitchen.</p>`,
+    featured_image: { ...placeholderImage(426), url: "/images/gallery/kitchen-new-2.jpg" },
+    date: "2026-03-20",
+    author: "Suraj Wood Color Team",
+    reading_time: 8,
+    categories: ["Color Selection", "Inspiration"],
+  },
+  {
+    id: 27,
+    slug: "two-tone-kitchen-design-ideas-acrylic-panels",
+    title: "Two-Tone Kitchen Design Ideas with Acrylic Panels",
+    excerpt: "Learn how to pair dark lower counters with bright upper cupboards to keep your kitchen visually balanced and highly spacious.",
+    content: `<p>A two-tone kitchen uses two contrasting colors or textures on different cabinet runs. This design technique is highly popular in modern homes, allowing you to anchor the base units while keeping the overhead space light and airy.</p>
+<h2>1. Anchoring the Base Units</h2>
+<p>Lower base cabinets are subject to high physical impact, spice spills, and floor cleaning scuffs. Using dark matte shades (like ACRYMATTE Charcoal or Midnight Navy) hides these scuffs perfectly, keeping the base visually grounded.</p>
+<h2>2. Floating the Upper Cupboards</h2>
+<p>Using light sheens (like ACRYLUX Snow White or Ivory) for the wall-mounted cupboards ensures that the overhead space remains bright, open, and spacious without visually crowding the room.</p>
+<h2>3. Seamless Intermediate Backsplash</h2>
+<p>Ensure the transition backsplash is kept minimal (white tiles or clear glass) to let the two contrasting acrylic finishes pop without clash.</p>`,
+    featured_image: { ...placeholderImage(427), url: "/images/gallery/kitchen-new-3.jpg" },
+    date: "2026-03-15",
+    author: "Suraj Wood Design Desk",
+    reading_time: 7,
+    categories: ["Kitchen Design", "Color Selection"],
+  },
+  {
+    id: 28,
+    slug: "wardrobe-design-ideas-acrylic-shutters",
+    title: "Wardrobe Design Ideas with Acrylic Shutters",
+    excerpt: "Upgrade bedroom storage with premium PMMA wardrobe shutters. Compare high-gloss, soft-satin, and anti-fingerprint sheens.",
+    content: `<p>Your wardrobe is the second largest visual element in your bedroom. Specifying premium prelaminated acrylic shutters gives bedroom wardrobes a flawless, flat boutique look that lasts three times longer than manual laminates.</p>
+<h2>1. Height & Flatness Alignment</h2>
+<p>Tall floor-to-ceiling sliding closet doors demand perfect substrate flatness to prevent bowing or warping. SurajWood factory-bonded E1 MDF core boards are calibrated under direct pressure to remain perfectly straight.</p>
+<h2>2. Soft-Satin vs. High-Gloss</h2>
+<p>For master bedrooms, ACRYLUX or ACRYSILK soft-satin finishes diffuse night lighting softly, creating a relaxing feel. For small guest bedrooms, high-gloss ACRYGLASS reflects daylight, making rooms feel larger.</p>
+<h2>3. Integrated Loft Layouts</h2>
+<p>Carry the acrylic finish all the way into the lofts. Using consistent profile handles across lofts keeps the closet run visually seamless and modern.</p>`,
+    featured_image: { ...placeholderImage(428), url: "/images/gallery/wardrobe-2.jpg" },
+    date: "2026-03-10",
+    author: "Suraj Wood Closet Team",
+    reading_time: 7,
+    categories: ["Bedroom Design", "Wardrobes"],
+  },
+  {
+    id: 29,
+    slug: "walk-in-wardrobe-design-guide-indian-homes",
+    title: "Walk-in Wardrobe Design Guide for Indian Homes",
+    excerpt: "Plan a premium boutique dressing room experience with custom island drawers, LED strip lighting, and soft-satin finishes.",
+    content: `<p>A walk-in closet is the ultimate boutique dressing experience. Designing a premium walk-in wardrobe in Indian homes requires balancing smart compartmentalization with luxurious, tactile material finishes.</p>
+<h2>1. The Dressing Island Counter</h2>
+<p>A central island dresser is the perfect visual anchor. Specifying ACRYGLASS MATTE for island drawers provides a beautiful glass-like depth that resists fingerprints during accessory handling.</p>
+<h2>2. Concealed LED Strip Channels</h2>
+<p>Integrate golden aluminum profiles into the cabinet carcass. This allows for concealed warm LED strip lights that highlight your clothing collection without direct eye glare.</p>
+<h2>3. Dust Protection & Cleanliness</h2>
+<p>Walk-in rooms must stay clean. SurajWood nano-coated ACRYMATTE doors have built-in anti-static properties that repel room dust, reducing cleaning efforts by 60%.</p>`,
+    featured_image: { ...placeholderImage(429), url: "/images/gallery/wardrobe-3.jpg" },
+    date: "2026-03-05",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Bedroom Design", "Wardrobes"],
+  },
+  {
+    id: 30,
+    slug: "tv-unit-design-ideas-acrylic-panels",
+    title: "TV Unit Design Ideas with Acrylic Panels",
+    excerpt: "Evaluate statement high-gloss TV backdrops and dust-repellent matte media consoles designed for modern drawing rooms.",
+    content: `<p>Modern TV units have evolved from basic tables to full-height media walls. Creating a stunning entertainment zone requires selecting finishes that complement high-end screens and coordinate with your room lighting.</p>
+<h2>1. The High-Contrast Media Wall Backdrop</h2>
+<p>Using mirror-gloss ACRYGLASS Piano Black as a backdrop console creates a continuous glass frame. When the television screen is turned off, it blends in beautifully, eliminating the ugly &quot;black box&quot; effect.</p>
+<h2>2. Floating Dust-Repellent Consoles</h2>
+<p>Use floating lower storage drawers in ACRYMATTE Charcoal. This keeps the floor corridor clean, and the anti-static polymer skin repels electronic static dust, keeping the media area spotless.</p>
+<h2>3. Grooved Profile Routing</h2>
+<p>Carve precise geometric vertical lines into the wood backing panel on CNC machines. SurajWood core E1 MDF routes cleanly without chipping the front acrylic skin.</p>`,
+    featured_image: { ...placeholderImage(430), url: "/images/gallery/tv-unit-1.jpg" },
+    date: "2026-03-01",
+    author: "Suraj Wood Design Desk",
+    reading_time: 6,
+    categories: ["Living Room", "Inspiration"],
+  },
+  {
+    id: 31,
+    slug: "bathroom-vanity-design-ideas-waterproof",
+    title: "Bathroom Vanity Design Ideas: Waterproof Acrylic Panels",
+    excerpt: "Design beautiful under-sink storage drawers and floating vanity units with German PUR waterproof edge-banding.",
+    content: `<p>Bathroom cabinetry is often overlooked but faces the most aggressive environment: constant water splashes, direct steam, high humidity, and chemical cosmetic stains.</p>
+<h2>1. Zero Swell Waterproof Edge Banding</h2>
+<p>Manual carpenter adhesives disintegrate under moisture. SurajWood factory edge-banding uses moisture-curing Polyurethane (PUR) hotmelt, forming a waterproof seal that prevents the MDF core from swelling.</p>
+<h2>2. Resisting Chemical Cosmetic Stains</h2>
+<p>Toothpaste, soap scum, and cosmetics can leave permanent stains on standard paint or wood. PMMA acrylic is chemically inert and highly stain-resistant, allowing easy wipe-down cleanups.</p>
+<h2>3. Bright Floating Vanities</h2>
+<p>Mount cabinet units off the floor to make compact bathrooms feel wider. Specifying high-gloss ACRYLUX Ivory Cream keeps the utility zone feeling clean, bright, and hygienic.</p>`,
+    featured_image: { ...placeholderImage(431), url: "/images/gallery/bathroom-1.jpg" },
+    date: "2026-02-25",
+    author: "Suraj Wood Technical Desk",
+    reading_time: 6,
+    categories: ["Bathroom Design", "Technology"],
+  },
+  {
+    id: 32,
+    slug: "pooja-room-design-ideas-acrylic-wood",
+    title: "Pooja Room Design Ideas with Acrylic & Wood",
+    excerpt: "Incorporate backlit panels, geometric CNC jaali screens, and warm gold metallic panels into sacred temple claddings.",
+    content: `<p>Pooja rooms represent the spiritual heart of the Indian home. Designing these sacred spaces requires blending traditional religious elements with contemporary, easy-to-maintain surfaces.</p>
+<h2>1. CNC Jaali Cut Backdrops</h2>
+<p>Geometric jaali screens and illuminated backlit panels add beautiful spiritual light. SurajWood core boards route flawlessly on CNC machines, allowing clean geometric carving without splintering.</p>
+<h2>2. Easy Ash & Soot Wipe-down</h2>
+<p>Sacred incense and lamps produce oil and soot that discolours standard painted walls. Our non-porous PMMA acrylic skin prevents soot from binding, allowing oil drips and ash to be wiped off instantly with a damp cloth.</p>
+<h2>3. Class B1 Flame Retardant Safety</h2>
+<p>Safety is critical around open deepam flames. SurajWood panels carry Class B1 flame retardant certification, offering an extra layer of safety compared to standard wood panels.</p>`,
+    featured_image: { ...placeholderImage(432), url: "/images/gallery/kids-1.jpg" },
+    date: "2026-02-20",
+    author: "Suraj Wood Design Desk",
+    reading_time: 7,
+    categories: ["Inspiration", "Living Room"],
+  },
+  {
+    id: 33,
+    slug: "kids-room-design-durable-non-toxic",
+    title: "Kids Room Design: Durable & Non-Toxic Surfaces",
+    excerpt: "Evaluate safe, lead-free bedroom options with crayon-resistant surfaces that withstand high child activity.",
+    content: `<p>A child&apos;s bedroom needs to be both inspiring and highly robust. SurajWood prioritizes health and durability, engineering non-toxic surfaces that survive years of energetic play and creative &quot;drawings&quot;.</p>
+<h2>1. Lead-Free and VOC-Free Certification</h2>
+<p>Indoor air quality affects your child&apos;s health. Our PMMA polymer layers and E1-grade low-emission MDF cores release zero toxic fumes, meeting strict international safety standards for nurseries.</p>
+<h2>2. Resisting Ink, Crayons, & Spill Stains</h2>
+<p>Toddlers love to use closet shutters as sketchpads. Because PMMA is non-porous, crayon marks, pen ink, and paint can be cleaned effortlessly with lukewarm soapy water without permanent staining.</p>
+<h2>3. Impact & Scratch Resistance</h2>
+<p>SurajWood panels with 3H pencil hardness resist scuffs from toys, balls, and everyday child activity, ensuring the colorful bedroom stays stunning for years.</p>`,
+    featured_image: { ...placeholderImage(433), url: "/images/gallery/kids-1.jpg" },
+    date: "2026-02-15",
+    author: "Suraj Wood Health Desk",
+    reading_time: 6,
+    categories: ["Kids Bedroom", "Technology"],
+  },
+  {
+    id: 34,
+    slug: "living-room-wall-panel-ideas-acryglass",
+    title: "Living Room Wall Panel Ideas with ACRYGLASS",
+    excerpt: "Transform empty walls into boutique hotel lobbies with large-format high-gloss seamless vertical claddings.",
+    content: `<p>An empty vertical wall is a massive blank canvas. Cladding living room walls with large-format 8ft x 4ft ACRYGLASS panels creates a seamless, mirror-like presentation that matches boutique hotel lobbies.</p>
+<h2>1. Absolute Flatness Alignment</h2>
+<p>Unlike manual wood sheets that show bumps under lighting, SurajWood prelaminated panels ensure an absolute flat surface. The E1-grade core is perfectly calibrated to ±0.1mm tolerance.</p>
+<h2>2. Seamless Large Format Spans</h2>
+<p>Our standard 8ft x 4ft vertical sheets reduce the number of joins, creating a continuous running wall cladding. Highlight joins with brushed gold metallic profile channels for extra sophistication.</p>
+<h2>3. Rapid Maintenance & Cleaning</h2>
+<p>Wall cladding faces public hand contact and dust. ACRYGLASS is completely non-porous, requiring simple dry microfiber cloth wipes to maintain its mirror reflection.</p>`,
+    featured_image: { ...placeholderImage(434), url: "/images/gallery/tv-1.jpg" },
+    date: "2026-02-10",
+    author: "Suraj Wood Design Desk",
+    reading_time: 7,
+    categories: ["Living Room", "Inspiration"],
+  },
+  {
+    id: 35,
+    slug: "office-interior-design-acrylic-panels",
+    title: "Office Interior Design with Acrylic Panels",
+    excerpt: "Build highly productive, scratch-resistant workspaces. Re-engineer corporate reception desks and conference tables.",
+    content: `<p>Corporate office environments require building materials that balance premium brand presentation with high durability to handle high daily traffic.</p>
+<h2>1. First-Impact Corporate Receptions</h2>
+<p>Reception desks are a brand&apos;s physical signature. Finished in mirror-gloss ACRYGLASS Piano Black, checkout and lobby desks create an instant impression of institutional strength.</p>
+<h2>2. Non-Glare Conference Tables</h2>
+<p>Conference tables in ACRYMATTE Charcoal eliminate bright camera glare during video-conferencing, providing executive desks that resist pen scuffs and key scratches.</p>
+<h2>3. Class B1 Building Code Compliance</h2>
+<p>All SurajWood panels carry Class B1 flame retardant safety certificates, meeting commercial building codes across Indian IT and financial corridors.</p>`,
+    featured_image: { ...placeholderImage(435), url: "/images/gallery/commercial-premium.png" },
+    date: "2026-02-05",
+    author: "Suraj Wood Commercial Desk",
+    reading_time: 7,
+    categories: ["Commercial Design", "Offices"],
+  },
+  {
+    id: 36,
+    slug: "retail-store-design-acrylic-surfaces",
+    title: "Retail Store Design: First Impressions with Acrylic",
+    excerpt: "Review high-impact retail display cabinets and product showcases designed to stand out in commercial malls.",
+    content: `<p>Retail success depends on drawing customers inside showrooms. Product display cabinets require high-impact sheens, true color illumination, and absolute scratch resistance.</p>
+<h2>1. Gem-Tone Jewelry Backdrops</h2>
+<p>Illuminated display backdrops in ACRYGLASS reflect product spotlight beams beautifully, accentuating gold and crystal accessories with maximum luxury depth.</p>
+<h2>2. Rubbing Alcohol Sanitizer Resistance</h2>
+<p>Commercial public checkouts are frequently sanitised. Our PMMA polymer layers resist isopropyl alcohol and chemical cleaners without clouding or edge edge peeling.</p>
+<h2>3. Durable Product Pillars</h2>
+<p>Display columns face constant handbag scuffs and shopping cart impacts. SurajWood panels with flexible PMMA skin resist cracking, outlasting paint and standard laminate sheets.</p>`,
+    featured_image: { ...placeholderImage(436), url: "/images/gallery/commercial-2.jpg" },
+    date: "2026-02-01",
+    author: "Suraj Wood Retail Desk",
+    reading_time: 7,
+    categories: ["Commercial Design", "Inspiration"],
+  },
+  {
+    id: 37,
+    slug: "how-to-clean-maintain-acrylic-kitchen-shutters",
+    title: "How to Clean & Maintain Acrylic Kitchen Shutters",
+    excerpt: "The comprehensive maintenance guide. Discover why microfiber cloths and mild soaps keep your sheens mirror-flat.",
+    content: `<p>Maintaining a factory prelaminated modular kitchen takes under two minutes. Follow this technical care guide to keep your high-gloss and matte sheens mirror-flat for decades.</p>
+<h2>1. The Microfiber Rule</h2>
+<p>Always use clean, soft microfiber cloths. Standard cotton towels, paper towels, and kitchen sponges contain abrasive fibers that can leave micro-scratches on high-gloss sheens.</p>
+<h2>2. Simple Soap Dilutions</h2>
+<p>For kitchen grease vapor and oil drops, dilute a few drops of mild liquid dish soap in lukewarm water. Dampen your microfiber cloth, wipe the shutters in horizontal strokes, and dry immediately.</p>
+<h2>3. What to Avoid Completely</h2>
+<p>Never use glass cleaners, scouring powders, steel scrubs, paint thinners, or acid-based cleaners. These chemicals disintegrate the polymer finish, dulling the reflection.</p>`,
+    featured_image: { ...placeholderImage(437), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-01-25",
+    author: "Suraj Wood Maintenance Desk",
+    reading_time: 6,
+    categories: ["Maintenance", "How-To Guide"],
+  },
+  {
+    id: 38,
+    slug: "complete-guide-to-kitchen-renovation-india-2026",
+    title: "Complete Guide to Kitchen Renovation in India 2026",
+    excerpt: "Navigate budgeting, layout planning, carcass board selection, and countertop choices for a successful kitchen makeover.",
+    content: `<p>A complete kitchen renovation is a major investment. Navigating budgeting, plumbing, cabinetry materials, and countertop selection requires careful technical planning to ensure long-term value.</p>
+<h2>1. Layout & Plumbing First</h2>
+<p>Never start cabinetry before mapping out gas supply lines, chimney exhausts, water inputs, and kitchen appliance power plugs.</p>
+<h2>2. Choosing the Shutter Core</h2>
+<p>Carcass and cabinet doors must resist high humidity. Factor Boiling Water Resistant (BWR) plywood or E1 MDF cores into your budget to ensure a warp-free setup.</p>
+<h2>3. Factory Prelaminated Speed</h2>
+<p>Avoid local carpentry lamination, which can drag renovations out for weeks. Factory-direct prelaminated panels arrive ready-calibrated, reducing installation times by 60%.</p>`,
+    featured_image: { ...placeholderImage(438), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-01-20",
+    author: "Suraj Wood Technical Desk",
+    reading_time: 9,
+    categories: ["Kitchen Design", "Material Guide"],
+  },
+  {
+    id: 39,
+    slug: "understanding-mdf-vs-plywood-vs-particle-board",
+    title: "Understanding MDF vs Plywood vs Particle Board Substrates",
+    excerpt: "Evaluate standard substrate cores across strength, flat calibration, and water swell factors in modular furniture.",
+    content: `<p>Surfacing sheens are only as good as the board core underneath. We technical analyze the three leading board substrates used in Indian modular furniture: Plywood, Medium Density Fibreboard (MDF), and Particle Board (PB).</p>
+<h2>1. Medium Density Fibreboard (MDF) - The Flatness King</h2>
+<p>Calibrated E1-grade MDF offers a uniform density and a perfectly smooth surface calibrated to ±0.1mm tolerance. This eliminates the &quot;orange peel&quot; ripple effect, making it the only substrate suitable for high-gloss mirror reflections.</p>
+<h2>2. Calibrated Plywood - The Load Warrior</h2>
+<p>calibrated BWR Plywood offers superior screw-holding strength and load capacity, making it the preferred carcass substrate for heavy-load under-counter kitchen sinks.</p>
+<h2>3. Particle Board - The Budget Alternative</h2>
+<p>Particle Board is economical but highly porous. Under Indian monsoon humidity, manual edge-banded particle board absorbs moisture rapidly, causing cabinets to swell and crumble.</p>`,
+    featured_image: { ...placeholderImage(439), url: "/images/gallery/wardrobe-1.jpg" },
+    date: "2026-01-15",
+    author: "Suraj Wood Substrate Desk",
+    reading_time: 8,
+    categories: ["Technical Guide", "Material Science"],
+  },
+  {
+    id: 40,
+    slug: "what-is-german-pur-bonding-factory-better",
+    title: "What is German PUR Bonding? Why Factory-Bonded is Better",
+    excerpt: "The science of Polyurethane Reactive hotmelts. Understand how moisture-cured lamination guarantees zero board peeling.",
+    content: `<p>Board delamination — where the surface skin peels away from the edge — is the most common cabinet failure in India. At SurajWood, we have eliminated this issue completely through advanced lamination science.</p>
+<h2>1. Polyurethane Reactive (PUR) Hotmelt Chemistry</h2>
+<p>Unlike standard white glue or contact adhesives that dry by evaporation and remain water-soluble, PUR hotmelt is a chemical adhesive that cures via atmospheric moisture. It forms a permanent, irreversible cross-linked bond.</p>
+<h2>2. Steam and Heat Tolerance</h2>
+<p>Once cured, PUR adhesive does not re-melt, tolerating temperatures up to 120°C. This makes it completely steam-proof in modular kitchens near gas hobs and ovens.</p>
+<h2>3. Flawless Factory Flatness</h2>
+<p>Our positive-pressure cleanroom lamination lines apply PUR hotmelt at a highly consistent micron-thickness, ensuring a perfectly smooth lamination with zero bubbles or ripples.</p>`,
+    featured_image: { ...placeholderImage(440), url: "/images/about/palex.jpg" },
+    date: "2026-01-10",
+    author: "Suraj Wood Lamination Desk",
+    reading_time: 8,
+    categories: ["Manufacturing", "Technology"],
+  },
+  {
+    id: 41,
+    slug: "acrylic-panel-price-guide-india",
+    title: "Acrylic Panel Price Guide: What to Expect in India",
+    excerpt: "Review realistic material costs, lamination fees, E1 board premiums, and custom size pricing per square foot.",
+    content: `<p>Prelaminated acrylic panels are a premium architectural specification. Pricing depends on board thickness, core substrate selection, and factory lamination parameters.</p>
+<h2>1. Square Foot Pricing Blueprint</h2>
+<p>Standard factory prelaminated 1mm PMMA sheets on 18mm E1 MDF average between INR 850 to INR 1,500 per sq ft. Calibrated BWR Plywood cores command a premium of 20-30%.</p>
+<h2>2. Double-Sided vs Single-Sided</h2>
+<p>For modular kitchen shutters, specify double-sided color matching or a tension-balanced backer sheet to prevent door warpage, protecting your cabinet investment.</p>
+<h2>3. Factory-Direct Project Savings</h2>
+<p>By ordering factory-direct from SurajWood&apos;s Bahadurgarh facility, project managers eliminate middleman markups, receive direct warranties, and save 60% on on-site manual labor.</p>`,
+    featured_image: { ...placeholderImage(441), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-01-05",
+    author: "Suraj Wood Finance Team",
+    reading_time: 7,
+    categories: ["Finance", "Material Guide"],
+  },
+  {
+    id: 42,
+    slug: "top-10-kitchen-design-trends-india-2026",
+    title: "Top 10 Kitchen Design Trends in India 2026",
+    excerpt: "Evaluate trending modular layouts, color combinations, profile rail integrations, and smart storage trends for 2026.",
+    content: `<p>Indian kitchen designs are evolving. Functional minimalism, nature-inspired colors, and smart integrated hardware are shaping premium renovations in 2026.</p>
+<h2>1. Glare-Free Japandi Minimalism</h2>
+<p>Soft matte finishes paired with warm light oak wood textures are highly specified, creating a peaceful, clutter-free environment.</p>
+<h2>2. Sleek Gola Handle Profiles</h2>
+<p>Sleek handle-less channels in brushed gold or navy metallic run continuous lines, completely replacing traditional protruding cabinet handles.</p>
+<h2>3. Vertical pantry pull-outs</h2>
+<p>Tall vertical larders with automatic slide-out drawers utilize maximum height, providing convenient, organized grocery storage.</p>`,
+    featured_image: { ...placeholderImage(442), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-01-01",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Kitchen Design", "Inspiration"],
+  },
+  {
+    id: 43,
+    slug: "carpenters-installation-guide-acrylic-panels",
+    title: "Carpenter's Installation Guide for Acrylic Panels",
+    excerpt: "A technical manual for cutting, routing, drilling, and edge-banding SurajWood panels on-site without chipping.",
+    content: `<p>All SurajWood prelaminated panels are carpenter-friendly. Follow this technical fabrication guide to achieve flawless on-site installation without surface chipping.</p>
+<h2>1. Saw Blade Specifications</h2>
+<p>Always use fine-tooth TCG (Triple Chip Grind) saw blades with at least 80-100 teeth on circular saws, running at high RPMs to ensure clean acrylic cuts.</p>
+<h2>2. Drilling Hinge Holes</h2>
+<p>Use sharp Forstner bits running at medium speeds. Clamp a wood backing board underneath the panel when drilling to prevent break-out on the reverse balanced sheet.</p>
+<h2>3. Edge-Sealing for Wet Areas</h2>
+<p>When installing cabinets near kitchen sinks or bathroom vanities, seal all cut edges with waterproof silicone to prevent substrate moisture absorption.</p>`,
+    featured_image: { ...placeholderImage(443), url: "/images/about/about-bg.jpg" },
+    date: "2025-12-28",
+    author: "Suraj Wood Technical Desk",
+    reading_time: 9,
+    categories: ["Technical Guide", "Manufacturing"],
+  },
+  {
+    id: 44,
+    slug: "monsoon-proof-kitchen-materials-indian-homes",
+    title: "Monsoon-Proof Kitchen Materials for Indian Homes",
+    excerpt: "Protect modular cabinetry from 90% tropical monsoons, coastal salt-air, and fungal wood rot using PMMA barriers.",
+    content: `<p>Monsoons in India subject modular kitchens to extreme humidity, averaging 85-95%. Under these aggressive conditions, manual carpenter adhesives fail rapidly, causing boards to warp.</p>
+<h2>1. Non-Porous Fungal Protection</h2>
+<p>Standard wood surfaces absorb ambient moisture, encouraging fungal rot. PMMA polymer layers are completely non-porous, acting as a hygienic barrier that prevents mold growth.</p>
+<h2>2. Waterproof PUR Hotmelt Adhesion</h2>
+<p>SurajWood factory edge-banding uses moisture-curing German PUR hotmelt, forming a waterproof seal that resists steam and high tropical monsoons.</p>
+<h2>3. calibrated balanced backers</h2>
+<p>Equal tension on both sides is critical. SurajWood factory-laminated balanced backing sheets ensure that tall kitchen and wardrobe doors stay perfectly straight across all wet seasons.</p>`,
+    featured_image: { ...placeholderImage(444), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2025-12-20",
+    author: "Suraj Wood Technical Team",
+    reading_time: 7,
+    categories: ["Material Science", "Apartment Living"],
+  },
+  {
+    id: 45,
+    slug: "wedding-season-home-renovation-ideas",
+    title: "Wedding Season Home Renovation Ideas",
+    excerpt: "Quick, high-impact interior upgrades including TV units, feature wall claddings, and bedroom wardrobes built in 7 days.",
+    content: `<p>The wedding season is a time of massive celebration and home preparations. Upgrading your drawing room feature walls, TV units, and bedroom closets can be done rapidly using prelaminated panels.</p>
+<h2>1. Statement TV Backdrops in 3 Days</h2>
+<p>Create a stunning focal point in your drawing room. Install a high-gloss ACRYGLASS media backdrop over existing walls in under 72 hours.</p>
+<h2>2. Quick Wardrobe Shutter Upgrades</h2>
+<p>Replace old, dull cabinet doors. Fabricate factory prelaminated ACRYSILK soft-satin shutters to instantly elevate bedroom closets.</p>
+<h2>3. Direct-from-Factory Speed</h2>
+<p>By ordering factory-direct from SurajWood&apos;s Bahadurgarh facility, project managers receive custom calibrated sheets in under 5 business days, accelerating renovations.</p>`,
+    featured_image: { ...placeholderImage(445), url: "/images/gallery/wardrobe-2.jpg" },
+    date: "2025-12-15",
+    author: "Suraj Wood Closet Team",
+    reading_time: 6,
+    categories: ["Inspiration", "Apartment Living"],
+  },
+  {
+    id: 46,
+    slug: "how-to-choose-between-matte-and-gloss-finishes",
+    title: "How to Choose Between Matte and Gloss Kitchen Finishes",
+    excerpt: "Evaluate gloss sheens and velvet matte surfaces across daylight reflection, fingerprint smudge factors, and room spacing.",
+    content: `<p>Choosing cabinet sheens defines the visual mood of your kitchen. We compare high-gloss and matte sheens across light reflection, fingerprint smudges, and room spacing.</p>
+<h2>1. High-Gloss (ACRYGLASS & ACRYLUX) - Space Amplifiers</h2>
+<p>High-gloss sheens offer 95% light reflectivity, making compact rooms feel wider. However, gloss requires frequent daily microfiber wipes to remove fingerprint smudges.</p>
+<h2>2. Nano-Matte (ACRYMATTE & ACRYSILK) - Calm Cleanliness</h2>
+<p>Nano-matte sheens absorb light glare, providing a velvet-like corporate appearance. Advanced anti-fingerprint coatings keep matte shutters smudge-free with zero daily maintenance.</p>
+<h2>3. Curating a Duo-Tone Setup</h2>
+<p>Get the best of both sheens. Specify high-gloss white ACRYGLASS for upper wall cabinets to bounce daylight, and use ACRYMATTE Charcoal for base units to hide scuffs.</p>`,
+    featured_image: { ...placeholderImage(460), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2025-12-10",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Color Selection", "Material Guide"],
+  },
+  {
+    id: 47,
+    slug: "diwali-kitchen-makeover-guide",
+    title: "Diwali Kitchen Makeover Guide: Quick & Affordable",
+    excerpt: "A step-by-step catalog guide to modernizing your cabinet shutters, hardware handles, and drawer profiles before the festive season.",
+    content: `<p>Diwali is the most celebrated festive season in India, a time for deep home cleaning and aesthetic renewal. Modernizing your kitchen cabinet shutters and hardware can be done quickly without complete cabinet demolition.</p>
+<h2>1. Replacing Cabinet Shutters Only</h2>
+<p>If your internal cabinet carcasses are structurally sound, simply replace the front cabinet doors with prelaminated ACRYLUX shutters to save 60% on renovation budgets.</p>
+<h2>2. Sleek Gola Handle Profile Retrofits</h2>
+<p>Upgrade old handles. Integrate sleek, handle-less aluminum channels to completely revitalize the modular kitchen profile.</p>
+<h2>3. Fast Factory Shipping</h2>
+<p>Our Bahadurgarh manufacturing lines accelerate production during the pre-Diwali rush, ensuring project dispatches across Delhi, Mumbai, and Bangalore within 3-5 days.</p>`,
+    featured_image: { ...placeholderImage(461), url: "/images/gallery/kitchen-new-1.png" },
+    date: "2025-10-05",
+    author: "Suraj Wood Design Desk",
+    reading_time: 6,
+    categories: ["Inspiration", "Apartment Living"],
+  },
+  {
+    id: 48,
+    slug: "island-kitchen-design-ideas-large-homes",
+    title: "Island Kitchen Design Ideas for Large Indian Homes",
+    excerpt: "Design beautiful social cooking centers with custom breakfast islands, integrated hobs, and luxury matte-glass panels.",
+    content: `<p>A central island kitchen is the ultimate visual centerpiece for spacious, open-plan villas. It serves as a social prep station, secondary dining counter, and entertainment hub.</p>
+<h2>1. Seamless Breakfast Bar Counters</h2>
+<p>Design a cantilevered breakfast counter extending from the kitchen island, paired with sleek high stools to create an inviting social hub.</p>
+<h2>2. Velvet Matte-Glass Panels</h2>
+<p>Central island cabinets are highly visible from formal living areas. Specifying ACRYGLASS MATTE provides the velvet-like depth of frosted glass, resisting public scuffs and fingerprints.</p>
+<h2>3. Calibrated Core Alignment</h2>
+<p>Large island runs demand perfectly flat, ripple-free shutter alignments. SurajWood factory prelaminated E1 MDF core panels ensure perfect structural alignment across expansive kitchen islands.</p>`,
+    featured_image: { ...placeholderImage(462), url: "/images/gallery/kitchen-new-2.jpg" },
+    date: "2025-09-05",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Kitchen Design", "Inspiration"],
+  }
 ];
 
 // ---------------------------------------------------------------------------

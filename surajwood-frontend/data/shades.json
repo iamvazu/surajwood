@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "white",
+    "name": "Arctic White",
+    "hex": "#F8F8F8",
+    "tagline": "Pure Light & Timeless Simplicity",
+    "psychology": "White reflects clarity, purity, and spaciousness. In modern Indian home design, white kitchen and wardrobe shutters are highly favored to maximize daylight and create a bright, spacious feel.",
+    "products": ["acrylux", "acrymatte", "acryglass"],
+    "highlights": ["3H scratch resistant coating", "10-year UV anti-yellowing guarantee", "German PUR hotmelt zero edge swell protection"]
+  },
+  {
+    "slug": "black",
+    "name": "Piano Black & Onyx",
+    "hex": "#0A0A0A",
+    "tagline": "High-Contrast Formal Luxury",
+    "psychology": "Black represents power, mystery, and formal elegance. Combined with brushed gold profiles, our deep black acrylic finishes deliver a luxurious boutique feel.",
+    "products": ["acrylux", "acrymatte", "acryglass"],
+    "highlights": ["Velvet-touch nano anti-fingerprint coating", "High-reflectivity mirror gloss", "Class B1 fire code certified"]
+  },
+  {
+    "slug": "grey",
+    "name": "Graphite Grey & Charcoal",
+    "hex": "#4A4A4A",
+    "tagline": "Modern Industrial Sobriety",
+    "psychology": "Grey offers a neutral, sophisticated balance. It is the leading specification for contemporary modular kitchens, acting as the perfect anchor for warm wood textures.",
+    "products": ["acrylux", "acrymatte", "acryglass-matte"],
+    "highlights": ["Scratch-concealing satin micro-texture", "Easy grease vapour wipe-downs", "Calibrated E1 wood core alignment"]
+  },
+  {
+    "slug": "beige",
+    "name": "Sand Dune & Beige",
+    "hex": "#C8B89A",
+    "tagline": "Warm Organic Comfort",
+    "psychology": "Beige is comforting, warm, and natural. Pair with deep matte forest greens or navy blues to create a beautiful, organic two-tone kitchen.",
+    "products": ["acrylux", "acrysilk", "acrymatte"],
+    "highlights": ["Soft-satin tactile feel", "Turmeric and curry stain proof", "E1 formaldehyde-free substrate safe"]
+  },
+  {
+    "slug": "navy-blue",
+    "name": "Midnight Navy",
+    "hex": "#1B2A4A",
+    "tagline": "Regal Majesty & Calm Strength",
+    "psychology": "Navy Blue brings depth, serenity, and palatial elegance. Midnight Navy in high-gloss ACRYGLASS creates a stunning, jewel-like under-counter focal point.",
+    "products": ["acrylux", "acrymatte", "acryglass"],
+    "highlights": ["Deep-dye pigment stability", "Fingerprint-concealing satin finishes", "Smooth CNC groove routing ready"]
+  },
+  {
+    "slug": "sage-green",
+    "name": "Sage Green",
+    "hex": "#8A9E88",
+    "tagline": "Earthy Tranquility & Growth",
+    "psychology": "Green connects interiors directly with nature, inspiring calmness. Sage Green in a nano-matte ACRYMATTE finish is the ultimate Japandi surface.",
+    "products": ["acrysilk", "acrymatte"],
+    "highlights": ["Advanced nano anti-dust attraction", "Zero fading under direct sunlight", "Hygienic anti-fungal PMMA skin"]
+  },
+  {
+    "slug": "burgundy",
+    "name": "Burgundy Wine",
+    "hex": "#8B0000",
+    "tagline": "Bold Spirit & Rich Warmth",
+    "psychology": "Burgundy is soulful, energetic, and luxurious. Perfect for creating a dramatic statement in dining areas or hospitality showrooms.",
+    "products": ["acrylux", "acryglass"],
+    "highlights": ["Optical mirror finish depth", "Easy soap and water cleanup", "German bonding zero delamination"]
+  },
+  {
+    "slug": "champagne",
+    "name": "Champagne Beige",
+    "hex": "#E8DCC8",
+    "tagline": "Subtle Gold Luxury",
+    "psychology": "Champagne offers a soft, metallic-adjacent elegance. It is highly specified for high-end walk-in wardrobes and master bedroom dresser panels.",
+    "products": ["acrylux", "acryglass-matte"],
+    "highlights": ["Metallic pearl pigment infusion", "Velvet matte texture options", "Class B1 fire safety certification"]
+  },
+  {
+    "slug": "walnut",
+    "name": "Walnut Wood",
+    "hex": "#5c4033",
+    "tagline": "Classic Walnut Heritage",
+    "psychology": "Walnut represents classic heritage and warm organic luxury. Our wood-look acrylic panels replicate actual wood grains with zero maintenance.",
+    "products": ["acrylux"],
+    "highlights": ["Prismatic wood grain clarity", "Zero varnish or resealing required", "Waterproof PUR edge-banded stability"]
+  },
+  {
+    "slug": "oak",
+    "name": "Natural Oak",
+    "hex": "#b59975",
+    "tagline": "Light Nordic Clarity",
+    "psychology": "Oak represents strength, lightness, and clean Scandinavian lines. Highly popular for open kitchen island drawers and floating vanity units.",
+    "products": ["acrylux"],
+    "highlights": ["Nordic light-oak printing clarity", "Micro-scratch buff repairable PMMA", "Straight balanced backer guarantee"]
+  },
+  {
+    "slug": "teak",
+    "name": "Teak Heritage",
+    "hex": "#86582a",
+    "tagline": "Traditional Teak Splendor",
+    "psychology": "Teak is deeply embedded in Indian furniture traditions. Our teak-patterned acrylic offers that rich golden teak color with absolute scratch resistance.",
+    "products": ["acrylux"],
+    "highlights": ["True golden teak wood pattern", "Carpenter-friendly cutting without cracks", "Calibrated E1 core substrate"]
+  },
+  {
+    "slug": "rose-gold",
+    "name": "Rose Gold",
+    "hex": "#B76E79",
+    "tagline": "Contemporary Glamour",
+    "psychology": "Rose Gold is highly trendy, adding a soft metallic glamour. It is specified for jewelry boutique backdrops and feature panels in formal lounges.",
+    "products": ["acryglass", "acrylux"],
+    "highlights": ["Mirror reflective glamour index", "Perfect laser-cut edge capability", "UV-stable organic pigment blend"]
+  },
+  {
+    "slug": "copper",
+    "name": "Copper Silk",
+    "hex": "#B87333",
+    "tagline": "Warm Metallic Brilliance",
+    "psychology": "Copper adds instant solar warmth. SurajWood Brushed Copper Silk satin panels reflect golden night lighting with unmatched hospitality luxury.",
+    "products": ["acrylux"],
+    "highlights": ["True brushed metallic look", "3H scratch-resistant polymer layer", "Direct-from-factory Bahadurgarh supply"]
+  },
+  {
+    "slug": "emerald",
+    "name": "Emerald Green",
+    "hex": "#0f52ba",
+    "tagline": "Precious Jewel Brilliance",
+    "psychology": "Emerald is the color of precious gems, denoting high wealth. When used as custom showcase backing panels, it highlights crystal dinnerware.",
+    "products": ["acryglass", "acrymatte"],
+    "highlights": ["Vibrant gem-tone pigmentation", "Hygienic easy soap wipe-downs", "Class B1 fire code certified safe"]
+  },
+  {
+    "slug": "ivory",
+    "name": "Ivory Cream",
+    "hex": "#FFFFF0",
+    "tagline": "Classic Muted Cream",
+    "psychology": "Ivory represents comfort and classic traditionalism. It is a softer, warmer alternative to stark white, creating a cozy and luxurious modular kitchen.",
+    "products": ["acrylux", "acrysilk", "acrymatte"],
+    "highlights": ["Turmeric and heavy curry stain proof", "Anti-yellowing UV Xenon tested stability", "Calibrated E1 MDF flat alignment"]
+  }
+]
