@@ -63,7 +63,7 @@ function CategoryBadge({ category }: { category: string }) {
 // ---------------------------------------------------------------------------
 
 export default async function BlogPage() {
-  const { posts } = await getPosts(1, 20);
+  const { posts } = await getPosts(1, 100);
 
   const schemas = [
     generateOrganizationSchema(),
