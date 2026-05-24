@@ -252,37 +252,49 @@ export default function Footer() {
           <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-8">
             
             {/* Address */}
-            <div className="flex gap-3">
-              <MapPin size={16} className="text-[#DC2626] flex-shrink-0 mt-1" />
-              <address className="not-italic text-gray-400 text-sm leading-relaxed font-light">
-                <a href="https://maps.app.goo.gl/iUHqrGrSFW4rcUgS9" target="_blank" rel="noopener noreferrer" className="hover:text-[#DC2626] transition-colors">
-                  <strong>Bahadurgarh Hub:</strong><br />
-                  45 KM Stone, VPO Rohad,<br />
-                  Bahadurgarh, Distt. Jhajjar,<br />
-                  Haryana - 124501.
-                </a>
-              </address>
+            <div>
+              <h3 className="text-white text-xs font-bold uppercase tracking-[0.15em] mb-6 relative inline-block">
+                Our Hub
+                <span className="block mt-1 w-5 h-0.5 bg-[#DC2626]"></span>
+              </h3>
+              <div className="flex gap-3">
+                <MapPin size={16} className="text-[#DC2626] flex-shrink-0 mt-1" />
+                <address className="not-italic text-gray-400 text-sm leading-relaxed font-light">
+                  <a href="https://maps.app.goo.gl/iUHqrGrSFW4rcUgS9" target="_blank" rel="noopener noreferrer" className="hover:text-[#DC2626] transition-colors">
+                    <strong>Bahadurgarh Hub:</strong><br />
+                    45 KM Stone, VPO Rohad,<br />
+                    Bahadurgarh, Distt. Jhajjar,<br />
+                    Haryana - 124501.
+                  </a>
+                </address>
+              </div>
             </div>
 
             {/* Direct Connect */}
-            <div className="space-y-3 text-sm">
-              <div className="flex items-center gap-3">
-                <Phone size={16} className="text-[#DC2626] flex-shrink-0" />
-                <a href="tel:+919009171819" className="text-gray-400 hover:text-[#DC2626] transition-colors font-light">
-                  +91-9009171819
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Mail size={16} className="text-[#DC2626] flex-shrink-0" />
-                <a href="mailto:sales@surajwood.com" className="text-gray-400 hover:text-[#DC2626] transition-colors font-light">
-                  sales@surajwood.com
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Clock size={16} className="text-[#DC2626] flex-shrink-0" />
-                <span className="text-gray-400 font-light">
-                  Mon–Sat: 9:00 AM – 6:00 PM
-                </span>
+            <div>
+              <h3 className="text-white text-xs font-bold uppercase tracking-[0.15em] mb-6 relative inline-block">
+                Contact Info
+                <span className="block mt-1 w-5 h-0.5 bg-[#DC2626]"></span>
+              </h3>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-center gap-3">
+                  <Phone size={16} className="text-[#DC2626] flex-shrink-0" />
+                  <a href="tel:+919009171819" className="text-gray-400 hover:text-[#DC2626] transition-colors font-light">
+                    +91-9009171819
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Mail size={16} className="text-[#DC2626] flex-shrink-0" />
+                  <a href="mailto:sales@surajwood.com" className="text-gray-400 hover:text-[#DC2626] transition-colors font-light">
+                    sales@surajwood.com
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Clock size={16} className="text-[#DC2626] flex-shrink-0" />
+                  <span className="text-gray-400 font-light">
+                    Mon–Sat: 9:00 AM – 6:00 PM
+                  </span>
+                </div>
               </div>
             </div>
 
