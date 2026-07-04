@@ -81,19 +81,19 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
         <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
         {/* Schema markup placeholder — import SchemaMarkup + schema generators when lib/schema.ts is ready */}
+      </head>
+      <body className="font-[family-name:var(--font-dm-sans)] antialiased">
         {gaId && (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-              strategy="lazyOnload"
+              strategy="afterInteractive"
             />
-            <Script id="ga4-init" strategy="lazyOnload">
+            <Script id="ga4-init" strategy="afterInteractive">
               {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}
             </Script>
           </>
         )}
-      </head>
-      <body className="font-[family-name:var(--font-dm-sans)] antialiased">
         <Navbar />
         <main>{children}</main>
         <Footer />
