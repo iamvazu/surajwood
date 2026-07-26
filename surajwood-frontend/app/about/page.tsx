@@ -36,9 +36,15 @@ const leadership = [
   },
   {
     initials: "DH",
-    name: "Dhruv",
+    name: "Dhruv Singhal",
     role: "Director",
     bio: "Drives business development, dealer partnerships, and customer relationships across India's growing interior design market.",
+  },
+  {
+    initials: "NS",
+    name: "Nakul Singhal",
+    role: "Director",
+    bio: "Focuses on strategic growth, innovation, and enhancing SurajWood's presence in the architectural surfaces industry.",
   },
 ];
 

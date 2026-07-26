@@ -6,11 +6,11 @@ import type { SanityProduct, FinishType } from "@/types/sanity";
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 const PRODUCT_IMAGES: Record<string, string> = {
-  acrylux: "/images/products/acrylux.png",
-  acrysilk: "/images/products/acrysilk.jpg",
-  acrymatte: "/images/products/acrymatte.png",
-  acryglass: "/images/products/acryglass.png",
-  "acryglass-matte": "/images/products/acryglass-matte.png",
+  acrylux: "/images/Newphotos/Acrylux%20metallic/1314%20Metallic%20Blue.jpg",
+  acrysilk: "/images/Newphotos/Acrysilk/5006%20CUPROUS.jpg",
+  acrymatte: "/images/Newphotos/Acrymatte/3322%20Anthracite.jpg",
+  acryglass: "/images/Newphotos/Acryglass%20Gloss/405%20Black.jpg",
+  "acryglass-matte": "/images/Newphotos/Acryglass%20MAtte/318%20Sea%20Green.jpg",
 };
 
 const FINISH_LABELS: Record<FinishType, string> = {
@@ -66,7 +66,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
                     src={imageSrc}
                     alt={`${product.name} acrylic panel – ${finishLabel} finish`}
                     fill
-                    className="object-contain mix-blend-multiply p-4 transition-transform duration-300 ease-out group-hover:scale-[1.05]"
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                   />
                 </div>

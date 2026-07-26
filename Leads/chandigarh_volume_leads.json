@@ -1,0 +1,112 @@
+[
+  {
+    "name": "K.D HARDWARE STORE",
+    "rating": 4.8,
+    "reviews": 200,
+    "address": "shop no, 2063, Burail, Burail Village, Sector 45, Chandigarh, 160047, India",
+    "phone": "097800 54321",
+    "website": "N/A",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.972
+  },
+  {
+    "name": "Mittal Hardware Store - Hardware Store In Chandigarh | Wholesale Window and door hardware",
+    "rating": 4.8,
+    "reviews": 166,
+    "address": "Plot no-437, Industrial Area Phase II, Chandigarh, 160002, India",
+    "phone": "0172 265 5802",
+    "website": "http://mhdirect.in/",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.9615
+  },
+  {
+    "name": "Subhash Paints & Hardware Store(DULUX,ASIAN,SIRCA,NIPPON,MRF,DUCO PAINTS,HETTICH,EBCO,QUBA & KITCHEN HARDWARE)",
+    "rating": 4.8,
+    "reviews": 105,
+    "address": "S.C.O, 2430, Sector 22C, Sector 22, Chandigarh, 160022, India",
+    "phone": "094175 15440",
+    "website": "N/A",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.9358
+  },
+  {
+    "name": "Sai Enterprises-hardware store -building material supplier chandigarh",
+    "rating": 4.8,
+    "reviews": 55,
+    "address": "Number 3, Burail, Burail Village, Sector 45, Chandigarh, 160047, India",
+    "phone": "098152 38715",
+    "website": "N/A",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.8997
+  },
+  {
+    "name": "B.K. JAGAN AND CO",
+    "rating": 4.6,
+    "reviews": 56,
+    "address": "SCO 40, Sector 28 C, Sector 28, Chandigarh, 160002, India",
+    "phone": "087279 22001",
+    "website": "http://www.implemetal.in/",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.8727
+  },
+  {
+    "name": "PREM HARDWARE STORE",
+    "rating": 4.8,
+    "reviews": 32,
+    "address": "SCF 26, INNER MARKET, 9D, Sector 9, Chandigarh, 160009, India",
+    "phone": "0172 274 1741",
+    "website": "http://premhardwarestore.com/",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.8698
+  },
+  {
+    "name": "Pardeep hardware store",
+    "rating": 4.5,
+    "reviews": 48,
+    "address": "320, Phase 1, Industrial Area Phase I, Chandigarh, 160002, India",
+    "phone": "098148 24341",
+    "website": "N/A",
+    "business_type": "Hardware Store",
+    "tier": "LUXURY",
+    "score": 0.8502
+  },
+  {
+    "name": "Matta Hardware Pvt ltd",
+    "rating": 4.4,
+    "reviews": 656,
+    "address": "SCO 21-22, near Jalandhar Hotel, Sector 18D, Sector 18, Chandigarh, 160018, India",
+    "phone": "098141 00509",
+    "website": "http://mattahardware.com/",
+    "business_type": "Hardware Store",
+    "tier": "PREMIUM",
+    "score": 0.983
+  },
+  {
+    "name": "Luxmi Paints & Hardware Store (BUNTY HARDWARE)",
+    "rating": 4.3,
+    "reviews": 266,
+    "address": "MAIN MARKET, SCO NO 33, Sector 41D, Badheri, Sector 41, Chandigarh, 160036, India",
+    "phone": "094173 22068",
+    "website": "N/A",
+    "business_type": "Hardware Store",
+    "tier": "PREMIUM",
+    "score": 0.9181
+  },
+  {
+    "name": "City Hardware - Hardware shop in Chandigarh | Glass Partition | Shower Enclosure | Kitchen | Wardrobes | Spacewood Chandigarh",
+    "rating": 4.2,
+    "reviews": 166,
+    "address": "Hardware Store in, Sco No 851, NAC Rd, NAC Manimajra, Sector 13, Chandigarh, 160101, India",
+    "phone": "0172 506 0851",
+    "website": "http://cityhardware.net/",
+    "business_type": "Hardware Store",
+    "tier": "PREMIUM",
+    "score": 0.8775
+  }
+]
