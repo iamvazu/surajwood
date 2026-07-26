@@ -1,4 +1,4 @@
-# 🌟 SurajWood Enterprise Ecosystem
+# 🌟  SurajWood Enterprise Ecosystem
 ### The Complete B2B/B2C Digital Front, Sales Intelligence CRM, and Autonomous AI Outreach Infrastructure
 
 Welcome to the central repository for the **SurajWood Products Pvt Ltd** digital transformation engine. This project integrates a world-class premium e-commerce showroom, a robust self-hosted CRM, high-speed B2B mapping engines, and autonomous AI-driven lead nurturing pipelines to capture, score, and close premium corporate and residential architectural accounts.
