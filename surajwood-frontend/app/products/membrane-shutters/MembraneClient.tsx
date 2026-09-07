@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -16,6 +16,7 @@ import {
   PhoneCall,
   X,
   ChevronRight,
+  ChevronLeft,
   HelpCircle
 } from "lucide-react";
 import {
@@ -27,12 +28,61 @@ import {
   MembraneShade,
 } from "@/data/membrane-shutters";
 
+const HERO_SLIDES = [
+  {
+    id: 0,
+    type: "Kitchen",
+    title: "Classic Shaker Modular Kitchen",
+    tagline: "Cashmere & Casella Oak 3D Seamless Shaker Shutters",
+    image: "/images/products/membrane-shutters/hero/hero-kitchen-1.jpg",
+  },
+  {
+    id: 1,
+    type: "Kitchen",
+    title: "Modern Botanical Island Kitchen",
+    tagline: "Reed Green & Alpine White J-Pull Fluted Profiles",
+    image: "/images/products/membrane-shutters/hero/hero-kitchen-2.jpg",
+  },
+  {
+    id: 2,
+    type: "Wardrobe",
+    title: "Master Bedroom Floor-to-Ceiling Wardrobe",
+    tagline: "Kaschmir Greige & Casella Oak Shaker Doors with Integrated LEDs",
+    image: "/images/products/membrane-shutters/hero/hero-wardrobe-1.jpg",
+  },
+  {
+    id: 3,
+    type: "Wardrobe",
+    title: "Penthouse Walk-In Dressing Suite",
+    tagline: "Parisian Blue & Graphite Handleless Membrane Closets",
+    image: "/images/products/membrane-shutters/hero/hero-wardrobe-2.jpg",
+  },
+];
+
 export default function MembraneClient() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeModalShade, setActiveModalShade] = useState<MembraneShade | null>(null);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formState, setFormState] = useState({ name: "", email: "", phone: "", city: "", shadePreference: "" });
+
+  // Hero Slideshow state
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    if (isPaused) return;
+    autoPlayRef.current = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
+    }, 5000);
+    return () => {
+      if (autoPlayRef.current) clearInterval(autoPlayRef.current);
+    };
+  }, [isPaused]);
+
+  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
+  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length);
 
   // Filter shades based on category and search query
   const filteredShades = useMemo(() => {
@@ -59,91 +109,188 @@ export default function MembraneClient() {
 
   return (
     <div className="bg-[#FAF9F6] text-[#1F1F1F] min-h-screen">
-      {/* ─── Hero Section ─── */}
-      <section className="relative min-h-[90vh] flex flex-col justify-between overflow-hidden bg-[#111827] pt-28 pb-16">
-        {/* Background Overlay */}
-        <div className="absolute inset-0 z-0 opacity-25 mix-blend-luminosity">
-          <Image
-            src="/images/products/membrane-shutters/030-wg-artisan-oak-nature.jpg"
-            alt="Continental Membrane Shutters by SurajWood"
-            fill
-            priority
-            className="object-cover scale-105 animate-pulse duration-10000"
-          />
-        </div>
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-[#0F172A] via-[#0F172A]/90 to-[#0F172A]/40" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-[#0F172A] via-transparent to-transparent" />
+      {/* ─── Hero Section with 4-Image Slideshow ─── */}
+      <section
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+        className="relative min-h-[92vh] flex flex-col justify-between overflow-hidden bg-[#0A0E17] pt-40 sm:pt-44 md:pt-48 lg:pt-52 pb-16"
+      >
+        {/* Background Slideshow with Smooth Crossfade */}
+        {HERO_SLIDES.map((slide, index) => {
+          const isActive = currentSlide === index;
+          return (
+            <div
+              key={slide.id}
+              className={`absolute inset-0 z-0 transition-opacity duration-1000 ease-in-out ${
+                isActive ? "opacity-40 scale-100" : "opacity-0 scale-105 pointer-events-none"
+              }`}
+            >
+              <Image
+                src={slide.image}
+                alt={slide.title}
+                fill
+                priority={index === 0}
+                className="object-cover transition-transform duration-7000 ease-out transform"
+              />
+            </div>
+          );
+        })}
+
+        {/* Deep architectural gradient overlays for high legibility */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-[#070B14] via-[#070B14]/90 to-[#070B14]/40" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-[#070B14] via-transparent to-[#070B14]/70" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex-grow flex flex-col justify-center">
-          <div className="max-w-3xl">
-            {/* Top Tag */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#C0392B]/15 border border-[#C0392B]/30 mb-6 backdrop-blur-md">
-              <span className="w-2 h-2 rounded-full bg-[#C0392B] animate-ping" />
-              <span className="text-[#E06A55] text-xs font-black uppercase tracking-[0.25em]">
-                New 2026 Collection
-              </span>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Left Column: Typography & CTAs */}
+            <div className="lg:col-span-7 max-w-2xl">
+              {/* Top Tag Pill (Comfortably cleared below navbar) */}
+              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#C0392B]/20 border border-[#C0392B]/40 mb-6 backdrop-blur-md">
+                <span className="w-2 h-2 rounded-full bg-[#E06A55] animate-ping" />
+                <span className="text-[#E06A55] text-xs font-black uppercase tracking-[0.25em]">
+                  New 2026 Collection
+                </span>
+              </div>
+
+              <h1 className="font-heading font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white tracking-tight leading-[1.08] mb-6">
+                Continental <br />
+                <span className="bg-gradient-to-r from-[#E06A55] via-[#D4A373] to-amber-200 bg-clip-text text-transparent">
+                  Membrane Shutters
+                </span>
+              </h1>
+
+              <p className="text-gray-300 text-base sm:text-lg font-normal leading-relaxed mb-8">
+                Precision 3D vacuum thermoforming over moisture-resistant HDMR cores. Seamless continuous edges, 
+                intricate CNC Shaker profiles, and 36 curated European foils designed for high-performance Indian kitchens and wardrobes.
+              </p>
+
+              {/* CTA Group */}
+              <div className="flex flex-wrap items-center gap-4 mb-10">
+                <a
+                  href="#shades-explorer"
+                  className="bg-[#C0392B] hover:bg-[#A93226] text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 shadow-xl shadow-[#C0392B]/25 hover:-translate-y-0.5 text-sm flex items-center gap-2.5 group"
+                >
+                  <span>Explore 36 Colors</span>
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </a>
+                <a
+                  href="#inquire-form"
+                  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-8 py-4 rounded-xl transition-all duration-300 backdrop-blur-md text-sm flex items-center gap-2"
+                >
+                  <span>Request Shade Card</span>
+                </a>
+                <a
+                  href="tel:+919009171819"
+                  className="inline-flex items-center gap-2 text-gray-300 hover:text-white px-4 py-3 text-sm font-semibold transition-colors"
+                >
+                  <PhoneCall size={16} className="text-[#E06A55]" />
+                  <span>+91-9009171819</span>
+                </a>
+              </div>
+
+              {/* Quick Metrics Bar */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/10">
+                <div>
+                  <p className="text-2xl sm:text-3xl font-heading font-black text-white">36</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">European Shades</p>
+                </div>
+                <div>
+                  <p className="text-2xl sm:text-3xl font-heading font-black text-white">0%</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Edge Glue Seams</p>
+                </div>
+                <div>
+                  <p className="text-2xl sm:text-3xl font-heading font-black text-white">3D</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Vacuum Press</p>
+                </div>
+                <div>
+                  <p className="text-2xl sm:text-3xl font-heading font-black text-white">5 Yrs</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Warranty</p>
+                </div>
+              </div>
             </div>
 
-            <h1 className="font-heading font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white tracking-tight leading-[1.08] mb-6">
-              Continental <br />
-              <span className="bg-gradient-to-r from-[#E06A55] via-[#D4A373] to-amber-200 bg-clip-text text-transparent">
-                Membrane Shutters
-              </span>
-            </h1>
+            {/* Right Column: Floating Interactive Slideshow Card */}
+            <div className="lg:col-span-5">
+              <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-5 sm:p-6 shadow-2xl">
+                
+                {/* Active Slide Image Window */}
+                <div className="relative aspect-[16/10] rounded-2xl overflow-hidden mb-4 group shadow-inner">
+                  <Image
+                    src={HERO_SLIDES[currentSlide].image}
+                    alt={HERO_SLIDES[currentSlide].title}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  
+                  {/* Category Pill on Image */}
+                  <span className="absolute top-3 left-3 bg-[#C0392B] text-white text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-lg">
+                    {HERO_SLIDES[currentSlide].type} Application
+                  </span>
 
-            <p className="text-gray-300 text-base sm:text-lg md:text-xl font-normal leading-relaxed mb-8 max-w-2xl">
-              Precision 3D vacuum thermoforming over moisture-resistant HDMR cores. Seamless continuous edges, 
-              intricate CNC Shaker profiles, and 36 curated European foils designed for high-performance Indian kitchens and wardrobes.
-            </p>
+                  {/* Navigation Arrows on Slide */}
+                  <div className="absolute bottom-3 right-3 flex items-center gap-2">
+                    <button
+                      onClick={prevSlide}
+                      aria-label="Previous slide"
+                      className="w-8 h-8 rounded-full bg-black/60 hover:bg-[#C0392B] text-white flex items-center justify-center transition-colors backdrop-blur-md"
+                    >
+                      <ChevronLeft size={16} />
+                    </button>
+                    <button
+                      onClick={nextSlide}
+                      aria-label="Next slide"
+                      className="w-8 h-8 rounded-full bg-black/60 hover:bg-[#C0392B] text-white flex items-center justify-center transition-colors backdrop-blur-md"
+                    >
+                      <ChevronRight size={16} />
+                    </button>
+                  </div>
 
-            {/* CTA Group */}
-            <div className="flex flex-wrap items-center gap-4 mb-12">
-              <a
-                href="#shades-explorer"
-                className="bg-[#C0392B] hover:bg-[#A93226] text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 shadow-xl shadow-[#C0392B]/25 hover:-translate-y-0.5 text-sm flex items-center gap-2.5 group"
-              >
-                <span>Explore 36 Colors</span>
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </a>
-              <a
-                href="#inquire-form"
-                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-8 py-4 rounded-xl transition-all duration-300 backdrop-blur-md text-sm flex items-center gap-2"
-              >
-                <span>Request Shade Card</span>
-              </a>
-              <a
-                href="tel:+919009171819"
-                className="inline-flex items-center gap-2 text-gray-300 hover:text-white px-4 py-3 text-sm font-semibold transition-colors"
-              >
-                <PhoneCall size={16} className="text-[#E06A55]" />
-                <span>+91-9009171819</span>
-              </a>
+                  {/* Caption on image */}
+                  <div className="absolute bottom-3 left-3 right-24 text-left">
+                    <p className="text-white text-sm font-bold truncate">{HERO_SLIDES[currentSlide].title}</p>
+                    <p className="text-gray-300 text-[11px] truncate">{HERO_SLIDES[currentSlide].tagline}</p>
+                  </div>
+                </div>
+
+                {/* 4 Interactive Thumbnail Indicators (2 Kitchens, 2 Wardrobes) */}
+                <div className="grid grid-cols-4 gap-2">
+                  {HERO_SLIDES.map((slide, idx) => {
+                    const active = currentSlide === idx;
+                    return (
+                      <button
+                        key={slide.id}
+                        onClick={() => setCurrentSlide(idx)}
+                        className={`text-left p-2 rounded-xl transition-all duration-200 border ${
+                          active
+                            ? "bg-white/20 border-[#E06A55] shadow-md"
+                            : "bg-black/20 border-transparent hover:bg-white/10"
+                        }`}
+                      >
+                        <div className="relative aspect-[4/3] rounded-lg overflow-hidden mb-1.5">
+                          <Image
+                            src={slide.image}
+                            alt={slide.title}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                        <p className={`text-[10px] font-bold truncate ${active ? "text-[#E06A55]" : "text-gray-300"}`}>
+                          {slide.type} {idx % 2 + 1}
+                        </p>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
 
-            {/* Quick Metrics Bar */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/10">
-              <div>
-                <p className="text-2xl sm:text-3xl font-heading font-black text-white">36</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">European Shades</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-heading font-black text-white">0%</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Edge Glue Seams</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-heading font-black text-white">3D</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Vacuum Press</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-heading font-black text-white">5 Yrs</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5 font-medium">Warranty</p>
-              </div>
-            </div>
           </div>
         </div>
 
         {/* Bottom edge gradient highlight */}
-        <div className="relative z-10 w-full h-1.5 bg-gradient-to-r from-[#C0392B] via-[#D4A373] to-[#C0392B]" />
+        <div className="relative z-10 w-full h-1.5 bg-gradient-to-r from-[#C0392B] via-[#D4A373] to-[#C0392B] mt-12" />
       </section>
 
       {/* ─── Highlights / Value Pillars ─── */}
