@@ -32,10 +32,10 @@ const acrylicProducts = [
 
 const hardwareProducts = [
   { name: "Aluminum profiles", sub: "AL-PROFHAN", href: "/products/aluminum-profiles", active: true },
+  { name: "Membrane shutters", sub: "Continental 3D", href: "/products/membrane-shutters", active: true },
   { name: "PetG panels", href: "#", active: false },
   { name: "Acrylic laminates", href: "#", active: false },
   { name: "PetG laminates", href: "#", active: false },
-  { name: "Membrane shutters", href: "#", active: false },
 ];
 
 const resourceLinks = [
@@ -175,29 +175,31 @@ export default function Navbar() {
                       </div>
                     </div>
 
-                    {/* Column 2: Hardware & Coming Soon */}
+                    {/* Column 2: Hardware & Shutters */}
                     <div className="col-span-4 px-12 border-l border-gray-100">
-                      <h3 className="text-[13px] uppercase tracking-[0.2em] text-[#1a365d] font-black mb-8 border-b border-gray-100 pb-3">Hardware</h3>
-                      <div className="space-y-8">
-                        {/* Active Hardware */}
-                        <Link href="/products/aluminum-profiles" className="group block p-4 rounded-2xl hover:bg-gray-50 transition-all border border-transparent hover:border-gray-100 shadow-sm">
-                          <div className="flex items-center gap-4">
-                            <span className="w-2.5 h-2.5 rounded-full bg-[#1a365d] group-hover:bg-[#C0392B] transition-colors" />
-                            <div>
-                              <p className="text-[16px] font-bold text-[#1a365d] group-hover:text-[#C0392B] transition-colors">Aluminum profiles</p>
-                              <span className="text-[11px] text-[#C0392B] font-black uppercase tracking-widest mt-0.5 block">AL-PROFHAN Series</span>
+                      <h3 className="text-[13px] uppercase tracking-[0.2em] text-[#1a365d] font-black mb-8 border-b border-gray-100 pb-3">Hardware & Shutters</h3>
+                      <div className="space-y-4">
+                        {/* Active Products */}
+                        {hardwareProducts.filter(h => h.active).map(h => (
+                          <Link key={h.name} href={h.href} className="group block p-3.5 rounded-2xl hover:bg-gray-50 transition-all border border-transparent hover:border-gray-100 shadow-sm">
+                            <div className="flex items-center gap-4">
+                              <span className="w-2.5 h-2.5 rounded-full bg-[#1a365d] group-hover:bg-[#C0392B] transition-colors" />
+                              <div>
+                                <p className="text-[16px] font-bold text-[#1a365d] group-hover:text-[#C0392B] transition-colors">{h.name}</p>
+                                <span className="text-[11px] text-[#C0392B] font-black uppercase tracking-widest mt-0.5 block">{h.sub}</span>
+                              </div>
                             </div>
-                          </div>
-                        </Link>
+                          </Link>
+                        ))}
                         
                         {/* Coming Soon */}
                         <div className="pt-2">
-                          <h4 className="text-[12px] uppercase tracking-[0.2em] text-gray-400 font-black mb-6">Coming Soon</h4>
-                          <div className="grid grid-cols-1 gap-4 opacity-50 cursor-not-allowed">
+                          <h4 className="text-[11px] uppercase tracking-[0.2em] text-gray-400 font-black mb-4">Coming Soon</h4>
+                          <div className="grid grid-cols-1 gap-2.5 opacity-50 cursor-not-allowed">
                             {hardwareProducts.filter(h => !h.active).map(h => (
-                              <div key={h.name} className="flex items-center gap-3 pl-4">
+                              <div key={h.name} className="flex items-center gap-3 pl-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-gray-300" />
-                                <p className="text-[15px] text-gray-500 font-semibold">{h.name}</p>
+                                <p className="text-[14px] text-gray-500 font-semibold">{h.name}</p>
                               </div>
                             ))}
                           </div>
@@ -314,8 +316,9 @@ export default function Navbar() {
                     ))}
                   </div>
                   <div className="space-y-4">
-                    <p className="text-[11px] uppercase font-black text-gray-400 tracking-[0.2em]">Hardware</p>
-                    <Link href="/products/aluminum-profiles" className="block text-[16px] font-bold text-gray-700">Aluminum profiles</Link>
+                    <p className="text-[11px] uppercase font-black text-gray-400 tracking-[0.2em]">Hardware & Shutters</p>
+                    <Link href="/products/membrane-shutters" className="block text-[16px] font-bold text-gray-700">Membrane shutters (Continental 3D)</Link>
+                    <Link href="/products/aluminum-profiles" className="block text-[16px] font-bold text-gray-700">Aluminum profiles (AL-PROFHAN)</Link>
                   </div>
                   <div className="space-y-4">
                     <p className="text-[11px] uppercase font-black text-gray-400 tracking-[0.2em]">Resources</p>

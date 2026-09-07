@@ -8,6 +8,7 @@ const products = [
   { name: "ACRYMATTE Nano-Matte", href: "/products/acrymatte" },
   { name: "ACRYGLASS High-Gloss", href: "/products/acryglass" },
   { name: "ACRYGLASS MATTE", href: "/products/acryglass-matte" },
+  { name: "Membrane Shutters", href: "/products/membrane-shutters" },
   { name: "Aluminum Profiles", href: "/products/aluminum-profiles" },
 ];
 

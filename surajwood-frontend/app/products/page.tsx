@@ -6,8 +6,8 @@ import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Premium Acrylic Panels & Aluminum Profiles | Product Index",
-  description: "Browse the complete range of SurajWood products, including ACRYLUX panels, ACRYSILK finishes, and AL-PROFHAN aluminum hardware profiles.",
+  title: "Premium Acrylic Panels, Membrane Shutters & Aluminum Profiles | Product Index",
+  description: "Browse the complete range of SurajWood products, including ACRYLUX acrylic panels, Continental 3D Membrane Shutters, and AL-PROFHAN aluminum hardware profiles.",
 };
 
 const categories = [
@@ -15,6 +15,7 @@ const categories = [
     title: "PMMA Acrylic Panels",
     desc: "Factory-prelaminated acrylic panels using German PUR technology. Superior to PETG and standard laminates.",
     image: "/images/banner/bg3.jpg",
+    link: "/products/acrylux",
     items: [
       { name: "ACRYLUX", href: "/products/acrylux", tag: "High Gloss / Wood" },
       { name: "ACRYSILK", href: "/products/acrysilk", tag: "Silk Touch" },
@@ -24,9 +25,22 @@ const categories = [
     ],
   },
   {
+    title: "Continental Membrane Shutters",
+    desc: "3D vacuum thermoformed seamless shutters with zero edge-banding seams. 36 European shades across Wood Grain, Porcelain, Silk, and Ceramic finishes on moisture-resistant HDMR cores.",
+    image: "/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
+    link: "/products/membrane-shutters",
+    items: [
+      { name: "Wood Grain (WG)", href: "/products/membrane-shutters#shades-explorer", tag: "9 Natural Oak & Walnut Shades" },
+      { name: "Porcelain Touch (PT)", href: "/products/membrane-shutters#shades-explorer", tag: "13 Matte Shades" },
+      { name: "Perfect Silk (PS)", href: "/products/membrane-shutters#shades-explorer", tag: "7 Silk Shades" },
+      { name: "Ceramic Satin (CS)", href: "/products/membrane-shutters#shades-explorer", tag: "7 Mineral Shades" },
+    ],
+  },
+  {
     title: "Aluminum Profiles",
     desc: "AL-PROFHAN series: Precision-engineered hardware profiles for glass shutters, wardrobes, and modular kitchens.",
     image: "/images/banner/bg2.jpg",
+    link: "/products/aluminum-profiles",
     items: [
       { name: "Ottimo Series", href: "/products/aluminum-profiles#ottimo", tag: "Gola Handles" },
       { name: "Aerolinea", href: "/products/aluminum-profiles#aerolinea", tag: "Shutter Profiles" },
@@ -97,7 +111,7 @@ export default function ProductsHubPage() {
 
                 <div className="mt-10">
                   <Link
-                    href={cat.title.includes("Acrylic") ? "/products/acrylux" : "/products/aluminum-profiles"}
+                    href={cat.link}
                     className="inline-flex items-center gap-2 bg-navy text-white px-8 py-3.5 rounded-xl font-bold hover:bg-navy-light transition-all shadow-lg"
                   >
                     View All {cat.title} <ArrowRight size={18} />
