@@ -232,7 +232,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-navy relative overflow-hidden">
+      <section id="factory" className="py-24 bg-navy relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10">
           <Image src="/images/about/m1.jpg" alt="bg" fill className="object-cover" />
         </div>
@@ -240,8 +240,8 @@ export default function AboutPage() {
            <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-8">Ready for a Factory Tour?</h2>
            <p className="text-white/70 text-lg mb-12">Visit our Bahadurgarh facility to see the ACRYLUX production line in action.</p>
            <div className="flex flex-wrap justify-center gap-6">
-              <Link href="/contact" className="bg-copper text-white px-10 py-4 rounded-full font-bold hover:bg-copper-light transition-all shadow-xl shadow-copper/20">Schedule a Visit</Link>
-              <Link href="/contact#sample" className="border border-white/30 text-white px-10 py-4 rounded-full font-bold hover:bg-white/10 transition-all">Request Samples</Link>
+              <Link href="/contact?inquiry=Factory+Tour" className="bg-copper text-white px-10 py-4 rounded-full font-bold hover:bg-copper-light transition-all shadow-xl shadow-copper/20">Schedule a Factory Visit</Link>
+              <Link href="/contact?inquiry=Request+Sample+Kit" className="border border-white/30 text-white px-10 py-4 rounded-full font-bold hover:bg-white/10 transition-all">Request Samples</Link>
            </div>
         </div>
       </section>

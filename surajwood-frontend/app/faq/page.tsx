@@ -93,7 +93,7 @@ export default async function FAQPage() {
       {/* ------------------------------------------------------------------ */}
       {/* Hero                                                                */}
       {/* ------------------------------------------------------------------ */}
-      <section className="bg-navy py-16 px-4">
+      <section className="bg-navy pt-32 pb-16 md:pt-40 md:pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-4">
@@ -107,10 +107,10 @@ export default async function FAQPage() {
               <li className="text-white/90">FAQ</li>
             </ol>
           </nav>
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white">
             Frequently Asked Questions
           </h1>
-          <p className="mt-3 text-lg text-white/70 max-w-xl">
+          <p className="mt-3 text-base md:text-lg text-white/70 max-w-xl">
             Everything you need to know about Suraj Wood acrylic panels — from material specs
             to installation and maintenance.
           </p>

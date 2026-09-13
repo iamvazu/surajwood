@@ -121,8 +121,8 @@ export default function Hero() {
       })}
 
       {/* Left-focused gradient for text readability */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
-      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/50 to-transparent" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
 
       {/* Spacer to clear sticky navbar (approx 140px total) */}
       <div className="h-32 lg:h-40" />
@@ -139,10 +139,10 @@ export default function Hero() {
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
-                  className="flex items-center gap-3 mb-4"
+                  className="flex items-center gap-2.5 mb-4"
                 >
-                  <div className="w-8 h-[2px] bg-copper" />
-                  <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                  <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+                  <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                     TOP ACRYLIC SHEET BRAND IN INDIA — SURAJWOOD
                   </p>
                 </motion.div>
@@ -152,13 +152,13 @@ export default function Hero() {
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
-                  className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6"
+                  className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md"
                 >
                   {slide.title.split(" ").map((word, idx) => (
                     <span
                       key={idx}
                       className={
-                        idx === slide.title.split(" ").length - 1 ? "text-copper" : ""
+                        idx === slide.title.split(" ").length - 1 ? "text-copper-light font-bold" : ""
                       }
                     >
                       {word}{" "}

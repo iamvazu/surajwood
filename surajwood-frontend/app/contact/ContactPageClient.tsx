@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -51,11 +51,20 @@ const USER_TYPES = [
   "Other",
 ];
 
-const PRODUCTS = ["ACRYLUX", "ACRYSILK", "ACRYMATTE", "ACRYGLASS", "ACRYGLASS MATTE"];
+const PRODUCTS = [
+  "ACRYLUX",
+  "ACRYSILK",
+  "ACRYMATTE",
+  "ACRYGLASS",
+  "ACRYGLASS MATTE",
+  "Membrane Shutters",
+  "Aluminium Profiles",
+];
 
 const INQUIRY_TYPES = [
   "Request Sample Kit",
   "Get Quote",
+  "Factory Tour",
   "Dealer Enquiry",
   "Technical Query",
   "Bulk Order",
@@ -117,6 +126,27 @@ function ContactForm() {
     resolver: zodResolver(contactSchema),
     defaultValues: { product_interest: [] },
   });
+
+  // Pre-select inquiry type and products from URL query parameters
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const inq = params.get("inquiry") || params.get("type");
+      if (inq) {
+        const lower = inq.toLowerCase();
+        if (lower.includes("factory") || lower.includes("tour")) {
+          setValue("inquiry_type", "Factory Tour");
+          setValue("product_interest", ["ACRYLUX", "ACRYMATTE"]);
+        } else if (lower.includes("sample") || lower.includes("kit")) {
+          setValue("inquiry_type", "Request Sample Kit");
+        } else if (lower.includes("quote") || lower.includes("price")) {
+          setValue("inquiry_type", "Get Quote");
+        } else if (lower.includes("dealer")) {
+          setValue("inquiry_type", "Dealer Enquiry");
+        }
+      }
+    }
+  }, [setValue]);
 
   const selectedProducts = watch("product_interest") ?? [];
 

@@ -41,7 +41,7 @@ const hardwareProducts = [
 const resourceLinks = [
   { name: "Downloads", href: "/downloads", icon: Download },
   { name: "Dealer enquiry", href: "/dealers", icon: Users },
-  { name: "Factory tour", href: "/about#factory", icon: Building2 },
+  { name: "Factory tour", href: "/contact?inquiry=Factory+Tour", icon: Building2 },
   { name: "Technical specs", href: "/products/acrylux#specs", icon: FileText },
 ];
 

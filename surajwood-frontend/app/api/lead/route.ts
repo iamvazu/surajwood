@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { sendCatalogEmail, sendLeadTeamNotification } from "@/lib/email";
+import { sendCatalogEmail, sendContactConfirmationEmail, sendLeadTeamNotification } from "@/lib/email";
 
 // ---------------------------------------------------------------------------
 // Validation schema
@@ -121,15 +121,30 @@ export async function POST(request: NextRequest) {
     // Automated Email Delivery & Team Notification
     // -----------------------------------------------------------------------
     try {
-      // Send catalog email to user
-      await sendCatalogEmail({
-        to: leadData.email,
-        fullName: leadData.full_name,
-        userType: leadData.user_type,
-        company: leadData.company,
-      });
+      const isCatalogRequest =
+        leadData.source_page?.includes("downloads") ||
+        leadData.inquiry_type?.toLowerCase().includes("sample") ||
+        leadData.inquiry_type?.toLowerCase().includes("download");
 
-      // Send lead notification to BD / Sales team
+      if (isCatalogRequest) {
+        // Send high-res catalog email with download links to user
+        await sendCatalogEmail({
+          to: leadData.email,
+          fullName: leadData.full_name,
+          userType: leadData.user_type,
+          company: leadData.company,
+        });
+      } else {
+        // Send personalized inquiry / factory tour confirmation email to user
+        await sendContactConfirmationEmail({
+          to: leadData.email,
+          fullName: leadData.full_name,
+          inquiryType: leadData.inquiry_type || "General Inquiry",
+          userType: leadData.user_type,
+        });
+      }
+
+      // Send lead notification to Sales & BD team (sales@surajwood.com, bd@surajwood.com)
       await sendLeadTeamNotification({
         lead: leadData,
       });
