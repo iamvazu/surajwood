@@ -323,9 +323,9 @@ export default async function BlogPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
-              { slug: "kitchens", label: "Kitchens", img: "/images/gallery/2.jpg" },
-              { slug: "wardrobes", label: "Wardrobes", img: "/images/gallery/11.jpg" },
-              { slug: "commercial", label: "Commercial", img: "/images/gallery/21.jpg" },
+              { slug: "kitchens", label: "Kitchens", img: "/images/gallery/kitchen-1.jpg" },
+              { slug: "wardrobes", label: "Wardrobes", img: "/images/gallery/wardrobe-1.jpg" },
+              { slug: "commercial", label: "Commercial", img: "/images/gallery/commercial-premium.png" },
             ].map((app) => (
               <Link
                 key={app.slug}

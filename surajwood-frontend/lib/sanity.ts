@@ -658,89 +658,72 @@ const MOCK_POSTS: SanityPost[] = [
     slug: "acrylic-vs-laminate-kitchen-panels-india",
     title: "Acrylic vs Laminate Kitchen Panels: The Complete Indian Guide 2026",
     excerpt:
-      "Comprehensive guide to Acrylic vs Laminate Kitchen Panels: The Complete Indian Guide 2026: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "Choosing between acrylic and laminate for your modular kitchen? We compare durability, scratch resistance, cost per sq ft, and maintenance under Indian cooking conditions.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/gallery/kitchen-1.jpg" alt="Acrylic vs Laminate Kitchen Panels: The Complete Indian Guide 2026 - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-1.jpg" alt="Acrylic vs Laminate Kitchen Panels: The Complete Indian Guide 2026 - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -791,8 +774,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -812,15 +800,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(401), url: "/images/gallery/kitchen-1.jpg" },
     date: "2026-08-28",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Material Guide", "Kitchen Design"],
+    reading_time: 8,
+    categories: ["Material Comparison", "Kitchen Design"],
   },
   {
     id: 2,
     slug: "kitchen-design-trends-india-2026",
-    title: "2026 Kitchen Interior Design Trends in India",
+    title: "2026 Kitchen Interior Design Trends in India: Colours, Materials & Layouts",
     excerpt:
-      "Comprehensive guide to 2026 Kitchen Interior Design Trends in India: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "From Japandi minimalism to bold jewel tones, discover the modular kitchen trends shaping luxury Indian homes in 2026 and how to pair them with premium acrylic finishes.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -834,8 +822,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-2.jpg" alt="2026 Kitchen Interior Design Trends in India - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-2.jpg" alt="2026 Kitchen Interior Design Trends in India: Colours, Materials & Layouts - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -885,7 +873,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -970,7 +958,7 @@ const MOCK_POSTS: SanityPost[] = [
     slug: "how-to-clean-acrylic-kitchen-panels",
     title: "How to Clean and Maintain High-Gloss Acrylic Kitchen Panels",
     excerpt:
-      "Comprehensive guide to How to Clean and Maintain High-Gloss Acrylic Kitchen Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Step-by-step cleaning routines to remove tough turmeric stains, oil grease, and watermarks from acrylic shutters without scratching the 3H hard-coated surface.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -984,8 +972,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-3.jpg" alt="How to Clean and Maintain High-Gloss Acrylic Kitchen Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-3.jpg" alt="How to Clean and Maintain High-Gloss Acrylic Kitchen Panels - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1035,7 +1023,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1112,7 +1100,7 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(403), url: "/images/gallery/kitchen-3.jpg" },
     date: "2026-08-21",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
+    reading_time: 5,
     categories: ["Maintenance", "How-To Guide"],
   },
   {
@@ -1120,7 +1108,7 @@ const MOCK_POSTS: SanityPost[] = [
     slug: "eco-friendly-kitchen-materials-india",
     title: "Sustainable Surfaces: Why Acrylic is the Eco-Friendly Choice for 2026",
     excerpt:
-      "Comprehensive guide to Sustainable Surfaces: Why Acrylic is the Eco-Friendly Choice for 2026: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Discover how 100% recyclable PMMA acrylic panels and emission-free PUR adhesives improve indoor air quality and eliminate toxic VOCs from your home.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -1134,8 +1122,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/blog/eco-friendly-acrylic.jpg" alt="Sustainable Surfaces: Why Acrylic is the Eco-Friendly Choice for 2026 - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/blog/eco-friendly-acrylic.jpg" alt="Sustainable Surfaces: Why Acrylic is the Eco-Friendly Choice for 2026 - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1185,7 +1173,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1262,80 +1250,37 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(407), url: "/images/blog/eco-friendly-acrylic.jpg" },
     date: "2026-08-18",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
+    reading_time: 6,
     categories: ["Sustainability", "Material Guide"],
   },
   {
     id: 8,
     slug: "luxury-wardrobe-ideas-acrylic-finishes",
-    title: "Master Bedroom Wardrobe Ideas: Choosing the Right Acrylic Finish",
+    title: "Luxury Wardrobe Ideas: Choosing the Right Acrylic Finish for Master Bedrooms",
     excerpt:
-      "Comprehensive guide to Master Bedroom Wardrobe Ideas: Choosing the Right Acrylic Finish: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
+      "Explore floor-to-ceiling sliding wardrobes, tinted glass shutters, and pearl metallic acrylic finishes that turn master bedrooms into boutique hotel sanctuaries.",
+    content: `<p>Designing modern luxury wardrobes requires materials that combine expansive visual elegance with structural rigidity over large vertical spans. <strong>SurajWood acrylic panels and membrane shutters</strong> are specially engineered for floor-to-ceiling wardrobe shutters up to 9 feet tall without warping, bowing, or delamination.</p>
 
-<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
-<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
-<ul>
-  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
-  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
-  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
-  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
-</ul>
+<h2>Sliding vs Hinged Wardrobe Shutters in Indian Master Bedrooms</h2>
+<p>In contemporary Indian urban apartments in Mumbai, Delhi NCR, and Bangalore, sliding wardrobes save vital floor space while creating monolithic, sleek architectural statements. SurajWood provides 2mm thick acrylic panels and slim aluminium profile systems specifically engineered for smooth, whisper-quiet sliding hardware.</p>
 
 
 <figure>
-  <img src="/images/gallery/wardrobe-1.jpg" alt="Master Bedroom Wardrobe Ideas: Choosing the Right Acrylic Finish - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-1.jpg" alt="Luxury Wardrobe Ideas: Choosing the Right Acrylic Finish for Master Bedrooms - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Technical Performance Specifications</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Technical Property</th>
-      <th>SurajWood Acrylic Panels</th>
-      <th>Standard Commercial Laminates</th>
-      <th>PU Painted MDF / Deco Paint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Surface Hardness</strong></td>
-      <td>3H (Pencil Hardness Scale)</td>
-      <td>2H</td>
-      <td>1H – 2H (Chipping Risk)</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYLUX)</strong></td>
-      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
-      <td>70 – 80 Gloss Units</td>
-      <td>85 – 90 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
-      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
-      <td>15 – 25 Gloss Units</td>
-      <td>10 – 20 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Moisture Absorption</strong></td>
-      <td>Zero (Impermeable Polymer)</td>
-      <td>Moderate (Paper Core Absorbs Moisture)</td>
-      <td>Low (If Coated Perfectly)</td>
-    </tr>
-    <tr>
-      <td><strong>Maintenance Requirement</strong></td>
-      <td>Simple Microfibre & Warm Water Wipe</td>
-      <td>Prone to Staining from Turmeric/Oils</td>
-      <td>Requires Periodic Polishing & Re-coating</td>
-    </tr>
-  </tbody>
-</table>
+<h2>Key Design Elements for Luxury Wardrobe Shutters</h2>
+<ul>
+  <li><strong>Mirror-Gloss Optical Acrylic:</strong> <a href="/products/acrylux">ACRYLUX</a> in Arctic White or Champagne Metallic reflects ambient natural light, making bedrooms feel twice as large.</li>
+  <li><strong>Anti-Fingerprint Velvet Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> in Slate Grey or Navy Blue prevents unsightly smudge marks along frequently touched shutter edges.</li>
+  <li><strong>Integrated Fluted Glass Profiles:</strong> Pair tinted glass shutters with <a href="/products/aluminium-profile-handles">anodised aluminium glass profile frames</a> and internal LED strip lights for high-end boutique display storage.</li>
+</ul>
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1386,13 +1331,8 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>Architectural Design Ideas & Spatial Applications</h2>
-<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
-<ul>
-  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
-  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
-  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
-</ul>
+<h2>Durability & Long-Term Performance</h2>
+<p>Unlike ordinary laminate wardrobe shutters that develop edge peeling and dark joint lines, SurajWood panels feature seamless laser-calibrated 1.3mm matching acrylic edge bands bonded with waterproof PUR adhesive. This guarantees a smooth, continuous surface that resists moisture and humidity year-round.</p>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -1412,15 +1352,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(408), url: "/images/gallery/wardrobe-1.jpg" },
     date: "2026-08-15",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Bedroom Design", "Wardrobes"],
+    reading_time: 7,
+    categories: ["Wardrobe Design", "Bedroom Luxury"],
   },
   {
     id: 9,
     slug: "trending-kitchen-colors-navy-copper-2026",
-    title: "Trending Kitchen Colors for 2026: Why Navy and Copper are Leading",
+    title: "Trending Kitchen Colors for 2026: Why Navy and Burnt Copper are Leading",
     excerpt:
-      "Comprehensive guide to Trending Kitchen Colors for 2026: Why Navy and Copper are Leading: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why royal navy blue and burnt copper metallic acrylic panels are dominating luxury Indian penthouse and villa kitchen projects this year.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -1434,8 +1374,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-4.jpg" alt="Trending Kitchen Colors for 2026: Why Navy and Copper are Leading - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-4.jpg" alt="Trending Kitchen Colors for 2026: Why Navy and Burnt Copper are Leading - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1485,7 +1425,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1562,15 +1502,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(409), url: "/images/gallery/kitchen-4.jpg" },
     date: "2026-08-12",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
+    reading_time: 6,
     categories: ["Color Trends", "Kitchen Design"],
   },
   {
     id: 10,
     slug: "integrating-aluminum-profiles-with-acrylic-panels",
-    title: "The AL-PROFHAN Advantage: Integrating Aluminum Profiles with Acrylic Panels",
+    title: "Integrating Aluminium Handle Profiles with Acrylic Panels for Seamless Cabinets",
     excerpt:
-      "Comprehensive guide to The AL-PROFHAN Advantage: Integrating Aluminum Profiles with Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A technical guide on pairing anodised aluminium Gola profiles and J-pull extrusions with 2mm acrylic panels for ultra-modern handleless modular furniture.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -1578,8 +1518,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/products/aluminum/ottimo.png" alt="The AL-PROFHAN Advantage: Integrating Aluminum Profiles with Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/gola-profile-kitchen.jpg" alt="Integrating Aluminium Handle Profiles with Acrylic Panels for Seamless Cabinets - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1626,7 +1566,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1695,18 +1635,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(410), url: "/images/products/aluminum/ottimo.png" },
+    featured_image: { ...placeholderImage(410), url: "/images/gallery/gola-profile-kitchen.jpg" },
     date: "2026-08-09",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Hardware", "Technical Guide"],
+    reading_time: 7,
+    categories: ["Hardware", "Modular Furniture"],
   },
   {
     id: 11,
     slug: "pur-bonding-vs-manual-lamination-science",
-    title: "PUR Bonding vs Manual Lamination: Why SurajWood Never Peels",
+    title: "PUR Bonding vs Manual Sheet Pressing: The Science of Zero Delamination",
     excerpt:
-      "Comprehensive guide to PUR Bonding vs Manual Lamination: Why SurajWood Never Peels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why factory PUR hotmelt machine lamination completely eliminates orange peel and edge peeling, outlasting manual cold-press carpentry by over a decade.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -1720,8 +1660,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/about/palex.jpg" alt="PUR Bonding vs Manual Lamination: Why SurajWood Never Peels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/pur-line.jpg" alt="PUR Bonding vs Manual Sheet Pressing: The Science of Zero Delamination - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1771,7 +1711,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1845,18 +1785,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(411), url: "/images/about/palex.jpg" },
+    featured_image: { ...placeholderImage(411), url: "/images/about/pur-line.jpg" },
     date: "2026-08-06",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Manufacturing", "Technical Guide"],
+    reading_time: 8,
+    categories: ["Manufacturing", "Material Science"],
   },
   {
     id: 12,
     slug: "anti-fingerprint-matte-acrylic-technology",
-    title: "The Science of Clean: How Anti-Fingerprint Nano-Coating Works",
+    title: "Anti-Fingerprint Matte Acrylic: How Hydrophobic Nano-Coatings Work",
     excerpt:
-      "Comprehensive guide to The Science of Clean: How Anti-Fingerprint Nano-Coating Works: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Understand the technology behind ACRYMATTE super-matte surfaces that resist oily smudge marks, fingerprints, and daily kitchen stains.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -1870,8 +1810,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-hero-new.jpg" alt="The Science of Clean: How Anti-Fingerprint Nano-Coating Works - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-hero-new.jpg" alt="Anti-Fingerprint Matte Acrylic: How Hydrophobic Nano-Coatings Work - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -1921,7 +1861,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -1998,15 +1938,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(412), url: "/images/gallery/kitchen-hero-new.jpg" },
     date: "2026-08-03",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Technology", "Maintenance"],
+    reading_time: 6,
+    categories: ["Material Science", "Maintenance"],
   },
   {
     id: 13,
     slug: "acrylic-panels-for-commercial-offices",
-    title: "Elevating Office Interiors: Why Acrylic is the Corporate Choice",
+    title: "Acrylic Panels for Commercial Offices: Reception Desks, Conference & Wall Cladding",
     excerpt:
-      "Comprehensive guide to Elevating Office Interiors: Why Acrylic is the Corporate Choice: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Transform high-traffic corporate headquarters with scratch-resistant, mirror-gloss and satin-matte PMMA panels designed for heavy daily use.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2020,8 +1960,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/commercial-premium.png" alt="Elevating Office Interiors: Why Acrylic is the Corporate Choice - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-premium.png" alt="Acrylic Panels for Commercial Offices: Reception Desks, Conference & Wall Cladding - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2071,7 +2011,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2148,15 +2088,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(413), url: "/images/gallery/commercial-premium.png" },
     date: "2026-07-31",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Commercial Design", "Offices"],
+    reading_time: 7,
+    categories: ["Commercial Design", "Office Interiors"],
   },
   {
     id: 14,
     slug: "choosing-acrylic-panel-thickness-guide",
-    title: "1mm, 1.5mm, or 3mm? Choosing the Right Acrylic Thickness",
+    title: "Choosing Acrylic Panel Thickness: 1mm vs 1.5mm vs 2mm Complete Guide",
     excerpt:
-      "Comprehensive guide to 1mm, 1.5mm, or 3mm? Choosing the Right Acrylic Thickness: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How to select the right acrylic thickness for kitchen overheads, heavy base drawers, 9ft wardrobe shutters, and illuminated TV wall units.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2170,8 +2110,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-new-1.png" alt="1mm, 1.5mm, or 3mm? Choosing the Right Acrylic Thickness - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-1.png" alt="Choosing Acrylic Panel Thickness: 1mm vs 1.5mm vs 2mm Complete Guide - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2221,7 +2161,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2298,15 +2238,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(414), url: "/images/gallery/kitchen-new-1.png" },
     date: "2026-07-28",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Technical Guide", "Material Science"],
+    reading_time: 6,
+    categories: ["Technical Guide", "Material Selection"],
   },
   {
     id: 15,
     slug: "living-room-feature-walls-acrylic-panels",
-    title: "TV Units & Feature Walls: Design Ideas Using Acrylic Panels",
+    title: "Living Room Feature Walls: Transforming Spaces with ACRYGLASS Cladding",
     excerpt:
-      "Comprehensive guide to TV Units & Feature Walls: Design Ideas Using Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Design dramatic living room accent walls and TV backdrops using 2mm glass-clarity acrylic panels with integrated warm LED profile lighting.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2320,8 +2260,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/tv-unit-1.jpg" alt="TV Units & Feature Walls: Design Ideas Using Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/tv-unit-1.jpg" alt="Living Room Feature Walls: Transforming Spaces with ACRYGLASS Cladding - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2371,7 +2311,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2448,15 +2388,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(415), url: "/images/gallery/tv-unit-1.jpg" },
     date: "2026-07-25",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Living Room", "Design Ideas"],
+    reading_time: 7,
+    categories: ["Living Room", "Wall Panels"],
   },
   {
     id: 16,
     slug: "surajwood-manufacturing-bahadurgarh-quality",
-    title: "Behind the Brand: Our Bahadurgarh Manufacturing Excellence",
+    title: "Inside SurajWood Manufacturing: European Quality Standards in Bahadurgarh",
     excerpt:
-      "Comprehensive guide to Behind the Brand: Our Bahadurgarh Manufacturing Excellence: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Take an exclusive look inside SurajWood's state-of-the-art manufacturing plant in Bahadurgarh, Haryana — from cleanroom lamination to automated edge finishing.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2470,8 +2410,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/about/about-bg.jpg" alt="Behind the Brand: Our Bahadurgarh Manufacturing Excellence - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/about-hero.jpg" alt="Inside SurajWood Manufacturing: European Quality Standards in Bahadurgarh - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2521,7 +2461,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2595,100 +2535,83 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(416), url: "/images/about/about-bg.jpg" },
+    featured_image: { ...placeholderImage(416), url: "/images/about/about-hero.jpg" },
     date: "2026-07-22",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
+    reading_time: 6,
     categories: ["Manufacturing", "Brand Story"],
   },
   {
     id: 17,
     slug: "acrylic-vs-laminate-vs-pu-vs-glass-kitchen-guide",
-    title: "Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Material Guide",
+    title: "Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Finish Comparison",
     excerpt:
-      "Comprehensive guide to Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Material Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "An objective side-by-side comparison of India's top 4 kitchen cabinet finishes on cost, durability, heat resistance, and long-term maintenance.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/gallery/kitchen-new-2.jpg" alt="Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Material Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-2.jpg" alt="Acrylic vs Laminate vs PU vs Glass: Ultimate Kitchen Finish Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2739,8 +2662,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -2760,15 +2688,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(417), url: "/images/gallery/kitchen-new-2.jpg" },
     date: "2026-07-18",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
+    reading_time: 9,
     categories: ["Material Guide", "Kitchen Design"],
   },
   {
     id: 18,
     slug: "modular-kitchen-cost-breakdown-india-guide",
-    title: "Modular Kitchen Cost Breakdown: Material-by-Material Guide for Indian Apartments",
+    title: "Modular Kitchen Cost Breakdown in India (2026): Acrylic vs Laminate Pricing",
     excerpt:
-      "Comprehensive guide to Modular Kitchen Cost Breakdown: Material-by-Material Guide for Indian Apartments: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Realistic cost breakdowns for L-shaped, U-shaped, and parallel modular kitchens in Mumbai, Delhi NCR, Bangalore, and Hyderabad with sq ft rates.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2782,8 +2710,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kitchen-new-3.jpg" alt="Modular Kitchen Cost Breakdown: Material-by-Material Guide for Indian Apartments - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-3.jpg" alt="Modular Kitchen Cost Breakdown in India (2026): Acrylic vs Laminate Pricing - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2833,7 +2761,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -2910,15 +2838,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(418), url: "/images/gallery/kitchen-new-3.jpg" },
     date: "2026-07-15",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Finance", "Kitchen Design"],
+    reading_time: 8,
+    categories: ["Pricing Guide", "Kitchen Planning"],
   },
   {
     id: 19,
     slug: "petg-vs-pmma-acrylic-optical-grade-guide",
-    title: "PETG vs PMMA Acrylic: Why Optical Grade Matters for Modern Surfaces",
+    title: "PETG vs PMMA Acrylic: Understanding Optical Clarity and Scratch Hardness",
     excerpt:
-      "Comprehensive guide to PETG vs PMMA Acrylic: Why Optical Grade Matters for Modern Surfaces: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Learn why 100% PMMA (acrylic) offers superior depth of reflection, UV resistance, and repairability compared to lower-cost PETG and PVC decorative foils.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -2932,8 +2860,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_525158.jpg" alt="PETG vs PMMA Acrylic: Why Optical Grade Matters for Modern Surfaces - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/1.jpg" alt="PETG vs PMMA Acrylic: Understanding Optical Clarity and Scratch Hardness - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -2983,7 +2911,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3057,18 +2985,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(419), url: "/images/applications/kitchen/acryglass-matte_525158.jpg" },
+    featured_image: { ...placeholderImage(419), url: "/images/banner/1.jpg" },
     date: "2026-07-12",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Material Science", "Technology"],
+    reading_time: 7,
+    categories: ["Material Science", "Technical Guide"],
   },
   {
     id: 20,
     slug: "royale-touche-vs-surajwood-acrylux-honest-comparison",
-    title: "Royale Touche Acrylic vs SurajWood ACRYLUX: An Honest Comparison",
+    title: "Royale Touche vs SurajWood ACRYLUX: An Honest Architectural Comparison",
     excerpt:
-      "Comprehensive guide to Royale Touche Acrylic vs SurajWood ACRYLUX: An Honest Comparison: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Comparing Royale Touche acrylic laminates and SurajWood ACRYLUX panels on surface hardness (3H), PUR machine bonding, and mirror gloss clarity.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -3076,8 +3004,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/402 White.jpg" alt="Royale Touche Acrylic vs SurajWood ACRYLUX: An Honest Comparison - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/mirror-acrylic-kitchen.jpg" alt="Royale Touche vs SurajWood ACRYLUX: An Honest Architectural Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3150,7 +3078,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3219,18 +3147,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(420), url: "/images/Newphotos/Acryglass Gloss/402 White.jpg" },
+    featured_image: { ...placeholderImage(420), url: "/images/gallery/mirror-acrylic-kitchen.jpg" },
     date: "2026-07-09",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Brand Comparison", "Material Guide"],
+    reading_time: 8,
+    categories: ["Brand Comparison", "Acrylic Sheets"],
   },
   {
     id: 21,
     slug: "top-10-acrylic-panel-brands-india-2026",
-    title: "Top 10 Acrylic Panel Brands in India (2026 Edition)",
+    title: "Top 10 Acrylic Panel Brands in India (2026): Ratings, Pricing & Features",
     excerpt:
-      "Comprehensive guide to Top 10 Acrylic Panel Brands in India (2026 Edition): expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "An in-depth review of the leading acrylic panel manufacturers in India for architects, interior designers, and homeowners planning premium renovations.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -3238,8 +3166,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_63615d.jpg" alt="Top 10 Acrylic Panel Brands in India (2026 Edition) - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-4.png" alt="Top 10 Acrylic Panel Brands in India (2026): Ratings, Pricing & Features - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3312,7 +3240,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3381,18 +3309,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(421), url: "/images/applications/kitchen/acryglass-matte_63615d.jpg" },
+    featured_image: { ...placeholderImage(421), url: "/images/gallery/kitchen-new-4.png" },
     date: "2026-07-06",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Architectural Review", "Material Guide"],
+    reading_time: 9,
+    categories: ["Industry Review", "Top Brands"],
   },
   {
     id: 22,
     slug: "50-modern-modular-kitchen-design-ideas",
-    title: "50 Modern Modular Kitchen Design Ideas with Acrylic",
+    title: "50 Modern Modular Kitchen Design Ideas for Contemporary Indian Homes",
     excerpt:
-      "Comprehensive guide to 50 Modern Modular Kitchen Design Ideas with Acrylic: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A curated collection of modular kitchen layouts, colour combinations, breakfast counter ideas, and smart storage systems using acrylic and membrane panels.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -3406,8 +3334,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_bc8a69.jpg" alt="50 Modern Modular Kitchen Design Ideas with Acrylic - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-5.png" alt="50 Modern Modular Kitchen Design Ideas for Contemporary Indian Homes - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3457,7 +3385,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3531,18 +3459,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(422), url: "/images/applications/kitchen/acryglass-matte_bc8a69.jpg" },
+    featured_image: { ...placeholderImage(422), url: "/images/gallery/kitchen-new-5.png" },
     date: "2026-07-03",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Kitchen Design", "Inspiration"],
+    reading_time: 10,
+    categories: ["Inspiration", "Kitchen Design"],
   },
   {
     id: 23,
     slug: "l-shape-kitchen-design-ideas-indian-apartments",
-    title: "L-Shape Kitchen Design Ideas for Indian Apartments",
+    title: "L-Shape Kitchen Design Ideas for 2BHK and 3BHK Indian Apartments",
     excerpt:
-      "Comprehensive guide to L-Shape Kitchen Design Ideas for Indian Apartments: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Maximise corner storage, countertop prep space, and natural light in compact L-shaped kitchens using high-gloss white and warm wood acrylic panels.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -3556,8 +3484,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_bfc5bc.jpg" alt="L-Shape Kitchen Design Ideas for Indian Apartments - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kitchen-new-6.jpg" alt="L-Shape Kitchen Design Ideas for 2BHK and 3BHK Indian Apartments - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3607,7 +3535,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3681,18 +3609,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(423), url: "/images/applications/kitchen/acryglass-matte_bfc5bc.jpg" },
+    featured_image: { ...placeholderImage(423), url: "/images/gallery/kitchen-new-6.jpg" },
     date: "2026-06-30",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Kitchen Design", "Apartment Living"],
+    reading_time: 6,
+    categories: ["Kitchen Layouts", "Apartment Design"],
   },
   {
     id: 24,
     slug: "white-kitchen-cabinets-high-gloss-acrylic",
-    title: "White Kitchen Cabinets: Design Ideas with High Gloss Acrylic",
+    title: "White Kitchen Cabinets: Why High-Gloss Acrylic Keeps Them Pristine",
     excerpt:
-      "Comprehensive guide to White Kitchen Cabinets: Design Ideas with High Gloss Acrylic: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How optical-grade white acrylic panels prevent yellowing and resist turmeric stains, keeping modern all-white kitchens looking brand new for years.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -3706,8 +3634,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_c5ded6.jpg" alt="White Kitchen Cabinets: Design Ideas with High Gloss Acrylic - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/2.jpg" alt="White Kitchen Cabinets: Why High-Gloss Acrylic Keeps Them Pristine - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3757,7 +3685,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3831,18 +3759,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(424), url: "/images/applications/kitchen/acryglass-matte_c5ded6.jpg" },
+    featured_image: { ...placeholderImage(424), url: "/images/banner/2.jpg" },
     date: "2026-06-27",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Kitchen Design", "Color Selection"],
+    reading_time: 6,
+    categories: ["Color Guide", "Kitchen Design"],
   },
   {
     id: 25,
     slug: "small-kitchen-design-ideas-2bhk-apartments",
-    title: "Small Kitchen Design Ideas for 2BHK Apartments",
+    title: "Small Kitchen Design Ideas: How Acrylic Surfaces Make Spaces Look Bigger",
     excerpt:
-      "Comprehensive guide to Small Kitchen Design Ideas for 2BHK Apartments: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Use high-gloss reflective acrylic panels, concealed Gola profile handles, and light colour palettes to visually double the size of compact apartment kitchens.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -3856,8 +3784,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_d1c0ac.jpg" alt="Small Kitchen Design Ideas for 2BHK Apartments - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/3.jpg" alt="Small Kitchen Design Ideas: How Acrylic Surfaces Make Spaces Look Bigger - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -3907,7 +3835,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -3981,18 +3909,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(425), url: "/images/applications/kitchen/acryglass-matte_d1c0ac.jpg" },
+    featured_image: { ...placeholderImage(425), url: "/images/banner/3.jpg" },
     date: "2026-06-24",
     author: "Suraj Wood Editorial Team",
     reading_time: 6,
-    categories: ["Apartment Living", "Kitchen Design"],
+    categories: ["Small Spaces", "Kitchen Design"],
   },
   {
     id: 26,
     slug: "color-combinations-for-kitchen-cabinets-2026",
-    title: "Color Combinations for Kitchen Cabinets 2026",
+    title: "Best Color Combinations for Kitchen Cabinets in 2026: Dual-Tone Guide",
     excerpt:
-      "Comprehensive guide to Color Combinations for Kitchen Cabinets 2026: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Top designer-approved dual-tone palettes — from Champagne & Charcoal to Sage Green & Cream — that elevate modular kitchen aesthetics.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -4006,8 +3934,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_f8f4e4.jpg" alt="Color Combinations for Kitchen Cabinets 2026 - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/sage-matte-kitchen.jpg" alt="Best Color Combinations for Kitchen Cabinets in 2026: Dual-Tone Guide - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -4057,7 +3985,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4131,18 +4059,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(426), url: "/images/applications/kitchen/acryglass-matte_f8f4e4.jpg" },
+    featured_image: { ...placeholderImage(426), url: "/images/gallery/sage-matte-kitchen.jpg" },
     date: "2026-06-21",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Color Selection", "Inspiration"],
+    categories: ["Color Guide", "Kitchen Trends"],
   },
   {
     id: 27,
     slug: "two-tone-kitchen-design-ideas-acrylic-panels",
-    title: "Two-Tone Kitchen Design Ideas with Acrylic Panels",
+    title: "Two-Tone Kitchen Design Ideas: Pairing High Gloss and Matte Acrylics",
     excerpt:
-      "Comprehensive guide to Two-Tone Kitchen Design Ideas with Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Expert tips on contrasting high-gloss overhead cabinets with super-matte base drawers for balanced reflections and effortless maintenance.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -4156,8 +4084,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass-matte_ffffff.jpg" alt="Two-Tone Kitchen Design Ideas with Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/4.jpg" alt="Two-Tone Kitchen Design Ideas: Pairing High Gloss and Matte Acrylics - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -4207,7 +4135,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4281,83 +4209,40 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(427), url: "/images/applications/kitchen/acryglass-matte_ffffff.jpg" },
+    featured_image: { ...placeholderImage(427), url: "/images/banner/4.jpg" },
     date: "2026-06-18",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Kitchen Design", "Color Selection"],
+    reading_time: 6,
+    categories: ["Design Trends", "Kitchen Styling"],
   },
   {
     id: 28,
     slug: "wardrobe-design-ideas-acrylic-shutters",
-    title: "Wardrobe Design Ideas with Acrylic Shutters",
+    title: "Modern Wardrobe Design Ideas: Sliding Door Shutters in Acrylic & Glass",
     excerpt:
-      "Comprehensive guide to Wardrobe Design Ideas with Acrylic Shutters: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
+      "Explore hinged and sliding wardrobe shutter designs incorporating metallic acrylics, tinted glass inserts, and integrated aluminium edge profiles.",
+    content: `<p>Designing modern luxury wardrobes requires materials that combine expansive visual elegance with structural rigidity over large vertical spans. <strong>SurajWood acrylic panels and membrane shutters</strong> are specially engineered for floor-to-ceiling wardrobe shutters up to 9 feet tall without warping, bowing, or delamination.</p>
 
-<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
-<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
-<ul>
-  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
-  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
-  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
-  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
-</ul>
+<h2>Sliding vs Hinged Wardrobe Shutters in Indian Master Bedrooms</h2>
+<p>In contemporary Indian urban apartments in Mumbai, Delhi NCR, and Bangalore, sliding wardrobes save vital floor space while creating monolithic, sleek architectural statements. SurajWood provides 2mm thick acrylic panels and slim aluminium profile systems specifically engineered for smooth, whisper-quiet sliding hardware.</p>
 
 
 <figure>
-  <img src="/images/gallery/wardrobe-2.jpg" alt="Wardrobe Design Ideas with Acrylic Shutters - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-2.jpg" alt="Modern Wardrobe Design Ideas: Sliding Door Shutters in Acrylic & Glass - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Technical Performance Specifications</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Technical Property</th>
-      <th>SurajWood Acrylic Panels</th>
-      <th>Standard Commercial Laminates</th>
-      <th>PU Painted MDF / Deco Paint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Surface Hardness</strong></td>
-      <td>3H (Pencil Hardness Scale)</td>
-      <td>2H</td>
-      <td>1H – 2H (Chipping Risk)</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYLUX)</strong></td>
-      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
-      <td>70 – 80 Gloss Units</td>
-      <td>85 – 90 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
-      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
-      <td>15 – 25 Gloss Units</td>
-      <td>10 – 20 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Moisture Absorption</strong></td>
-      <td>Zero (Impermeable Polymer)</td>
-      <td>Moderate (Paper Core Absorbs Moisture)</td>
-      <td>Low (If Coated Perfectly)</td>
-    </tr>
-    <tr>
-      <td><strong>Maintenance Requirement</strong></td>
-      <td>Simple Microfibre & Warm Water Wipe</td>
-      <td>Prone to Staining from Turmeric/Oils</td>
-      <td>Requires Periodic Polishing & Re-coating</td>
-    </tr>
-  </tbody>
-</table>
+<h2>Key Design Elements for Luxury Wardrobe Shutters</h2>
+<ul>
+  <li><strong>Mirror-Gloss Optical Acrylic:</strong> <a href="/products/acrylux">ACRYLUX</a> in Arctic White or Champagne Metallic reflects ambient natural light, making bedrooms feel twice as large.</li>
+  <li><strong>Anti-Fingerprint Velvet Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> in Slate Grey or Navy Blue prevents unsightly smudge marks along frequently touched shutter edges.</li>
+  <li><strong>Integrated Fluted Glass Profiles:</strong> Pair tinted glass shutters with <a href="/products/aluminium-profile-handles">anodised aluminium glass profile frames</a> and internal LED strip lights for high-end boutique display storage.</li>
+</ul>
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4408,13 +4293,8 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>Architectural Design Ideas & Spatial Applications</h2>
-<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
-<ul>
-  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
-  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
-  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
-</ul>
+<h2>Durability & Long-Term Performance</h2>
+<p>Unlike ordinary laminate wardrobe shutters that develop edge peeling and dark joint lines, SurajWood panels feature seamless laser-calibrated 1.3mm matching acrylic edge bands bonded with waterproof PUR adhesive. This guarantees a smooth, continuous surface that resists moisture and humidity year-round.</p>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -4434,80 +4314,37 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(428), url: "/images/gallery/wardrobe-2.jpg" },
     date: "2026-06-15",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Bedroom Design", "Wardrobes"],
+    reading_time: 7,
+    categories: ["Wardrobe Design", "Bedroom Luxury"],
   },
   {
     id: 29,
     slug: "walk-in-wardrobe-design-guide-indian-homes",
-    title: "Walk-in Wardrobe Design Guide for Indian Homes",
+    title: "Walk-in Wardrobe Design Guide for Indian Homes: Layouts & Lighting",
     excerpt:
-      "Comprehensive guide to Walk-in Wardrobe Design Guide for Indian Homes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
+      "How to plan a bespoke master walk-in closet with island accessory dressers, backlit acrylic shelving, and custom shoe display towers.",
+    content: `<p>Designing modern luxury wardrobes requires materials that combine expansive visual elegance with structural rigidity over large vertical spans. <strong>SurajWood acrylic panels and membrane shutters</strong> are specially engineered for floor-to-ceiling wardrobe shutters up to 9 feet tall without warping, bowing, or delamination.</p>
 
-<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
-<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
-<ul>
-  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
-  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
-  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
-  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
-</ul>
+<h2>Sliding vs Hinged Wardrobe Shutters in Indian Master Bedrooms</h2>
+<p>In contemporary Indian urban apartments in Mumbai, Delhi NCR, and Bangalore, sliding wardrobes save vital floor space while creating monolithic, sleek architectural statements. SurajWood provides 2mm thick acrylic panels and slim aluminium profile systems specifically engineered for smooth, whisper-quiet sliding hardware.</p>
 
 
 <figure>
-  <img src="/images/gallery/wardrobe-3.jpg" alt="Walk-in Wardrobe Design Guide for Indian Homes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-3.jpg" alt="Walk-in Wardrobe Design Guide for Indian Homes: Layouts & Lighting - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Technical Performance Specifications</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Technical Property</th>
-      <th>SurajWood Acrylic Panels</th>
-      <th>Standard Commercial Laminates</th>
-      <th>PU Painted MDF / Deco Paint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Surface Hardness</strong></td>
-      <td>3H (Pencil Hardness Scale)</td>
-      <td>2H</td>
-      <td>1H – 2H (Chipping Risk)</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYLUX)</strong></td>
-      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
-      <td>70 – 80 Gloss Units</td>
-      <td>85 – 90 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
-      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
-      <td>15 – 25 Gloss Units</td>
-      <td>10 – 20 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Moisture Absorption</strong></td>
-      <td>Zero (Impermeable Polymer)</td>
-      <td>Moderate (Paper Core Absorbs Moisture)</td>
-      <td>Low (If Coated Perfectly)</td>
-    </tr>
-    <tr>
-      <td><strong>Maintenance Requirement</strong></td>
-      <td>Simple Microfibre & Warm Water Wipe</td>
-      <td>Prone to Staining from Turmeric/Oils</td>
-      <td>Requires Periodic Polishing & Re-coating</td>
-    </tr>
-  </tbody>
-</table>
+<h2>Key Design Elements for Luxury Wardrobe Shutters</h2>
+<ul>
+  <li><strong>Mirror-Gloss Optical Acrylic:</strong> <a href="/products/acrylux">ACRYLUX</a> in Arctic White or Champagne Metallic reflects ambient natural light, making bedrooms feel twice as large.</li>
+  <li><strong>Anti-Fingerprint Velvet Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> in Slate Grey or Navy Blue prevents unsightly smudge marks along frequently touched shutter edges.</li>
+  <li><strong>Integrated Fluted Glass Profiles:</strong> Pair tinted glass shutters with <a href="/products/aluminium-profile-handles">anodised aluminium glass profile frames</a> and internal LED strip lights for high-end boutique display storage.</li>
+</ul>
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4558,13 +4395,8 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>Architectural Design Ideas & Spatial Applications</h2>
-<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
-<ul>
-  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
-  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
-  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
-</ul>
+<h2>Durability & Long-Term Performance</h2>
+<p>Unlike ordinary laminate wardrobe shutters that develop edge peeling and dark joint lines, SurajWood panels feature seamless laser-calibrated 1.3mm matching acrylic edge bands bonded with waterproof PUR adhesive. This guarantees a smooth, continuous surface that resists moisture and humidity year-round.</p>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -4584,15 +4416,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(429), url: "/images/gallery/wardrobe-3.jpg" },
     date: "2026-06-11",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Bedroom Design", "Wardrobes"],
+    reading_time: 8,
+    categories: ["Walk-In Closets", "Master Bedroom"],
   },
   {
     id: 30,
     slug: "tv-unit-design-ideas-acrylic-panels",
-    title: "TV Unit Design Ideas with Acrylic Panels",
+    title: "Modern TV Unit Design Ideas: Acrylic & Fluted Panel Combinations",
     excerpt:
-      "Comprehensive guide to TV Unit Design Ideas with Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Upgrade your entertainment console with floating acrylic cabinetry, fluted wall panelling, and concealed wire management systems.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -4606,8 +4438,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/tv-unit/tv.jpg" alt="TV Unit Design Ideas with Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/tv-1.jpg" alt="Modern TV Unit Design Ideas: Acrylic & Fluted Panel Combinations - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -4657,7 +4489,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4731,18 +4563,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(430), url: "/images/applications/tv-unit/tv.jpg" },
+    featured_image: { ...placeholderImage(430), url: "/images/gallery/tv-1.jpg" },
     date: "2026-06-08",
     author: "Suraj Wood Editorial Team",
     reading_time: 6,
-    categories: ["Living Room", "Inspiration"],
+    categories: ["Living Room", "TV Units"],
   },
   {
     id: 31,
     slug: "bathroom-vanity-design-ideas-waterproof",
-    title: "Bathroom Vanity Design Ideas: Waterproof Acrylic Panels",
+    title: "Waterproof Bathroom Vanity Design Ideas: 100% Moisture-Proof Acrylics",
     excerpt:
-      "Comprehensive guide to Bathroom Vanity Design Ideas: Waterproof Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why PUR-bonded acrylic panels and HDHMR cores are the ultimate solution for humid master bathrooms, resisting water splashes and mold buildup.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -4756,8 +4588,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/bathroom-1.jpg" alt="Bathroom Vanity Design Ideas: Waterproof Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/bathroom-1.jpg" alt="Waterproof Bathroom Vanity Design Ideas: 100% Moisture-Proof Acrylics - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -4807,7 +4639,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -4884,15 +4716,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(431), url: "/images/gallery/bathroom-1.jpg" },
     date: "2026-06-05",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Bathroom Design", "Technology"],
+    reading_time: 5,
+    categories: ["Bathrooms", "Vanity Design"],
   },
   {
     id: 32,
     slug: "pooja-room-design-ideas-acrylic-wood",
-    title: "Pooja Room Design Ideas with Acrylic & Wood",
+    title: "Pooja Room Design Ideas: Blending Traditional Wood with Modern Acrylic",
     excerpt:
-      "Comprehensive guide to Pooja Room Design Ideas with Acrylic & Wood: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Create serene, sacred prayer spaces using laser-cut acrylic jali backdrops, warm champagne metallic finishes, and traditional teak accents.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -4906,8 +4738,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/kids-1.jpg" alt="Pooja Room Design Ideas with Acrylic & Wood - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kids-1.jpg" alt="Pooja Room Design Ideas: Blending Traditional Wood with Modern Acrylic - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -4957,7 +4789,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5034,15 +4866,15 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(432), url: "/images/gallery/kids-1.jpg" },
     date: "2026-06-02",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Inspiration", "Living Room"],
+    reading_time: 6,
+    categories: ["Pooja Room", "Sacred Spaces"],
   },
   {
     id: 33,
     slug: "kids-room-design-durable-non-toxic",
-    title: "Kids Room Design: Durable & Non-Toxic Surfaces",
+    title: "Kids Room Interior Design: Durable, Scratch-Resistant & Non-Toxic Surfaces",
     excerpt:
-      "Comprehensive guide to Kids Room Design: Durable & Non-Toxic Surfaces: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Design playful, safe children's bedrooms and study nooks with zero-VOC acrylic wardrobe doors and easy-to-clean super-matte desk surfaces.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5056,8 +4888,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/403 Cream.jpg" alt="Kids Room Design: Durable & Non-Toxic Surfaces - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kids-new-blue-study.png" alt="Kids Room Interior Design: Durable, Scratch-Resistant & Non-Toxic Surfaces - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5107,7 +4939,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5181,18 +5013,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(433), url: "/images/Newphotos/Acryglass Gloss/403 Cream.jpg" },
+    featured_image: { ...placeholderImage(433), url: "/images/gallery/kids-new-blue-study.png" },
     date: "2026-05-30",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Kids Bedroom", "Technology"],
+    reading_time: 6,
+    categories: ["Kids Room", "Family Homes"],
   },
   {
     id: 34,
     slug: "living-room-wall-panel-ideas-acryglass",
-    title: "Living Room Wall Panel Ideas with ACRYGLASS",
+    title: "Living Room Wall Panel Ideas with ACRYGLASS: Large-Format Cladding",
     excerpt:
-      "Comprehensive guide to Living Room Wall Panel Ideas with ACRYGLASS: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How large-format 2mm ACRYGLASS panels create continuous vertical elegance in luxury living rooms, formal dining areas, and double-height foyers.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5206,8 +5038,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/tv-unit/acryglass_5A5A5A.jpg" alt="Living Room Wall Panel Ideas with ACRYGLASS - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wall-1.jpg" alt="Living Room Wall Panel Ideas with ACRYGLASS: Large-Format Cladding - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5257,7 +5089,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5331,18 +5163,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(434), url: "/images/applications/tv-unit/acryglass_5A5A5A.jpg" },
+    featured_image: { ...placeholderImage(434), url: "/images/gallery/wall-1.jpg" },
     date: "2026-05-27",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Living Room", "Inspiration"],
+    reading_time: 7,
+    categories: ["Wall Cladding", "Living Room"],
   },
   {
     id: 35,
     slug: "office-interior-design-acrylic-panels",
-    title: "Office Interior Design with Acrylic Panels",
+    title: "Office Interior Design with Acrylic Panels: Executive Cabins & Boardrooms",
     excerpt:
-      "Comprehensive guide to Office Interior Design with Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Enhance corporate office aesthetics with scratch-resistant acrylic reception desks, conference tables, and acoustic wall cladding.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5356,8 +5188,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/commercial-1.jpg" alt="Office Interior Design with Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/office-1.jpg" alt="Office Interior Design with Acrylic Panels: Executive Cabins & Boardrooms - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5407,7 +5239,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5481,18 +5313,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(435), url: "/images/gallery/commercial-1.jpg" },
+    featured_image: { ...placeholderImage(435), url: "/images/gallery/office-1.jpg" },
     date: "2026-05-24",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Commercial Design", "Offices"],
+    reading_time: 7,
+    categories: ["Office Design", "Commercial"],
   },
   {
     id: 36,
     slug: "retail-store-design-acrylic-surfaces",
-    title: "Retail Store Design: First Impressions with Acrylic",
+    title: "Retail Store Design: First Impressions with High-Impact Acrylic Displays",
     excerpt:
-      "Comprehensive guide to Retail Store Design: First Impressions with Acrylic: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why flagship retail stores and luxury jewellery boutiques choose high-gloss optical acrylics for display cases, checkout counters, and feature walls.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5506,8 +5338,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/gallery/commercial-2.jpg" alt="Retail Store Design: First Impressions with Acrylic - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-1.jpg" alt="Retail Store Design: First Impressions with High-Impact Acrylic Displays - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5557,7 +5389,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5631,18 +5463,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(436), url: "/images/gallery/commercial-2.jpg" },
+    featured_image: { ...placeholderImage(436), url: "/images/gallery/commercial-1.jpg" },
     date: "2026-05-21",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Commercial Design", "Inspiration"],
+    categories: ["Retail Design", "Commercial"],
   },
   {
     id: 37,
     slug: "how-to-clean-maintain-acrylic-kitchen-shutters",
-    title: "How to Clean & Maintain Acrylic Kitchen Shutters",
+    title: "How to Clean & Maintain Acrylic Kitchen Shutters: Daily & Monthly Care",
     excerpt:
-      "Comprehensive guide to How to Clean & Maintain Acrylic Kitchen Shutters: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "The ultimate maintenance checklist for acrylic kitchen cabinets: the right microfibre cloths, safe cleaning agents, and what chemicals to avoid.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5656,8 +5488,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_7f7b7a.jpg" alt="How to Clean & Maintain Acrylic Kitchen Shutters - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/5.jpg" alt="How to Clean & Maintain Acrylic Kitchen Shutters: Daily & Monthly Care - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5707,7 +5539,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5781,18 +5613,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(437), url: "/images/applications/kitchen/acryglass_7f7b7a.jpg" },
+    featured_image: { ...placeholderImage(437), url: "/images/banner/5.jpg" },
     date: "2026-05-18",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Maintenance", "How-To Guide"],
+    reading_time: 5,
+    categories: ["Maintenance", "Kitchen Care"],
   },
   {
     id: 38,
     slug: "complete-guide-to-kitchen-renovation-india-2026",
-    title: "Complete Guide to Kitchen Renovation in India 2026",
+    title: "Complete Guide to Kitchen Renovation in India (2026): Step-by-Step",
     excerpt:
-      "Comprehensive guide to Complete Guide to Kitchen Renovation in India 2026: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A comprehensive homeowner roadmap for planning a modular kitchen renovation — budgeting, civil works, plumbing, material selection, and installation.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5806,8 +5638,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_bbd2c8.jpg" alt="Complete Guide to Kitchen Renovation in India 2026 - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro1.jpg" alt="Complete Guide to Kitchen Renovation in India (2026): Step-by-Step - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -5857,7 +5689,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -5931,18 +5763,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(438), url: "/images/applications/kitchen/acryglass_bbd2c8.jpg" },
+    featured_image: { ...placeholderImage(438), url: "/images/banner/pro1.jpg" },
     date: "2026-05-15",
     author: "Suraj Wood Editorial Team",
     reading_time: 9,
-    categories: ["Kitchen Design", "Material Guide"],
+    categories: ["Renovation", "Home Planning"],
   },
   {
     id: 39,
     slug: "understanding-mdf-vs-plywood-vs-particle-board",
-    title: "Understanding MDF vs Plywood vs Particle Board Substrates",
+    title: "Understanding MDF vs Plywood vs Particle Board: Best Substrate for Acrylic",
     excerpt:
-      "Comprehensive guide to Understanding MDF vs Plywood vs Particle Board Substrates: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why moisture-resistant HDHMR and calibrated MDF provide the perfectly flat, ripple-free substrate required for optical acrylic lamination.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -5956,8 +5788,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_bec3ba.jpg" alt="Understanding MDF vs Plywood vs Particle Board Substrates - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/calibration.jpg" alt="Understanding MDF vs Plywood vs Particle Board: Best Substrate for Acrylic - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6007,7 +5839,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6081,18 +5913,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(439), url: "/images/applications/kitchen/acryglass_bec3ba.jpg" },
+    featured_image: { ...placeholderImage(439), url: "/images/about/calibration.jpg" },
     date: "2026-05-12",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Technical Guide", "Material Science"],
+    reading_time: 7,
+    categories: ["Substrates", "Technical Guide"],
   },
   {
     id: 40,
     slug: "what-is-german-pur-bonding-factory-better",
-    title: "What is German PUR Bonding? Why Factory-Bonded is Better",
+    title: "What is German PUR Bonding? Why Factory Lamination Outperforms Manual Work",
     excerpt:
-      "Comprehensive guide to What is German PUR Bonding? Why Factory-Bonded is Better: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "An engineering deep-dive into polyurethane reactive hotmelt bonding and why it provides 100% moisture barrier protection and zero joint failure.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -6106,8 +5938,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/405 Black.jpg" alt="What is German PUR Bonding? Why Factory-Bonded is Better - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/palex.jpg" alt="What is German PUR Bonding? Why Factory Lamination Outperforms Manual Work - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6157,7 +5989,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6231,18 +6063,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(440), url: "/images/Newphotos/Acryglass Gloss/405 Black.jpg" },
+    featured_image: { ...placeholderImage(440), url: "/images/about/palex.jpg" },
     date: "2026-05-09",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Manufacturing", "Technology"],
+    reading_time: 8,
+    categories: ["Manufacturing", "Engineering"],
   },
   {
     id: 41,
     slug: "acrylic-panel-price-guide-india",
-    title: "Acrylic Panel Price Guide: What to Expect in India",
+    title: "Acrylic Panel Price Guide in India: 1mm, 1.5mm & 2mm Sheet Rates (2026)",
     excerpt:
-      "Comprehensive guide to Acrylic Panel Price Guide: What to Expect in India: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Detailed per sq ft and per sheet price guide for high-gloss, super-matte, metallic, and glass-finish acrylic panels in Indian markets.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -6256,8 +6088,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_c8b8a3.jpg" alt="Acrylic Panel Price Guide: What to Expect in India - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro2.jpg" alt="Acrylic Panel Price Guide in India: 1mm, 1.5mm & 2mm Sheet Rates (2026) - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6307,7 +6139,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6381,100 +6213,83 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(441), url: "/images/applications/kitchen/acryglass_c8b8a3.jpg" },
+    featured_image: { ...placeholderImage(441), url: "/images/banner/pro2.jpg" },
     date: "2026-05-06",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Finance", "Material Guide"],
+    categories: ["Pricing Guide", "Material Costs"],
   },
   {
     id: 42,
     slug: "top-10-kitchen-design-trends-india-2026",
-    title: "Top 10 Kitchen Design Trends in India 2026",
+    title: "Top 10 Kitchen Design Trends Shaping Indian Interiors in 2026",
     excerpt:
-      "Comprehensive guide to Top 10 Kitchen Design Trends in India 2026: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "From concealed appliance garages to integrated spice pullouts and fluted island cladding, here are the top 10 kitchen innovations for 2026.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_f4f1de.jpg" alt="Top 10 Kitchen Design Trends in India 2026 - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro3.jpg" alt="Top 10 Kitchen Design Trends Shaping Indian Interiors in 2026 - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6525,8 +6340,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -6543,18 +6363,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(442), url: "/images/applications/kitchen/acryglass_f4f1de.jpg" },
+    featured_image: { ...placeholderImage(442), url: "/images/banner/pro3.jpg" },
     date: "2026-05-02",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Kitchen Design", "Inspiration"],
+    reading_time: 7,
+    categories: ["Design Trends", "Kitchen Innovation"],
   },
   {
     id: 43,
     slug: "carpenters-installation-guide-acrylic-panels",
-    title: "Carpenter's Installation Guide for Acrylic Panels",
+    title: "Carpenter's Installation Guide: Cutting, Routing & Edge Banding Acrylic Panels",
     excerpt:
-      "Comprehensive guide to Carpenter's Installation Guide for Acrylic Panels: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A practical technical handbook for contractors and carpenters on diamond saw blades, feed rates, edge-banding adhesives, and trimming techniques.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -6568,8 +6388,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acryglass_ffffff.jpg" alt="Carpenter's Installation Guide for Acrylic Panels - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/cleanroom.jpg" alt="Carpenter's Installation Guide: Cutting, Routing & Edge Banding Acrylic Panels - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6619,7 +6439,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6693,18 +6513,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(443), url: "/images/applications/kitchen/acryglass_ffffff.jpg" },
+    featured_image: { ...placeholderImage(443), url: "/images/about/cleanroom.jpg" },
     date: "2026-04-29",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Technical Guide", "Manufacturing"],
+    reading_time: 8,
+    categories: ["Carpentry", "Installation"],
   },
   {
     id: 44,
     slug: "monsoon-proof-kitchen-materials-indian-homes",
-    title: "Monsoon-Proof Kitchen Materials for Indian Homes",
+    title: "Monsoon-Proof Kitchen Materials for Indian Homes: Humidity & Termite Defense",
     excerpt:
-      "Comprehensive guide to Monsoon-Proof Kitchen Materials for Indian Homes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How to protect modular kitchens in Mumbai, Goa, and coastal India from swelling, fungus, and edge peeling during intense monsoon rains.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -6718,8 +6538,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_000000.jpg" alt="Monsoon-Proof Kitchen Materials for Indian Homes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro4.jpg" alt="Monsoon-Proof Kitchen Materials for Indian Homes: Humidity & Termite Defense - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6769,7 +6589,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6843,18 +6663,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(444), url: "/images/applications/kitchen/acrylux_000000.jpg" },
+    featured_image: { ...placeholderImage(444), url: "/images/banner/pro4.jpg" },
     date: "2026-04-26",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Material Science", "Apartment Living"],
+    reading_time: 6,
+    categories: ["Durability", "Weather Resistance"],
   },
   {
     id: 45,
     slug: "wedding-season-home-renovation-ideas",
-    title: "Wedding Season Home Renovation Ideas",
+    title: "Wedding Season Home Renovation: Fast Makeover Ideas with Acrylic Panels",
     excerpt:
-      "Comprehensive guide to Wedding Season Home Renovation Ideas: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Quick, high-impact interior upgrades — replacing old kitchen shutters and wardrobe doors with factory-finished acrylic panels before wedding festivities.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -6868,8 +6688,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_005e92.jpg" alt="Wedding Season Home Renovation Ideas - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-4.jpg" alt="Wedding Season Home Renovation: Fast Makeover Ideas with Acrylic Panels - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -6919,7 +6739,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -6993,18 +6813,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(445), url: "/images/applications/kitchen/acrylux_005e92.jpg" },
+    featured_image: { ...placeholderImage(445), url: "/images/gallery/wardrobe-4.jpg" },
     date: "2026-04-23",
     author: "Suraj Wood Editorial Team",
     reading_time: 6,
-    categories: ["Inspiration", "Apartment Living"],
+    categories: ["Renovation", "Home Makeover"],
   },
   {
     id: 46,
     slug: "how-to-choose-between-matte-and-gloss-finishes",
-    title: "How to Choose Between Matte and Gloss Kitchen Finishes",
+    title: "Matte vs Gloss: How to Choose the Right Finish for Every Room",
     excerpt:
-      "Comprehensive guide to How to Choose Between Matte and Gloss Kitchen Finishes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A room-by-room decision guide on where to specify high-gloss acrylics for spacious light reflection versus velvet-matte surfaces for understated calm.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -7018,8 +6838,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_007c84.jpg" alt="How to Choose Between Matte and Gloss Kitchen Finishes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro5.jpg" alt="Matte vs Gloss: How to Choose the Right Finish for Every Room - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7069,7 +6889,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7143,18 +6963,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(446), url: "/images/applications/kitchen/acrylux_007c84.jpg" },
+    featured_image: { ...placeholderImage(446), url: "/images/banner/pro5.jpg" },
     date: "2026-04-20",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Color Selection", "Material Guide"],
+    reading_time: 6,
+    categories: ["Design Guide", "Finishes"],
   },
   {
     id: 47,
     slug: "diwali-kitchen-makeover-guide",
-    title: "Diwali Kitchen Makeover Guide: Quick & Affordable",
+    title: "Diwali Kitchen Makeover Guide: Festive Upgrades with Modern Acrylic Surfaces",
     excerpt:
-      "Comprehensive guide to Diwali Kitchen Makeover Guide: Quick & Affordable: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Transform your kitchen before Diwali with warm champagne and metallic copper acrylic shutters that reflect festive lighting beautifully.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -7168,8 +6988,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_1d1d27.jpg" alt="Diwali Kitchen Makeover Guide: Quick & Affordable - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/pro6.jpg" alt="Diwali Kitchen Makeover Guide: Festive Upgrades with Modern Acrylic Surfaces - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7219,7 +7039,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7293,18 +7113,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(447), url: "/images/applications/kitchen/acrylux_1d1d27.jpg" },
+    featured_image: { ...placeholderImage(447), url: "/images/banner/pro6.jpg" },
     date: "2026-04-17",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Inspiration", "Apartment Living"],
+    reading_time: 6,
+    categories: ["Festive Design", "Makeover"],
   },
   {
     id: 48,
     slug: "island-kitchen-design-ideas-large-homes",
-    title: "Island Kitchen Design Ideas for Large Indian Homes",
+    title: "Island Kitchen Design Ideas for Luxury Villas and Penthouse Apartments",
     excerpt:
-      "Comprehensive guide to Island Kitchen Design Ideas for Large Indian Homes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Designing large multi-functional kitchen islands with waterfall marble tops, concealed acrylic bar seating, and integrated induction cooktops.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -7318,8 +7138,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_373142.jpg" alt="Island Kitchen Design Ideas for Large Indian Homes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/bg1.jpg" alt="Island Kitchen Design Ideas for Luxury Villas and Penthouse Apartments - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7369,7 +7189,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7443,18 +7263,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(448), url: "/images/applications/kitchen/acrylux_373142.jpg" },
+    featured_image: { ...placeholderImage(448), url: "/images/banner/bg1.jpg" },
     date: "2026-04-14",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Kitchen Design", "Inspiration"],
+    reading_time: 7,
+    categories: ["Kitchen Islands", "Luxury Villas"],
   },
   {
     id: 49,
     slug: "top-10-acrylic-sheet-brands-in-india-2026",
-    title: "Top 10 Acrylic Sheet & Laminate Brands in India (2026 Architectural Guide)",
+    title: "Top 10 Acrylic Sheet Brands in India (2026): Complete Review & Price Comparison",
     excerpt:
-      "Comprehensive guide to Top 10 Acrylic Sheet & Laminate Brands in India (2026 Architectural Guide): expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Comparing India's top acrylic sheet manufacturers on optical clarity, colour variety, scratch resistance, and factory PUR warranty terms.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -7462,8 +7282,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_461340.jpg" alt="Top 10 Acrylic Sheet & Laminate Brands in India (2026 Architectural Guide) - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/bg2.jpg" alt="Top 10 Acrylic Sheet Brands in India (2026): Complete Review & Price Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7536,7 +7356,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7605,18 +7425,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(449), url: "/images/applications/kitchen/acrylux_461340.jpg" },
+    featured_image: { ...placeholderImage(449), url: "/images/banner/bg2.jpg" },
     date: "2026-04-11",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Brand Comparison", "Market Guide"],
+    reading_time: 9,
+    categories: ["Industry Review", "Brand Comparison"],
   },
   {
     id: 50,
     slug: "surajwood-vs-royale-touche-acrylic-sheets-comparison",
-    title: "SurajWood vs Royale Touche: Which Acrylic Sheet is Best for Modular Kitchens?",
+    title: "SurajWood vs Royale Touche Acrylic Sheets: In-Depth Comparison (2026)",
     excerpt:
-      "Comprehensive guide to SurajWood vs Royale Touche: Which Acrylic Sheet is Best for Modular Kitchens?: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Detailed benchmark testing comparing SurajWood ACRYLUX and Royale Touche acrylic sheets on 3H scratch durability, UV stability, and price per sq ft.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -7624,8 +7444,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/415 Beige.jpg" alt="SurajWood vs Royale Touche: Which Acrylic Sheet is Best for Modular Kitchens? - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/bg3.jpg" alt="SurajWood vs Royale Touche Acrylic Sheets: In-Depth Comparison (2026) - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7698,7 +7518,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7767,18 +7587,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(450), url: "/images/Newphotos/Acryglass Gloss/415 Beige.jpg" },
+    featured_image: { ...placeholderImage(450), url: "/images/banner/bg3.jpg" },
     date: "2026-04-08",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Brand Comparison", "Kitchen Design"],
+    reading_time: 8,
+    categories: ["Brand Comparison", "Acrylic Panels"],
   },
   {
     id: 51,
     slug: "advance-laminates-vs-surajwood-acrylic-panels",
-    title: "Advance Laminates vs SurajWood Acrylic Panels: Quality, Price & Kitchen Durability",
+    title: "Advance Laminates vs SurajWood Acrylic Panels: Review & Price Analysis",
     excerpt:
-      "Comprehensive guide to Advance Laminates vs SurajWood Acrylic Panels: Quality, Price & Kitchen Durability: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Understand the differences between Advance decorative laminates and SurajWood optical PMMA acrylic panels for modular kitchen cabinetry.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -7786,8 +7606,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/418 Sea Green.jpg" alt="Advance Laminates vs SurajWood Acrylic Panels: Quality, Price & Kitchen Durability - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-2.jpg" alt="Advance Laminates vs SurajWood Acrylic Panels: Review & Price Analysis - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -7860,7 +7680,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -7929,18 +7749,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(451), url: "/images/Newphotos/Acryglass Gloss/418 Sea Green.jpg" },
+    featured_image: { ...placeholderImage(451), url: "/images/gallery/commercial-2.jpg" },
     date: "2026-04-05",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Brand Comparison", "Material Guide"],
+    categories: ["Brand Review", "Material Comparison"],
   },
   {
     id: 52,
     slug: "acrylic-sheet-price-per-sq-ft-in-india-2026",
-    title: "Acrylic Sheet Price in India (2026): 1mm, 1.5mm & Prelaminated Board Cost Guide",
+    title: "Acrylic Sheet Price Per Sq Ft in India (2026): Transparent Rates & Costing",
     excerpt:
-      "Comprehensive guide to Acrylic Sheet Price in India (2026): 1mm, 1.5mm & Prelaminated Board Cost Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Complete pricing guide for 1mm, 1.5mm, and 2mm acrylic sheets across Delhi NCR, Mumbai, Bangalore, Pune, and Chennai with installation estimates.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -7954,8 +7774,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_4a6158.jpg" alt="Acrylic Sheet Price in India (2026): 1mm, 1.5mm & Prelaminated Board Cost Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/banner/cta.jpg" alt="Acrylic Sheet Price Per Sq Ft in India (2026): Transparent Rates & Costing - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -8005,7 +7825,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8079,100 +7899,83 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(452), url: "/images/applications/kitchen/acrylux_4a6158.jpg" },
+    featured_image: { ...placeholderImage(452), url: "/images/banner/cta.jpg" },
     date: "2026-04-02",
     author: "Suraj Wood Editorial Team",
     reading_time: 8,
-    categories: ["Pricing Guide", "Kitchen Design"],
+    categories: ["Pricing Guide", "Cost Calculator"],
   },
   {
     id: 53,
     slug: "acrylic-vs-laminate-for-modular-kitchen-cabinets",
-    title: "Acrylic vs Laminate for Modular Kitchen: Price, Scratch Resistance & Lifespan",
+    title: "Acrylic vs Laminate for Modular Kitchen Cabinets: Which One Should You Buy?",
     excerpt:
-      "Comprehensive guide to Acrylic vs Laminate for Modular Kitchen: Price, Scratch Resistance & Lifespan: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "A straightforward guide for Indian homeowners on whether acrylic or laminate offers better value, beauty, and durability for everyday kitchen cooking.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_64696e.jpg" alt="Acrylic vs Laminate for Modular Kitchen: Price, Scratch Resistance & Lifespan - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-3.jpg" alt="Acrylic vs Laminate for Modular Kitchen Cabinets: Which One Should You Buy? - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8223,8 +8026,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -8241,100 +8049,83 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(453), url: "/images/applications/kitchen/acrylux_64696e.jpg" },
+    featured_image: { ...placeholderImage(453), url: "/images/gallery/commercial-3.jpg" },
     date: "2026-03-30",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Material Comparison", "Kitchen Design"],
+    reading_time: 7,
+    categories: ["Buying Guide", "Kitchen Cabinets"],
   },
   {
     id: 54,
     slug: "acrylic-vs-pu-finish-vs-pvc-laminate-kitchen",
-    title: "Acrylic vs PU Finish vs PVC Laminates for Kitchen Cabinets: Pros, Cons & Costs",
+    title: "Acrylic vs PU Finish vs PVC Laminate for Kitchens: Honest Pros & Cons",
     excerpt:
-      "Comprehensive guide to Acrylic vs PU Finish vs PVC Laminates for Kitchen Cabinets: Pros, Cons & Costs: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "Comparing optical acrylic panels, PU (polyurethane) deco paint, and PVC laminates on maintenance, chipping risks, yellowing, and price.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_6a7178.jpg" alt="Acrylic vs PU Finish vs PVC Laminates for Kitchen Cabinets: Pros, Cons & Costs - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-4.jpg" alt="Acrylic vs PU Finish vs PVC Laminate for Kitchens: Honest Pros & Cons - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8385,8 +8176,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -8403,18 +8199,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(454), url: "/images/applications/kitchen/acrylux_6a7178.jpg" },
+    featured_image: { ...placeholderImage(454), url: "/images/gallery/commercial-4.jpg" },
     date: "2026-03-26",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Material Comparison", "Interior Design"],
+    reading_time: 8,
+    categories: ["Material Comparison", "Kitchen Finishes"],
   },
   {
     id: 55,
     slug: "best-acrylic-sheets-for-modular-kitchen-cabinets",
-    title: "Best Acrylic Sheets for Modular Kitchen Cabinets: Anti-Yellowing & Waterproof Guide",
+    title: "Best Acrylic Sheets for Modular Kitchen Cabinets: How to Spot Quality",
     excerpt:
-      "Comprehensive guide to Best Acrylic Sheets for Modular Kitchen Cabinets: Anti-Yellowing & Waterproof Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Key quality indicators to check before buying acrylic sheets: PMMA vs PETG cores, UV stabilizer certification, and protective masking films.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -8428,8 +8224,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_734d4e.jpg" alt="Best Acrylic Sheets for Modular Kitchen Cabinets: Anti-Yellowing & Waterproof Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-new-boutique.jpg" alt="Best Acrylic Sheets for Modular Kitchen Cabinets: How to Spot Quality - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -8479,7 +8275,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8553,100 +8349,83 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(455), url: "/images/applications/kitchen/acrylux_734d4e.jpg" },
+    featured_image: { ...placeholderImage(455), url: "/images/gallery/commercial-new-boutique.jpg" },
     date: "2026-03-23",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Kitchen Design", "Material Guide"],
+    reading_time: 7,
+    categories: ["Buying Guide", "Quality Standards"],
   },
   {
     id: 56,
     slug: "1mm-vs-1-5mm-vs-2mm-acrylic-sheet-thickness-guide",
-    title: "1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which One Should You Choose?",
+    title: "1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which is Right for You?",
     excerpt:
-      "Comprehensive guide to 1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which One Should You Choose?: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
+      "Compare 1mm thin sheets, 1.5mm standard panels, and 2mm glass-grade acrylics on rigidity, optical flatness, and cost per square foot.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_93a398.jpg" alt="1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which One Should You Choose? - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-new-jewelry.jpg" alt="1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which is Right for You? - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
+<h2>Technical Performance Specifications</h2>
 <table>
   <thead>
     <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
     </tr>
     <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
     </tr>
     <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
     </tr>
     <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
     </tr>
   </tbody>
 </table>
 
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8697,8 +8476,13 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -8715,18 +8499,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(456), url: "/images/applications/kitchen/acrylux_93a398.jpg" },
+    featured_image: { ...placeholderImage(456), url: "/images/gallery/commercial-new-jewelry.jpg" },
     date: "2026-03-20",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Technical Guide", "Material Guide"],
+    categories: ["Technical Guide", "Specifications"],
   },
   {
     id: 57,
     slug: "merino-laminates-vs-surajwood-acrylic-review",
-    title: "Merino Laminates vs SurajWood Acrylic: High-Gloss Performance & Price Comparison",
+    title: "Merino Laminates vs SurajWood Acrylic: Kitchen & Wardrobe Comparison",
     excerpt:
-      "Comprehensive guide to Merino Laminates vs SurajWood Acrylic: High-Gloss Performance & Price Comparison: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A detailed architectural comparison of Merino high-pressure laminates and SurajWood optical acrylic panels on scratch resistance, gloss, and lifespan.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -8734,8 +8518,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/423 Dark Grey.jpg" alt="Merino Laminates vs SurajWood Acrylic: High-Gloss Performance & Price Comparison - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-new-lobby.jpg" alt="Merino Laminates vs SurajWood Acrylic: Kitchen & Wardrobe Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -8808,7 +8592,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -8877,18 +8661,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(457), url: "/images/Newphotos/Acryglass Gloss/423 Dark Grey.jpg" },
+    featured_image: { ...placeholderImage(457), url: "/images/gallery/commercial-new-lobby.jpg" },
     date: "2026-03-17",
     author: "Suraj Wood Editorial Team",
     reading_time: 8,
-    categories: ["Brand Comparison", "Market Guide"],
+    categories: ["Brand Comparison", "Material Review"],
   },
   {
     id: 58,
     slug: "centuryply-lucida-vs-surajwood-acrylux-review",
-    title: "CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Laminate Review",
+    title: "CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Review",
     excerpt:
-      "Comprehensive guide to CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Laminate Review: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Comparing CenturyPly Lucida high-gloss laminates with SurajWood ACRYLUX optical acrylic on mirror depth, heat tolerance, and zero delamination.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -8896,8 +8680,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass Gloss/439 Slate Grey.jpg" alt="CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Laminate Review - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-new-restaurant.jpg" alt="CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Review - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -8970,7 +8754,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9039,18 +8823,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(458), url: "/images/Newphotos/Acryglass Gloss/439 Slate Grey.jpg" },
+    featured_image: { ...placeholderImage(458), url: "/images/gallery/commercial-new-restaurant.jpg" },
     date: "2026-03-14",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Brand Comparison", "Kitchen Design"],
+    reading_time: 8,
+    categories: ["Brand Review", "High Gloss Review"],
   },
   {
     id: 59,
     slug: "greenlam-acrylic-sheets-vs-surajwood-comparison",
-    title: "Greenlam Acrylic Laminates vs SurajWood: Scratch Resistance & Gloss Comparison",
+    title: "Greenlam Acrylic Sheets vs SurajWood: Scratch Resistance & Gloss Comparison",
     excerpt:
-      "Comprehensive guide to Greenlam Acrylic Laminates vs SurajWood: Scratch Resistance & Gloss Comparison: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How Greenlam decorative sheets compare with SurajWood German PUR-bonded acrylic panels in scratch resistance, colour fastness, and warranty coverage.",
     content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
 
 <h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
@@ -9058,8 +8842,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/302 White.jpg" alt="Greenlam Acrylic Laminates vs SurajWood: Scratch Resistance & Gloss Comparison - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/commercial-new-showroom.png" alt="Greenlam Acrylic Sheets vs SurajWood: Scratch Resistance & Gloss Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -9132,7 +8916,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9201,83 +8985,40 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(459), url: "/images/Newphotos/Acryglass MAtte/302 White.jpg" },
+    featured_image: { ...placeholderImage(459), url: "/images/gallery/commercial-new-showroom.png" },
     date: "2026-03-11",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Brand Comparison", "Material Guide"],
+    reading_time: 8,
+    categories: ["Brand Comparison", "Industry Benchmark"],
   },
   {
     id: 60,
     slug: "acrylic-wardrobe-designs-sliding-door-shutters",
-    title: "Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint Matte",
+    title: "Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint",
     excerpt:
-      "Comprehensive guide to Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint Matte: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
+      "Bespoke wardrobe concepts combining ACRYLUX mirror-gloss with ACRYMATTE touch surfaces and anodised aluminium profile handles.",
+    content: `<p>Designing modern luxury wardrobes requires materials that combine expansive visual elegance with structural rigidity over large vertical spans. <strong>SurajWood acrylic panels and membrane shutters</strong> are specially engineered for floor-to-ceiling wardrobe shutters up to 9 feet tall without warping, bowing, or delamination.</p>
 
-<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
-<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
-<ul>
-  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
-  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
-  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
-  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
-</ul>
+<h2>Sliding vs Hinged Wardrobe Shutters in Indian Master Bedrooms</h2>
+<p>In contemporary Indian urban apartments in Mumbai, Delhi NCR, and Bangalore, sliding wardrobes save vital floor space while creating monolithic, sleek architectural statements. SurajWood provides 2mm thick acrylic panels and slim aluminium profile systems specifically engineered for smooth, whisper-quiet sliding hardware.</p>
 
 
 <figure>
-  <img src="/images/gallery/wardrobe-4.jpg" alt="Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint Matte - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-new-sliding.png" alt="Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
-<h2>Technical Performance Specifications</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Technical Property</th>
-      <th>SurajWood Acrylic Panels</th>
-      <th>Standard Commercial Laminates</th>
-      <th>PU Painted MDF / Deco Paint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Surface Hardness</strong></td>
-      <td>3H (Pencil Hardness Scale)</td>
-      <td>2H</td>
-      <td>1H – 2H (Chipping Risk)</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYLUX)</strong></td>
-      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
-      <td>70 – 80 Gloss Units</td>
-      <td>85 – 90 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
-      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
-      <td>15 – 25 Gloss Units</td>
-      <td>10 – 20 Gloss Units</td>
-    </tr>
-    <tr>
-      <td><strong>Moisture Absorption</strong></td>
-      <td>Zero (Impermeable Polymer)</td>
-      <td>Moderate (Paper Core Absorbs Moisture)</td>
-      <td>Low (If Coated Perfectly)</td>
-    </tr>
-    <tr>
-      <td><strong>Maintenance Requirement</strong></td>
-      <td>Simple Microfibre & Warm Water Wipe</td>
-      <td>Prone to Staining from Turmeric/Oils</td>
-      <td>Requires Periodic Polishing & Re-coating</td>
-    </tr>
-  </tbody>
-</table>
+<h2>Key Design Elements for Luxury Wardrobe Shutters</h2>
+<ul>
+  <li><strong>Mirror-Gloss Optical Acrylic:</strong> <a href="/products/acrylux">ACRYLUX</a> in Arctic White or Champagne Metallic reflects ambient natural light, making bedrooms feel twice as large.</li>
+  <li><strong>Anti-Fingerprint Velvet Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> in Slate Grey or Navy Blue prevents unsightly smudge marks along frequently touched shutter edges.</li>
+  <li><strong>Integrated Fluted Glass Profiles:</strong> Pair tinted glass shutters with <a href="/products/aluminium-profile-handles">anodised aluminium glass profile frames</a> and internal LED strip lights for high-end boutique display storage.</li>
+</ul>
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9328,13 +9069,8 @@ const MOCK_POSTS: SanityPost[] = [
 </table>
 
 
-<h2>Architectural Design Ideas & Spatial Applications</h2>
-<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
-<ul>
-  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
-  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
-  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
-</ul>
+<h2>Durability & Long-Term Performance</h2>
+<p>Unlike ordinary laminate wardrobe shutters that develop edge peeling and dark joint lines, SurajWood panels feature seamless laser-calibrated 1.3mm matching acrylic edge bands bonded with waterproof PUR adhesive. This guarantees a smooth, continuous surface that resists moisture and humidity year-round.</p>
 
 
 <h3>Explore SurajWood Surface Collections & Technical Resources</h3>
@@ -9351,18 +9087,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(460), url: "/images/gallery/wardrobe-4.jpg" },
+    featured_image: { ...placeholderImage(460), url: "/images/gallery/wardrobe-new-sliding.png" },
     date: "2026-03-08",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Wardrobe Design", "Inspiration"],
+    reading_time: 7,
+    categories: ["Wardrobe Design", "Modern Closets"],
   },
   {
     id: 61,
     slug: "matte-acrylic-vs-high-gloss-acrylic-kitchen-cabinets",
-    title: "Matte vs High-Gloss Acrylic Kitchen Cabinets: Which One is Easier to Maintain?",
+    title: "Matte Acrylic vs High-Gloss Acrylic Kitchen Cabinets: Which is Better?",
     excerpt:
-      "Comprehensive guide to Matte vs High-Gloss Acrylic Kitchen Cabinets: Which One is Easier to Maintain?: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "We break down the pros and cons of high-gloss mirror reflections vs smooth velvet super-matte finishes for everyday Indian cooking.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -9376,8 +9112,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_a0001a.jpg" alt="Matte vs High-Gloss Acrylic Kitchen Cabinets: Which One is Easier to Maintain? - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/retail-1.jpg" alt="Matte Acrylic vs High-Gloss Acrylic Kitchen Cabinets: Which is Better? - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -9427,7 +9163,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9501,18 +9237,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(461), url: "/images/applications/kitchen/acrylux_a0001a.jpg" },
+    featured_image: { ...placeholderImage(461), url: "/images/gallery/retail-1.jpg" },
     date: "2026-03-05",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Material Comparison", "Kitchen Design"],
+    categories: ["Finishes Comparison", "Kitchen Design"],
   },
   {
     id: 62,
     slug: "how-to-clean-and-maintain-acrylic-kitchen-cabinets",
-    title: "How to Clean Acrylic Kitchen Cabinets & Remove Scratches (Step-by-Step)",
+    title: "How to Clean and Maintain Acrylic Kitchen Cabinets: Expert Step-by-Step",
     excerpt:
-      "Comprehensive guide to How to Clean Acrylic Kitchen Cabinets & Remove Scratches (Step-by-Step): expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Professional techniques to keep your acrylic modular kitchen cabinets smudge-free, scratch-free, and glowing with mirror brilliance for decades.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -9526,8 +9262,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_a90427.jpg" alt="How to Clean Acrylic Kitchen Cabinets & Remove Scratches (Step-by-Step) - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/office-new-boardroom.png" alt="How to Clean and Maintain Acrylic Kitchen Cabinets: Expert Step-by-Step - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -9577,7 +9313,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9651,180 +9387,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(462), url: "/images/applications/kitchen/acrylux_a90427.jpg" },
+    featured_image: { ...placeholderImage(462), url: "/images/gallery/office-new-boardroom.png" },
     date: "2026-03-02",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Maintenance", "How-To Guide"],
+    reading_time: 5,
+    categories: ["Maintenance", "How-To"],
   },
   {
     id: 63,
     slug: "prelaminated-acrylic-boards-vs-manual-sheet-pressing",
-    title: "Prelaminated Acrylic Boards vs Manual Cold Pressing: Why Factory PUR Lamination Wins",
+    title: "Prelaminated Acrylic Boards vs Manual Sheet Pressing: Why Factory Wins",
     excerpt:
-      "Comprehensive guide to Prelaminated Acrylic Boards vs Manual Cold Pressing: Why Factory PUR Lamination Wins: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When selecting premium surface materials for modular kitchens and luxury wardrobes in India, homeowners and interior architects frequently compare top industry brands such as <strong>Royale Touche</strong>, <strong>Merino Laminates</strong>, <strong>Advance Laminates</strong>, <strong>CenturyPly Lucida</strong>, <strong>Greenlam</strong>, and <strong>SurajWood Optical Acrylics</strong>. Understanding the fundamental material science, manufacturing tolerances, and bonding technologies is critical to making an informed investment.</p>
-
-<h2>Material Science: Optical-Grade PMMA Acrylic vs High-Pressure Laminates (HPL)</h2>
-<p>While brands like Merino, Royale Touche, and Advance Laminates are renowned for decorative high-pressure laminates made of resin-soaked kraft paper, SurajWood specialises in <strong>100% Optical-Grade PMMA (Polymethyl Methacrylate)</strong> co-extruded acrylic panels bonded with German PUR hotmelt adhesive. The difference in optical clarity, depth of reflection, and scratch resistance is immediately apparent upon tactile inspection.</p>
-
-
-<figure>
-  <img src="/images/applications/kitchen/acrylux_aa9c99.jpg" alt="Prelaminated Acrylic Boards vs Manual Cold Pressing: Why Factory PUR Lamination Wins - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
-</figure>
-
-
-<h2>Comprehensive Brand & Material Comparison Matrix 2026</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Brand / Surface Material</th>
-      <th>Base Composition</th>
-      <th>Scratch Hardness</th>
-      <th>UV & Colour Stability</th>
-      <th>Bonding Technology</th>
-      <th>Price Range (₹/sq ft)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>SurajWood ACRYLUX</strong></td>
-      <td>100% Optical PMMA Acrylic</td>
-      <td>3H Hard-Coated</td>
-      <td>10-Year Guarantee (Grade 6+)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹350 – ₹550</td>
-    </tr>
-    <tr>
-      <td><strong>SurajWood ACRYMATTE</strong></td>
-      <td>Anti-Fingerprint Nano Polymer</td>
-      <td>3H Micro-Scratch Healing</td>
-      <td>10-Year Guarantee (Zero Yellowing)</td>
-      <td>German PUR Hotmelt Machine Bonded</td>
-      <td>₹380 – ₹580</td>
-    </tr>
-    <tr>
-      <td><strong>Royale Touche Acrylic</strong></td>
-      <td>PMMA Acrylic Sheet (1.5mm)</td>
-      <td>2H – 3H Hard-Coated</td>
-      <td>7-Year UV Stability</td>
-      <td>Manual / Press Bonding</td>
-      <td>₹380 – ₹600</td>
-    </tr>
-    <tr>
-      <td><strong>Merino Laminates</strong></td>
-      <td>High Pressure Kraft Paper Laminate</td>
-      <td>2H Abrasion Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Contact Adhesive / Cold Press</td>
-      <td>₹180 – ₹350</td>
-    </tr>
-    <tr>
-      <td><strong>CenturyPly Lucida</strong></td>
-      <td>High Gloss 1mm Laminate</td>
-      <td>2H Mar Resistant</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Carpentry / Hydraulic Press</td>
-      <td>₹220 – ₹380</td>
-    </tr>
-    <tr>
-      <td><strong>Advance Laminates</strong></td>
-      <td>1mm PVC / Acrylic Laminate</td>
-      <td>2H Scratch Resistance</td>
-      <td>5-Year Colour Retention</td>
-      <td>Manual Pressing</td>
-      <td>₹190 – ₹320</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>Why SurajWood's Factory PUR Lamination is Superior to Site-Pressed Sheets</h2>
-<p>In manual sheet pressing on job sites using synthetic rubber contact adhesives (Fevicol/Dendrite), atmospheric dust, trapped air bubbles, and uneven trowel pressure frequently cause the unsightly <em>"orange peel effect"</em> and eventual edge delamination when exposed to kitchen steam or summer heat. In contrast, SurajWood's automated European flat-lamination line operates in a climate-controlled cleanroom with micron-level calibration, applying hot-melt Polyurethane adhesive that cures chemically with ambient moisture into an unbreakable, waterproof bond.</p>
-
-
-<h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
-<table>
-  <thead>
-    <tr>
-      <th>Colour Code</th>
-      <th>Shade Name</th>
-      <th>Recommended Collection</th>
-      <th>Best Application</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>SW-101</strong></td>
-      <td>Arctic White</td>
-      <td><a href="/products/acrylux">ACRYLUX High Gloss</a></td>
-      <td>Modular Kitchen Overhead Cabinets, Minimalist Island</td>
-    </tr>
-    <tr>
-      <td><strong>SW-302</strong></td>
-      <td>Champagne Metallic</td>
-      <td><a href="/products/acrysilk">ACRYSILK Pearl Metallic</a></td>
-      <td>Master Bedroom Wardrobes, Luxury Dressers</td>
-    </tr>
-    <tr>
-      <td><strong>SW-408</strong></td>
-      <td>Olive Green Matte</td>
-      <td><a href="/products/acrymatte">ACRYMATTE Anti-Fingerprint</a></td>
-      <td>Base Kitchen Cabinets, Contemporary Crockery Units</td>
-    </tr>
-    <tr>
-      <td><strong>SW-501</strong></td>
-      <td>Burnt Copper</td>
-      <td><a href="/products/acryglass">ACRYGLASS Crystal Gloss</a></td>
-      <td>Living Room Accent Walls, Backlit TV Units</td>
-    </tr>
-    <tr>
-      <td><strong>SW-705</strong></td>
-      <td>Graphite Velvet Glass</td>
-      <td><a href="/products/acryglass-matte">ACRYGLASS MATTE</a></td>
-      <td>Corporate Conference Desks, Premium Bathroom Vanities</td>
-    </tr>
-    <tr>
-      <td><strong>PS-004</strong></td>
-      <td>Reed Green Matte</td>
-      <td><a href="/products/membrane-shutters">Membrane Shutters</a></td>
-      <td>Classic Shaker-Style Shutters, Fluted Vanity Doors</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<h2>The Verdict: Which Brand Should You Choose for Your Project?</h2>
-<p>For secondary bedrooms, internal carcass shelving, and rental properties with modest budgets, Merino and Advance Laminates provide dependable cost-effective solutions. However, for <strong>flagship modular kitchens, master bedroom walk-in wardrobes, and luxury living room cladding</strong> where mirror-like glass reflection, zero orange-peel distortion, and lifetime water resistance are mandatory, <strong>SurajWood ACRYLUX and ACRYMATTE</strong> are the undisputed gold standard in Indian interior manufacturing.</p>
-
-
-<h3>Explore SurajWood Surface Collections & Technical Resources</h3>
-<p>Whether you are designing a high-traffic modular kitchen, bespoke sliding wardrobe shutters, or luxury commercial interiors, SurajWood provides end-to-end engineered surface solutions:</p>
-<ul>
-  <li><a href="/products/acrylux"><strong>ACRYLUX High Gloss Acrylic</strong></a> — 100% optical-grade PMMA with 3H scratch resistance and mirror-like depth.</li>
-  <li><a href="/products/acrymatte"><strong>ACRYMATTE Super Matte</strong></a> — Zero-gloss, anti-fingerprint thermal healing technology for smudge-free modern spaces.</li>
-  <li><a href="/products/acrysilk"><strong>ACRYSILK Metallic Pearl</strong></a> — Deep metallic pigments infused into seamless optical acrylic.</li>
-  <li><a href="/products/acryglass"><strong>ACRYGLASS 2mm Glass Finish</strong></a> — Real glass brilliance and reflective depth without the heavy weight or breakage risk.</li>
-  <li><a href="/products/acryglass-matte"><strong>ACRYGLASS MATTE</strong></a> — Sophisticated satin glass reflection with extreme UV and chemical resistance.</li>
-  <li><a href="/products/membrane-shutters"><strong>Seamless Membrane Shutters</strong></a> — 3D CNC grooved, Shaker-style, and J-pull shutters with zero edge-banding seams.</li>
-  <li><a href="/products/aluminium-profile-handles"><strong>Aluminium Handle Profiles</strong></a> — Precision anodised Gola profiles, integrated J-pulls, and glass shutter frames.</li>
-  <li><a href="/applications/kitchens"><strong>Modular Kitchen Solutions</strong></a> | <a href="/applications/wardrobes"><strong>Wardrobe Shutter Systems</strong></a> | <a href="/applications/tv-units"><strong>Living Room & TV Feature Walls</strong></a></li>
-  <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
-</ul>
-`,
-    featured_image: { ...placeholderImage(463), url: "/images/applications/kitchen/acrylux_aa9c99.jpg" },
-    date: "2026-02-27",
-    author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Manufacturing", "Technical Guide"],
-  },
-  {
-    id: 64,
-    slug: "acrylic-sheet-colours-and-shade-card-guide-2026",
-    title: "Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallic Finishes",
-    excerpt:
-      "Comprehensive guide to Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallic Finishes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why factory pre-laminated acrylic boards bonded with PUR hotmelt eliminate air blisters, ripples, and edge peeling compared to on-site carpenter pressing.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -9838,8 +9412,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_aab8b9.jpg" alt="Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallic Finishes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/office-new-executive.png" alt="Prelaminated Acrylic Boards vs Manual Sheet Pressing: Why Factory Wins - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -9889,7 +9463,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -9963,18 +9537,168 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(464), url: "/images/applications/kitchen/acrylux_aab8b9.jpg" },
+    featured_image: { ...placeholderImage(463), url: "/images/gallery/office-new-executive.png" },
+    date: "2026-02-27",
+    author: "Suraj Wood Editorial Team",
+    reading_time: 8,
+    categories: ["Manufacturing", "Factory vs Manual"],
+  },
+  {
+    id: 64,
+    slug: "acrylic-sheet-colours-and-shade-card-guide-2026",
+    title: "Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallics",
+    excerpt:
+      "Explore SurajWood's complete 50+ colour shade card — from solid neutrals and deep metallics to rich woodgrains and frosted glass tones.",
+    content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
+
+<h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
+<p>Manufactured at our state-of-the-art facility in Bahadurgarh, Haryana, every SurajWood panel represents the pinnacle of surface engineering. Unlike ordinary decorative sheets, our panels offer distinct functional advantages:</p>
+<ul>
+  <li><strong>3H Hard-Coated Scratch Resistance:</strong> Proprietary nano-ceramic coating resists daily micro-scratches from utensils, cleaning cloths, and keys.</li>
+  <li><strong>Anti-Fingerprint Hydrophobic Matte:</strong> <a href="/products/acrymatte">ACRYMATTE</a> features an ultra-smooth velvet texture that actively repels skin oils and smudge marks.</li>
+  <li><strong>10-Year UV Stability Guarantee:</strong> Advanced UV stabilizers prevent discolouration, chalking, or yellowing even when exposed to direct balcony sunlight.</li>
+  <li><strong>Zero Delamination PUR Bond:</strong> German polyurethane hot-melt adhesive creates an impermeable, heatproof barrier that prevents edge peeling in coastal and tropical climates.</li>
+</ul>
+
+
+<figure>
+  <img src="/images/gallery/office-new-pantry.png" alt="Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallics - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
+</figure>
+
+
+<h2>Technical Performance Specifications</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Technical Property</th>
+      <th>SurajWood Acrylic Panels</th>
+      <th>Standard Commercial Laminates</th>
+      <th>PU Painted MDF / Deco Paint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Surface Hardness</strong></td>
+      <td>3H (Pencil Hardness Scale)</td>
+      <td>2H</td>
+      <td>1H – 2H (Chipping Risk)</td>
+    </tr>
+    <tr>
+      <td><strong>Gloss Level (ACRYLUX)</strong></td>
+      <td>&gt; 95 Gloss Units (True Mirror Effect)</td>
+      <td>70 – 80 Gloss Units</td>
+      <td>85 – 90 Gloss Units</td>
+    </tr>
+    <tr>
+      <td><strong>Gloss Level (ACRYMATTE)</strong></td>
+      <td>&lt; 5 Gloss Units (Deep Velvet Matte)</td>
+      <td>15 – 25 Gloss Units</td>
+      <td>10 – 20 Gloss Units</td>
+    </tr>
+    <tr>
+      <td><strong>Moisture Absorption</strong></td>
+      <td>Zero (Impermeable Polymer)</td>
+      <td>Moderate (Paper Core Absorbs Moisture)</td>
+      <td>Low (If Coated Perfectly)</td>
+    </tr>
+    <tr>
+      <td><strong>Maintenance Requirement</strong></td>
+      <td>Simple Microfibre & Warm Water Wipe</td>
+      <td>Prone to Staining from Turmeric/Oils</td>
+      <td>Requires Periodic Polishing & Re-coating</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3>Curated Colour Shades & Recommended Finishes</h3>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Colour Code</th>
+      <th>Shade Name</th>
+      <th>Recommended Collection</th>
+      <th>Best Application</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>SW-101</strong></td>
+      <td>Arctic White</td>
+      <td><a href="/products/acrylux">ACRYLUX High Gloss</a></td>
+      <td>Modular Kitchen Overhead Cabinets, Minimalist Island</td>
+    </tr>
+    <tr>
+      <td><strong>SW-302</strong></td>
+      <td>Champagne Metallic</td>
+      <td><a href="/products/acrysilk">ACRYSILK Pearl Metallic</a></td>
+      <td>Master Bedroom Wardrobes, Luxury Dressers</td>
+    </tr>
+    <tr>
+      <td><strong>SW-408</strong></td>
+      <td>Olive Green Matte</td>
+      <td><a href="/products/acrymatte">ACRYMATTE Anti-Fingerprint</a></td>
+      <td>Base Kitchen Cabinets, Contemporary Crockery Units</td>
+    </tr>
+    <tr>
+      <td><strong>SW-501</strong></td>
+      <td>Burnt Copper</td>
+      <td><a href="/products/acryglass">ACRYGLASS Crystal Gloss</a></td>
+      <td>Living Room Accent Walls, Backlit TV Units</td>
+    </tr>
+    <tr>
+      <td><strong>SW-705</strong></td>
+      <td>Graphite Velvet Glass</td>
+      <td><a href="/products/acryglass-matte">ACRYGLASS MATTE</a></td>
+      <td>Corporate Conference Desks, Premium Bathroom Vanities</td>
+    </tr>
+    <tr>
+      <td><strong>PS-004</strong></td>
+      <td>Reed Green Matte</td>
+      <td><a href="/products/membrane-shutters">Membrane Shutters</a></td>
+      <td>Classic Shaker-Style Shutters, Fluted Vanity Doors</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2>Architectural Design Ideas & Spatial Applications</h2>
+<p>SurajWood panels seamlessly integrate into every corner of the modern home:</p>
+<ul>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Cabinets:</strong></a> Create dynamic two-tone kitchens by pairing ACRYLUX Arctic White on upper overheads with ACRYMATTE Charcoal or Olive Green on base drawers.</li>
+  <li><a href="/applications/wardrobes"><strong>Floor-to-Ceiling Wardrobes:</strong></a> Achieve uninterrupted elegance with 9ft tall seamless acrylic sliding doors fitted with integrated <a href="/products/aluminium-profile-handles">anodised aluminium handle profiles</a>.</li>
+  <li><a href="/applications/tv-units"><strong>Living Room Feature Walls:</strong></a> Install <a href="/products/acryglass">ACRYGLASS 2mm</a> panels with concealed LED backlighting for a boutique hotel aesthetic.</li>
+</ul>
+
+
+<h3>Explore SurajWood Surface Collections & Technical Resources</h3>
+<p>Whether you are designing a high-traffic modular kitchen, bespoke sliding wardrobe shutters, or luxury commercial interiors, SurajWood provides end-to-end engineered surface solutions:</p>
+<ul>
+  <li><a href="/products/acrylux"><strong>ACRYLUX High Gloss Acrylic</strong></a> — 100% optical-grade PMMA with 3H scratch resistance and mirror-like depth.</li>
+  <li><a href="/products/acrymatte"><strong>ACRYMATTE Super Matte</strong></a> — Zero-gloss, anti-fingerprint thermal healing technology for smudge-free modern spaces.</li>
+  <li><a href="/products/acrysilk"><strong>ACRYSILK Metallic Pearl</strong></a> — Deep metallic pigments infused into seamless optical acrylic.</li>
+  <li><a href="/products/acryglass"><strong>ACRYGLASS 2mm Glass Finish</strong></a> — Real glass brilliance and reflective depth without the heavy weight or breakage risk.</li>
+  <li><a href="/products/acryglass-matte"><strong>ACRYGLASS MATTE</strong></a> — Sophisticated satin glass reflection with extreme UV and chemical resistance.</li>
+  <li><a href="/products/membrane-shutters"><strong>Seamless Membrane Shutters</strong></a> — 3D CNC grooved, Shaker-style, and J-pull shutters with zero edge-banding seams.</li>
+  <li><a href="/products/aluminium-profile-handles"><strong>Aluminium Handle Profiles</strong></a> — Precision anodised Gola profiles, integrated J-pulls, and glass shutter frames.</li>
+  <li><a href="/applications/kitchens"><strong>Modular Kitchen Solutions</strong></a> | <a href="/applications/wardrobes"><strong>Wardrobe Shutter Systems</strong></a> | <a href="/applications/tv-units"><strong>Living Room & TV Feature Walls</strong></a></li>
+  <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
+</ul>
+`,
+    featured_image: { ...placeholderImage(464), url: "/images/gallery/office-new-pantry.png" },
     date: "2026-02-24",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Color Selection", "Inspiration"],
+    reading_time: 6,
+    categories: ["Color Swatches", "Shade Guide"],
   },
   {
     id: 65,
     slug: "acrylic-vs-sunmica-difference-price-pros-cons",
     title: "Acrylic vs Sunmica: Differences, Price Per Sq Ft, Durability & Pros and Cons",
     excerpt:
-      "Comprehensive guide to Acrylic vs Sunmica: Differences, Price Per Sq Ft, Durability & Pros and Cons: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "A clear, comprehensive guide for Indian homeowners explaining the exact differences between acrylic panels and traditional Sunmica laminates.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -9988,8 +9712,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_b1b1a7.jpg" alt="Acrylic vs Sunmica: Differences, Price Per Sq Ft, Durability & Pros and Cons - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-new-luxury.jpg" alt="Acrylic vs Sunmica: Differences, Price Per Sq Ft, Durability & Pros and Cons - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10039,7 +9763,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10113,18 +9837,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(465), url: "/images/applications/kitchen/acrylux_b1b1a7.jpg" },
+    featured_image: { ...placeholderImage(465), url: "/images/gallery/wardrobe-new-luxury.jpg" },
     date: "2026-02-21",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Material Comparison", "Consumer Guide"],
+    reading_time: 8,
+    categories: ["Material Guide", "Homeowner Essentials"],
   },
   {
     id: 66,
     slug: "acrylic-kitchen-cabinets-cost-calculator-india",
     title: "Acrylic Kitchen Cabinets Cost Calculator India: Price Per Sq Ft Breakdown",
     excerpt:
-      "Comprehensive guide to Acrylic Kitchen Cabinets Cost Calculator India: Price Per Sq Ft Breakdown: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Accurate square footage cost calculators for acrylic modular kitchens in India, including shutters, carcass, edge-banding, hardware, and installation.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -10138,8 +9862,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_beb3a5.jpg" alt="Acrylic Kitchen Cabinets Cost Calculator India: Price Per Sq Ft Breakdown - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/wardrobe-new-kids.png" alt="Acrylic Kitchen Cabinets Cost Calculator India: Price Per Sq Ft Breakdown - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10189,7 +9913,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10263,18 +9987,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(466), url: "/images/applications/kitchen/acrylux_beb3a5.jpg" },
+    featured_image: { ...placeholderImage(466), url: "/images/gallery/wardrobe-new-kids.png" },
     date: "2026-02-17",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Pricing Guide", "Kitchen Design"],
+    reading_time: 8,
+    categories: ["Cost Calculator", "Pricing Guide"],
   },
   {
     id: 67,
     slug: "waterproof-and-termite-proof-acrylic-cabinet-substrates",
-    title: "Waterproof & Termite-Proof Acrylic Substrates: HDMR vs BWP Plywood vs HDHMR",
+    title: "Waterproof & Termite-Proof Acrylic Cabinet Substrates: HDHMR vs PVC Boards",
     excerpt:
-      "Comprehensive guide to Waterproof & Termite-Proof Acrylic Substrates: HDMR vs BWP Plywood vs HDHMR: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Comparing high-density HDHMR boards and PVC foam sheets as cores for acrylic shutters in termite-prone and high-moisture Indian regions.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -10288,8 +10012,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/applications/kitchen/acrylux_c4ad29.jpg" alt="Waterproof & Termite-Proof Acrylic Substrates: HDMR vs BWP Plywood vs HDHMR - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/kids-new-bunkbed.png" alt="Waterproof & Termite-Proof Acrylic Cabinet Substrates: HDHMR vs PVC Boards - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10339,7 +10063,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10413,18 +10137,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(467), url: "/images/applications/kitchen/acrylux_c4ad29.jpg" },
+    featured_image: { ...placeholderImage(467), url: "/images/gallery/kids-new-bunkbed.png" },
     date: "2026-02-14",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Technical Guide", "Material Guide"],
+    reading_time: 7,
+    categories: ["Substrates", "Waterproofing"],
   },
   {
     id: 68,
     slug: "top-acrylic-sheet-manufacturers-in-delhi-ncr-haryana",
-    title: "Top Acrylic Sheet & Panel Manufacturers in Delhi NCR, Gurgaon & Haryana",
+    title: "Top Acrylic Sheet Manufacturers in Delhi NCR & Haryana: SurajWood Plant Tour",
     excerpt:
-      "Comprehensive guide to Top Acrylic Sheet & Panel Manufacturers in Delhi NCR, Gurgaon & Haryana: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why Delhi NCR and Haryana architects and contractors choose SurajWood for German PUR-laminated acrylic panels, direct factory pricing, and fast dispatch.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>
@@ -10438,8 +10162,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/303 cream.jpg" alt="Top Acrylic Sheet & Panel Manufacturers in Delhi NCR, Gurgaon & Haryana - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/about/about-bg.jpg" alt="Top Acrylic Sheet Manufacturers in Delhi NCR & Haryana: SurajWood Plant Tour - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10489,7 +10213,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10563,27 +10287,27 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(468), url: "/images/Newphotos/Acryglass MAtte/303 cream.jpg" },
+    featured_image: { ...placeholderImage(468), url: "/images/about/about-bg.jpg" },
     date: "2026-02-11",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Manufacturing", "Regional Hub"],
+    reading_time: 7,
+    categories: ["Manufacturers", "Delhi NCR"],
   },
   {
     id: 69,
     slug: "membrane-shutters-for-modular-kitchen-cabinets-guide",
-    title: "Membrane Shutters for Modular Kitchens: Designs, Waterproofing, Heat & Finish Guide (2026)",
+    title: "Membrane Shutters for Modular Kitchen Cabinets: Types, Profiles & Costs",
     excerpt:
-      "Comprehensive guide to Membrane Shutters for Modular Kitchens: Designs, Waterproofing, Heat & Finish Guide (2026): expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When engineering high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
+      "Everything you need to know about seamless 3D vacuum-pressed membrane shutters — from Shaker-style designs to integrated J-pull handles.",
+    content: `<p>When designing high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
 
 <h2>What Are Membrane Shutters and How Are They Manufactured?</h2>
-<p>Membrane shutters are manufactured by CNC machining precise designs — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
+<p>Membrane shutters are manufactured by CNC machining intricate profiles — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
 
 
 <figure>
-  <img src="/images/products/membrane-shutters/closeups/closeup-shaker.jpg" alt="Membrane Shutters for Modular Kitchens: Designs, Waterproofing, Heat & Finish Guide (2026) - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/membrane-shutters/closeups/closeup-shaker.jpg" alt="Membrane Shutters for Modular Kitchen Cabinets: Types, Profiles & Costs - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10642,7 +10366,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10714,24 +10438,24 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(469), url: "/images/products/membrane-shutters/closeups/closeup-shaker.jpg" },
     date: "2026-02-08",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
+    reading_time: 8,
     categories: ["Membrane Shutters", "Kitchen Design"],
   },
   {
     id: 70,
     slug: "membrane-shutters-vs-laminate-kitchen-wardrobe-comparison",
-    title: "Membrane Shutters vs Laminate (Sunmica): Price, Durability, Edge Peeling & Pros/Cons",
+    title: "Membrane Shutters vs Laminate for Kitchens & Wardrobes: Complete Comparison",
     excerpt:
-      "Comprehensive guide to Membrane Shutters vs Laminate (Sunmica): Price, Durability, Edge Peeling & Pros/Cons: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When engineering high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
+      "How 3D seamless wrapped membrane shutters compare to traditional flat laminates in edge durability, moisture protection, and aesthetic versatility.",
+    content: `<p>When designing high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
 
 <h2>What Are Membrane Shutters and How Are They Manufactured?</h2>
-<p>Membrane shutters are manufactured by CNC machining precise designs — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
+<p>Membrane shutters are manufactured by CNC machining intricate profiles — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
 
 
 <figure>
-  <img src="/images/products/membrane-shutters/closeups/closeup-jpull.jpg" alt="Membrane Shutters vs Laminate (Sunmica): Price, Durability, Edge Peeling & Pros/Cons - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/membrane-shutters/closeups/closeup-jpull.jpg" alt="Membrane Shutters vs Laminate for Kitchens & Wardrobes: Complete Comparison - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10790,7 +10514,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -10862,24 +10586,24 @@ const MOCK_POSTS: SanityPost[] = [
     featured_image: { ...placeholderImage(470), url: "/images/products/membrane-shutters/closeups/closeup-jpull.jpg" },
     date: "2026-02-05",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Membrane Shutters", "Material Comparison"],
+    reading_time: 8,
+    categories: ["Material Comparison", "Membrane Shutters"],
   },
   {
     id: 71,
     slug: "membrane-shutter-price-per-sq-ft-in-india-2026",
-    title: "Membrane Shutter Price Per Sq Ft in India (2026): Cost Calculator & Substrate Guide",
+    title: "Membrane Shutter Price Per Sq Ft in India (2026): Rates for Flat & CNC Profiles",
     excerpt:
-      "Comprehensive guide to Membrane Shutter Price Per Sq Ft in India (2026): Cost Calculator & Substrate Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When engineering high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
+      "Comprehensive 2026 price breakdown for plain, routed, fluted, and Shaker membrane shutters across major Indian interior markets.",
+    content: `<p>When designing high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
 
 <h2>What Are Membrane Shutters and How Are They Manufactured?</h2>
-<p>Membrane shutters are manufactured by CNC machining precise designs — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
+<p>Membrane shutters are manufactured by CNC machining intricate profiles — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
 
 
 <figure>
-  <img src="/images/products/membrane-shutters/closeups/closeup-fluted.jpg" alt="Membrane Shutter Price Per Sq Ft in India (2026): Cost Calculator & Substrate Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/membrane-shutters/closeups/closeup-fluted.jpg" alt="Membrane Shutter Price Per Sq Ft in India (2026): Rates for Flat & CNC Profiles - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -10938,7 +10662,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11011,23 +10735,23 @@ const MOCK_POSTS: SanityPost[] = [
     date: "2026-02-02",
     author: "Suraj Wood Editorial Team",
     reading_time: 7,
-    categories: ["Membrane Shutters", "Pricing Guide"],
+    categories: ["Pricing Guide", "Membrane Shutters"],
   },
   {
     id: 72,
     slug: "membrane-shutters-for-wardrobes-designs-and-finishes",
-    title: "Membrane Shutters for Wardrobes: 3D CNC Shaker Grooves, Fluted Profiles & Sliding Shutters",
+    title: "Membrane Shutters for Wardrobes: 3D CNC Routing, Shaker & Woodgrain Finishes",
     excerpt:
-      "Comprehensive guide to Membrane Shutters for Wardrobes: 3D CNC Shaker Grooves, Fluted Profiles & Sliding Shutters: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When engineering high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
+      "Design stunning master bedroom wardrobes with fluted CNC patterns, seamless Shaker frames, and natural European oak membrane finishes.",
+    content: `<p>When designing high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
 
 <h2>What Are Membrane Shutters and How Are They Manufactured?</h2>
-<p>Membrane shutters are manufactured by CNC machining precise designs — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
+<p>Membrane shutters are manufactured by CNC machining intricate profiles — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
 
 
 <figure>
-  <img src="/images/products/membrane-shutters/004-ps-reed-green.jpg" alt="Membrane Shutters for Wardrobes: 3D CNC Shaker Grooves, Fluted Profiles & Sliding Shutters - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/membrane-shutters/hero/hero-wardrobe-1.jpg" alt="Membrane Shutters for Wardrobes: 3D CNC Routing, Shaker & Woodgrain Finishes - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11086,7 +10810,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11155,27 +10879,27 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(472), url: "/images/products/membrane-shutters/004-ps-reed-green.jpg" },
+    featured_image: { ...placeholderImage(472), url: "/images/products/membrane-shutters/hero/hero-wardrobe-1.jpg" },
     date: "2026-01-30",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Membrane Shutters", "Wardrobe Design"],
+    reading_time: 7,
+    categories: ["Wardrobe Design", "Membrane Shutters"],
   },
   {
     id: 73,
     slug: "top-36-membrane-shutter-shades-and-colours-guide",
-    title: "Continental Membrane Shutter Shades: 36 European Foils, Wood Grains, Silk & Porcelain Finishes",
+    title: "Top 36 Membrane Shutter Shades & Colours Guide (2026): Solid, Matte & Woodgrain",
     excerpt:
-      "Comprehensive guide to Continental Membrane Shutter Shades: 36 European Foils, Wood Grains, Silk & Porcelain Finishes: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
-    content: `<p>When engineering high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
+      "Explore SurajWood's complete 36-shade membrane collection — including Reed Green, Cashmere Grey, Parisian Blue, and Viking Oak Volcano.",
+    content: `<p>When designing high-end modular furniture in India, <strong>membrane shutters</strong> (also known as 3D vacuum-pressed thermo-foil shutters) have emerged as one of the most versatile and durable choices for modular kitchens, bedroom wardrobes, and bathroom vanities. Unlike standard flat laminates that require separate PVC edge-banding strips, membrane shutters wrap seamlessly over 3-dimensional CNC-routed MDF cores without any visible joints or peeling seams.</p>
 
 <h2>What Are Membrane Shutters and How Are They Manufactured?</h2>
-<p>Membrane shutters are manufactured by CNC machining precise designs — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
+<p>Membrane shutters are manufactured by CNC machining intricate profiles — such as classical <em>Shaker profiles</em>, contemporary <em>fluted grooving</em>, or integrated <em>J-pull handles</em> — onto moisture-resistant HDHMR or MDF substrates. High-grade European PVC or PET foils are then bonded to the 3D surface using vacuum membrane press technology with high-heat reactive polyurethane (PUR) adhesives.</p>
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/315 Beige.jpg" alt="Continental Membrane Shutter Shades: 36 European Foils, Wood Grains, Silk & Porcelain Finishes - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/membrane-shutters/hero/hero-wardrobe-2.jpg" alt="Top 36 Membrane Shutter Shades & Colours Guide (2026): Solid, Matte & Woodgrain - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11234,7 +10958,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11303,18 +11027,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(473), url: "/images/Newphotos/Acryglass MAtte/315 Beige.jpg" },
+    featured_image: { ...placeholderImage(473), url: "/images/products/membrane-shutters/hero/hero-wardrobe-2.jpg" },
     date: "2026-01-27",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Membrane Shutters", "Shades Guide"],
+    reading_time: 7,
+    categories: ["Color Guide", "Membrane Shutters"],
   },
   {
     id: 74,
     slug: "aluminium-handle-profiles-for-modular-kitchen-cabinets",
-    title: "Aluminium Handle Profiles for Modular Kitchens: J-Pull, Gola & Edge Profiles Guide (2026)",
+    title: "Aluminium Handle Profiles for Modular Kitchen Cabinets: Gola & J-Pull Guide",
     excerpt:
-      "Comprehensive guide to Aluminium Handle Profiles for Modular Kitchens: J-Pull, Gola & Edge Profiles Guide (2026): expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "How to design sleek handleless kitchens using integrated C-Gola, L-Gola, and edge-mounted anodised aluminium profile handles.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -11322,8 +11046,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/318 Sea Green.jpg" alt="Aluminium Handle Profiles for Modular Kitchens: J-Pull, Gola & Edge Profiles Guide (2026) - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/anodised-hardware-detail.jpg" alt="Aluminium Handle Profiles for Modular Kitchen Cabinets: Gola & J-Pull Guide - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11370,7 +11094,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11439,18 +11163,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(474), url: "/images/Newphotos/Acryglass MAtte/318 Sea Green.jpg" },
+    featured_image: { ...placeholderImage(474), url: "/images/gallery/anodised-hardware-detail.jpg" },
     date: "2026-01-24",
     author: "Suraj Wood Editorial Team",
-    reading_time: 5,
-    categories: ["Aluminium Profiles", "Kitchen Hardware"],
+    reading_time: 7,
+    categories: ["Aluminium Profiles", "Hardware"],
   },
   {
     id: 75,
     slug: "gola-profile-vs-j-pull-vs-edge-profile-handles-comparison",
-    title: "Gola Profile vs J-Profile vs Edge Profile Handles: Which is Best for Handleless Kitchens?",
+    title: "Gola Profile vs J-Pull vs Edge Profile Handles: Which is Best for Your Kitchen?",
     excerpt:
-      "Comprehensive guide to Gola Profile vs J-Profile vs Edge Profile Handles: Which is Best for Handleless Kitchens?: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "An architectural comparison of concealed Gola channels, integrated J-pull shutters, and top-mounted aluminium edge handles.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -11458,8 +11182,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/323 Dark Grey.jpg" alt="Gola Profile vs J-Profile vs Edge Profile Handles: Which is Best for Handleless Kitchens? - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/aluminum/aerolinea.png" alt="Gola Profile vs J-Pull vs Edge Profile Handles: Which is Best for Your Kitchen? - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11506,7 +11230,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11575,18 +11299,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(475), url: "/images/Newphotos/Acryglass MAtte/323 Dark Grey.jpg" },
+    featured_image: { ...placeholderImage(475), url: "/images/products/aluminum/aerolinea.png" },
     date: "2026-01-21",
     author: "Suraj Wood Editorial Team",
-    reading_time: 6,
-    categories: ["Aluminium Profiles", "Hardware Comparison"],
+    reading_time: 7,
+    categories: ["Hardware Comparison", "Kitchen Design"],
   },
   {
     id: 76,
     slug: "aluminium-glass-shutter-profiles-for-wardrobes-and-kitchens",
     title: "Aluminium Glass Shutter Profiles for Wardrobes & Kitchens: Slim Frame & Fluted Glass Guide",
     excerpt:
-      "Comprehensive guide to Aluminium Glass Shutter Profiles for Wardrobes & Kitchens: Slim Frame & Fluted Glass Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Discover how slim aluminium profiles combined with 4mm tinted or fluted glass create breathtaking display cabinets and master wardrobes.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -11594,8 +11318,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/339 Slate Grey.jpg" alt="Aluminium Glass Shutter Profiles for Wardrobes & Kitchens: Slim Frame & Fluted Glass Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/gallery/alum-glass-wardrobe.jpg" alt="Aluminium Glass Shutter Profiles for Wardrobes & Kitchens: Slim Frame & Fluted Glass Guide - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11642,7 +11366,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11711,18 +11435,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(476), url: "/images/Newphotos/Acryglass MAtte/339 Slate Grey.jpg" },
+    featured_image: { ...placeholderImage(476), url: "/images/gallery/alum-glass-wardrobe.jpg" },
     date: "2026-01-18",
     author: "Suraj Wood Editorial Team",
-    reading_time: 7,
-    categories: ["Aluminium Profiles", "Wardrobe Design"],
+    reading_time: 8,
+    categories: ["Glass Shutters", "Aluminium Profiles"],
   },
   {
     id: 77,
     slug: "aluminium-profile-kitchen-cabinet-price-and-sizes-india",
-    title: "Aluminium Profile Price Per Foot & Lengths in India (2026): 3Mtr & 4Mtr Hardware Guide",
+    title: "Aluminium Profile Kitchen Cabinet Price & Sizes in India: 3Mtr & 4Mtr Rates",
     excerpt:
-      "Comprehensive guide to Aluminium Profile Price Per Foot & Lengths in India (2026): 3Mtr & 4Mtr Hardware Guide: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Standard extrusion lengths, cross-section dimensions, anodisation finishes, and price per foot for aluminium furniture profiles in India.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -11730,8 +11454,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acryglass MAtte/341 Titanio.jpg" alt="Aluminium Profile Price Per Foot & Lengths in India (2026): 3Mtr & 4Mtr Hardware Guide - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/aluminum/luminare.png" alt="Aluminium Profile Kitchen Cabinet Price & Sizes in India: 3Mtr & 4Mtr Rates - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11778,7 +11502,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11847,18 +11571,18 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(477), url: "/images/Newphotos/Acryglass MAtte/341 Titanio.jpg" },
+    featured_image: { ...placeholderImage(477), url: "/images/products/aluminum/luminare.png" },
     date: "2026-01-15",
     author: "Suraj Wood Editorial Team",
-    reading_time: 8,
-    categories: ["Aluminium Profiles", "Pricing Guide"],
+    reading_time: 7,
+    categories: ["Pricing Guide", "Aluminium Profiles"],
   },
   {
     id: 78,
     slug: "top-anodised-aluminium-profile-manufacturers-in-delhi-ncr-india",
-    title: "Anodised Aluminium Profile Manufacturers in India: SurajWood AL-PROFHAN Specifications",
+    title: "Top Anodised Aluminium Profile Manufacturers in India: SurajWood Hardware",
     excerpt:
-      "Comprehensive guide to Anodised Aluminium Profile Manufacturers in India: SurajWood AL-PROFHAN Specifications: expert insights on durability, colour shades, technical specs, and cost comparisons for Indian modular interiors.",
+      "Why architects, interior contractors, and OEM furniture manufacturers specify SurajWood 15-micron anodised aluminium profiles for luxury projects.",
     content: `<p>Modern kitchen and wardrobe architecture in India is defined by handleless minimalism, clean horizontal lines, and industrial elegance. <strong>Anodised aluminium handle profiles</strong>, integrated Gola systems, and slimline aluminium glass shutter profiles have become indispensable for luxury modular furniture.</p>
 
 <h2>The Evolution of Handleless Furniture: Gola Profiles vs J-Pulls</h2>
@@ -11866,8 +11590,8 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <figure>
-  <img src="/images/Newphotos/Acrylux metallic/1306 Metallic Grey.jpg" alt="Anodised Aluminium Profile Manufacturers in India: SurajWood AL-PROFHAN Specifications - SurajWood Premium Surface Finishes" loading="lazy" />
-  <figcaption>SurajWood European PUR-bonded panels installed in luxury modern interiors — featuring optical-grade PMMA surfaces.</figcaption>
+  <img src="/images/products/aluminum/velaro.png" alt="Top Anodised Aluminium Profile Manufacturers in India: SurajWood Hardware - SurajWood Luxury Architectural Finishes" loading="lazy" />
+  <figcaption>SurajWood European PUR-bonded engineered panels installed in luxury modern interiors.</figcaption>
 </figure>
 
 
@@ -11914,7 +11638,7 @@ const MOCK_POSTS: SanityPost[] = [
 
 
 <h3>Curated Colour Shades & Recommended Finishes</h3>
-<p>When selecting surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
+<p>When specifying surface finishes from SurajWood, architects and interior designers can select from over 50+ calibrated European colour formulations:</p>
 <table>
   <thead>
     <tr>
@@ -11983,11 +11707,11 @@ const MOCK_POSTS: SanityPost[] = [
   <li><a href="/contact"><strong>Request a Free Sample Kit</strong></a> | <a href="/downloads"><strong>Download 2026 Digital Catalog & E-Book</strong></a></li>
 </ul>
 `,
-    featured_image: { ...placeholderImage(478), url: "/images/Newphotos/Acrylux metallic/1306 Metallic Grey.jpg" },
+    featured_image: { ...placeholderImage(478), url: "/images/products/aluminum/velaro.png" },
     date: "2026-01-12",
     author: "Suraj Wood Editorial Team",
-    reading_time: 9,
-    categories: ["Aluminium Profiles", "Manufacturing"],
+    reading_time: 7,
+    categories: ["Manufacturers", "Hardware"],
   },
 ];
 
