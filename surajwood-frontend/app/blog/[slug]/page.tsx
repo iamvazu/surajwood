@@ -53,8 +53,10 @@ const POST_GALLERY_MAP: Record<string, string> = {
 };
 
 function getPostImage(slug: string, fallbackUrl: string | undefined, index = 0): string {
+  if (fallbackUrl && !fallbackUrl.includes("placehold.co") && fallbackUrl.trim().length > 0) {
+    return fallbackUrl;
+  }
   if (POST_GALLERY_MAP[slug]) return POST_GALLERY_MAP[slug];
-  if (fallbackUrl && !fallbackUrl.includes("placehold.co")) return fallbackUrl;
   return GALLERY_IMAGES[index % GALLERY_IMAGES.length];
 }
 
@@ -104,8 +106,6 @@ function CategoryBadge({ category }: { category: string }) {
   );
 }
 
-// ... (deleted AuthorCard)
-
 function SidebarSampleCTA() {
   return (
     <div className="bg-navy rounded-2xl p-6 text-white mb-8">
@@ -149,7 +149,7 @@ function SidebarRelated({
   posts,
   currentSlug,
 }: {
-  posts: Array<{ slug: string; title: string; date: string; reading_time: number }>;
+  posts: Array<{ slug: string; title: string; date: string; reading_time: number; featured_image?: { url?: string } }>;
   currentSlug: string;
 }) {
   const related = posts.filter((p) => p.slug !== currentSlug).slice(0, 3);
@@ -169,7 +169,7 @@ function SidebarRelated({
           >
             <div className="relative w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-cream">
               <Image
-                src={getPostImage(post.slug, "", i + 1)}
+                src={getPostImage(post.slug, post.featured_image?.url, i + 1)}
                 alt={post.title}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -199,20 +199,23 @@ function ArticleContent({ html }: { html: string }) {
       className="
         article-body
         text-gray-700 text-base leading-relaxed
-        [&_h2]:font-heading [&_h2]:font-bold [&_h2]:text-navy [&_h2]:text-2xl [&_h2]:mt-8 [&_h2]:mb-4
+        [&_h2]:font-heading [&_h2]:font-bold [&_h2]:text-navy [&_h2]:text-2xl [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:border-b [&_h2]:border-gray-100 [&_h2]:pb-2
         [&_h3]:font-heading [&_h3]:font-semibold [&_h3]:text-navy [&_h3]:text-xl [&_h3]:mt-6 [&_h3]:mb-3
         [&_p]:mb-4 [&_p]:leading-relaxed
-        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ul]:space-y-1
-        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_ol]:space-y-1
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ul]:space-y-1.5
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_ol]:space-y-1.5
         [&_li]:leading-relaxed [&_li]:text-gray-700
         [&_strong]:font-semibold [&_strong]:text-navy
         [&_em]:italic [&_em]:text-gray-600
-        [&_a]:text-copper [&_a]:underline [&_a]:hover:text-copper-light
-        [&_blockquote]:border-l-4 [&_blockquote]:border-copper [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-gray-600 [&_blockquote]:my-6
+        [&_a]:text-copper [&_a]:underline [&_a]:hover:text-copper-light [&_a]:font-medium
+        [&_blockquote]:border-l-4 [&_blockquote]:border-copper [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-gray-600 [&_blockquote]:my-6 [&_blockquote]:bg-cream/30 [&_blockquote]:py-2 [&_blockquote]:rounded-r-lg
         [&_hr]:border-gray-200 [&_hr]:my-8
-        [&_table]:w-full [&_table]:text-sm [&_table]:border-collapse [&_table]:mb-6
-        [&_th]:bg-navy [&_th]:text-white [&_th]:px-4 [&_th]:py-2 [&_th]:text-left [&_th]:font-semibold
-        [&_td]:border [&_td]:border-gray-200 [&_td]:px-4 [&_td]:py-2
+        [&_table]:w-full [&_table]:text-sm [&_table]:border-collapse [&_table]:mb-6 [&_table]:rounded-xl [&_table]:overflow-hidden [&_table]:shadow-sm
+        [&_th]:bg-navy [&_th]:text-white [&_th]:px-4 [&_th]:py-3 [&_th]:text-left [&_th]:font-semibold
+        [&_td]:border [&_td]:border-gray-200 [&_td]:px-4 [&_td]:py-2.5 [&_td]:text-gray-700
+        [&_figure]:my-8 [&_figure]:rounded-2xl [&_figure]:overflow-hidden [&_figure]:border [&_figure]:border-gray-100 [&_figure]:shadow-md [&_figure]:bg-cream/20 [&_figure]:p-3
+        [&_figcaption]:text-center [&_figcaption]:text-xs [&_figcaption]:text-gray-500 [&_figcaption]:mt-2.5 [&_figcaption]:font-medium
+        [&_img]:rounded-xl [&_img]:w-full [&_img]:max-h-[420px] [&_img]:object-cover
       "
       dangerouslySetInnerHTML={{ __html: html }}
     />
