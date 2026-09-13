@@ -90,19 +90,7 @@ export default function CookieConsent() {
   }, []);
 
   if (!isOpen) {
-    return (
-      <button
-        onClick={() => {
-          setShowPreferences(true);
-          setIsOpen(true);
-        }}
-        aria-label="Manage Cookie & DPDP Consent Preferences"
-        className="fixed bottom-24 left-4 sm:bottom-6 sm:left-6 z-40 bg-navy/90 hover:bg-navy text-white/80 hover:text-white p-2.5 sm:p-3 rounded-full shadow-lg border border-gray-700/60 backdrop-blur-md transition-all duration-300 hover:scale-105 group flex items-center gap-2 text-xs"
-      >
-        <Cookie className="w-4 h-4 text-copper group-hover:rotate-12 transition-transform duration-300" />
-        <span className="hidden sm:inline font-medium pr-1 text-[11px] tracking-wide">Cookie &amp; DPDP Settings</span>
-      </button>
-    );
+    return null;
   }
 
   return (
