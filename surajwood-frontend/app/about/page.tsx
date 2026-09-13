@@ -189,9 +189,9 @@ export default function AboutPage() {
           <h2 className="text-3xl font-heading font-bold text-navy mb-16 uppercase tracking-widest">Manufacturing Blueprint</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { img: "m1.jpg", title: "PUR Lamination Line", desc: "Automated German line for void-free bonding." },
-              { img: "m2.jpg", title: "Precision Calibration", desc: "Digital sensors ensure micron-level thickness accuracy." },
-              { img: "m3.jpg", title: "Dust-Free Environment", desc: "Controlled atmosphere for mirror-like optical clarity." }
+              { img: "blueprint-pur-lamination.jpg", title: "PUR Lamination Line", desc: "Automated German flat lamination line for zero-delamination bonding." },
+              { img: "blueprint-calibration.jpg", title: "Precision Calibration", desc: "Optical laser sensors ensure micron-level thickness and surface flatness." },
+              { img: "blueprint-cleanroom.jpg", title: "Dust-Free Environment", desc: "Positive-pressure cleanroom for flawless 95% mirror-like optical clarity." }
             ].map((item, i) => (
               <div key={i} className="group flex flex-col bg-white rounded-3xl p-4 shadow-sm hover:shadow-2xl transition-all">
                 <div className="relative aspect-video rounded-2xl overflow-hidden mb-6">

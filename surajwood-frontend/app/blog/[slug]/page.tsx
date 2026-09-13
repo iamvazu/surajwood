@@ -25,23 +25,31 @@ export async function generateStaticParams() {
 // ---------------------------------------------------------------------------
 
 const GALLERY_IMAGES = [
-  "/images/gallery/3.jpg",
-  "/images/gallery/7.jpg",
-  "/images/gallery/12.jpg",
-  "/images/gallery/16.jpg",
-  "/images/gallery/20.jpg",
-  "/images/gallery/24.jpg",
-  "/images/gallery/28.jpg",
-  "/images/gallery/32.jpg",
+  "/images/gallery/kitchen-1.jpg",
+  "/images/gallery/wardrobe-1.jpg",
+  "/images/gallery/kitchen-2.jpg",
+  "/images/gallery/wardrobe-2.jpg",
+  "/images/gallery/kitchen-3.jpg",
+  "/images/gallery/commercial-premium.png",
+  "/images/gallery/kitchen-4.jpg",
+  "/images/gallery/wardrobe-3.jpg",
+  "/images/gallery/tv-unit-1.jpg",
+  "/images/gallery/commercial-1.jpg",
+  "/images/gallery/kitchen-hero-new.jpg",
+  "/images/gallery/wardrobe-4.jpg",
+  "/images/gallery/office-1.jpg",
+  "/images/gallery/retail-1.jpg",
+  "/images/gallery/bathroom-1.jpg",
+  "/images/banner/bg3.jpg",
 ];
 
 const POST_GALLERY_MAP: Record<string, string> = {
-  "acrylic-vs-laminate-kitchen-panels-india": "/images/gallery/3.jpg",
-  "kitchen-design-trends-india-2026": "/images/gallery/7.jpg",
-  "how-to-clean-acrylic-kitchen-panels": "/images/gallery/12.jpg",
-  "acrylic-panel-thickness-guide": "/images/gallery/16.jpg",
-  "modular-kitchen-material-comparison": "/images/gallery/20.jpg",
-  "architects-guide-specifying-acrylic-panels": "/images/gallery/24.jpg",
+  "acrylic-vs-laminate-kitchen-panels-india": "/images/gallery/kitchen-1.jpg",
+  "kitchen-design-trends-india-2026": "/images/gallery/kitchen-2.jpg",
+  "how-to-clean-acrylic-kitchen-panels": "/images/gallery/kitchen-3.jpg",
+  "acrylic-panel-thickness-guide": "/images/gallery/wardrobe-1.jpg",
+  "modular-kitchen-material-comparison": "/images/gallery/kitchen-4.jpg",
+  "architects-guide-specifying-acrylic-panels": "/images/gallery/commercial-premium.png",
 };
 
 function getPostImage(slug: string, fallbackUrl: string | undefined, index = 0): string {
@@ -332,17 +340,17 @@ export default async function BlogPostPage({
 
               {/* Author card — Updated for Trust & E-E-A-T */}
               <div className="flex items-center gap-6 py-8 border-t border-b border-gray-100 my-12 bg-cream/20 px-6 rounded-2xl">
-                <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-copper shrink-0">
+                <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-copper/30 bg-white p-2.5 shrink-0 shadow-md flex items-center justify-center">
                   <Image
-                    src="/images/about/director-ms.jpg" // Placeholder for Mayank Singhal
+                    src="/images/logo/suraj-icon.png"
                     alt={post.author}
                     fill
-                    className="object-cover"
+                    className="object-contain p-2"
                   />
                 </div>
                 <div>
                   <p className="font-bold text-navy text-lg">{post.author}</p>
-                  <p className="text-copper font-semibold text-xs uppercase tracking-widest mt-1">Director at SurajWood Products</p>
+                  <p className="text-copper font-semibold text-xs uppercase tracking-widest mt-1">DIRECTOR AT SURAJWOOD PRODUCTS</p>
                   <p className="text-gray-500 text-sm mt-2 leading-relaxed">
                     Industry expert with 15+ years in high-end surface manufacturing and European PUR bonding technology.
                   </p>

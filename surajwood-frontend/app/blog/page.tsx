@@ -32,14 +32,22 @@ export const metadata: Metadata = {
 // ---------------------------------------------------------------------------
 
 const GALLERY_IMAGES = [
-  "/images/gallery/1.jpg",
-  "/images/gallery/5.jpg",
-  "/images/gallery/9.jpg",
-  "/images/gallery/13.jpg",
-  "/images/gallery/17.jpg",
-  "/images/gallery/21.jpg",
-  "/images/gallery/25.jpg",
-  "/images/gallery/29.jpg",
+  "/images/gallery/kitchen-1.jpg",
+  "/images/gallery/wardrobe-1.jpg",
+  "/images/gallery/kitchen-2.jpg",
+  "/images/gallery/wardrobe-2.jpg",
+  "/images/gallery/kitchen-3.jpg",
+  "/images/gallery/commercial-premium.png",
+  "/images/gallery/kitchen-4.jpg",
+  "/images/gallery/wardrobe-3.jpg",
+  "/images/gallery/tv-unit-1.jpg",
+  "/images/gallery/commercial-1.jpg",
+  "/images/gallery/kitchen-hero-new.jpg",
+  "/images/gallery/wardrobe-4.jpg",
+  "/images/gallery/office-1.jpg",
+  "/images/gallery/retail-1.jpg",
+  "/images/gallery/bathroom-1.jpg",
+  "/images/banner/bg3.jpg",
 ];
 
 function getGalleryImage(index: number): string {
