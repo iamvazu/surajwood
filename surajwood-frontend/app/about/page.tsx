@@ -78,9 +78,9 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Sophisticated Gradients (Matching Home) */}
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+        {/* Sophisticated Gradients for crystal clear text contrast on all backgrounds */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/50 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
 
         {/* Spacer to clear sticky navbar */}
         <div className="h-32 lg:h-40" />
@@ -88,18 +88,18 @@ export default function AboutPage() {
         {/* Content Area (Left Aligned - Matching Home) */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
           <div className="max-w-3xl">
-            {/* Eyebrow */}
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-[2px] bg-copper" />
-              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+            {/* Eyebrow badge matching Home Hero */}
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                 TOP ACRYLIC SHEET MANUFACTURER SINCE 2011
               </p>
             </div>
 
-            {/* H1: Playfair Display Serif - Matching Home Scale */}
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
+            {/* H1: Playfair Display Serif - Matching Home & Application Scale */}
+            <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md">
               India&apos;s Leading <br />
-              <span className="text-copper">Acrylic Sheet Brand</span>
+              <span className="text-copper-light font-bold">Acrylic Sheet Brand</span>
             </h1>
 
             {/* Sub-headline - Matching Home Style */}

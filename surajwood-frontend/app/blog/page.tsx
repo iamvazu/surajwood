@@ -102,9 +102,9 @@ export default async function BlogPage() {
           </div>
         </div>
 
-        {/* Sophisticated Gradients (Matching Home) */}
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/90 via-navy/20 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+        {/* Sophisticated Gradients for crystal clear text contrast on all backgrounds */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/50 to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
 
         {/* Spacer to clear sticky navbar */}
         <div className="h-32 lg:h-40" />
@@ -127,24 +127,23 @@ export default async function BlogPage() {
               </ol>
             </nav>
 
-            {/* Eyebrow */}
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-[2px] bg-copper" />
-              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+            {/* Eyebrow badge matching Home Hero */}
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                 Insights & Trends
               </p>
             </div>
 
-            {/* H1: Playfair Display Serif */}
-            <h1 className="font-playfair text-white text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-6">
+            {/* H1: Playfair Display Serif - Matching Home & Application Scale */}
+            <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md">
               The SurajWood <br />
-              <span className="text-copper">Journal</span>
+              <span className="text-copper-light font-bold">Journal</span>
             </h1>
 
             {/* Sub-headline */}
-            <p className="text-white/80 text-sm md:text-lg lg:text-xl max-w-2xl leading-relaxed font-light italic">
-              Expert insights on premium acrylic panels, interior design trends, and technical
-              surface solutions for modern Indian homes.
+            <p className="text-white/80 text-sm md:text-lg max-w-2xl leading-relaxed mb-8 font-light italic">
+              Expert insights on premium acrylic panels, interior design trends, and technical surface solutions for modern Indian homes.
             </p>
           </div>
         </div>

@@ -83,18 +83,18 @@ export default function DesignIdeasHub() {
               </ol>
             </nav>
 
-            {/* Eyebrow */}
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-[2px] bg-copper" />
-              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+            {/* Eyebrow badge matching Home Hero */}
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                 Interior Inspiration
               </p>
             </div>
 
             {/* H1 */}
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
+            <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md">
               Premium Surfacing <br />
-              <span className="text-copper italic">Design Ideas Hub</span>
+              <span className="text-copper-light font-bold italic">Design Ideas Hub</span>
             </h1>
 
             {/* Sub-headline */}
