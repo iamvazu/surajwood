@@ -7,9 +7,6 @@ module.exports = {
       { userAgent: "*", allow: "/" },
       { userAgent: "*", disallow: ["/api/"] },
     ],
-    additionalSitemaps: [
-      "https://www.surajwood.com/sitemap.xml",
-    ],
   },
   exclude: ["/api/*", "/test-logos"],
   changefreq: "weekly",
