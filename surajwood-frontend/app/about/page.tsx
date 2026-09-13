@@ -12,13 +12,13 @@ import {
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: "Factory-Direct Acrylic Panel Manufacturer",
+  title: "Top Acrylic Sheet Brand & Manufacturer in India | SurajWood",
   description:
-    "SurajWood is a leading factory-direct manufacturer of PMMA acrylic panels in Bahadurgarh, Haryana. Utilizing German PUR technology for zero-delamination and 3H scratch resistance.",
+    "SurajWood is one of India's leading acrylic sheet and prelaminated panel manufacturers in Bahadurgarh, Haryana. 15+ years engineering high-gloss & matte PMMA acrylic boards for kitchens and wardrobes.",
   openGraph: {
-    title: "SurajWood Manufacturing Authority | 15+ Years Excellence",
+    title: "SurajWood - Top Acrylic Sheet Brand in India | 15+ Years Excellence",
     description:
-      "Direct from our Bahadurgarh facility: European-grade acrylic surfaces precision-bonded for the Indian climate.",
+      "Direct from our Bahadurgarh manufacturing plant: Optical-grade PMMA acrylic sheets and panels bonded with German PUR technology.",
     url: "https://www.surajwood.com/about",
     images: [{ url: "/images/about/about-bg.jpg", width: 1200, height: 630 }],
   },
@@ -62,9 +62,6 @@ export default function AboutPage() {
       <SchemaMarkup schemas={schemas} />
 
       {/* ------------------------------------------------------------------ */}
-      {/* Section 1 — Hero Banner (Luxury Alignment)                       */}
-      {/* ------------------------------------------------------------------ */}
-      {/* ------------------------------------------------------------------ */}
       {/* Section 1 — Hero Banner (Cinematic Alignment)                    */}
       {/* ------------------------------------------------------------------ */}
       <section className="relative h-screen flex flex-col justify-between overflow-hidden">
@@ -73,7 +70,7 @@ export default function AboutPage() {
           <div className="relative w-full h-full animate-ken-burns">
             <Image
               src="/images/about/about-bg.jpg"
-              alt="SurajWood Bahadurgarh Manufacturing Facility"
+              alt="SurajWood Bahadurgarh Acrylic Manufacturing Facility"
               fill
               className="object-cover"
               priority
@@ -95,19 +92,19 @@ export default function AboutPage() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-[2px] bg-copper" />
               <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
-                MANUFACTURING EXCELLENCE SINCE 2011
+                TOP ACRYLIC SHEET MANUFACTURER SINCE 2011
               </p>
             </div>
 
             {/* H1: Playfair Display Serif - Matching Home Scale */}
             <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
-              India&apos;s Technical Authority in <br />
-              <span className="text-copper">Acrylic Manufacturing</span>
+              India&apos;s Leading <br />
+              <span className="text-copper">Acrylic Sheet Brand</span>
             </h1>
 
             {/* Sub-headline - Matching Home Style */}
             <p className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic">
-              From our state-of-the-art Bahadurgarh facility, we engineer surfaces that outperform PETG and standard laminates through German PUR technology.
+              From our automated Bahadurgarh facility, SurajWood manufactures high-gloss and matte PMMA acrylic panels that set the benchmark across India.
             </p>
 
             {/* CTA buttons */}

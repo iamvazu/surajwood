@@ -37,15 +37,15 @@ const HomeTechnicalComparison = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 items-center">
           <div className="lg:w-1/3">
-            <span className="text-copper font-bold text-sm uppercase tracking-widest">Industry Technical Benchmark</span>
+            <span className="text-copper font-bold text-sm uppercase tracking-widest">Material Comparison Matrix</span>
             <h2 className="font-heading font-bold text-4xl text-navy mt-4 mb-6 leading-tight">
-              Why Professionals Choose SurajWood Over PETG
+              Acrylic Sheets vs. Sunmica & PETG Laminates
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Don&apos;t compromise with budget PETG boards or standard laminates. SurajWood&apos;s factory-bonded prelaminated acrylic panels offer the technical durability architects demand.
+              Why top interior designers and modular kitchen contractors choose SurajWood optical PMMA acrylic over standard sunmica, PVC foils, and PETG boards.
             </p>
             <div className="space-y-4">
-              {["100% Moisture Proof", "German PUR Bonding", "95% Reflectivity"].map((item) => (
+              {["100% Waterproof & Steam Proof", "German PUR Hotmelt Bonded", "95% Mirror-Like Reflectivity", "3H Scratch-Resistant & Repairable"].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-white text-[10px]">✓</div>
                   <span className="font-semibold text-navy text-sm">{item}</span>

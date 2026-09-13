@@ -36,13 +36,16 @@ export default function ProductGrid({ products }: ProductGridProps) {
         {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-copper tracking-[0.2em] text-xs uppercase font-black mb-3">
-            The Acrylic Collections
+            Top Acrylic Sheet Collections
           </p>
           <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-navy leading-tight">
-            Five Distinct <span className="text-copper underline decoration-copper/20 underline-offset-8">Acrylic Panel</span> Finishes.{" "}
+            High-Gloss & Matte <span className="text-copper underline decoration-copper/20 underline-offset-8">Acrylic Sheets & Panels</span>{" "}
             <br className="hidden md:block" />
-            Endless Possibilities.
+            for Kitchen Cabinets & Wardrobes
           </h2>
+          <p className="mt-4 text-gray-500 text-sm md:text-base max-w-2xl mx-auto">
+            Engineered with optical-grade PMMA polymer and German PUR hotmelt bonding. Superior to traditional sunmica, PVC foils, and painted finishes.
+          </p>
         </div>
 
         {/* Product cards — vertical slabs */}

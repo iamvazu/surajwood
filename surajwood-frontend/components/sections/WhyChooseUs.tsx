@@ -10,31 +10,31 @@ interface Feature {
 const FEATURES: Feature[] = [
   {
     stat: "0%",
-    unit: "Delamination",
-    title: "Factory Prelaminated",
+    unit: "Delamination Guarantee",
+    title: "German PUR Hotmelt Bonded",
     description:
-      "German PUR hotmelt bonding on E1-Grade MDF, Plywood, or Particle Board. Zero delamination — guaranteed.",
+      "Factory-pressed on moisture-resistant E1 HDMR, Calibrated Plywood, or Particle Board. Outlasts manually pasted sunmica and laminates.",
   },
   {
     stat: "3H",
-    unit: "Hardness",
-    title: "Optical-Grade PMMA",
+    unit: "Scratch Hardness",
+    title: "Optical-Grade PMMA Acrylic",
     description:
-      "Pure PMMA acrylic — not PETG. Mirror-like clarity, 3H scratch resistance, 10+ years UV stability.",
+      "Pure PMMA acrylic sheets — never cheap PETG or PVC. 95% mirror reflection, 3H scratch resistance, and buff-repairable surface.",
   },
   {
-    stat: "B1",
-    unit: "Fire Rating",
-    title: "Climate Engineered",
+    stat: "10+ Yrs",
+    unit: "UV Stability",
+    title: "Zero Yellowing & Fading",
     description:
-      "Tested for 45°C+ heat and coastal humidity. Class B1 fire rating. 95% light reflectivity.",
+      "Tested for 45°C+ Indian kitchen heat and high humidity. Anti-yellowing guarantee for pure white and metallic finishes.",
   },
   {
     stat: "10K+",
-    unit: "Projects",
-    title: "Architect's Choice",
+    unit: "Kitchens & Homes",
+    title: "Architect & Contractor Preferred",
     description:
-      "Trusted by 10,000+ projects. Carpenter-friendly — precise cutting without chipping.",
+      "Top choice for architects, modular kitchen OEMs, and interior designers across Delhi NCR, Mumbai, Bangalore, and Pan-India.",
   },
 ];
 

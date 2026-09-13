@@ -1492,6 +1492,599 @@ const MOCK_POSTS: SanityPost[] = [
     reading_time: 8,
     categories: ["Kitchen Design", "Inspiration"],
   }
+,
+  {
+    id: 49,
+    slug: "top-10-acrylic-sheet-brands-in-india-2026",
+    title: "Top 10 Acrylic Sheet & Laminate Brands in India (2026 Architectural Guide)",
+    excerpt: "Compare India's best acrylic sheet brands including SurajWood, Royale Touche, Advance Laminates, CenturyPly Lucida, Greenlam, Merino, and Dexarte on gloss %, scratch resistance, and price.",
+    content: `<p>When designing high-end modular kitchens and luxury wardrobes in India, choosing the <strong>best acrylic sheet brand</strong> is the single most critical decision for durability, mirror-like gloss, and zero yellowing. In this comprehensive 2026 architectural guide, we evaluate the <strong>top 10 acrylic sheet and laminate brands in India</strong> based on polymer quality, scratch hardness, factory PUR lamination, and price per square foot.</p>
+
+<h2>Top 10 Acrylic Sheet Brands in India Comparison (2026)</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Brand Name</th>
+<th class="p-3 border border-gray-200">Base Material</th>
+<th class="p-3 border border-gray-200">Scratch Rating</th>
+<th class="p-3 border border-gray-200">Gloss Level</th>
+<th class="p-3 border border-gray-200">Lamination Tech</th>
+<th class="p-3 border border-gray-200">Warranty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="font-bold text-copper bg-copper/5">
+<td class="p-3 border border-gray-200">1. SurajWood (ACRYLUX / ACRYGLASS)</td>
+<td class="p-3 border border-gray-200">100% Optical-Grade PMMA Acrylic</td>
+<td class="p-3 border border-gray-200">3H Pencil Hardness</td>
+<td class="p-3 border border-gray-200">95%+ Mirror Reflection</td>
+<td class="p-3 border border-gray-200">German PUR Flat Lamination</td>
+<td class="p-3 border border-gray-200">10-Year UV / 5-Year Defect</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">2. Royale Touche Laminates</td>
+<td class="p-3 border border-gray-200">Extruded Acrylic / High Gloss HPL</td>
+<td class="p-3 border border-gray-200">2H - 3H</td>
+<td class="p-3 border border-gray-200">90%+ Gloss</td>
+<td class="p-3 border border-gray-200">Manual / Factory Press</td>
+<td class="p-3 border border-gray-200">Standard Brand Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">3. Advance Laminates</td>
+<td class="p-3 border border-gray-200">Acrylic Laminate Sheets</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">88%+ Gloss</td>
+<td class="p-3 border border-gray-200">Carpenter Paste / Cold Press</td>
+<td class="p-3 border border-gray-200">Manufacturer Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">4. CenturyPly (Lucida High Gloss)</td>
+<td class="p-3 border border-gray-200">High-Gloss Scuff Resistant Laminate</td>
+<td class="p-3 border border-gray-200">2H+</td>
+<td class="p-3 border border-gray-200">85%+ Gloss</td>
+<td class="p-3 border border-gray-200">Factory Prelaminated / Sheets</td>
+<td class="p-3 border border-gray-200">Standard Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">5. Greenlam Laminates</td>
+<td class="p-3 border border-gray-200">Decorative Acrylic Laminates</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">85%+ Gloss</td>
+<td class="p-3 border border-gray-200">Sheet Supply</td>
+<td class="p-3 border border-gray-200">Standard Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">6. Merino Laminates (Merino Gloss)</td>
+<td class="p-3 border border-gray-200">Ultra-Gloss Decorative Laminates</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">88%+ Gloss</td>
+<td class="p-3 border border-gray-200">Sheet Supply / Prefab</td>
+<td class="p-3 border border-gray-200">Standard Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">7. Dexarte</td>
+<td class="p-3 border border-gray-200">High-Gloss Acrylic Sheets</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">88%+ Gloss</td>
+<td class="p-3 border border-gray-200">Manual / Cold Press</td>
+<td class="p-3 border border-gray-200">Brand Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">8. Frickly (Online Retail Hub)</td>
+<td class="p-3 border border-gray-200">Multi-Brand Acrylic Sheets</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">85%+ Gloss</td>
+<td class="p-3 border border-gray-200">Sheet Aggregator</td>
+<td class="p-3 border border-gray-200">Third-Party Guarantee</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">9. Tilara Polyplast</td>
+<td class="p-3 border border-gray-200">Extruded Acrylic Clear Sheets</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">82%+ Gloss</td>
+<td class="p-3 border border-gray-200">Industrial Supply</td>
+<td class="p-3 border border-gray-200">Commercial Warranty</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">10. Action TESA HDHMR Acrylic</td>
+<td class="p-3 border border-gray-200">Pre-Laminated Acrylic Board</td>
+<td class="p-3 border border-gray-200">2H</td>
+<td class="p-3 border border-gray-200">85%+ Gloss</td>
+<td class="p-3 border border-gray-200">Board Manufacturer</td>
+<td class="p-3 border border-gray-200">Standard Warranty</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>1. Why SurajWood Leads the Indian Acrylic Market</h2>
+<p>Unlike raw sheet distributors where carpenters manually paste sheets using rubber adhesive on-site (which often results in air bubbles, orange-peel waviness, and edge-chipping), <a href="/products/acrylux">SurajWood</a> manufactures fully prelaminated European PMMA acrylic panels. Using moisture-curing German PUR hotmelt flat-lamination technology at its Bahadurgarh facility, SurajWood delivers zero-void, 95% mirror-reflectivity panels backed by a 10-year UV stability guarantee.</p>
+
+<h2>2. How to Choose the Right Acrylic Brand for Your Kitchen</h2>
+<ul>
+<li><strong>Optical Grade PMMA vs Recycled Acrylic:</strong> Genuine PMMA guarantees non-yellowing and 3H scratch resistance, whereas cheap PVC/acrylic blends degrade under Indian sunlight.</li>
+<li><strong>Factory Prelaminated vs Manual Sheet Pasting:</strong> Always prefer factory PUR prelaminated boards over loose sheets pasted on site to prevent delamination near boiling steam and cooking hobs.</li>
+<li><strong>Tension-Balanced Backers:</strong> Ensure the reverse side has a matching balancing sheet to avoid door warping over changing weather seasons.</li>
+</ul>
+
+<h2>Frequently Asked Questions (FAQs)</h2>
+<p><strong>Q: Which brand is best for acrylic modular kitchens in India?</strong><br/>
+A: SurajWood, Royale Touche, and Advance Laminates are the leading choices. SurajWood is rated highest for factory-bonded PUR prelaminated PMMA boards with zero orange-peel distortion.</p>
+<p><strong>Q: What is the price range of acrylic sheets in India?</strong><br/>
+A: Premium 1mm to 2mm acrylic sheets range from ₹80 to ₹350 per sq ft for loose sheets, and ₹850 to ₹1,500 per sq ft for factory-prelaminated E1/HDMR panels.</p>`,
+    featured_image: { ...placeholderImage(449), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-04-18",
+    author: "Suraj Wood Editorial Team",
+    reading_time: 10,
+    categories: ["Brand Comparison", "Market Guide"],
+  },
+  {
+    id: 50,
+    slug: "surajwood-vs-royale-touche-acrylic-sheets-comparison",
+    title: "SurajWood vs Royale Touche: Which Acrylic Sheet is Best for Modular Kitchens?",
+    excerpt: "Detailed side-by-side comparison of SurajWood PMMA prelaminated panels vs Royale Touche acrylic laminates on optical clarity, scratch resistance, pricing, and installation.",
+    content: `<p>When searching for premium kitchen cabinet finishes in India, two names consistently top the list: <strong>SurajWood</strong> and <strong>Royale Touche</strong>. Both represent luxury surfaces, but they employ fundamentally different manufacturing and delivery philosophies. Here is the definitive breakdown.</p>
+
+<h2>SurajWood vs Royale Touche Technical Comparison</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Feature</th>
+<th class="p-3 border border-gray-200">SurajWood Acrylic</th>
+<th class="p-3 border border-gray-200">Royale Touche Acrylic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Product Format</strong></td>
+<td class="p-3 border border-gray-200">Factory Prelaminated Boards & Panels</td>
+<td class="p-3 border border-gray-200">Loose Decorative Sheets (1mm/1.5mm)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Lamination Adhesive</strong></td>
+<td class="p-3 border border-gray-200">German Reactive PUR Hotmelt (Waterproof)</td>
+<td class="p-3 border border-gray-200">Manual Contact Adhesive / Carpenter Pressed</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Optical Reflection</strong></td>
+<td class="p-3 border border-gray-200">95%+ Mirror Surface (Zero Orange-Peel)</td>
+<td class="p-3 border border-gray-200">High Gloss (Depends on manual pressing quality)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Scratch Resistance</strong></td>
+<td class="p-3 border border-gray-200">3H Pencil Hardness (Solid PMMA)</td>
+<td class="p-3 border border-gray-200">2H - 3H Hardcoat</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>UV Anti-Yellowing</strong></td>
+<td class="p-3 border border-gray-200">10-Year Guarantee (Delta E < 2)</td>
+<td class="p-3 border border-gray-200">Industry Standard UV Resistance</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>The Core Difference: Factory Prelamination vs Site Pasting</h2>
+<p>Royale Touche is widely known for distributing loose 1mm and 1.5mm acrylic laminate sheets that carpenters paste on site using contact adhesive (Fevicol/SR). While the sheets look stunning in catalogues, the on-site manual pressing process often introduces uneven glue ridges, dust entrapment, and waviness.</p>
+<p>In contrast, <a href="/products/acrylux">SurajWood</a> supplies factory-bonded prelaminated panels using European flat-line presses. The glue layer is applied at a microscopic, laser-uniform thickness using PUR hotmelt, delivering a 100% flat mirror reflection that looks like solid architectural glass.</p>`,
+    featured_image: { ...placeholderImage(450), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-04-16",
+    author: "Suraj Wood Technical Desk",
+    reading_time: 8,
+    categories: ["Brand Comparison", "Kitchen Design"],
+  },
+  {
+    id: 51,
+    slug: "advance-laminates-vs-surajwood-acrylic-panels",
+    title: "Advance Laminates vs SurajWood Acrylic Panels: Quality, Price & Kitchen Durability",
+    excerpt: "Evaluate Advance Laminates vs SurajWood for modular kitchens and wardrobes. Compare scratch hardness, moisture sealing, and square foot costs.",
+    content: `<p><strong>Advance Laminates</strong> has built a substantial retail network across India with popular decorative laminates and glossy acrylic sheets. If you are comparing Advance Laminates against <strong>SurajWood</strong> for an upcoming residential or commercial renovation, here is what you need to know about material composition, scratch resistance, and moisture longevity.</p>
+
+<h2>1. Material Construction</h2>
+<p>Advance Laminates produces decorative laminate sheets with high-gloss finishes suitable for general cabinetry. SurajWood specializes in heavy-duty PMMA optical acrylic co-extruded with UV stabilizers and factory-laminated onto moisture-resistant HDMR and E1-grade substrates.</p>
+
+<h2>2. Performance in High-Steam Indian Kitchens</h2>
+<p>Indian cooking produces high ambient steam and oil vapors near hobs. Standard laminate sheets with manual edge banding can absorb moisture over 3-5 years, leading to edge swelling. SurajWood's factory PUR hotmelt edge-banding creates an impenetrable 100% moisture barrier that resists delamination even during monsoon seasons.</p>
+
+<h2>3. Pricing & Value Breakdown</h2>
+<p>While Advance Laminates offers economical entry-level sheet pricing, adding on-site carpenter labour, adhesive, balancing backers, and edge-banding often brings total finished costs close to SurajWood's factory-finished panels, which include direct factory warranties and zero site-labour hassle.</p>`,
+    featured_image: { ...placeholderImage(451), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-04-14",
+    author: "Suraj Wood Material Desk",
+    reading_time: 7,
+    categories: ["Brand Comparison", "Material Guide"],
+  },
+  {
+    id: 52,
+    slug: "acrylic-sheet-price-per-sq-ft-in-india-2026",
+    title: "Acrylic Sheet Price in India (2026): 1mm, 1.5mm & Prelaminated Board Cost Guide",
+    excerpt: "Complete 2026 price guide for acrylic sheets in India. Compare raw sheet rates, prelaminated board costs, fabrication expenses, and brand price benchmarks.",
+    content: `<p>Understanding the realistic cost of <strong>acrylic sheets and panels in India</strong> is essential for budgeting modular kitchens, wardrobes, and TV units. In this 2026 price guide, we break down material rates per square foot, thickness variations, brand differences, and hidden fabrication costs.</p>
+
+<h2>Acrylic Sheet Price Per Square Foot (2026 Market Rates)</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Acrylic Format & Thickness</th>
+<th class="p-3 border border-gray-200">Price Range (Per Sq Ft)</th>
+<th class="p-3 border border-gray-200">Standard 8x4 Sheet Cost</th>
+<th class="p-3 border border-gray-200">Best Application</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200">1mm Decorative Acrylic Sheet</td>
+<td class="p-3 border border-gray-200">₹90 - ₹160</td>
+<td class="p-3 border border-gray-200">₹2,880 - ₹5,120</td>
+<td class="p-3 border border-gray-200">Wardrobe Shutters, Low-Traffic Cabinets</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">1.5mm High-Gloss PMMA Sheet</td>
+<td class="p-3 border border-gray-200">₹140 - ₹240</td>
+<td class="p-3 border border-gray-200">₹4,480 - ₹7,680</td>
+<td class="p-3 border border-gray-200">Kitchen Base & Overhead Shutters</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">2mm Optical Glass-Grade Sheet</td>
+<td class="p-3 border border-gray-200">₹220 - ₹380</td>
+<td class="p-3 border border-gray-200">₹7,040 - ₹12,160</td>
+<td class="p-3 border border-gray-200">Luxury Island Backdrops, Commercial Cladding</td>
+</tr>
+<tr class="font-bold bg-copper/5">
+<td class="p-3 border border-gray-200">Factory Prelaminated Board (18mm HDMR)</td>
+<td class="p-3 border border-gray-200">₹850 - ₹1,450</td>
+<td class="p-3 border border-gray-200">₹27,200 - ₹46,400</td>
+<td class="p-3 border border-gray-200">Complete Ready-to-Hang Modular Shutters</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>Hidden Costs in Manual Sheet Pasting vs Factory Prelaminated Panels</h2>
+<p>When buying loose acrylic sheets from retailers like Royale Touche, Advance, or Frickly, remember that you must also factor in:</p>
+<ul>
+<li><strong>Substrate Board Cost:</strong> ₹60 - ₹120 / sq ft for 18mm HDMR/BWP Ply.</li>
+<li><strong>Contact Adhesive:</strong> ₹15 - ₹25 / sq ft.</li>
+<li><strong>Balancing Backer Sheet:</strong> ₹30 - ₹50 / sq ft (critical to prevent door warping).</li>
+<li><strong>Carpenter Lamination Labour:</strong> ₹150 - ₹250 / sq ft.</li>
+<li><strong>Edge Banding & Trimming:</strong> ₹40 - ₹70 / running ft.</li>
+</ul>
+<p>By purchasing <a href="/products/acrylux">SurajWood factory prelaminated panels</a>, all adhesive, tension balancing, and calibration are performed under strict industrial conditions, saving you 40% on total project time and delivering superior mirror flatness.</p>`,
+    featured_image: { ...placeholderImage(452), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-04-12",
+    author: "Suraj Wood Cost Estimation Team",
+    reading_time: 9,
+    categories: ["Pricing Guide", "Kitchen Design"],
+  },
+  {
+    id: 53,
+    slug: "acrylic-vs-laminate-for-modular-kitchen-cabinets",
+    title: "Acrylic vs Laminate for Modular Kitchen: Price, Scratch Resistance & Lifespan",
+    excerpt: "Comprehensive comparison between high-gloss acrylic and traditional sunmica laminates for Indian kitchens. Which finish lasts longer against steam and spices?",
+    content: `<p>Choosing between <strong>acrylic sheets</strong> and <strong>sunmica laminates</strong> is the most common dilemma for Indian homeowners planning a modular kitchen. While laminates are budget-friendly, acrylic offers an unrivaled mirror-like luxury sheen. Here is how they compare across all key performance metrics.</p>
+
+<h2>1. Visual Appearance & Sheen</h2>
+<p><strong>Acrylic:</strong> Delivers a 95%+ reflective optical mirror finish. Because it is a solid polymer layer, the colour has rich optical depth that never looks cloudy.</p>
+<p><strong>Laminate:</strong> Uses printed decorative paper sealed with resin. High-gloss laminates have roughly 70-80% gloss with noticeable optical distortion (orange peel effect).</p>
+
+<h2>2. Scratch & Heat Resistance</h2>
+<p>SurajWood PMMA acrylic features a <strong>3H pencil hardness</strong> rating that resists daily cleaning scuffs and utensils. While laminates resist heat well, their edges can chip or peel if exposed to continuous boiling water steam from rice cookers or pressure cookers.</p>
+
+<h2>3. Maintenance in Indian Cooking</h2>
+<p>Turmeric, mustard oil, and tadka vapours are notoriously difficult to clean off textured laminates. Because optical PMMA acrylic is completely non-porous, turmeric stains wipe away effortlessly with a damp microfibre cloth and mild soapy water.</p>`,
+    featured_image: { ...placeholderImage(453), url: "/images/gallery/kitchen-new-1.png" },
+    date: "2026-04-10",
+    author: "Suraj Wood Design Desk",
+    reading_time: 8,
+    categories: ["Material Comparison", "Kitchen Design"],
+  },
+  {
+    id: 54,
+    slug: "acrylic-vs-pu-finish-vs-pvc-laminate-kitchen",
+    title: "Acrylic vs PU Finish vs PVC Laminates for Kitchen Cabinets: Pros, Cons & Costs",
+    excerpt: "Compare acrylic panels, PU paint polish, and PVC membrane laminates on yellowing, durability, edge peeling, and cost per square foot in India.",
+    content: `<p>Modern modular kitchen renovations in India typically compare three premium finish options: <strong>Acrylic Panels</strong>, <strong>Polyurethane (PU) Paint</strong>, and <strong>PVC Laminates</strong>. Each material has distinct pros, cons, and maintenance requirements.</p>
+
+<h2>Quick Comparison: Acrylic vs PU Paint vs PVC Foil</h2>
+<ul>
+<li><strong>Acrylic (SurajWood):</strong> Zero yellowing (10-year UV guarantee), uniform mirror gloss, non-porous, 3H scratch resistance, medium-high budget.</li>
+<li><strong>PU Paint (Polyurethane Polish):</strong> Seamless edges with no joints, custom RAL colors, but prone to chipping on impact and requires expensive spray-booth recoating if scratched.</li>
+<li><strong>PVC Membrane Foil:</strong> Monolithic 3D wrap (ideal for Shaker/grooved designs), economical, but sensitive to high heat (can peel near hobs if not factory vacuum bonded).</li>
+</ul>
+
+<h2>The Recommendation for Indian Homes</h2>
+<p>For flat-front modern kitchens, <strong>prelaminated PMMA acrylic</strong> is the clear winner for longevity and ease of cleaning. For grooved classical designs (such as Shaker doors and fluted panels), consider <a href="/products/membrane-shutters">Continental 3D Membrane Shutters</a> with seamless edge wrapping.</p>`,
+    featured_image: { ...placeholderImage(454), url: "/images/gallery/kitchen-new-2.jpg" },
+    date: "2026-04-08",
+    author: "Suraj Wood Architectural Review",
+    reading_time: 7,
+    categories: ["Material Comparison", "Interior Design"],
+  },
+  {
+    id: 55,
+    slug: "best-acrylic-sheets-for-modular-kitchen-cabinets",
+    title: "Best Acrylic Sheets for Modular Kitchen Cabinets: Anti-Yellowing & Waterproof Guide",
+    excerpt: "How to select the best acrylic sheets for your kitchen cabinets. Learn why UV stability, PUR hot-melt bonding, and 3H scratch resistance matter.",
+    content: `<p>A modular kitchen is an investment designed to last 15 to 20 years. When choosing the <strong>best acrylic sheets for kitchen cabinets</strong>, look beyond the glossy appearance and verify the underlying engineering specifications.</p>
+
+<h2>1. Look for Pure PMMA Polymer (Not PVC/PET Blends)</h2>
+<p>Many budget sheets sold in local timber markets are made from PETG or cheap PVC co-extruded films that turn cloudy or yellowish under tropical sunlight. Genuine PMMA (Polymethyl Methacrylate) used in <a href="/products/acrylux">SurajWood panels</a> provides permanent color clarity and high UV stability.</p>
+
+<h2>2. Demand PUR Reactive Edge Banding</h2>
+<p>The number one reason kitchen shutters fail is water seeping through the edge joints. Standard EVA glue softens when exposed to steam. Reactive PUR (Polyurethane) hotmelt adhesive forms an irreversible chemical bond that creates a 100% waterproof seal around every shutter edge.</p>
+
+<h2>3. Choose the Right Color Balance</h2>
+<p>Pair high-gloss upper cabinets (such as Arctic White or Champagne) with scratch-resistant lower units (such as ACRYMATTE Charcoal or Forest Green) for the ultimate blend of visual grandeur and everyday practicality.</p>`,
+    featured_image: { ...placeholderImage(455), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-04-05",
+    author: "Suraj Wood Kitchen Specialist",
+    reading_time: 8,
+    categories: ["Kitchen Design", "Material Guide"],
+  },
+  {
+    id: 56,
+    slug: "1mm-vs-1-5mm-vs-2mm-acrylic-sheet-thickness-guide",
+    title: "1mm vs 1.5mm vs 2mm Acrylic Sheet Thickness: Which One Should You Choose?",
+    excerpt: "Detailed technical guide explaining the differences between 1mm, 1.5mm, and 2mm acrylic sheets for kitchen cabinets, wardrobe sliding doors, and wall cladding.",
+    content: `<p>Acrylic sheets are available in varying thicknesses: <strong>1mm, 1.5mm, and 2mm</strong>. Choosing the wrong thickness can lead to surface waviness, telegraphing substrate grain, or unnecessary project costs. Here is how to select the right gauge for your application.</p>
+
+<h2>1. 1mm Acrylic Sheets (Standard Interior Grade)</h2>
+<p>Best for standard wardrobe sliding doors, internal display shelving, and budget kitchen overhead cabinets. Requires an ultra-smooth calibrated substrate to prevent subtle surface telegraphing.</p>
+
+<h2>2. 1.5mm Optical Acrylic Sheets (The Gold Standard)</h2>
+<p>The recommended thickness for premium modular kitchens. 1.5mm PMMA provides enough rigid depth to mask minor substrate imperfections, delivering a flawless mirror reflection with high scratch resistance.</p>
+
+<h2>3. 2mm Optical Glass-Grade Acrylic (The Luxury Benchmark)</h2>
+<p>Used in SurajWood's <a href="/products/acryglass">ACRYGLASS</a> collection. Provides the authentic physical depth, beveling capability, and crystal clarity of real lacquered back-painted glass, at half the weight and zero risk of shattering.</p>`,
+    featured_image: { ...placeholderImage(456), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-04-03",
+    author: "Suraj Wood Engineering Desk",
+    reading_time: 6,
+    categories: ["Technical Guide", "Material Guide"],
+  },
+  {
+    id: 57,
+    slug: "merino-laminates-vs-surajwood-acrylic-review",
+    title: "Merino Laminates vs SurajWood Acrylic: High-Gloss Performance & Price Comparison",
+    excerpt: "Detailed comparison of Merino high-gloss decorative laminates vs SurajWood PMMA prelaminated panels for residential and commercial interiors.",
+    content: `<p><strong>Merino Laminates</strong> is one of India's largest decorative surface conglomerates. When specifying high-gloss surfaces for residential modular furniture, architects frequently compare Merino's gloss laminate collections with <strong>SurajWood's factory prelaminated acrylic panels</strong>.</p>
+
+<h2>Key Differences</h2>
+<ul>
+<li><strong>Mirror Depth:</strong> Merino's gloss laminates offer good sheen, but as paper-based laminates, they exhibit minor resin texture under directional spotlights. SurajWood ACRYLUX is 100% optical PMMA, offering an uncompromised mirror reflection.</li>
+<li><strong>Scratch Recovery:</strong> SurajWood PMMA acrylic can be polished with fine carnauba wax to buff out micro-scratches over years of use, whereas scratched laminates cannot be repaired.</li>
+<li><strong>Edge Banding Aesthetics:</strong> SurajWood offers matching dual-tone 3D acrylic edge bands that create seamless, glass-like cabinet door borders.</li>
+</ul>`,
+    featured_image: { ...placeholderImage(457), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-04-01",
+    author: "Suraj Wood Product Analysis",
+    reading_time: 7,
+    categories: ["Brand Comparison", "Market Guide"],
+  },
+  {
+    id: 58,
+    slug: "centuryply-lucida-vs-surajwood-acrylux-review",
+    title: "CenturyPly Lucida vs SurajWood ACRYLUX: High-Gloss Kitchen Laminate Review",
+    excerpt: "Technical review comparing CenturyPly Lucida 1mm high-gloss laminate sheets with SurajWood ACRYLUX PUR-bonded acrylic panels on durability, gloss, and price.",
+    content: `<p><strong>CenturyPly Lucida</strong> is a popular high-gloss laminate line heavily marketed across India for kitchens and wardrobes. How does it compare against <strong>SurajWood ACRYLUX</strong> prelaminated PMMA panels?</p>
+
+<h2>Performance Benchmark</h2>
+<p>CenturyPly Lucida is a decorative laminate featuring an abrasive-resistant top layer designed to resist kitchen scuffs. However, like all HPL laminates, it has a phenolic backing layer and requires on-site adhesive pressing.</p>
+<p><strong>SurajWood ACRYLUX</strong> is a solid polymer PMMA acrylic panel pre-bonded in a climate-controlled factory using reactive PUR hotmelt adhesive. The results are vastly superior mirror clarity, zero risk of bubbling, and superior 3H scratch resilience.</p>`,
+    featured_image: { ...placeholderImage(458), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-03-29",
+    author: "Suraj Wood Editorial Team",
+    reading_time: 8,
+    categories: ["Brand Comparison", "Kitchen Design"],
+  },
+  {
+    id: 59,
+    slug: "greenlam-acrylic-sheets-vs-surajwood-comparison",
+    title: "Greenlam Acrylic Laminates vs SurajWood: Scratch Resistance & Gloss Comparison",
+    excerpt: "Compare Greenlam decorative gloss laminates with SurajWood optical PMMA acrylic panels on color fastness, water resistance, and luxury feel.",
+    content: `<p><strong>Greenlam</strong> is a global leader in decorative laminates with a vast color catalogue. For luxury interior projects in India, comparing Greenlam's premium collections with <strong>SurajWood acrylic panels</strong> highlights key differences in tactile feel and technical resilience.</p>
+
+<h2>1. Color Saturation & Depth</h2>
+<p>Because SurajWood uses optical-grade PMMA with color pigments infused throughout the polymer layer, colors have profound visual depth. Deep tones like Midnight Navy, Jet Black, and Forest Green exhibit rich luminosity that printed laminate decors cannot match.</p>
+
+<h2>2. Anti-Yellowing in Sunny Indian Homes</h2>
+<p>Greenlam sheets use UV-treated melamine resins. SurajWood integrates inorganic UV absorbers that carry a certified 10-year anti-yellowing guarantee, ensuring white kitchen shutters stay pristine for a decade.</p>`,
+    featured_image: { ...placeholderImage(459), url: "/images/gallery/wardrobe-1.jpg" },
+    date: "2026-03-27",
+    author: "Suraj Wood Technical Desk",
+    reading_time: 7,
+    categories: ["Brand Comparison", "Material Guide"],
+  },
+  {
+    id: 60,
+    slug: "acrylic-wardrobe-designs-sliding-door-shutters",
+    title: "Modern Acrylic Wardrobe Designs: Sliding Doors, High-Gloss & Anti-Fingerprint Matte",
+    excerpt: "Explore modern bedroom wardrobe designs utilizing acrylic finishes. From floor-to-ceiling sliding shutters to soft-satin walk-in closets.",
+    content: `<p>A master bedroom wardrobe occupies the largest vertical surface area in the room. Specifying <strong>acrylic wardrobe shutters</strong> transforms ordinary storage into a stunning luxury architectural feature.</p>
+
+<h2>1. Floor-to-Ceiling Sliding Doors</h2>
+<p>For sliding wardrobes, light reflection is everything. Utilizing high-gloss <a href="/products/acrylux">ACRYLUX</a> white or champagne shutters bounces daylight across the bedroom, making the room feel significantly more spacious.</p>
+
+<h2>2. Anti-Fingerprint Matte for Handleless Closets</h2>
+<p>If you prefer a contemporary handleless wardrobe with touch-to-open hardware, specify <a href="/products/acrymatte">ACRYMATTE</a>. Its nano-coated surface eliminates fingerprint smudges, ensuring your wardrobe looks clean every day without constant wiping.</p>
+
+<h2>3. Tension-Balanced Substrates Prevent Door Warping</h2>
+<p>Tall wardrobe shutters (7ft to 9ft) are prone to bending if single-sided laminate is applied. SurajWood factory prelaminates all wardrobe boards with matching tension backers, guaranteeing lifetime vertical straightness.</p>`,
+    featured_image: { ...placeholderImage(460), url: "/images/gallery/wardrobe-2.jpg" },
+    date: "2026-03-25",
+    author: "Suraj Wood Bedroom Design Team",
+    reading_time: 8,
+    categories: ["Wardrobe Design", "Inspiration"],
+  },
+  {
+    id: 61,
+    slug: "matte-acrylic-vs-high-gloss-acrylic-kitchen-cabinets",
+    title: "Matte vs High-Gloss Acrylic Kitchen Cabinets: Which One is Easier to Maintain?",
+    excerpt: "Should you choose matte or high-gloss acrylic for your kitchen? We evaluate daylight reflection, fingerprint smudge resistance, and cleaning ease.",
+    content: `<p>Choosing between <strong>High-Gloss Acrylic</strong> and <strong>Soft-Matte Acrylic</strong> defines the entire ambience of your home. Here is an honest, practical comparison of maintenance, aesthetics, and light reflection.</p>
+
+<h2>High-Gloss Acrylic (ACRYLUX / ACRYGLASS)</h2>
+<ul>
+<li><strong>Pros:</strong> 95% mirror reflection makes small kitchens look double their size; opulent luxury feel; non-porous and impossible for turmeric to penetrate.</li>
+<li><strong>Cons:</strong> Fingerprints and water splashes are visible under direct spotlights, requiring daily microfibre wiping.</li>
+</ul>
+
+<h2>Nano-Matte Acrylic (ACRYMATTE / ACRYSILK)</h2>
+<ul>
+<li><strong>Pros:</strong> Zero glare; velvety soft-touch texture; anti-fingerprint coating hides smudges; highly trending in Japandi and modern minimalist homes.</li>
+<li><strong>Cons:</strong> Does not bounce ambient light, making it better suited for well-lit rooms or paired with profile LED lighting.</li>
+</ul>`,
+    featured_image: { ...placeholderImage(461), url: "/images/gallery/kitchen-new-1.png" },
+    date: "2026-03-22",
+    author: "Suraj Wood Design Desk",
+    reading_time: 7,
+    categories: ["Material Comparison", "Kitchen Design"],
+  },
+  {
+    id: 62,
+    slug: "how-to-clean-and-maintain-acrylic-kitchen-cabinets",
+    title: "How to Clean Acrylic Kitchen Cabinets & Remove Scratches (Step-by-Step)",
+    excerpt: "The ultimate maintenance manual for acrylic shutters. Learn the right cleaning liquids, microfibre techniques, and scratch removal methods.",
+    content: `<p>Maintaining the showroom shine of your acrylic modular kitchen takes less than two minutes when using the correct techniques. Follow these dos and don'ts to keep your shutters flawless for 15+ years.</p>
+
+<h2>Daily Cleaning Routine</h2>
+<ul>
+<li><strong>Use Microfibre Only:</strong> Always use a clean, soft microfibre cloth. Never use paper towels, dish sponges, or abrasive scotch-brite pads which cause micro-scratches.</li>
+<li><strong>Mild Soapy Water:</strong> Dilute 2 drops of mild dishwashing liquid in warm water. Spray onto the cloth (never directly onto the panel seams) and wipe in gentle circular strokes.</li>
+<li><strong>Dry Immediately:</strong> Use a second dry microfibre cloth to remove residual moisture and reveal a streak-free shine.</li>
+</ul>
+
+<h2>How to Buff Out Micro-Scratches on High-Gloss Acrylic</h2>
+<p>Unlike laminates which cannot be repaired once scratched, solid PMMA acrylic can be polished. Apply a small dab of fine liquid carnauba polish (or dedicated acrylic scratch remover) with a microfibre cloth, buff gently for 60 seconds, and wipe clean to restore the mirror reflection.</p>`,
+    featured_image: { ...placeholderImage(462), url: "/images/gallery/kitchen-new-2.jpg" },
+    date: "2026-03-19",
+    author: "Suraj Wood Maintenance Desk",
+    reading_time: 6,
+    categories: ["Maintenance", "How-To Guide"],
+  },
+  {
+    id: 63,
+    slug: "prelaminated-acrylic-boards-vs-manual-sheet-pressing",
+    title: "Prelaminated Acrylic Boards vs Manual Cold Pressing: Why Factory PUR Lamination Wins",
+    excerpt: "Why manual cold-press pasting leads to bubbling and edge delamination. Discover the engineering benefits of German PUR hot-melt flat lamination.",
+    content: `<p>In Indian interior contracting, there are two ways to build acrylic furniture: buying loose sheets and having carpenters manually paste them on site, or ordering <strong>factory prelaminated acrylic panels</strong>. Here is why architects and luxury OEMs exclusively specify factory prelaminated boards.</p>
+
+<h2>The Dangers of On-Site Manual Sheet Pasting</h2>
+<ul>
+<li><strong>Uneven Glue Layer:</strong> Manual adhesive spread leaves microscopic valleys that cause visible waviness (orange-peel effect).</li>
+<li><strong>Trapped Dust & Air Bubbles:</strong> Site dust inevitably settles between the board and acrylic sheet, creating permanent bumps.</li>
+<li><strong>EVA Glue Failure Near Steam:</strong> Standard rubber adhesives fail under kitchen steam and coastal humidity, leading to corner peeling.</li>
+</ul>
+
+<h2>The SurajWood Factory PUR Advantage</h2>
+<p><a href="/about">SurajWood's state-of-the-art Bahadurgarh plant</a> uses European flat-line presses with reactive PUR (Polyurethane) hotmelt adhesive. The adhesive undergoes a chemical cross-linking reaction with moisture, forming a permanent, 100% waterproof bond that will never delaminate.</p>`,
+    featured_image: { ...placeholderImage(463), url: "/images/gallery/kitchen-1.jpg" },
+    date: "2026-03-15",
+    author: "Suraj Wood Manufacturing Team",
+    reading_time: 8,
+    categories: ["Manufacturing", "Technical Guide"],
+  },
+  {
+    id: 64,
+    slug: "acrylic-sheet-colours-and-shade-card-guide-2026",
+    title: "Acrylic Sheet Colours & Shade Card Guide 2026: White, Grey, Navy & Metallic Finishes",
+    excerpt: "Discover trending acrylic laminate colors for 2026 modular kitchens. Explore shade card swatches from Arctic White to Smoked Walnut and Champagne Gold.",
+    content: `<p>Choosing the right color palette defines your kitchen's personality. In our 2026 Shade Card collection, SurajWood curates over 50 architectural colors across High-Gloss, Soft-Satin, and Nano-Matte sheens.</p>
+
+<h2>Top Trending Acrylic Colors for 2026</h2>
+<ol>
+<li><strong>Arctic White (ACRYLUX):</strong> High-purity optical white that maximizes ambient daylight and creates an expansive, pristine feel.</li>
+<li><strong>Midnight Navy (ACRYGLASS):</strong> Deep royal blue with crystal depth, stunning when paired with brushed brass hardware.</li>
+<li><strong>Forest Green (ACRYMATTE):</strong> Organic botanical sage that anchors modern Japandi kitchen islands.</li>
+<li><strong>Champagne Gold (ACRYSILK):</strong> Soft metallic satin finish that brings warm opulence to bedroom wardrobes.</li>
+<li><strong>Jet Black Nano-Matte:</strong> Velvet anti-fingerprint black for bold, high-contrast contemporary spaces.</li>
+</ol>
+<p>Explore our complete <a href="/shades">50+ Shade Card Collection</a> or request a free physical sample box delivered to your doorstep.</p>`,
+    featured_image: { ...placeholderImage(464), url: "/images/gallery/kitchen-2.jpg" },
+    date: "2026-03-12",
+    author: "Suraj Wood Color Team",
+    reading_time: 7,
+    categories: ["Color Selection", "Inspiration"],
+  },
+  {
+    id: 65,
+    slug: "acrylic-vs-sunmica-difference-price-pros-cons",
+    title: "Acrylic vs Sunmica: Differences, Price Per Sq Ft, Durability & Pros and Cons",
+    excerpt: "Clear breakdown of traditional sunmica laminates vs modern optical acrylic sheets. Compare costs, scratch ratings, and gloss durability for Indian homes.",
+    content: `<p>Many Indian homeowners use the word <em>Sunmica</em> (a popular historical brand of decorative laminate) interchangeably with all cabinet surfaces. However, <strong>Sunmica and Acrylic are fundamentally different materials</strong>.</p>
+
+<h2>Core Differences</h2>
+<ul>
+<li><strong>Material:</strong> Sunmica is resin-treated kraft paper pressed under high pressure. Acrylic is a solid polymer sheet (PMMA) offering optical glass-like transparency.</li>
+<li><strong>Gloss Level:</strong> Glossy sunmica achieves ~70% gloss with visible orange peel texture. Acrylic achieves 95%+ optical mirror reflection.</li>
+<li><strong>Cost:</strong> Sunmica ranges from ₹30 to ₹90 / sq ft. Acrylic sheets range from ₹120 to ₹350 / sq ft.</li>
+<li><strong>Lifespan:</strong> High-grade PMMA acrylic lasts 15+ years without fading or yellowing, whereas sunmica can chip along the edges over time.</li>
+</ul>`,
+    featured_image: { ...placeholderImage(465), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-03-08",
+    author: "Suraj Wood Consumer Advice",
+    reading_time: 8,
+    categories: ["Material Comparison", "Consumer Guide"],
+  },
+  {
+    id: 66,
+    slug: "acrylic-kitchen-cabinets-cost-calculator-india",
+    title: "Acrylic Kitchen Cabinets Cost Calculator India: Price Per Sq Ft Breakdown",
+    excerpt: "Calculate the exact cost of an acrylic modular kitchen in India. Transparent price breakdowns for L-shaped, U-shaped, and parallel layouts.",
+    content: `<p>Planning the budget for an acrylic modular kitchen? In India, an acrylic kitchen typically costs between <strong>₹1.5 Lakhs to ₹4.5 Lakhs</strong> depending on the layout size, hardware channels, and substrate selection.</p>
+
+<h2>Cost Breakdown Per Running Foot & Square Foot (2026)</h2>
+<ul>
+<li><strong>Base Cabinets (with acrylic shutters & tandem boxes):</strong> ₹1,800 - ₹2,800 per running foot.</li>
+<li><strong>Wall Overhead Cabinets (acrylic shutters):</strong> ₹1,200 - ₹1,900 per running foot.</li>
+<li><strong>Loft Storage (acrylic shutters):</strong> ₹900 - ₹1,400 per running foot.</li>
+<li><strong>Hardware & Soft-Close Channels (Hettich / Blum):</strong> ₹35,000 - ₹80,000 for standard 3BHK kitchen.</li>
+</ul>
+<p>Contact SurajWood for direct factory prelaminated panel supply to save up to 30% compared to turnkey interior showroom quotes.</p>`,
+    featured_image: { ...placeholderImage(466), url: "/images/gallery/kitchen-4.jpg" },
+    date: "2026-03-04",
+    author: "Suraj Wood Estimation Desk",
+    reading_time: 7,
+    categories: ["Pricing Guide", "Kitchen Design"],
+  },
+  {
+    id: 67,
+    slug: "waterproof-and-termite-proof-acrylic-cabinet-substrates",
+    title: "Waterproof & Termite-Proof Acrylic Substrates: HDMR vs BWP Plywood vs HDHMR",
+    excerpt: "Selecting the best substrate for acrylic panel lamination. Compare HDMR, BWP Marine Plywood, and Action TESA HDHMR for kitchen water resistance.",
+    content: `<p>Even the finest acrylic sheet will fail if bonded to an inferior wood substrate. When specifying acrylic shutters for Indian kitchens and bathrooms, choosing the right core board is crucial for holding screws and resisting moisture.</p>
+
+<h2>Substrate Comparison for Acrylic Lamination</h2>
+<ol>
+<li><strong>HDMR (High-Density Moisture-Resistant Board):</strong> Perfectly calibrated flat surface with high density. Ideal for PUR flat-lamination with zero surface waviness and high screw-holding power.</li>
+<li><strong>BWP Marine Plywood (IS:710):</strong> 100% boiling waterproof, best for base sink cabinets. Must be calibrated plywood to prevent thickness variation.</li>
+<li><strong>Action TESA HDHMR:</strong> Widely used engineered board combining moisture resilience with termite protection.</li>
+</ol>
+<p>SurajWood prelaminates its PMMA acrylic onto pre-calibrated E1 HDMR and BWP boards, ensuring 100% flatness and zero core swelling.</p>`,
+    featured_image: { ...placeholderImage(467), url: "/images/gallery/wardrobe-1.jpg" },
+    date: "2026-03-01",
+    author: "Suraj Wood Engineering Desk",
+    reading_time: 8,
+    categories: ["Technical Guide", "Material Guide"],
+  },
+  {
+    id: 68,
+    slug: "top-acrylic-sheet-manufacturers-in-delhi-ncr-haryana",
+    title: "Top Acrylic Sheet & Panel Manufacturers in Delhi NCR, Gurgaon & Haryana",
+    excerpt: "Overview of industrial acrylic panel manufacturing in North India. Why SurajWood's Bahadurgarh plant is the preferred supplier for Delhi NCR architects.",
+    content: `<p>Delhi NCR, Gurgaon, and Haryana represent one of the fastest-growing luxury interior markets in India. For architects, interior contractors, and OEM modular factories, sourcing high-grade acrylic panels directly from regional manufacturing plants offers massive logistical and quality advantages.</p>
+
+<h2>SurajWood's Bahadurgarh Manufacturing Excellence</h2>
+<p>Located on the 45 KM Stone, VPO Rohad in Bahadurgarh, Haryana, Suraj Wood Products operates a state-of-the-art European flat-lamination and 3D vacuum thermoforming facility. Supplying Delhi, Gurgaon, Noida, Chandigarh, and pan-India with 50+ shades in ready stock, SurajWood provides 3-5 day project delivery times with zero transit damage.</p>`,
+    featured_image: { ...placeholderImage(468), url: "/images/about/about-bg.jpg" },
+    date: "2026-02-25",
+    author: "Suraj Wood Industry Desk",
+    reading_time: 6,
+    categories: ["Manufacturing", "Regional Hub"],
+  },
 ];
 
 // ---------------------------------------------------------------------------

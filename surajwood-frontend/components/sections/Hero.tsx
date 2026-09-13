@@ -10,41 +10,41 @@ import { motion, type Transition } from "framer-motion";
 const HERO_SLIDES = [
   { 
     src: "/images/banner/bg3.jpg", 
-    alt: "Premium acrylic kitchen interior",
-    title: "Curated Culinary Spaces",
-    subtitle: "European-grade ACRYLUX panels for the heart of your home."
+    alt: "Best acrylic sheet for modular kitchen cabinets - SurajWood Acrylux",
+    title: "India's Best Acrylic Sheets for Modular Kitchens",
+    subtitle: "High-Gloss & Matte Prelaminated Acrylic Panels for Luxury Kitchen Cabinets & Shutters."
   },
   { 
     src: "/images/gallery/wardrobe-1.jpg", 
-    alt: "Modern wardrobe with SurajWood panels",
-    title: "The Art of Organization",
-    subtitle: "Bespoke wardrobes crafted with anti-fingerprint ACRYSILK surfaces."
+    alt: "Anti-fingerprint acrylic sheets for modern wardrobes",
+    title: "Anti-Fingerprint Acrylic Sheets for Wardrobes",
+    subtitle: "Scratch-resistant ACRYSILK & ACRYMATTE surfaces for seamless sliding wardrobe shutters."
   },
   { 
     src: "/images/gallery/kitchen-1.jpg", 
-    alt: "Modern kitchen with SurajWood panels",
-    title: "Mirror-Like Brilliance",
-    subtitle: "ACRYGLASS high-gloss finishes that redefine modern Indian kitchens."
+    alt: "Top acrylic sheet brand in India - high gloss mirror finish",
+    title: "Top Acrylic Sheet Brand in India",
+    subtitle: "Mirror-like 95% reflective acrylic laminate panels outperforming traditional sunmica and PU finish."
   },
   { 
     src: "/images/gallery/commercial-premium.png", 
-    alt: "Commercial interior with SurajWood surfaces",
-    title: "Architectural Authority",
-    subtitle: "Durable, high-traffic surfaces for premium commercial environments."
+    alt: "Factory prelaminated acrylic boards on HDMR and plywood",
+    title: "Factory Prelaminated Acrylic Panels & Boards",
+    subtitle: "German PUR hotmelt bonding on E1 HDMR & Calibrated Plywood with zero edge delamination."
   },
   { 
     src: "/images/gallery/tv-unit-1.jpg", 
-    alt: "Luxury TV unit with SurajWood finishes",
-    title: "Sophisticated Living",
-    subtitle: "Integrating AL-PROFHAN hardware with master-crafted acrylic panels."
+    alt: "Continental 3D membrane shutters and fluted acrylic panels",
+    title: "Seamless 3D Membrane & Fluted Shutters",
+    subtitle: "Zero edge-banding seamless kitchen and wardrobe doors with integrated J-pull handles."
   },
 ];
 
 const TRUST_STATS = [
-  { value: "15+", label: "Years Experience" },
-  { value: "50+", label: "Premium Shades" },
-  { value: "10k+", label: "Global Projects" },
-  { value: "Pan-India", label: "Fast Delivery" },
+  { value: "15+", label: "Years Manufacturing" },
+  { value: "50+", label: "Acrylic Shades" },
+  { value: "10k+", label: "Modular Kitchens" },
+  { value: "Pan-India", label: "Doorstep Samples" },
 ];
 
 const EASE: Transition["ease"] = [0.16, 1, 0.3, 1];
@@ -143,7 +143,7 @@ export default function Hero() {
                 >
                   <div className="w-8 h-[2px] bg-copper" />
                   <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
-                    SURAJ WOOD — PREMIUM SURFACES
+                    TOP ACRYLIC SHEET BRAND IN INDIA — SURAJWOOD
                   </p>
                 </motion.div>
 
