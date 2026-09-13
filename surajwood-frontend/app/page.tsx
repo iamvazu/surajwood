@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import ProductGrid from "@/components/sections/ProductGrid";
 import MembraneHomeSection from "@/components/sections/MembraneHomeSection";
 import AluminumHomeSection from "@/components/sections/AluminumHomeSection";
+import ClientLogos from "@/components/sections/ClientLogos";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import HomeTechnicalComparison from "@/components/sections/HomeTechnicalComparison";
 import ApplicationShowcase from "@/components/sections/ApplicationShowcase";
@@ -55,6 +56,7 @@ export default async function HomePage() {
       <ProductGrid products={data.featured_products} />
       <MembraneHomeSection />
       <AluminumHomeSection />
+      <ClientLogos />
       <WhyChooseUs />
       <HomeTechnicalComparison />
       <ApplicationShowcase />
