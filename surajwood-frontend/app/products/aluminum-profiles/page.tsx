@@ -187,19 +187,19 @@ export default function AluminumProfilesPage() {
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center">
           <div className="max-w-3xl">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-[2px] bg-copper" />
-              <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                 Hardware Excellence
               </p>
             </div>
 
-            <h1 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
+            <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md">
               AL-PROFHAN <br />
-              <span className="text-copper">Aluminum Profiles</span>
+              <span className="text-copper-light font-bold">Aluminum Profiles</span>
             </h1>
 
-            <p className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-10 font-light italic">
+            <p className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic">
               European-standard aluminum sourcing for modern kitchens, wardrobes, and commercial furniture. 
               A complete hardware ecosystem by Suraj Wood.
             </p>

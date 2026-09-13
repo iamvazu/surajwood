@@ -190,17 +190,17 @@ export default function ProductDetailClient({
             {/* Left: Info */}
             <div className="flex flex-col justify-center">
               {/* Eyebrow */}
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-8 h-[2px] bg-copper" />
-                <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-extrabold">
+              <div className="flex items-center gap-2.5 mb-3">
+                <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
+                <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
                   {finishLabel} Collection
                 </p>
               </div>
 
               {/* H1 Title */}
-              <h1 className="font-playfair text-white text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.1] mb-3">
+              <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-3 drop-shadow-md">
                 {product.name} <br />
-                <span className="text-copper">Prelaminated Acrylic</span>
+                <span className="text-copper-light font-bold">Prelaminated Acrylic</span>
               </h1>
 
               {/* Sub-tagline */}
