@@ -49,6 +49,8 @@ const presence = [
 ];
 
 const quickLinks = [
+  { name: "Cost Estimator Tool", href: "/cost-estimator" },
+  { name: "Architect & OEM Portal", href: "/architects" },
   { name: "Manufacturing Hub", href: "/about" },
   { name: "Technical Resources", href: "/downloads" },
   { name: "Design Blog", href: "/blog" },

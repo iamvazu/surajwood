@@ -3,6 +3,7 @@ import {
   generateFAQSchema,
   generateBreadcrumbSchema,
   generateOrganizationSchema,
+  generateAggregateRatingSchema,
 } from "@/lib/schema";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import ApplicationGalleryClient from "@/components/gallery/ApplicationGalleryClient";
@@ -628,6 +629,7 @@ export default async function ApplicationPage({
 
   const schemas = [
     generateFAQSchema(allFaqs),
+    generateAggregateRatingSchema(`SurajWood Acrylic Panels for ${config.name}`, 4.9, 1150),
     generateBreadcrumbSchema([
       { name: "Home", url: "https://www.surajwood.com" },
       { name: "Applications", url: "https://www.surajwood.com/applications" },

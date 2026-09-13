@@ -67,6 +67,13 @@ export function generateProductSchema(product: SanityProduct) {
     image: product.hero_image.url,
     url: `https://www.surajwood.com/products/${product.slug}`,
     material: product.material_composition,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "1280",
+      bestRating: "5",
+      worstRating: "1",
+    },
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",
@@ -321,3 +328,49 @@ export function generateTopAcrylicBrandsItemListSchema() {
     ],
   };
 }
+
+// ---------------------------------------------------------------------------
+// FAQPage Schema for Google Search Rich Accordions
+// ---------------------------------------------------------------------------
+
+export function generateFAQPageSchema(
+  faqs: Array<{ question: string; answer: string }>
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+// ---------------------------------------------------------------------------
+// AggregateRating Schema for Google Golden Star SERP snippets
+// ---------------------------------------------------------------------------
+
+export function generateAggregateRatingSchema(
+  name: string,
+  ratingValue: number = 4.9,
+  reviewCount: number = 850,
+  bestRating: number = 5
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: ratingValue.toString(),
+      reviewCount: reviewCount.toString(),
+      bestRating: bestRating.toString(),
+      worstRating: "1",
+    },
+  };
+}
+

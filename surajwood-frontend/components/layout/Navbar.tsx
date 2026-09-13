@@ -16,8 +16,8 @@ import {
   Download,
   Users,
   Building2,
-  FileText,
-  Twitter
+  Twitter,
+  Calculator
 } from "lucide-react";
 
 // ─── Data Configurations ──────────────────────────────────────────────────
@@ -39,10 +39,11 @@ const hardwareProducts = [
 ];
 
 const resourceLinks = [
-  { name: "Downloads", href: "/downloads", icon: Download },
+  { name: "Cost Estimator Tool", href: "/cost-estimator", icon: Calculator },
+  { name: "Architect Portal (3D)", href: "/architects", icon: Building2 },
+  { name: "Downloads & Catalogs", href: "/downloads", icon: Download },
   { name: "Dealer enquiry", href: "/dealers", icon: Users },
   { name: "Factory tour", href: "/contact?inquiry=Factory+Tour", icon: Building2 },
-  { name: "Technical specs", href: "/products/acrylux#specs", icon: FileText },
 ];
 
 const applications = [
