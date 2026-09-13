@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { sendCatalogEmail, sendLeadTeamNotification } from "@/lib/email";
 
 // ---------------------------------------------------------------------------
 // Validation schema
@@ -117,7 +118,27 @@ export async function POST(request: NextRequest) {
     }
 
     // -----------------------------------------------------------------------
-    // Local logging (replace with DB write / email notification as needed)
+    // Automated Email Delivery & Team Notification
+    // -----------------------------------------------------------------------
+    try {
+      // Send catalog email to user
+      await sendCatalogEmail({
+        to: leadData.email,
+        fullName: leadData.full_name,
+        userType: leadData.user_type,
+        company: leadData.company,
+      });
+
+      // Send lead notification to BD / Sales team
+      await sendLeadTeamNotification({
+        lead: leadData,
+      });
+    } catch (emailError) {
+      console.error("[SurajWood] Email notification error:", emailError);
+    }
+
+    // -----------------------------------------------------------------------
+    // Local logging
     // -----------------------------------------------------------------------
     console.log("[SurajWood] New lead received:", JSON.stringify(leadData as LeadPayload, null, 2));
 
