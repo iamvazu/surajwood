@@ -868,7 +868,7 @@ export default function ProductDetailClient({
           <a
             href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20your%20acrylic%20panels"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="flex-1 flex flex-col items-center justify-center py-3.5 text-navy hover:bg-cream transition-colors"
           >
             <svg

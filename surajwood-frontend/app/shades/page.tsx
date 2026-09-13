@@ -153,7 +153,7 @@ export default function ShadesHubPage() {
             <a
               href="https://wa.me/919009171819?text=Hi%2c%20I%20want%20to%20request%20a%20physical%20acrylic%20shade%20card%20swatch%20kit."
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white font-bold px-8 py-3.5 rounded transition-all"
             >
               Request via WhatsApp

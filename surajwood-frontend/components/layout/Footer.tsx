@@ -15,7 +15,7 @@ const products = [
 const designIdeas = [
   { name: "L-Shape Kitchens", href: "/design-ideas/kitchen/l-shape-kitchen" },
   { name: "Parallel Kitchens", href: "/design-ideas/kitchen/parallel-kitchen" },
-  { name: "Modular Wardrobes", href: "/design-ideas/wardrobe/wardrobe-design-for-bedroom" },
+  { name: "Modular Wardrobes", href: "/design-ideas/wardrobe/wardrobe-design" },
   { name: "Walk-in Closets", href: "/design-ideas/wardrobe/walk-in-wardrobe" },
   { name: "Premium TV Units", href: "/design-ideas/living-room/tv-unit-design" },
   { name: "Corporate Offices", href: "/design-ideas/office/office-design" },

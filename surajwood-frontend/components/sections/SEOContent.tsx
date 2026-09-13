@@ -4,33 +4,48 @@ export default function SEOContent() {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
+    mainEntity: [
       {
         "@type": "Question",
-        "name": "What is PMMA acrylic and how does it differ from standard PVC or PETG laminate sheets?",
-        "answer": "PMMA (Polymethyl Methacrylate) acrylic is an optical-grade, highly stable polymer that provides a mirror-like high-gloss or deep matte finish. Unlike standard PVC or PETG laminate sheets (often called sunmica or mica sheets in India), PMMA does not yellow under UV light, scratch easily, or release volatile organic compounds (VOCs). It is co-extruded for uniform color depth and offers a 3H pencil hardness scratch resistance, making it the most durable and luxurious surfacing choice for modern homes."
+        name: "What is PMMA acrylic and how does it differ from standard PVC or PETG laminate sheets?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "PMMA (Polymethyl Methacrylate) acrylic is an optical-grade, highly stable polymer that provides a mirror-like high-gloss or deep matte finish. Unlike standard PVC or PETG laminate sheets (often called sunmica or mica sheets in India), PMMA does not yellow under UV light, scratch easily, or release volatile organic compounds (VOCs). It is co-extruded for uniform color depth and offers a 3H pencil hardness scratch resistance, making it the most durable and luxurious surfacing choice for modern homes.",
+        },
       },
       {
         "@type": "Question",
-        "name": "What is German PUR bonding technology and why is it essential for modular kitchens in India?",
-        "answer": "German PUR (Polyurethane) hotmelt bonding is a moisture-curing adhesive technology. Unlike traditional contact adhesives or white glue used in local carpenter workshops, PUR hotmelt forms an irreversible cross-linked chemical bond that is 100% waterproof and heat-resistant up to 120°C. This prevents delamination, swelling, and edge peeling, which are very common in high-humidity areas like Indian kitchens during extreme monsoons or intense cooking cycles."
+        name: "What is German PUR bonding technology and why is it essential for modular kitchens in India?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "German PUR (Polyurethane) hotmelt bonding is a moisture-curing adhesive technology. Unlike traditional contact adhesives or white glue used in local carpenter workshops, PUR hotmelt forms an irreversible cross-linked chemical bond that is 100% waterproof and heat-resistant up to 120°C. This prevents delamination, swelling, and edge peeling, which are very common in high-humidity areas like Indian kitchens during extreme monsoons or intense cooking cycles.",
+        },
       },
       {
         "@type": "Question",
-        "name": "How does acrylic finish compare with PU paint for modular kitchen cabinet shutters?",
-        "answer": "While PU (Polyurethane) paint offers a seamless painted finish, it is highly prone to chipping, scratching, and chemical staining from turmeric or oil over time. Acrylic panels like SurajWood ACRYLUX offer much higher impact resistance, 3H scratch resistance, and are completely repairable. Minor hairline scratches on PMMA acrylic can be easily buffed and polished back to their original mirror finish, which is impossible with PU paint without a full, expensive respray."
+        name: "How does acrylic finish compare with PU paint for modular kitchen cabinet shutters?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "While PU (Polyurethane) paint offers a seamless painted finish, it is highly prone to chipping, scratching, and chemical staining from turmeric or oil over time. Acrylic panels like SurajWood ACRYLUX offer much higher impact resistance, 3H scratch resistance, and are completely repairable. Minor hairline scratches on PMMA acrylic can be easily buffed and polished back to their original mirror finish, which is impossible with PU paint without a full, expensive respray.",
+        },
       },
       {
         "@type": "Question",
-        "name": "What is the standard price of premium acrylic panels per sq ft in India?",
-        "answer": "The price of premium prelaminated acrylic panels in India typically ranges from INR 850 to INR 2,500 per square foot, depending on the thickness (8mm, 18mm, 25mm), the backing balanced sheet, substrate core quality (E1-grade MDF or Plywood), and finish type (satin, high-gloss, nano-matte, or matte-glass). While manually pasted local mica sheets are cheaper upfront, factory-laminated PMMA panels save on-site labor costs, reduce installation time, and last three times longer."
+        name: "What is the standard price of premium acrylic panels per sq ft in India?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The price of premium prelaminated acrylic panels in India typically ranges from INR 850 to INR 2,500 per square foot, depending on the thickness (8mm, 18mm, 25mm), the backing balanced sheet, substrate core quality (E1-grade MDF or Plywood), and finish type (satin, high-gloss, nano-matte, or matte-glass). While manually pasted local mica sheets are cheaper upfront, factory-laminated PMMA panels save on-site labor costs, reduce installation time, and last three times longer.",
+        },
       },
       {
         "@type": "Question",
-        "name": "How should I clean and maintain high-gloss acrylic wardrobe and kitchen shutters?",
-        "answer": "Acrylic surfaces require minimal maintenance. For daily dust, wipe with a clean, dry microfibre cloth. For kitchen grease or cooking vapor, use a soft cloth dampened with a mild solution of dish soap and lukewarm water. Never use paper towels, wire scrubbers, or abrasive acid/alkali cleaners. For matte panels like ACRYMATTE or ACRYSILK, the built-in anti-fingerprint nano-coating repels smudges, requiring simple wipe-down maintenance."
-      }
-    ]
+        name: "How should I clean and maintain high-gloss acrylic wardrobe and kitchen shutters?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Acrylic surfaces require minimal maintenance. For daily dust, wipe with a clean, dry microfibre cloth. For kitchen grease or cooking vapor, use a soft cloth dampened with a mild solution of dish soap and lukewarm water. Never use paper towels, wire scrubbers, or abrasive acid/alkali cleaners. For matte panels like ACRYMATTE or ACRYSILK, the built-in anti-fingerprint nano-coating repels smudges, requiring simple wipe-down maintenance.",
+        },
+      },
+    ],
   };
 
   return (

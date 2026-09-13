@@ -61,7 +61,7 @@ export default function WhatsAppWidget() {
         <Link
           href={WHATSAPP_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
           aria-label="Chat with SurajWood on WhatsApp"
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}

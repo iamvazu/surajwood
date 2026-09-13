@@ -32,13 +32,13 @@ const APPLICATIONS: ApplicationCategory[] = [
     tagline: "High-traffic durability, Class B1 rated",
   },
   {
-    slug: "retail",
-    label: "Retail Display",
-    image: "/images/gallery/retail-1.jpg",
+    slug: "commercial",
+    label: "Retail & Showrooms",
+    image: "/images/gallery/commercial-new-showroom.png",
     tagline: "First impressions that last",
   },
   {
-    slug: "bathrooms",
+    slug: "bathroom-vanities",
     label: "Bathroom Vanities",
     image: "/images/gallery/bathroom-1.jpg",
     tagline: "Water-resistant, easy-clean luxury",

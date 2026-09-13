@@ -130,71 +130,78 @@ export default function Hero() {
       {/* Main Content Area: Centered in remaining space */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
         <div className="max-w-3xl">
-          {HERO_SLIDES.map((slide, i) => (
-            <div 
-              key={`text-${i}`} 
-              className={i === currentSlide ? "block" : "hidden"}
-            >
-              {/* Eyebrow */}
-              <motion.div
-                initial={{ opacity: 0, x: -10 }}
-                animate={i === currentSlide ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="flex items-center gap-3 mb-4"
-              >
-                <div className="w-8 h-[2px] bg-copper" />
-                <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
-                  SURAJ WOOD — PREMIUM SURFACES
-                </p>
-              </motion.div>
-
-              {/* H1: Playfair Display Serif - Drastically reduced to prevent cut-off */}
-              <motion.h1
-                initial={{ opacity: 0, y: 15 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
-                transition={{ duration: 0.7, delay: 0.3 }}
-                className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6"
-              >
-                {slide.title.split(' ').map((word, idx) => (
-                  <span key={idx} className={idx === slide.title.split(' ').length - 1 ? "text-copper" : ""}>
-                    {word}{' '}
-                  </span>
-                ))}
-              </motion.h1>
-
-              {/* Sub-headline */}
-              <motion.p
-                initial={{ opacity: 0, y: 10 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic"
-              >
-                {slide.subtitle}
-              </motion.p>
-
-              {/* CTA buttons */}
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={i === currentSlide ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
-                transition={{ duration: 0.5, delay: 0.7 }}
-                className="flex flex-wrap gap-4"
-              >
-                <Link
-                  href="/contact?inquiry=sample-kit"
-                  className="bg-copper hover:bg-copper-light text-white font-black px-9 py-4 rounded-xl transition-all duration-300 shadow-2xl shadow-copper/40 hover:-translate-y-1 text-sm md:text-base group"
+          {(() => {
+            const slide = HERO_SLIDES[currentSlide];
+            return (
+              <div key={`slide-content-${currentSlide}`}>
+                {/* Eyebrow */}
+                <motion.div
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  className="flex items-center gap-3 mb-4"
                 >
-                  Request Sample Kit
-                  <span className="inline-block ml-3 group-hover:translate-x-1 transition-transform font-bold">→</span>
-                </Link>
-                <button
-                  onClick={handleScrollToProducts}
-                  className="bg-white/10 backdrop-blur-xl border border-white/30 text-white hover:bg-white hover:text-navy font-black px-9 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1 text-sm md:text-base shadow-xl"
+                  <div className="w-8 h-[2px] bg-copper" />
+                  <p className="text-copper tracking-[0.3em] text-[10px] md:text-xs uppercase font-bold">
+                    SURAJ WOOD — PREMIUM SURFACES
+                  </p>
+                </motion.div>
+
+                {/* Single Semantic H1 on Homepage */}
+                <motion.h1
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-[1.1] mb-6"
                 >
-                  View Collections
-                </button>
-              </motion.div>
-            </div>
-          ))}
+                  {slide.title.split(" ").map((word, idx) => (
+                    <span
+                      key={idx}
+                      className={
+                        idx === slide.title.split(" ").length - 1 ? "text-copper" : ""
+                      }
+                    >
+                      {word}{" "}
+                    </span>
+                  ))}
+                </motion.h1>
+
+                {/* Sub-headline */}
+                <motion.p
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="text-white/80 text-sm md:text-lg max-w-lg leading-relaxed mb-8 font-light italic"
+                >
+                  {slide.subtitle}
+                </motion.p>
+
+                {/* CTA buttons */}
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  className="flex flex-wrap gap-4"
+                >
+                  <Link
+                    href="/contact?inquiry=sample-kit"
+                    className="bg-copper hover:bg-copper-light text-white font-black px-9 py-4 rounded-xl transition-all duration-300 shadow-2xl shadow-copper/40 hover:-translate-y-1 text-sm md:text-base group"
+                  >
+                    Request Sample Kit
+                    <span className="inline-block ml-3 group-hover:translate-x-1 transition-transform font-bold">
+                      →
+                    </span>
+                  </Link>
+                  <button
+                    onClick={handleScrollToProducts}
+                    className="bg-white/10 backdrop-blur-xl border border-white/30 text-white hover:bg-white hover:text-navy font-black px-9 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1 text-sm md:text-base shadow-xl"
+                  >
+                    View Collections
+                  </button>
+                </motion.div>
+              </div>
+            );
+          })()}
         </div>
       </div>
 

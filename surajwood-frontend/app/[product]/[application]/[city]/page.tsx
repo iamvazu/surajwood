@@ -139,7 +139,7 @@ const PRODUCT_HERO_IMAGES: Record<string, string> = {
   acrylux: "/images/products/acrylux/acrylux-solid-1.png",
   acrysilk: "/images/products/acrysilk/acrysilk-1.png",
   acrymatte: "/images/products/acrymatte/acrymatte-1.png",
-  acryglass: "/images/products/acryglass/acryglass1.png",
+  acryglass: "/images/products/acryglass/acryglass-1.png",
   "acryglass-matte": "/images/products/acryglass-matte/acryglass-matte-1.png",
 };
 
@@ -600,10 +600,111 @@ export default function PSEOPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* ── Internal Link Network ────────────────────────────────────────── */}
-      <section className="bg-white py-20 px-6 border-t border-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-4 justify-center">
+      {/* ── Internal Link Network & Cross-Linking Matrix ─────────────────── */}
+      <section className="bg-white py-16 px-6 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto space-y-12">
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Column 1: Other Applications in this City */}
+            <div className="bg-cream/30 p-6 rounded-2xl border border-cream-dark/40">
+              <h3 className="font-heading font-bold text-navy text-base mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-copper" />
+                Other Applications in {city.name}
+              </h3>
+              <ul className="space-y-2 text-sm">
+                {[
+                  { slug: "kitchens", label: "Modular Kitchens" },
+                  { slug: "wardrobes", label: "Bedroom Wardrobes" },
+                  { slug: "commercial", label: "Commercial Interiors" },
+                  { slug: "tv-units", label: "Living Room TV Units" },
+                  { slug: "wall-paneling", label: "Decorative Wall Panels" },
+                ]
+                  .filter((app) => app.slug !== application.slug)
+                  .map((app) => (
+                    <li key={app.slug}>
+                      <Link
+                        href={`/${product.slug}/${app.slug}/${city.slug}`}
+                        className="text-gray-600 hover:text-copper transition-colors block py-1"
+                      >
+                        {product.name} for {app.label} in {city.name} →
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+
+            {/* Column 2: Other Acrylic Finishes for this Application */}
+            <div className="bg-cream/30 p-6 rounded-2xl border border-cream-dark/40">
+              <h3 className="font-heading font-bold text-navy text-base mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-copper" />
+                Other Finishes for {application.namePlural}
+              </h3>
+              <ul className="space-y-2 text-sm">
+                {[
+                  { slug: "acrylux", name: "ACRYLUX", finish: "High-Gloss" },
+                  { slug: "acrysilk", name: "ACRYSILK", finish: "Soft-Satin" },
+                  { slug: "acrymatte", name: "ACRYMATTE", finish: "Nano-Matte" },
+                  { slug: "acryglass", name: "ACRYGLASS", finish: "Mirror High-Gloss" },
+                  { slug: "acryglass-matte", name: "ACRYGLASS MATTE", finish: "Matte-Glass" },
+                ]
+                  .filter((p) => p.slug !== product.slug)
+                  .map((p) => (
+                    <li key={p.slug}>
+                      <Link
+                        href={`/${p.slug}/${application.slug}/${city.slug}`}
+                        className="text-gray-600 hover:text-copper transition-colors block py-1"
+                      >
+                        {p.name} ({p.finish}) in {city.name} →
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+
+            {/* Column 3: National & Regional Hubs */}
+            <div className="bg-cream/30 p-6 rounded-2xl border border-cream-dark/40">
+              <h3 className="font-heading font-bold text-navy text-base mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-copper" />
+                Regional & National Hubs
+              </h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <Link
+                    href={`/applications/${application.slug}`}
+                    className="text-gray-600 hover:text-copper transition-colors block py-1 font-medium"
+                  >
+                    All {application.name} Design Specifications →
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/products/${product.slug}`}
+                    className="text-gray-600 hover:text-copper transition-colors block py-1 font-medium"
+                  >
+                    Full {product.name} Specification & Shades →
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/presence"
+                    className="text-gray-600 hover:text-copper transition-colors block py-1 font-medium"
+                  >
+                    View All 50 Cities Dealer Directory →
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/downloads"
+                    className="text-gray-600 hover:text-copper transition-colors block py-1 font-medium"
+                  >
+                    Download Technical Data Sheets & Catalogs →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-4 justify-center pt-8 border-t border-gray-100">
             <Link
               href={`/products/${product.slug}`}
               className="px-8 py-4 bg-navy text-white font-bold rounded-full hover:bg-copper transition-all"
@@ -614,7 +715,7 @@ export default function PSEOPage({ params }: PageProps) {
               href="/contact"
               className="px-8 py-4 border-2 border-navy text-navy font-bold rounded-full hover:bg-navy hover:text-white transition-all"
             >
-              Contact Our {city.name} Office
+              Contact Our {city.name} Representative
             </Link>
           </div>
         </div>

@@ -183,7 +183,7 @@ function ContactForm() {
             href="https://wa.me/919009171819"
             className="text-copper hover:underline font-medium"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
           >
             +91-9009171819
           </a>
@@ -703,7 +703,7 @@ export default function ContactPageClient() {
                 <a
                   href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20Suraj%20Wood%20acrylic%20panels."
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="mt-5 flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold py-2.5 px-4 rounded-lg transition-colors"
                 >
                   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

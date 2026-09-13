@@ -497,7 +497,7 @@ export default function DealersPage() {
             <a
               href="https://wa.me/919009171819?text=Hi,%20I%27m%20interested%20in%20becoming%20a%20SurajWood%20dealer."
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-7 py-3.5 rounded-lg transition-colors border border-white/20"
             >
               WhatsApp Us

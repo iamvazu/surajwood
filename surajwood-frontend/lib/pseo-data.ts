@@ -140,10 +140,10 @@ export function getPSEOData(
 
   if (!product || !application || !city) return null;
 
-  const seoTitle = `${product.name} ${product.finishLabel} Acrylic ${application.namePlural} in ${city.name} | Suraj Wood`;
+  const seoTitle = `${product.name} Acrylic ${application.namePlural} in ${city.name}`;
   
   // Tightened to ~155 characters for SEO best practices
-  const seoDescription = `Premium ${product.name} acrylic panels for ${application.namePlural.toLowerCase()} in ${city.name}. ${product.finishLabel} finish, 5-year warranty, and technical superiority. Order samples today.`;
+  const seoDescription = `Premium ${product.name} ${product.finishLabel.toLowerCase()} acrylic panels for ${application.namePlural.toLowerCase()} in ${city.name}. 3H scratch resistance, PUR bonding, 5-yr warranty. Order samples.`;
   
   const h1 = `Premium ${product.name} Acrylic Panels for ${application.namePlural} in ${city.name}`;
 

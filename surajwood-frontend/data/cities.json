@@ -227,7 +227,7 @@
     },
     {
       "slug": "bhubaneswar",
-      "name": "Odisha",
+      "name": "Bhubaneswar",
       "state": "Odisha",
       "tier": 2,
       "climateNote": "Coastal humidity and cyclonic moisture. Acrylic's zero-absorption surface is critical for long-term health.",
@@ -236,7 +236,7 @@
     },
     {
       "slug": "dehradun",
-      "name": "Uttarakhand",
+      "name": "Dehradun",
       "state": "Uttarakhand",
       "tier": 2,
       "climateNote": "Cool, humid mountain climate. High-bond adhesives prevent delamination in hilly regions.",
@@ -245,7 +245,7 @@
     },
     {
       "slug": "ranchi",
-      "name": "Jharkhand",
+      "name": "Ranchi",
       "state": "Jharkhand",
       "tier": 2,
       "climateNote": "Subtropical climate. Durable, scratch-resistant surfaces are the top choice for growing urban homes.",
@@ -254,7 +254,8 @@
     },
     {
       "slug": "amritsar",
-      "name": "Punjab",
+      "name": "Amritsar",
+      "state": "Punjab",
       "tier": 2,
       "climateNote": "Extreme North Indian weather. 10-year UV stability ensures white stay white under intense Punjab sun.",
       "designTrend": "Grand hospitality. High-gloss finishes for the city's booming hotel and luxury villa market.",
@@ -262,7 +263,8 @@
     },
     {
       "slug": "jodhpur",
-      "name": "Rajasthan",
+      "name": "Jodhpur",
+      "state": "Rajasthan",
       "tier": 2,
       "climateNote": "Desert heat and dust. Nano-coated matte surfaces are the best-performing solution.",
       "designTrend": "Heritage-modern. Deep matte greys and blues paired with traditional stone elements.",
@@ -270,7 +272,8 @@
     },
     {
       "slug": "mangalore",
-      "name": "Karnataka",
+      "name": "Mangalore",
+      "state": "Karnataka",
       "tier": 3,
       "climateNote": "Extreme coastal humidity. 100% moisture-proof acrylic is the only long-term solution.",
       "designTrend": "Tropical modernism. Bright high-gloss surfaces and durable, salt-air resistant finishes.",
@@ -278,7 +281,8 @@
     },
     {
       "slug": "agra",
-      "name": "Uttar Pradesh",
+      "name": "Agra",
+      "state": "Uttar Pradesh",
       "tier": 3,
       "climateNote": "Pollution and dust-prone heat. Anti-static properties of SurajWood panels make cleaning effortless.",
       "designTrend": "Classic luxury. High-gloss marble and stone patterns in acrylic for a premium look.",
@@ -286,7 +290,8 @@
     },
     {
       "slug": "mysore",
-      "name": "Karnataka",
+      "name": "Mysore",
+      "state": "Karnataka",
       "tier": 3,
       "climateNote": "Mild but humid. Durable acrylic surfaces match the city's heritage-quality standards.",
       "designTrend": "Elegant traditionalism. Sophisticated matte and satin finishes.",
@@ -294,7 +299,8 @@
     },
     {
       "slug": "jamshedpur",
-      "name": "Jharkhand",
+      "name": "Jamshedpur",
+      "state": "Jharkhand",
       "tier": 3,
       "climateNote": "Industrial climate with particulate matter. Scratch-resistant acrylic handles frequent cleaning better than paint.",
       "designTrend": "Steel-city modern. Sleek, industrial matte finishes and metallic highlights.",
@@ -302,7 +308,8 @@
     },
     {
       "slug": "jalandhar",
-      "name": "Punjab",
+      "name": "Jalandhar",
+      "state": "Punjab",
       "tier": 3,
       "climateNote": "Harsh North Indian thermal cycles. European PUR adhesive prevents edge-banding failure.",
       "designTrend": "NRI-preferred luxury. International-standard high-gloss and matte-glass finishes.",
@@ -310,7 +317,8 @@
     },
     {
       "slug": "warangal",
-      "name": "Telangana",
+      "name": "Warangal",
+      "state": "Telangana",
       "tier": 3,
       "climateNote": "Hot, semi-arid Deccan climate. UV-stable panels are essential for color longevity.",
       "designTrend": "Modern aspirational. Premium acrylic replacing plywood-laminate in new constructions.",
@@ -318,7 +326,8 @@
     },
     {
       "slug": "guntur",
-      "name": "Andhra Pradesh",
+      "name": "Guntur",
+      "state": "Andhra Pradesh",
       "tier": 3,
       "climateNote": "Hot and humid. Moisture-proof acrylic is the preferred choice for kitchen and vanity units.",
       "designTrend": "Agro-wealth modernism. Bold, vibrant high-gloss finishes for large rural-urban villas.",
@@ -326,7 +335,8 @@
     },
     {
       "slug": "vijayawada",
-      "name": "Andhra Pradesh",
+      "name": "Vijayawada",
+      "state": "Andhra Pradesh",
       "tier": 3,
       "climateNote": "Intense tropical heat. Panels tested for zero-warping under direct Krishna-river humidity.",
       "designTrend": "Capital modern. High-gloss acrylic for the city's new commercial and residential high-rises.",
@@ -334,7 +344,8 @@
     },
     {
       "slug": "kota",
-      "name": "Rajasthan",
+      "name": "Kota",
+      "state": "Rajasthan",
       "tier": 3,
       "climateNote": "Arid heat. Dust-repellent matte finishes are the top choice for the student-city residential market.",
       "designTrend": "Efficient modern. Durable, low-maintenance wardrobes and study-area furniture.",
@@ -342,7 +353,8 @@
     },
     {
       "slug": "madurai",
-      "name": "Tamil Nadu",
+      "name": "Madurai",
+      "state": "Tamil Nadu",
       "tier": 3,
       "climateNote": "Tropical heat. 10-year UV stability is critical for the intense South Indian sun.",
       "designTrend": "Temple-city modern. Sophisticated satins and high-gloss whites for traditional homes.",
@@ -350,7 +362,8 @@
     },
     {
       "slug": "tiruchirappalli",
-      "name": "Tamil Nadu",
+      "name": "Tiruchirappalli",
+      "state": "Tamil Nadu",
       "tier": 3,
       "climateNote": "Hot and dry. 3H scratch-resistant surfaces provide long-term value for active households.",
       "designTrend": "Practical premium. High-quality acrylic panels for modern urban redesigns.",
@@ -358,7 +371,8 @@
     },
     {
       "slug": "bareilly",
-      "name": "Uttar Pradesh",
+      "name": "Bareilly",
+      "state": "Uttar Pradesh",
       "tier": 3,
       "climateNote": "Subtropical variation. PUR bonding ensures edge stability across all seasons.",
       "designTrend": "Modern residential. Easy-to-install acrylic panels for local furniture manufacturers.",
@@ -366,7 +380,8 @@
     },
     {
       "slug": "moradabad",
-      "name": "Uttar Pradesh",
+      "name": "Moradabad",
+      "state": "Uttar Pradesh",
       "tier": 3,
       "climateNote": "Heavy industrial (brass) environment. Acid-resistant acrylic surface protects against local atmospheric factors.",
       "designTrend": "Brass-city luxury. Metallic acrylics and high-gloss blacks for premium residences.",
@@ -374,7 +389,8 @@
     },
     {
       "slug": "salem",
-      "name": "Tamil Nadu",
+      "name": "Salem",
+      "state": "Tamil Nadu",
       "tier": 3,
       "climateNote": "Dry tropical heat. UV-resistant panels are the standard for premium interiors.",
       "designTrend": "Contemporary industrial. Sleek matte finishes for the steel-city's new developments.",
@@ -382,7 +398,8 @@
     },
     {
       "slug": "aligarh",
-      "name": "Uttar Pradesh",
+      "name": "Aligarh",
+      "state": "Uttar Pradesh",
       "tier": 3,
       "climateNote": "Dusty and hot. Anti-static matte surfaces keep interiors cleaner for longer.",
       "designTrend": "Aspirational luxury. High-gloss white and grey panels for new urban apartments.",
@@ -390,7 +407,8 @@
     },
     {
       "slug": "solapur",
-      "name": "Maharashtra",
+      "name": "Solapur",
+      "state": "Maharashtra",
       "tier": 3,
       "climateNote": "Dry Deccan heat. Panels tested for zero-shrinkage under intense dry-air conditions.",
       "designTrend": "Practical modern. Low-maintenance, durable wardrobes and kitchen shutters.",
@@ -398,7 +416,8 @@
     },
     {
       "slug": "gwalior",
-      "name": "Madhya Pradesh",
+      "name": "Gwalior",
+      "state": "Madhya Pradesh",
       "tier": 3,
       "climateNote": "Extreme thermal shifts. German-grade adhesive is critical for Gwalior's climate.",
       "designTrend": "Palatial-Modern mix. Royal high-gloss finishes with modern matte textures.",
@@ -406,7 +425,8 @@
     },
     {
       "slug": "gorakhpur",
-      "name": "Uttar Pradesh",
+      "name": "Gorakhpur",
+      "state": "Uttar Pradesh",
       "tier": 3,
       "climateNote": "Humid subtropical. Moisture-proof acrylic is the ultimate defense against monsoon damage.",
       "designTrend": "Emerging premium. High-gloss acrylic shutters for modern modular kitchens.",
@@ -414,7 +434,8 @@
     },
     {
       "slug": "shivamogga",
-      "name": "Karnataka",
+      "name": "Shivamogga",
+      "state": "Karnataka",
       "tier": 3,
       "climateNote": "High-rainfall Malnad region. 100% moisture-resistant panels are a necessity, not a luxury.",
       "designTrend": "Eco-modern. Earthy tones and durable surfaces for hill-region bungalows.",
@@ -422,7 +443,8 @@
     },
     {
       "slug": "belgaum",
-      "name": "Karnataka",
+      "name": "Belgaum",
+      "state": "Karnataka",
       "tier": 3,
       "climateNote": "Humid continental variation. Stable PUR bonding ensures zero warping in high-altitude-adjacent areas.",
       "designTrend": "Contemporary diverse. Versatile acrylic finishes for bilingual-culture homes.",

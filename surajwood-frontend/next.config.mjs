@@ -2,6 +2,8 @@
 const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
       {
         protocol: "https",
@@ -60,9 +62,26 @@ const nextConfig = {
       { source: "/blog/checkout-dark.html", destination: "/blog", permanent: true },
       { source: "/blog/checkout-delivery-dark.html", destination: "/blog", permanent: true },
 
-      // ── Old application paths ─────────────────────────────────────────
+      // ── Application paths ─────────────────────────────────────────────
       { source: "/applications/bathrooms", destination: "/applications/bathroom-vanities", permanent: true },
       { source: "/applications/retail", destination: "/applications/commercial", permanent: true },
+
+      // ── Design ideas aliases ──────────────────────────────────────────
+      {
+        source: "/design-ideas/wardrobe/wardrobe-design-for-bedroom",
+        destination: "/design-ideas/wardrobe/wardrobe-design",
+        permanent: true,
+      },
+      {
+        source: "/design-ideas/bedroom/:slug*",
+        destination: "/design-ideas/wardrobe",
+        permanent: true,
+      },
+      {
+        source: "/design-ideas/retail/:slug*",
+        destination: "/design-ideas/office",
+        permanent: true,
+      },
 
       // ── Old file downloads ────────────────────────────────────────────
       { source: "/surajwood/img/e-book.pdf", destination: "/downloads", permanent: true },

@@ -12,7 +12,7 @@ import {
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: "Manufacturing Excellence | Factory-Direct Acrylic Panels | SurajWood",
+  title: "Factory-Direct Acrylic Panel Manufacturer",
   description:
     "SurajWood is a leading factory-direct manufacturer of PMMA acrylic panels in Bahadurgarh, Haryana. Utilizing German PUR technology for zero-delamination and 3H scratch resistance.",
   openGraph: {
@@ -213,25 +213,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ... Rest of stats, mission, vision, leadership ... */}
-      {/* Leadership stays but refined */}
+      {/* ------------------------------------------------------------------ */}
+      {/* Section 4 — The Directors                                         */}
+      {/* ------------------------------------------------------------------ */}
       <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-navy mb-16">The Directors</h2>
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-3 gap-8">
              {leadership.map((person) => (
-               <div key={person.name} className="flex flex-col items-center bg-cream/30 p-10 rounded-[40px] border border-cream group hover:bg-white hover:shadow-2xl transition-all duration-500">
-                  <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-copper mb-6 shadow-lg group-hover:scale-105 transition-transform">
-                    <Image
-                      src={`/images/about/director-${person.initials.toLowerCase()}.jpg`}
-                      alt={person.name}
-                      fill
-                      className="object-cover"
-                    />
+               <div key={person.name} className="flex flex-col items-center bg-cream/30 p-8 rounded-[32px] border border-cream group hover:bg-white hover:shadow-2xl transition-all duration-500">
+                  <div className="w-24 h-24 rounded-full bg-navy border-4 border-copper mb-6 shadow-lg flex items-center justify-center text-copper font-playfair font-bold text-2xl group-hover:scale-105 transition-transform">
+                    {person.initials}
                   </div>
-                  <h3 className="text-2xl font-bold text-navy">{person.name}</h3>
-                  <div className="text-copper font-semibold text-sm uppercase tracking-widest mt-2 mb-4">{person.role}</div>
-                  <p className="text-gray-600 leading-relaxed text-sm">{person.bio}</p>
+                  <h3 className="text-xl font-bold text-navy">{person.name}</h3>
+                  <div className="text-copper font-semibold text-xs uppercase tracking-widest mt-2 mb-4">{person.role}</div>
+                  <p className="text-gray-600 leading-relaxed text-xs">{person.bio}</p>
                </div>
              ))}
           </div>

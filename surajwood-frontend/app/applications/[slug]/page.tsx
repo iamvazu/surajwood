@@ -345,6 +345,72 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
     ],
     galleryImages: ["/images/gallery/wall-1.jpg", "/images/gallery/22.jpg", "/images/gallery/23.jpg"],
   },
+  "tv-units": {
+    name: "TV Units & Media Consoles",
+    heroTagline: "Glossy Living Room Statement Surfaces",
+    heroBg: "from-zinc-900 via-zinc-800 to-zinc-900",
+    intro:
+      "Transform your living room media wall with mirror-like high-gloss acrylic panels. ACRYGLASS and ACRYLUX panels reflect ambient light beautifully, creating a dramatic luxury entertainment backdrop that resists scratches and dust accumulation.",
+    whySection: {
+      title: "Why Acrylic for TV Units?",
+      body: "Living room entertainment units are the focal point of the home. SurajWood optical-grade PMMA panels offer 95% light reflectivity and 3H scratch resistance, ensuring that your media consoles and accent walls remain flawless even with everyday handling and cleaning.",
+    },
+    recommendedProducts: [
+      { slug: "acryglass", name: "ACRYGLASS", reason: "Mirror-like high gloss provides dramatic living room visual impact.", finishLabel: "High-Gloss" },
+      { slug: "acrylux", name: "ACRYLUX", reason: "Rich solid and metallic colors for modern media consoles.", finishLabel: "High-Gloss" },
+      { slug: "acrymatte", name: "ACRYMATTE", reason: "Anti-glare matte backdrop for distraction-free TV viewing.", finishLabel: "Matte" },
+    ],
+    benefits: [
+      { icon: "✨", title: "95% Reflectivity", desc: "Mirror-like brilliance creates depth and spaciousness in living areas." },
+      { icon: "🛡️", title: "3H Scratch Resistance", desc: "Resists hairline scratches and marks from remotes, gadgets, and cleaning." },
+      { icon: "🧹", title: "Dust Repellent", desc: "Anti-static PMMA surface makes routine microfibre dusting effortless." },
+      { icon: "🔥", title: "Class B1 Fire Rated", desc: "Safe around electronic wiring and entertainment equipment." },
+    ],
+    faqExtra: [
+      {
+        question: "Can TV units with acrylic panels support heavy wall-mounted TVs?",
+        answer: "Yes. The acrylic panel is bonded to 18mm E1-grade MDF or Plywood. Structural TV wall mounts are anchored securely through the panel into the wall framework or plywood substrate.",
+      },
+      {
+        question: "Which finish is best for an entertainment unit: high-gloss or matte?",
+        answer: "For maximum glamour and expansive room reflection, ACRYGLASS high-gloss is the most popular. For backdrops directly behind large OLED screens, ACRYMATTE reduces reflection and glare.",
+      },
+    ],
+    galleryImages: ["/images/gallery/tv-unit-1.jpg", "/images/gallery/wall-1.jpg", "/images/gallery/10.jpg"],
+  },
+  "bathroom-vanities": {
+    name: "Bathroom Vanities",
+    heroTagline: "100% Water-Resistant Luxury Vanities",
+    heroBg: "from-cyan-950 via-teal-900 to-slate-900",
+    intro:
+      "Engineered for high-moisture, steamy environments. SurajWood prelaminated acrylic panels use moisture-curing German PUR hotmelt to provide 100% waterproof bonding that prevents swelling, warping, and bacterial growth in luxury bathrooms.",
+    whySection: {
+      title: "Why Acrylic for Bathroom Vanities?",
+      body: "Standard bathroom laminates fail due to water penetration at the edges, causing bubbling and core rot within 2-3 years. SurajWood non-porous PMMA acrylic surface coupled with factory-applied PUR edge-sealing creates a permanent moisture barrier that withstands daily splash and steam.",
+    },
+    recommendedProducts: [
+      { slug: "acryglass", name: "ACRYGLASS", reason: "Glass-like gloss reflects vanity lighting and is 100% waterproof.", finishLabel: "High-Gloss" },
+      { slug: "acrylux", name: "ACRYLUX", reason: "Vibrant solid tones with waterproof PUR bonding.", finishLabel: "High-Gloss" },
+      { slug: "acryglass-matte", name: "ACRYGLASS MATTE", reason: "Spa-like luxury matte-glass texture resistant to water marks.", finishLabel: "Matte-Glass" },
+    ],
+    benefits: [
+      { icon: "💧", title: "100% Waterproof Bond", desc: "German PUR hotmelt prevents steam and splash water from penetrating edges." },
+      { icon: "🧼", title: "Hygienic & Anti-Bacterial", desc: "Non-porous PMMA prevents mold, mildew, and bacterial growth." },
+      { icon: "🧴", title: "Soap & Chemical Resistant", desc: "Withstands toothpastes, soaps, shampoos, and bathroom cleaners." },
+      { icon: "✨", title: "Easy Wipe Clean", desc: "Water spots wipe away cleanly with a dry microfibre cloth." },
+    ],
+    faqExtra: [
+      {
+        question: "Will acrylic vanity shutters warp in steamy bathrooms?",
+        answer: "No. SurajWood panels use German PUR reactive hotmelt adhesive that is chemically immune to steam, heat up to 120°C, and moisture.",
+      },
+      {
+        question: "Can acrylic panels be used inside walk-in shower enclosures?",
+        answer: "Acrylic panels are ideal for vanity cabinets, under-sink drawers, and external bathroom wall cladding. For direct wet-shower zones with continuous running water, specialized tile or stone backer systems are recommended.",
+      },
+    ],
+    galleryImages: ["/images/gallery/bathroom-1.jpg", "/images/gallery/wall-1.jpg", "/images/gallery/11.jpg"],
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -359,6 +425,8 @@ export async function generateStaticParams() {
     { slug: "offices" },
     { slug: "kids-rooms" },
     { slug: "wall-paneling" },
+    { slug: "tv-units" },
+    { slug: "bathroom-vanities" },
   ];
 }
 
@@ -683,7 +751,7 @@ export default async function ApplicationPage({
             <a
               href="https://wa.me/919009171819?text=Hi%2C%20I%20am%20interested%20in%20acrylic%20panels%20for%20my%20project"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-white/60 text-white font-semibold px-10 py-4 rounded-lg transition-colors duration-200"
             >
               <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">

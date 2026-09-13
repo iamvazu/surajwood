@@ -15,7 +15,7 @@ import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SurajWood — India's Best Acrylic Panel & Membrane Shutter Manufacturer | PMMA Panels",
+  title: "SurajWood — India's Best Acrylic Panel Manufacturer",
   description:
     "Factory-direct PMMA acrylic panels pre-laminated with German PUR technology, Continental 3D Membrane Shutters, and AL-PROFHAN hardware. Precision-engineered for modern interiors.",
   alternates: { canonical: "https://surajwood.com" },
