@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppWidget from "@/components/layout/WhatsAppWidget";
+import CookieConsent from "@/components/legal/CookieConsent";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -98,6 +99,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <WhatsAppWidget />
+        <CookieConsent />
         <Analytics />
       </body>
     </html>

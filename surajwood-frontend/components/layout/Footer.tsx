@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin, Phone, Mail, Clock, Instagram, Linkedin, Facebook, Youtube, ArrowRight } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Linkedin, Facebook, Youtube, ArrowRight, ShieldCheck } from "lucide-react";
+import FooterCookieTrigger from "./FooterCookieTrigger";
 
 const products = [
   { name: "ACRYLUX High-Gloss", href: "/products/acrylux" },
@@ -50,10 +51,11 @@ const presence = [
 const quickLinks = [
   { name: "Manufacturing Hub", href: "/about" },
   { name: "Technical Resources", href: "/downloads" },
-  { name: "Industry Exhibitions", href: "/#events" },
   { name: "Design Blog", href: "/blog" },
   { name: "Dealer Enquiry", href: "/dealers" },
-  { name: "Privacy Policy", href: "/privacy-policy" },
+  { name: "Terms & Conditions", href: "/terms-and-conditions" },
+  { name: "Privacy Policy (DPDP)", href: "/privacy-policy" },
+  { name: "Cookie Policy", href: "/cookie-policy" },
   { name: "Sitemap Hub", href: "/presence" },
 ];
 
@@ -307,12 +309,32 @@ export default function Footer() {
 
       {/* Extreme dark bottom credit strip */}
       <div className="border-t border-gray-900 bg-[#040404]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-gray-600 text-xs font-light">
-            &copy; {currentYear} Suraj Wood Products Pvt. Ltd. All rights reserved.
-          </p>
-          <div className="flex items-center gap-4">
-            <span className="text-gray-800 text-xs">ISO 9001:2015 Certified Manufacturing Facility</span>
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <p className="text-gray-500 text-xs font-light">
+              &copy; {currentYear} Suraj Wood Products Pvt. Ltd. All rights reserved.
+            </p>
+            <span className="hidden sm:inline text-gray-800">•</span>
+            <div className="inline-flex items-center gap-1.5 text-copper/80 text-xs font-medium">
+              <ShieldCheck size={13} className="text-copper" />
+              <span>DPDP Act (India) 2023 Compliant</span>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-500">
+            <Link href="/privacy-policy" className="hover:text-copper transition-colors">
+              Privacy Policy
+            </Link>
+            <span>•</span>
+            <Link href="/terms-and-conditions" className="hover:text-copper transition-colors">
+              Terms &amp; Conditions
+            </Link>
+            <span>•</span>
+            <Link href="/cookie-policy" className="hover:text-copper transition-colors">
+              Cookie Policy
+            </Link>
+            <span>•</span>
+            <FooterCookieTrigger />
           </div>
         </div>
       </div>
