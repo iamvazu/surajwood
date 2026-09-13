@@ -2085,6 +2085,413 @@ A: Premium 1mm to 2mm acrylic sheets range from ₹80 to ₹350 per sq ft for lo
     reading_time: 6,
     categories: ["Manufacturing", "Regional Hub"],
   },
+  {
+    id: 69,
+    slug: "membrane-shutters-for-modular-kitchen-cabinets-guide",
+    title: "Membrane Shutters for Modular Kitchens: Designs, Waterproofing, Heat & Finish Guide (2026)",
+    excerpt: "Complete technical guide on membrane shutters for modular kitchens. Discover 3D vacuum thermoforming over HDMR, seamless edges, heat resilience, and European shades.",
+    content: `<p>When planning a luxury modular kitchen in India, <strong>membrane shutters</strong> represent one of the most versatile and monolithic door finishes available. Unlike standard laminate sheets that require edge-banding tapes with visible dark glue lines, membrane shutters feature a continuous 3D vacuum-thermoformed PVC/PET foil wrapped seamlessly over front faces and all four bevelled edges.</p>
+
+<h2>What Are 3D Membrane Kitchen Shutters?</h2>
+<p>Membrane shutters are engineered by routing decorative profiles (such as classic Shaker recessed panels, modern J-pull finger grooves, or vertical fluted ribs) into moisture-resistant <strong>E1-grade HDMR (High-Density Moisture-Resistant)</strong> or calibrated MDF boards. The routed substrate is coated with heat-activated polyurethane adhesive and placed inside an automated high-temperature vacuum press. Under intense pneumatic pressure, European thermoplastic foil softens and permanently bonds around every contour, curve, and edge with zero visible joints.</p>
+
+<h2>Why Membrane Shutters Excel in Indian Kitchens</h2>
+<ul>
+<li><strong>100% Seamless Continuous Edges:</strong> Zero edge-banding tapes mean water, steam, and cooking oils can never seep into side seams, preventing swelling.</li>
+<li><strong>3D CNC Routing Capability:</strong> Allows for elegant handleless J-pull profiles and classic English Shaker cabinetry that flat laminates cannot achieve.</li>
+<li><strong>Non-Porous Stain Resistance:</strong> European foils resist turmeric, mustard oil, and tea stains, wiping clean with soapy water.</li>
+<li><strong>European Palette Variety:</strong> Available in 36+ realistic wood grains, silk touches, and ceramic matte finishes.</li>
+</ul>
+
+<h2>Managing Kitchen Heat & Hob Distances</h2>
+<p>Because thermoplastic foil softens under extreme localized heat, proper kitchen design standards must be observed:</p>
+<ol>
+<li>Maintain a minimum 600mm distance between gas burners and overhead membrane cabinet shutters.</li>
+<li>Install a high-suction kitchen chimney (1200+ m³/hr) to evacuate hot cooking steam effectively.</li>
+<li>For base cabinets directly adjoining high-temperature built-in ovens, specify heat-deflector strips along cabinet gables.</li>
+</ol>
+<p>Explore <a href="/products/membrane-shutters">SurajWood Continental 3D Membrane Shutters</a> for certified 5-year warranty protection and factory HDMR core fabrication.</p>`,
+    featured_image: { ...placeholderImage(469), url: "/images/products/membrane-shutters/closeups/closeup-shaker.jpg" },
+    date: "2026-04-20",
+    author: "Suraj Wood Membrane Engineering Desk",
+    reading_time: 8,
+    categories: ["Membrane Shutters", "Kitchen Design"],
+  },
+  {
+    id: 70,
+    slug: "membrane-shutters-vs-laminate-kitchen-wardrobe-comparison",
+    title: "Membrane Shutters vs Laminate (Sunmica): Price, Durability, Edge Peeling & Pros/Cons",
+    excerpt: "Detailed comparison between 3D vacuum membrane shutters and sunmica laminates. Discover differences in edge banding, heat tolerance, price per sq ft, and lifespan.",
+    content: `<p>Choosing between <strong>membrane shutters</strong> and <strong>sunmica laminates</strong> is a core decision when designing modular kitchen cabinets and bedroom wardrobes. While both finishes are popular across India, they differ fundamentally in manufacturing technique, edge aesthetics, moisture resistance, and cost.</p>
+
+<h2>Direct Comparison Matrix: Membrane vs Laminate Shutters</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Feature</th>
+<th class="p-3 border border-gray-200">Continental 3D Membrane Shutters</th>
+<th class="p-3 border border-gray-200">High-Pressure Laminate (Sunmica)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Edge Treatment</strong></td>
+<td class="p-3 border border-gray-200 bg-copper/5 font-bold">Seamless 3D continuous wrap (Zero edge lines)</td>
+<td class="p-3 border border-gray-200">Requires PVC edge-banding tape (Visible dark seam)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Routing & Grooving</strong></td>
+<td class="p-3 border border-gray-200 bg-copper/5 font-bold">CNC Shaker profiles, J-pulls, fluting supported</td>
+<td class="p-3 border border-gray-200">Strictly flat surfaces only (Cannot be grooved)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Moisture & Steam Resistance</strong></td>
+<td class="p-3 border border-gray-200 bg-copper/5 font-bold">100% waterproof on front & edges</td>
+<td class="p-3 border border-gray-200">High on surface; vulnerable at edge-banding glue line</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Heat Resistance</strong></td>
+<td class="p-3 border border-gray-200">Moderate (Requires heat deflectors near ovens)</td>
+<td class="p-3 border border-gray-200">High (Resists direct heat contact)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Price Per Sq Ft (Finished Shutter)</strong></td>
+<td class="p-3 border border-gray-200">₹450 - ₹750 / sq ft</td>
+<td class="p-3 border border-gray-200">₹350 - ₹600 / sq ft</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Scratch Resistance</strong></td>
+<td class="p-3 border border-gray-200">2H (Soft, tactile surface)</td>
+<td class="p-3 border border-gray-200">2H - 3H (Hard resin surface)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>When to Choose Membrane Over Laminate</h2>
+<p>Choose <strong>membrane shutters</strong> if you desire:</p>
+<ol>
+<li><strong>Shaker or Fluted Aesthetics:</strong> Membrane allows deep 3D carving that looks like solid painted woodwork without paint cracking.</li>
+<li><strong>Handleless Ergonomics:</strong> Integrated J-pull handles eliminate the need for external metal handles.</li>
+<li><strong>Zero Edge Peeling in Wet Areas:</strong> Ideal for bathroom vanities and kitchen sink base units where edge-banding glue frequently delaminates.</li>
+</ol>`,
+    featured_image: { ...placeholderImage(470), url: "/images/products/membrane-shutters/closeups/closeup-jpull.jpg" },
+    date: "2026-04-18",
+    author: "Suraj Wood Surface Comparison Desk",
+    reading_time: 8,
+    categories: ["Membrane Shutters", "Material Comparison"],
+  },
+  {
+    id: 71,
+    slug: "membrane-shutter-price-per-sq-ft-in-india-2026",
+    title: "Membrane Shutter Price Per Sq Ft in India (2026): Cost Calculator & Substrate Guide",
+    excerpt: "Transparent 2026 price guide for 3D membrane shutters in India. Compare costs across solid matte, wood grains, ceramic textures, and CNC Shaker styles.",
+    content: `<p>Planning the budget for a modular kitchen or wardrobe using <strong>3D membrane shutters</strong> requires understanding how foil types, substrate core density, CNC grooving depth, and hardware affect finished square foot pricing across Indian cities.</p>
+
+<h2>Membrane Shutter Price List in India (2026 Rates)</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Membrane Finish / Profile</th>
+<th class="p-3 border border-gray-200">Substrate Core</th>
+<th class="p-3 border border-gray-200">Price Range (Per Sq Ft)</th>
+<th class="p-3 border border-gray-200">Standard 7x3 Wardrobe Shutter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200">Flat Soft-Silk Solid (Reed Green / Alpin Weiß)</td>
+<td class="p-3 border border-gray-200">18mm E1 HDMR</td>
+<td class="p-3 border border-gray-200">₹420 - ₹550</td>
+<td class="p-3 border border-gray-200">₹8,820 - ₹11,550</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">Wood Grain Foil (Casella Oak / Columbia Walnut)</td>
+<td class="p-3 border border-gray-200">18mm E1 HDMR</td>
+<td class="p-3 border border-gray-200">₹480 - ₹620</td>
+<td class="p-3 border border-gray-200">₹10,080 - ₹13,020</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">Classic Shaker CNC Recessed Panel</td>
+<td class="p-3 border border-gray-200">18mm Moisture-Resistant HDMR</td>
+<td class="p-3 border border-gray-200">₹580 - ₹720</td>
+<td class="p-3 border border-gray-200">₹12,180 - ₹15,120</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">Fluted 3D Vertical Ribs / J-Pull Finger Groove</td>
+<td class="p-3 border border-gray-200">25mm Heavy-Duty HDMR</td>
+<td class="p-3 border border-gray-200">₹680 - ₹850</td>
+<td class="p-3 border border-gray-200">₹14,280 - ₹17,850</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>What Is Included in Factory-Finished Membrane Shutters?</h2>
+<p>Unlike raw laminate sheet pressing, factory-finished <a href="/products/membrane-shutters">SurajWood Continental Membrane Shutters</a> include:</p>
+<ul>
+<li>Precision CNC routing and edge bevelling.</li>
+<li>German vacuum thermoforming with water-resistant PUR adhesive.</li>
+<li>Pre-drilled 35mm hinge holes (Hettich, Hafele, Blum compatible).</li>
+<li>Matching balancing backer foil to prevent long-term door bowing.</li>
+</ul>`,
+    featured_image: { ...placeholderImage(471), url: "/images/products/membrane-shutters/closeups/closeup-fluted.jpg" },
+    date: "2026-04-15",
+    author: "Suraj Wood Pricing Desk",
+    reading_time: 7,
+    categories: ["Membrane Shutters", "Pricing Guide"],
+  },
+  {
+    id: 72,
+    slug: "membrane-shutters-for-wardrobes-designs-and-finishes",
+    title: "Membrane Shutters for Wardrobes: 3D CNC Shaker Grooves, Fluted Profiles & Sliding Shutters",
+    excerpt: "Elevate bedroom interiors with 3D membrane wardrobe shutters. Explore Shaker designs, fluted texture trends, sliding door hardware, and warp prevention.",
+    content: `<p>Wardrobe doors occupy the largest vertical surface area in any bedroom. Traditional flat laminates often lack architectural depth, while solid wood shutters are prone to seasonal expansion and warping. <strong>3D membrane wardrobe shutters</strong> bridge this gap by delivering sculpted profiles, seamless edges, and complete dimensional stability.</p>
+
+<h2>Trending Membrane Wardrobe Styles in 2026</h2>
+<ol>
+<li><strong>Modern Shaker Profiles:</strong> Featuring a crisp 60mm recessed perimeter border, Shaker membrane shutters bring timeless European sophistication to hinged master wardrobes.</li>
+<li><strong>3D Fluted & Reeded Textures:</strong> Vertical ribs carved into Parisian Blue or Reed Green membrane foils create stunning statement wardrobe doors and walk-in dresser islands.</li>
+<li><strong>Handleless J-Pull Wardrobes:</strong> Integrated finger-pull recesses running the full height of the shutter create clean, clutter-free minimalist bedrooms.</li>
+</ol>
+
+<h2>Preventing Door Warping on 7-Foot and 8-Foot Wardrobe Shutters</h2>
+<p>Large vertical wardrobe doors are susceptible to bowing under high humidity. SurajWood prevents door deformation through three critical engineering measures:</p>
+<ul>
+<li><strong>High-Density Substrate:</strong> Utilizing 18mm or 25mm high-density E1-grade HDMR boards with uniform internal fibre cohesion.</li>
+<li><strong>Calibrated Counter-Balancing:</strong> Thermoforming a tension-matched white balancing backer foil on the rear face.</li>
+<li><strong>Integrated Door Straighteners:</strong> Providing pre-routed slots for concealed aluminium tensioner rods on shutters taller than 2.1 metres.</li>
+</ul>`,
+    featured_image: { ...placeholderImage(472), url: "/images/gallery/wardrobe-new-sliding.png" },
+    date: "2026-04-12",
+    author: "Suraj Wood Wardrobe Architectural Desk",
+    reading_time: 8,
+    categories: ["Membrane Shutters", "Wardrobe Design"],
+  },
+  {
+    id: 73,
+    slug: "top-36-membrane-shutter-shades-and-colours-guide",
+    title: "Continental Membrane Shutter Shades: 36 European Foils, Wood Grains, Silk & Porcelain Finishes",
+    excerpt: "Complete shade card catalogue of 36 European membrane foils. Explore Casella Oak, Reed Green, Parisian Blue, Alpin Weiß, and Dakar Ceramic textures.",
+    content: `<p>Choosing the right colour and texture sets the mood for your entire interior space. The <a href="/products/membrane-shutters">SurajWood Continental Collection</a> features 36 master-curated European thermoplastic foils engineered for realistic tactile feel and UV stability.</p>
+
+<h2>The Four Continental Finish Categories</h2>
+
+<h3>1. Wood Grain Foils (Authentic Timber Textures)</h3>
+<ul>
+<li><strong>031-WG Casella Oak Nature:</strong> Warm, organic light oak with synchronized grain pore texture.</li>
+<li><strong>035-WG Columbia Walnut:</strong> Rich dark walnut tones ideal for luxury study units and wardrobe accents.</li>
+</ul>
+
+<h3>2. Perfect Silk Touch (Ultra-Smooth Matte)</h3>
+<ul>
+<li><strong>004-PS Reed Green:</strong> Earthy botanical sage green that pairs beautifully with brushed gold handles.</li>
+<li><strong>002-PS Kaschmir Greige:</strong> Soft, neutral greige blending modern warmth with Scandinavian minimalism.</li>
+</ul>
+
+<h3>3. Porcelain Touch (Eggshell Mineral Sheen)</h3>
+<ul>
+<li><strong>017-PT Parisian Blue:</strong> Deep royal blue for statement kitchen islands and bar counters.</li>
+<li><strong>008-PT Alpin Weiß:</strong> Crisp, pure architectural white that brightens compact galley kitchens.</li>
+<li><strong>020-PT Porcelain Black:</strong> Velvety matte black for dramatic modern aesthetics.</li>
+</ul>
+
+<h3>4. Ceramic Satin (Stone & Micro-Cement Textures)</h3>
+<ul>
+<li><strong>023-CS Dakar Ceramic:</strong> Subtle textured stone effect that resists fingerprints and smudges.</li>
+</ul>
+
+<p>Order a free swatch kit containing all 36 physical foil samples by visiting our <a href="/contact">Sample Request Page</a>.</p>`,
+    featured_image: { ...placeholderImage(473), url: "/images/products/membrane-shutters/004-ps-reed-green.jpg" },
+    date: "2026-04-08",
+    author: "Suraj Wood Color & Trend Studio",
+    reading_time: 6,
+    categories: ["Membrane Shutters", "Shades Guide"],
+  },
+  {
+    id: 74,
+    slug: "aluminium-handle-profiles-for-modular-kitchen-cabinets",
+    title: "Aluminium Handle Profiles for Modular Kitchens: J-Pull, Gola & Edge Profiles Guide (2026)",
+    excerpt: "Comprehensive buyer guide for aluminium handle profiles in modular kitchens. Compare J-profiles, C-Gola, L-Gola, and concealed edge handles.",
+    content: `<p>Modern architectural kitchens are defined by seamless, handleless cabinetry. <strong>Aluminium handle profiles</strong> provide the structural rigidity, ergonomics, and clean minimalist lines that homeowners and architects demand for modular base and wall cabinets.</p>
+
+<h2>Why 6063-T5 Virgin Aluminium Alloy Matters</h2>
+<p>SurajWood's <a href="/products/aluminum-profiles">AL-PROFHAN</a> profile line uses 100% virgin <strong>6063-T5 architectural aluminium alloy</strong>. Unlike recycled scrap alloys that bend, tarnish, or have sharp burrs, virgin 6063-T5 offers:</p>
+<ul>
+<li>High tensile strength for long spans up to 4 metres without sagging.</li>
+<li>15-micron electro-deposition anodising that prevents tarnishing, moisture pitting, and grease corrosion.</li>
+<li>Micro-smooth edges that provide a comfortable, ergonomic grip every time you pull open heavy pot-drawers.</li>
+</ul>
+
+<h2>Core Profile Types for Handleless Kitchens</h2>
+<ol>
+<li><strong>L-Gola & C-Gola Profiles:</strong> Recessed into the carcass frame behind the shutter, allowing fingers to pull doors open from behind without touching the face.</li>
+<li><strong>Integrated J-Pull Handle Profiles:</strong> Fixed directly onto the top edge of cabinet doors for an unbroken horizontal metallic trim.</li>
+<li><strong>Edge-Mounted Lip Profiles:</strong> Slim aluminium trims clamped over 18mm acrylic and membrane shutters for an ultra-modern frame accent.</li>
+</ol>`,
+    featured_image: { ...placeholderImage(474), url: "/images/gallery/kitchen-3.jpg" },
+    date: "2026-04-05",
+    author: "Suraj Wood Hardware Engineering Desk",
+    reading_time: 7,
+    categories: ["Aluminium Profiles", "Kitchen Hardware"],
+  },
+  {
+    id: 75,
+    slug: "gola-profile-vs-j-pull-vs-edge-profile-handles-comparison",
+    title: "Gola Profile vs J-Profile vs Edge Profile Handles: Which is Best for Handleless Kitchens?",
+    excerpt: "Compare Gola carcass profiles, J-pull door profiles, and edge-mount handles on installation complexity, aesthetics, cabinet volume loss, and costs.",
+    content: `<p>When designing a handle-free modern modular kitchen, carpenters and designers typically choose between three distinct aluminium systems: <strong>Gola Carcass Profiles</strong>, <strong>J-Pull Door Profiles</strong>, and <strong>Edge-Mounted Aluminium Handles</strong>.</p>
+
+<h2>Comparison: Gola vs J-Pull vs Edge Profile</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Hardware Metric</th>
+<th class="p-3 border border-gray-200">Gola Profile (Carcass Recessed)</th>
+<th class="p-3 border border-gray-200">J-Pull Profile (Door Mounted)</th>
+<th class="p-3 border border-gray-200">Edge Lip Profile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Mounting Location</strong></td>
+<td class="p-3 border border-gray-200">Cut into cabinet carcass frame</td>
+<td class="p-3 border border-gray-200">Fitted on top/bottom of shutter</td>
+<td class="p-3 border border-gray-200">Clamped on shutter edge</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Visual Aesthetic</strong></td>
+<td class="p-3 border border-gray-200 bg-copper/5 font-bold">100% flat seamless facade</td>
+<td class="p-3 border border-gray-200">Continuous horizontal metallic accent</td>
+<td class="p-3 border border-gray-200">Subtle modern top trim</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Installation Complexity</strong></td>
+<td class="p-3 border border-gray-200">High (Requires carcass notch routing)</td>
+<td class="p-3 border border-gray-200">Medium (Screwed to shutter)</td>
+<td class="p-3 border border-gray-200">Easy (Direct screw mount)</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200"><strong>Internal Storage Loss</strong></td>
+<td class="p-3 border border-gray-200">Approx. 35mm height per shelf</td>
+<td class="p-3 border border-gray-200">Zero internal volume lost</td>
+<td class="p-3 border border-gray-200">Zero internal volume lost</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>The Expert Verdict</h2>
+<p>If you want pure European minimalism with uninterrupted shutter surfaces, choose <strong>Gola profiles</strong>. If you want maximum interior drawer space and easier carpentry, specify <a href="/products/aluminum-profiles">SurajWood AL-PROFHAN J-Profiles</a>.</p>`,
+    featured_image: { ...placeholderImage(475), url: "/images/gallery/office-1.jpg" },
+    date: "2026-04-02",
+    author: "Suraj Wood Hardware & Design Team",
+    reading_time: 8,
+    categories: ["Aluminium Profiles", "Hardware Comparison"],
+  },
+  {
+    id: 76,
+    slug: "aluminium-glass-shutter-profiles-for-wardrobes-and-kitchens",
+    title: "Aluminium Glass Shutter Profiles for Wardrobes & Kitchens: Slim Frame & Fluted Glass Guide",
+    excerpt: "Design guide for slim aluminium glass profile shutters. Discover 20mm slim frames, fluted/tinted glass integration, concealed hinges, and LED tracks.",
+    content: `<p>Glass display shutters framed in ultra-slim aluminium profiles are the hallmark of high-end luxury wardrobes and modern kitchen overhead units. <strong>Aluminium glass shutter profile systems</strong> offer structural stability, lightweight movement, and seamless integration with integrated vertical LED illumination.</p>
+
+<h2>Key Anatomy of Slim Glass Profile Shutters</h2>
+<ul>
+<li><strong>20mm & 45mm Slimline Frames:</strong> Minimalist profiles that hold 4mm or 5mm toughened safety glass with zero frame flex.</li>
+<li><strong>Fluted & Reeded Glass Integration:</strong> Conceals wardrobe clutter while diffusing warm interior closet backlighting.</li>
+<li><strong>Bronze & Grey Tinted Glass:</strong> Reflects room lighting when off, and illuminates showcase garments when motion sensors activate internal lights.</li>
+<li><strong>Integrated Clip-On Concealed Hinges:</strong> Special compact pivot and soft-close hinges designed specifically for narrow aluminium extrusions.</li>
+</ul>
+
+<h2>Available Anodised Finishes in AL-PROFHAN</h2>
+<p>SurajWood supplies factory-cut and ready-to-assemble glass profile sections in <strong>Matte Black</strong>, <strong>Brushed Gold</strong>, <strong>Champagne</strong>, and <strong>Graphite Grey</strong> with matching corner connector brackets.</p>`,
+    featured_image: { ...placeholderImage(476), url: "/images/gallery/commercial-new-showroom.png" },
+    date: "2026-03-29",
+    author: "Suraj Wood Architectural Hardware Desk",
+    reading_time: 7,
+    categories: ["Aluminium Profiles", "Wardrobe Design"],
+  },
+  {
+    id: 77,
+    slug: "aluminium-profile-kitchen-cabinet-price-and-sizes-india",
+    title: "Aluminium Profile Price Per Foot & Lengths in India (2026): 3Mtr & 4Mtr Hardware Guide",
+    excerpt: "2026 price list and sizing guide for aluminium handle and glass shutter profiles. Compare running foot rates, 3m vs 4m lengths, and installation costs.",
+    content: `<p>Budgeting for architectural aluminium hardware in modular furniture projects requires understanding pricing by running foot, standard industrial extrusion lengths (3-metre vs 4-metre), and finish treatments.</p>
+
+<h2>Aluminium Profile Price List in India (2026 Rates)</h2>
+<div class="overflow-x-auto my-6">
+<table class="w-full border-collapse border border-gray-200 text-sm">
+<thead>
+<tr class="bg-gray-100 text-left">
+<th class="p-3 border border-gray-200">Profile Type & Finish</th>
+<th class="p-3 border border-gray-200">Standard Length</th>
+<th class="p-3 border border-gray-200">Price (Per Running Foot)</th>
+<th class="p-3 border border-gray-200">Full Bar Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-3 border border-gray-200">J-Pull Handle Profile (Anodised Silver)</td>
+<td class="p-3 border border-gray-200">3 Metres (9.84 ft)</td>
+<td class="p-3 border border-gray-200">₹110 - ₹150 / ft</td>
+<td class="p-3 border border-gray-200">₹1,100 - ₹1,480</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">J-Pull Handle Profile (Matte Black / Rose Gold)</td>
+<td class="p-3 border border-gray-200">3 Metres (9.84 ft)</td>
+<td class="p-3 border border-gray-200">₹140 - ₹190 / ft</td>
+<td class="p-3 border border-gray-200">₹1,380 - ₹1,870</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">C-Gola / L-Gola Carcass Profile (Black Anodised)</td>
+<td class="p-3 border border-gray-200">4 Metres (13.12 ft)</td>
+<td class="p-3 border border-gray-200">₹160 - ₹230 / ft</td>
+<td class="p-3 border border-gray-200">₹2,100 - ₹3,020</td>
+</tr>
+<tr>
+<td class="p-3 border border-gray-200">Slim Glass Shutter Profile (20mm Frame)</td>
+<td class="p-3 border border-gray-200">3 Metres (9.84 ft)</td>
+<td class="p-3 border border-gray-200">₹190 - ₹280 / ft</td>
+<td class="p-3 border border-gray-200">₹1,870 - ₹2,750</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>Why 3-Metre & 4-Metre Seamless Bars Save Waste</h2>
+<p>Standard retail handles only come in short 6-inch or 8-inch pieces. SurajWood's continuous 3m and 4m extrusions allow carpenters to cut customized spans for entire 8-foot kitchen counter runs with zero unsightly joint splices.</p>`,
+    featured_image: { ...placeholderImage(477), url: "/images/gallery/tv-unit-1.jpg" },
+    date: "2026-03-25",
+    author: "Suraj Wood Hardware Pricing Desk",
+    reading_time: 7,
+    categories: ["Aluminium Profiles", "Pricing Guide"],
+  },
+  {
+    id: 78,
+    slug: "top-anodised-aluminium-profile-manufacturers-in-delhi-ncr-india",
+    title: "Anodised Aluminium Profile Manufacturers in India: SurajWood AL-PROFHAN Specifications",
+    excerpt: "Manufacturer overview of architectural aluminium profiles in Delhi NCR & Haryana. 6063-T5 virgin extrusion, 15-micron anodising, and pan-India supply.",
+    content: `<p>For modular kitchen OEMs, interior contractors, and furniture manufacturers in North India and across the country, sourcing high-precision <strong>anodised aluminium profiles</strong> directly from certified extrusion manufacturers ensures consistent batch anodising, zero warp, and burr-free edges.</p>
+
+<h2>SurajWood AL-PROFHAN Manufacturing Standards</h2>
+<p>Manufactured under stringent European ISO benchmarks at our facility in Bahadurgarh, Haryana, SurajWood's <strong>AL-PROFHAN</strong> profile range delivers:</p>
+<ol>
+<li><strong>100% Virgin 6063-T5 Ingot Extrusion:</strong> Guarantees uniform wall thickness (1.2mm–1.5mm) and structural stiffness across 4-metre spans.</li>
+<li><strong>15-Micron Electro-Deposition Anodising:</strong> Passes 480-hour salt spray corrosion testing, resisting coastal humidity and aggressive kitchen spices.</li>
+<li><strong>Ready-Stock Shade Range:</strong> Matte Jet Black, Champagne Gold, Brushed Rose Gold, Metallic Bronze, and Natural Anodised Silver.</li>
+<li><strong>Pan-India Express Dispatch:</strong> Dispatched in protective bubble sleeves with matching corner brackets and end caps within 48 hours.</li>
+</ol>
+<p>Contact our wholesale hardware team at <strong>sales@surajwood.com</strong> or call <strong>+91-9009171819</strong> to request physical sample profile sections.</p>`,
+    featured_image: { ...placeholderImage(478), url: "/images/about/palex.jpg" },
+    date: "2026-03-20",
+    author: "Suraj Wood Hardware Manufacturing Desk",
+    reading_time: 6,
+    categories: ["Aluminium Profiles", "Manufacturing"],
+  },
 ];
 
 // ---------------------------------------------------------------------------
