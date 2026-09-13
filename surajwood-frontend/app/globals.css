@@ -60,7 +60,7 @@ img { transition: opacity 0.3s ease; }
   display: flex;
   width: max-content;
   will-change: transform;
-  animation: marquee-ltr 28s linear infinite;
+  animation: marquee-ltr 36s linear infinite;
 }
 
 .animate-marquee-ltr:hover {

@@ -2,26 +2,46 @@ import Image from "next/image";
 
 const CLIENTS = [
   {
+    name: "Puravankara Limited",
+    logo: "/images/clients/puravankara.png",
+  },
+  {
+    name: "Godrej Properties",
+    logo: "/images/clients/godrej-properties.png",
+  },
+  {
     name: "Reliance Industries Limited",
     logo: "/images/clients/reliance.png",
   },
   {
-    name: "Urban Ladder Home Interiors",
-    logo: "/images/clients/urban-ladder.png",
+    name: "Sattva Group",
+    logo: "/images/clients/sattva.png",
+  },
+  {
+    name: "Symbol Interior",
+    logo: "/images/clients/symbol-interior.png",
   },
   {
     name: "Prestige Group",
     logo: "/images/clients/prestige.png",
   },
   {
+    name: "Myspace Architects",
+    logo: "/images/clients/myspace-architects.png",
+  },
+  {
     name: "Sobha Realty",
     logo: "/images/clients/sobha.png",
+  },
+  {
+    name: "Urban Ladder Home Interiors",
+    logo: "/images/clients/urban-ladder.png",
   },
 ];
 
 export default function ClientLogos() {
-  // Duplicate list multiple times for continuous, seamless infinite loop
-  const marqueeList = [...CLIENTS, ...CLIENTS, ...CLIENTS, ...CLIENTS];
+  // Duplicate list into two identical sequences for seamless -50% to 0% translation loop
+  const marqueeList = [...CLIENTS, ...CLIENTS];
 
   return (
     <section className="py-14 bg-gradient-to-b from-white via-[#FBFBF9] to-white border-y border-gray-100 overflow-hidden">
