@@ -123,6 +123,21 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
       caption: "State-of-the-Art Corporate Boardroom — Mirror-Gloss Jet Black Conference Table & Seamless Cladding",
       tag: "Meeting Room",
     },
+    {
+      src: "/images/gallery/office-1.jpg",
+      caption: "Commercial Reception Desk & Wall Paneling — ACRYMATTE Anti-Fingerprint Anthracite",
+      tag: "Reception Lobby",
+    },
+    {
+      src: "/images/gallery/commercial-premium.png",
+      caption: "Executive Cabin Partitioning & Paneling — Arctic White ACRYLUX",
+      tag: "Executive Cabin",
+    },
+    {
+      src: "/images/gallery/commercial-2.jpg",
+      caption: "Acoustic Wall Paneling & Conference Storage — German PUR Bonded ACRYLUX",
+      tag: "Conference Hall",
+    },
   ],
   "kids-rooms": [
     {
@@ -158,19 +173,98 @@ const APPLICATION_GALLERY_IMAGES: Record<string, GalleryItem[]> = {
   ],
   "wall-paneling": [
     {
+      src: "/images/gallery/wall-panel-living-luxury.jpg",
+      caption: "Floor-to-Ceiling Luxury Living Room Wall Paneling — High-Gloss Champagne ACRYGLASS with Gold Brass T-Profiles",
+      tag: "Luxury Living Room",
+    },
+    {
+      src: "/images/gallery/wall-panel-fluted-acoustic.jpg",
+      caption: "Master Bedroom Acoustic Feature Wall — Seamless 3D Fluted ACRYMATTE Sage Green with LED Inlays",
+      tag: "Master Bedroom Cladding",
+    },
+    {
+      src: "/images/gallery/wall-panel-lobby-luxury.jpg",
+      caption: "Corporate Reception Grand Feature Wall — Optical-Grade Black & White Marble ACRYGLASS Cladding",
+      tag: "Corporate Lobby",
+    },
+    {
+      src: "/images/gallery/wall-panel-dining-feature.jpg",
+      caption: "Contemporary Penthouse Dining Accent Wall — Geometric Matte Charcoal & Bronze Metallic Acrylic Panels",
+      tag: "Dining Feature Wall",
+    },
+    {
       src: "/images/gallery/wall-1.jpg",
-      caption: "Premium Geometric Wall Paneling — Graphite Storm ACRYLUX [Client Project]",
-      tag: "Statement Wall",
+      caption: "Modern Living Room Fireplace Wall Paneling — Graphite Storm ACRYLUX with Concealed Reveal Joints",
+      tag: "Living Room Feature",
     },
     {
-      src: "/images/gallery/22.jpg",
-      caption: "Bespoke Mirror-Gloss Living Room Cladding — Crystal White ACRYGLASS",
-      tag: "Living Room Cladding",
-    },
-    {
-      src: "/images/gallery/23.jpg",
-      caption: "Architectural Statement Wall Cladding — Sophisticated Grey ACRYGLASS MATTE",
+      src: "/images/gallery/tv-unit-1.jpg",
+      caption: "Architectural TV Media Wall Cladding — Mirror Black ACRYGLASS with Ambient Backlighting",
       tag: "Architectural Wall",
+    },
+  ],
+  "tv-units": [
+    {
+      src: "/images/gallery/tv-unit-1.jpg",
+      caption: "Luxury TV Wall Unit & Floating Media Console — Mirror Gloss Crystal Black ACRYGLASS",
+      tag: "Living Room Media Wall",
+    },
+    {
+      src: "/images/gallery/wall-panel-living-luxury.jpg",
+      caption: "Floor-to-Ceiling Entertainment Feature Wall — Champagne ACRYGLASS & Brass Metal Inlays",
+      tag: "Entertainment Backdrop",
+    },
+    {
+      src: "/images/gallery/wall-panel-dining-feature.jpg",
+      caption: "Contemporary Living Room Media Wall — Geometric Bronze & Charcoal Acrylic Paneling",
+      tag: "Geometric Media Unit",
+    },
+    {
+      src: "/images/gallery/wall-1.jpg",
+      caption: "Minimalist Floating TV Console — ACRYMATTE Anti-Glare Finish with Integrated Cable Ducts",
+      tag: "Modern TV Console",
+    },
+    {
+      src: "/images/gallery/commercial-premium.png",
+      caption: "Lounge Media Wall Paneling — Arctic White ACRYLUX Gloss Panels",
+      tag: "Lounge TV Unit",
+    },
+    {
+      src: "/images/gallery/office-new-executive.png",
+      caption: "Executive Suite Presentation Wall — Walnut Grain Textured Acrylic & Matte Dark Charcoal",
+      tag: "Executive Presentation Wall",
+    },
+  ],
+  "bathroom-vanities": [
+    {
+      src: "/images/gallery/bathroom-1.jpg",
+      caption: "100% Water-Resistant Luxury Bathroom Vanity — German PUR-Bonded Gloss Crystal White ACRYLUX",
+      tag: "Master Vanity Cabinet",
+    },
+    {
+      src: "/images/gallery/wall-panel-fluted-acoustic.jpg",
+      caption: "Spa-Inspired Bathroom Wall Cladding — Anti-Bacterial Matte Sage Green Acrylic Panels",
+      tag: "Spa Bathroom Cladding",
+    },
+    {
+      src: "/images/gallery/kitchen-new-4.png",
+      caption: "Modern Powder Room Vanity Shutters — Seamless Handleless ACRYMATTE Storm Grey",
+      tag: "Powder Room Vanity",
+    },
+    {
+      src: "/images/gallery/wall-1.jpg",
+      caption: "Luxury Hotel Bathroom Accent Wall — Mirror-Gloss Graphite ACRYGLASS",
+      tag: "Hotel Vanity Cladding",
+    },
+    {
+      src: "/images/gallery/wardrobe-new-luxury.jpg",
+      caption: "En-Suite Dressing Vanity Mirror Console — Mirror Red ACRYGLASS & Integrated Vanity Lights",
+      tag: "Dressing Vanity",
+    },
+    {
+      src: "/images/gallery/commercial-new-jewelry.jpg",
+      caption: "High-Gloss Waterproof Under-Sink Drawers — Crystal Black ACRYGLASS with Gold Edge Trims",
+      tag: "Luxury Basin Unit",
     },
   ],
 };
