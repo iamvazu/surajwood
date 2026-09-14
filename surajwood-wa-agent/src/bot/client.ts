@@ -8,10 +8,15 @@ let waClient: Client | null = null;
 let latestQrCodeData: string | null = null;
 let connectionStatus: "disconnected" | "qr_ready" | "connected" | "authenticated" = "disconnected";
 
-// Listen to all QR code events emitted by OpenWA
-ev.on("qr.**", (qrData: any) => {
-  if (typeof qrData === "string") {
-    handleQrCode(qrData);
+// Listen to all events emitted by OpenWA
+ev.onAny((event: any, value: any) => {
+  const eventName = Array.isArray(event) ? event.join(".") : String(event);
+  console.log(`[OpenWA Event]: ${eventName}`);
+  if (eventName.includes("qr")) {
+    const qrStr = typeof value === "string" ? value : value?.qr || value?.data;
+    if (typeof qrStr === "string") {
+      handleQrCode(qrStr);
+    }
   }
 });
 
