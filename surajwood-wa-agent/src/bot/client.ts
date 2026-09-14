@@ -1,4 +1,4 @@
-import { create, Client, ChatId } from "@open-wa/wa-automate";
+import { create, Client, ChatId, ev } from "@open-wa/wa-automate";
 import qrcodeTerminal from "qrcode-terminal";
 import QRCode from "qrcode";
 import { enqueueMessage, registerHumanResponse } from "../handlers/messageQueue";
@@ -7,6 +7,17 @@ import { CONFIG } from "../config";
 let waClient: Client | null = null;
 let latestQrCodeData: string | null = null;
 let connectionStatus: "disconnected" | "qr_ready" | "connected" | "authenticated" = "disconnected";
+
+// Listen to all QR code events emitted by OpenWA
+ev.on("qr.**", (qrData: any) => {
+  if (typeof qrData === "string") {
+    handleQrCode(qrData);
+  }
+});
+
+ev.on("sessionData.**", () => {
+  connectionStatus = "authenticated";
+});
 
 export function getStatus() {
   return {
