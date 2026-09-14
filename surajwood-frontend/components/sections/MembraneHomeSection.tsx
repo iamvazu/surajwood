@@ -9,6 +9,7 @@ const closeups = [
     desc: "3D vacuum thermoformed continuous wrap with crisp recessed borders and zero visible glue seams.",
     image: "/images/products/membrane-shutters/closeups/closeup-shaker.jpg",
     accent: "bg-[#C0392B]",
+    objectPosition: "center 50%",
   },
   {
     title: "Integrated J-Pull Handles",
@@ -16,6 +17,7 @@ const closeups = [
     desc: "Deep CNC finger-pull groove with natural Casella Oak foil flowing effortlessly into the recess.",
     image: "/images/products/membrane-shutters/closeups/closeup-jpull.jpg",
     accent: "bg-[#D4A373]",
+    objectPosition: "center center",
   },
   {
     title: "Fluted 3D Textures",
@@ -23,6 +25,7 @@ const closeups = [
     desc: "Precision vertical fluted ribs in rich Parisian Blue and Forest Green for statement islands and wardrobes.",
     image: "/images/products/membrane-shutters/closeups/closeup-fluted.jpg",
     accent: "bg-[#2F5233]",
+    objectPosition: "center center",
   },
 ];
 
@@ -85,6 +88,7 @@ export default function MembraneHomeSection() {
                   alt={item.title}
                   fill
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+                  style={item.objectPosition ? { objectPosition: item.objectPosition } : undefined}
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
