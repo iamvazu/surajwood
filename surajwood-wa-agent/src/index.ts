@@ -135,7 +135,13 @@ const server = app.listen(CONFIG.port, "0.0.0.0", () => {
   console.log(`\n🌐 SurajWood WhatsApp Agent Dashboard running at http://0.0.0.0:${CONFIG.port}`);
   console.log(`📱 Web QR Code Page: http://0.0.0.0:${CONFIG.port}/qr\n`);
 
-  initWhatsAppBot().catch((err) => {
-    console.error("❌ Failed to start WhatsApp Bot Client:", err);
-  });
+  function startBot() {
+    initWhatsAppBot().catch((err) => {
+      console.error("❌ WhatsApp initialization error:", err);
+      console.log("🔄 Retrying initialization in 10 seconds...");
+      setTimeout(startBot, 10000);
+    });
+  }
+
+  startBot();
 });
