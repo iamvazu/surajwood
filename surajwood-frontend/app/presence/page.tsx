@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import citiesData from "@/data/cities.json";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
@@ -24,7 +25,7 @@ const SOUTH = ["bangalore", "hyderabad", "chennai", "coimbatore", "kochi", "vish
 const EAST_NE = ["kolkata", "patna", "guwahati", "bhubaneswar", "ranchi", "jamshedpur"];
 
 const REGIONS = [
-  { name: "North India & NCR", slugs: NORTH_NCR },
+  { name: "North & NCR Region", slugs: NORTH_NCR },
   { name: "West & Central India", slugs: WEST_CENTRAL },
   { name: "South India", slugs: SOUTH },
   { name: "East & Northeast India", slugs: EAST_NE },
@@ -44,46 +45,58 @@ export default function PresencePage() {
       <SchemaMarkup schemas={schemas} />
 
       {/* ── HERO ──────────────────────────────────────────────────────── */}
-      <section className="relative h-[55vh] flex flex-col justify-between overflow-hidden bg-navy text-white">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(220,38,38,0.15),rgba(255,255,255,0))]" />
-        
-        {/* Spacer to clear sticky navbar */}
-        <div className="h-32 lg:h-40" />
+      <section className="relative text-white pt-28 pb-16 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 overflow-hidden border-b border-gray-800">
+        {/* Background Image with Ken Burns animation */}
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/banner/bg3.jpg"
+              alt="Pan India Dealer Matrix & Presence"
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
+        </div>
+
+        {/* Dual Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/85 to-navy/90" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/95 via-transparent to-navy/70" />
 
         {/* Content Area */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center py-8">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl">
             {/* Breadcrumb */}
             <nav className="mb-6" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-white/50">
+              <ol className="flex items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest text-white/50">
                 <li>
                   <Link href="/" className="hover:text-copper transition-colors">
                     Home
                   </Link>
                 </li>
                 <li className="text-white/40">›</li>
-                <li className="text-white font-medium text-white/70" aria-current="page">
+                <li className="text-white font-medium text-white/80" aria-current="page">
                   Our Presence
                 </li>
               </ol>
             </nav>
 
-            {/* Eyebrow badge matching Home Hero */}
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
-              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
-                Dealer Matrix
-              </p>
+            {/* Frosted Dark Eyebrow badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-4">
+              <span className="text-copper tracking-[0.2em] text-[10px] sm:text-xs uppercase font-bold">
+                PAN-INDIA DEALER MATRIX
+              </span>
             </div>
 
             {/* H1 */}
-            <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-5 drop-shadow-md">
-              Pan-India Supply & <br />
-              <span className="text-copper-light font-bold italic">Regional Dealer Matrix</span>
+            <h1 className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-4 drop-shadow-md">
+              Pan-India Supply &amp; <br className="hidden sm:inline" />
+              <span className="text-copper-light font-extrabold">Regional Dealer Matrix</span>
             </h1>
 
             {/* Sub-headline */}
-            <p className="text-white/80 text-sm md:text-base max-w-2xl leading-relaxed font-light italic">
+            <p className="text-gray-200 text-xs sm:text-base md:text-lg leading-relaxed font-light max-w-2xl">
               Direct factory shipping and dealer corridors across 50 tier-1, tier-2, and tier-3 cities. Reaching every major design hub in India.
             </p>
           </div>

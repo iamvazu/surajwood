@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Download, FileText, CheckCircle2, Loader2, ArrowRight, Mail, MessageSquare, ExternalLink } from "lucide-react";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -141,21 +142,63 @@ export default function DownloadsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fafbfc] pt-32 pb-24">
-      <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
-        <div className="max-w-3xl mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-copper/10 text-copper text-xs font-bold uppercase tracking-wider mb-4">
-            <FileText size={14} /> Official Technical Documentation
+    <div className="min-h-screen bg-[#fafbfc]">
+      {/* ── Hero ─────────────────────────────────────────────────────────── */}
+      <section className="relative text-white pt-28 pb-16 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 overflow-hidden border-b border-gray-800 mb-12">
+        {/* Background Image with Ken Burns animation */}
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/banner/bg3.jpg"
+              alt="SurajWood Technical Catalogs & Documentation"
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
           </div>
-          <h1 className="font-heading font-bold text-4xl md:text-5xl text-navy leading-tight">
-            Design Resources &amp; <span className="text-copper">Technical Specs</span>
+        </div>
+
+        {/* Dual Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/85 to-navy/90" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/95 via-transparent to-navy/70" />
+
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center">
+          {/* Subtle Breadcrumb Navigation */}
+          <nav className="mb-6 flex justify-center" aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest text-white/50">
+              <li>
+                <Link href="/" className="hover:text-copper transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>›</li>
+              <li className="text-white/80 font-medium" aria-current="page">
+                Downloads
+              </li>
+            </ol>
+          </nav>
+
+          {/* Frosted Dark Badge */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-4">
+            <FileText className="w-3.5 h-3.5 text-copper" />
+            <span className="text-copper tracking-[0.2em] text-[10px] sm:text-xs uppercase font-bold">
+              OFFICIAL TECHNICAL DOCUMENTATION
+            </span>
+          </div>
+
+          <h1 className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-4 drop-shadow-md">
+            Design Resources &amp; <span className="text-copper-light font-extrabold">Technical Specs</span>
           </h1>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+
+          <p className="text-gray-200 text-xs sm:text-base md:text-lg leading-relaxed font-light max-w-2xl mx-auto">
             Download high-resolution 2026 shade cards, technical engineering folders, and PUR lamination manuals. 
             Everything you need to specify SurajWood in your residential and commercial projects.
           </p>
         </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-24">
 
         {isGated ? (
           /* Gated Form */

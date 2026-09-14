@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { generateOrganizationSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { ShieldCheck, Lock, UserCheck, RefreshCw, Trash2, HelpCircle, Building2, Mail, Phone, MapPin, Scale } from "lucide-react";
@@ -25,31 +26,58 @@ export default function PrivacyPolicyPage() {
     <>
       <SchemaMarkup schemas={schemas} />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#111315] via-[#1a1c1e] to-[#111315] text-white pt-32 pb-20 md:pt-40 md:pb-24 overflow-hidden border-b border-gray-800">
-        <div className="absolute inset-0 opacity-15">
-          <div className="absolute top-0 right-1/4 w-96 h-96 bg-copper/20 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-900/20 rounded-full blur-3xl pointer-events-none" />
+      {/* Hero Section with Luxury Background Image */}
+      <section className="relative text-white pt-28 pb-16 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 overflow-hidden border-b border-gray-800">
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/banner/bg3.jpg"
+              alt="SurajWood Privacy Policy DPDP Compliance"
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
         </div>
 
-        <div className="max-w-5xl mx-auto px-6 relative z-10 text-center">
+        {/* Dual Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/85 to-navy/90" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/95 via-transparent to-navy/70" />
+
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center">
+          {/* Subtle Breadcrumb Navigation */}
+          <nav className="mb-6 flex justify-center" aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest text-white/50">
+              <li>
+                <Link href="/" className="hover:text-copper transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>›</li>
+              <li className="text-white/80 font-medium" aria-current="page">
+                Privacy Policy
+              </li>
+            </ol>
+          </nav>
+
           {/* Frosted Dark Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-6">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-5">
             <ShieldCheck className="w-3.5 h-3.5 text-copper" />
-            <span className="text-copper tracking-[0.2em] text-[10px] md:text-xs uppercase font-bold">
+            <span className="text-copper tracking-[0.2em] text-[10px] sm:text-xs uppercase font-bold">
               DATA PROTECTION &amp; DPDP ACT (INDIA) COMPLIANCE
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white tracking-tight leading-tight mb-6">
-            Privacy <span className="text-copper">Policy</span>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white tracking-tight leading-tight mb-4 drop-shadow-md">
+            Privacy <span className="text-copper-light font-extrabold">Policy</span>
           </h1>
 
-          <p className="text-gray-300 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-200 max-w-2xl mx-auto text-xs sm:text-base md:text-lg leading-relaxed font-light">
             Suraj Wood Products is dedicated to protecting your digital personal data in strict compliance with India&apos;s <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong> and applicable information security standards.
           </p>
 
-          <div className="mt-8 flex items-center justify-center gap-6 text-xs text-gray-400">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-[10px] sm:text-xs text-gray-400">
             <span>Last Updated: September 2026</span>
             <span>•</span>
             <span>Data Fiduciary: Suraj Wood Products Pvt. Ltd.</span>

@@ -98,23 +98,27 @@ export default function Navbar() {
       {/* ─── Top Utility Bar (Zone 0) ─── */}
       <div
         className={`bg-[#1F1F1F] text-white overflow-hidden transition-all duration-300 ease-in-out ${
-          scrolled ? "h-0 opacity-0" : "h-11 opacity-100"
+          scrolled ? "h-0 opacity-0" : "h-9 sm:h-11 opacity-100"
         }`}
       >
-        <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between text-[12px] tracking-wider uppercase font-medium">
-          <div className="flex items-center gap-6">
-            <a href="https://www.facebook.com/surajwood" className="hover:text-[#C0392B] transition-colors"><Facebook size={15} /></a>
-            <a href="https://instagram.com/surajwood_" className="hover:text-[#C0392B] transition-colors"><Instagram size={15} /></a>
-            <a href="https://linkedin.com/company/surajwood" className="hover:text-[#C0392B] transition-colors"><Linkedin size={15} /></a>
-            <a href="https://youtube.com/@surajwoodproducts" className="hover:text-[#C0392B] transition-colors"><Youtube size={15} /></a>
-            <a href="https://x.com/surajwood_" className="hover:text-[#C0392B] transition-colors"><Twitter size={15} /></a>
+        <div className="max-w-7xl mx-auto h-full px-4 sm:px-6 flex items-center justify-between text-[11px] sm:text-[12px] tracking-wider uppercase font-medium">
+          {/* Social Icons (Desktop & Tablet) */}
+          <div className="hidden md:flex items-center gap-5 sm:gap-6">
+            <a href="https://www.facebook.com/surajwood" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:text-[#C0392B] transition-colors"><Facebook size={14} /></a>
+            <a href="https://instagram.com/surajwood_" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-[#C0392B] transition-colors"><Instagram size={14} /></a>
+            <a href="https://linkedin.com/company/surajwood" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-[#C0392B] transition-colors"><Linkedin size={14} /></a>
+            <a href="https://youtube.com/@surajwoodproducts" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="hover:text-[#C0392B] transition-colors"><Youtube size={14} /></a>
+            <a href="https://x.com/surajwood_" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="hover:text-[#C0392B] transition-colors"><Twitter size={14} /></a>
           </div>
-          <div className="flex items-center gap-8">
-            <a href="tel:+919009171819" className="flex items-center gap-2 hover:text-[#C0392B] transition-colors">
-              <Phone size={14} /> +91-9009171819
+
+          {/* Contact Details (Clean, Responsive, Non-wrapping on Mobile) */}
+          <div className="w-full md:w-auto flex items-center justify-between md:justify-end gap-3 sm:gap-6">
+            <a href="tel:+919009171819" className="flex items-center gap-1.5 sm:gap-2 hover:text-[#C0392B] transition-colors whitespace-nowrap text-[11px] sm:text-xs">
+              <Phone size={12} className="text-[#C0392B] shrink-0" />
+              <span className="font-semibold tracking-normal">+91-9009171819</span>
             </a>
-            <span className="opacity-20">|</span>
-            <a href="mailto:sales@surajwood.com" className="hover:text-[#C0392B] transition-colors not-italic lowercase">
+            <span className="opacity-30">|</span>
+            <a href="mailto:sales@surajwood.com" className="hover:text-[#C0392B] transition-colors not-italic lowercase whitespace-nowrap text-[11px] sm:text-xs truncate">
               sales@surajwood.com
             </a>
           </div>

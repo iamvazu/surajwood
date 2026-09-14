@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { Handshake, PhoneCall } from "lucide-react";
 
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import DealerForm from "@/components/forms/DealerForm";
@@ -149,55 +152,98 @@ export default function DealersPage() {
       </nav>
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section className="bg-navy py-16 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <span className="inline-block bg-copper/20 text-copper text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
-              Dealer Partnership Programme
-            </span>
-            <h1 className="font-heading font-bold text-4xl md:text-5xl text-white leading-tight">
-              Partner With India&apos;s Premium Acrylic Panel Brand
-            </h1>
-            <p className="mt-5 text-white/70 text-lg leading-relaxed max-w-xl">
-              Join a network of 80+ authorised dealers across India. Represent
-              Suraj Wood&apos;s premium ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS, and
-              ACRYGLASS MATTE panel collections and build a profitable business
-              in the growing interior surfaces market.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#dealer-form"
-                className="inline-flex items-center gap-2 bg-copper hover:bg-copper-light text-white font-semibold px-7 py-3.5 rounded-lg transition-colors duration-300"
-              >
-                Apply for Dealership
-              </a>
-              <a
-                href="tel:+919009171819"
-                className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-7 py-3.5 rounded-lg transition-colors duration-300 border border-white/20"
-              >
-                Call: +91-9009171819
-              </a>
-            </div>
+      <section className="relative text-white pt-28 pb-16 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 overflow-hidden border-b border-gray-800">
+        {/* Background Image with Ken Burns animation */}
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full animate-ken-burns">
+            <Image
+              src="/images/gallery/commercial-premium.png"
+              alt="SurajWood Dealer Distribution Network"
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
           </div>
+        </div>
 
-          {/* Stats card */}
-          <div className="grid grid-cols-2 gap-4">
-            {[
-              { value: "80+", label: "Active Dealer Partners" },
-              { value: "15+", label: "Years in Business" },
-              { value: "50+", label: "Premium Finishes" },
-              { value: "10K+", label: "Projects Delivered" },
-            ].map(({ value, label }) => (
-              <div
-                key={label}
-                className="bg-white/10 rounded-xl p-6 text-center border border-white/10"
-              >
-                <div className="font-heading font-bold text-3xl text-copper">
-                  {value}
-                </div>
-                <div className="text-white/60 text-sm mt-1">{label}</div>
+        {/* Dual Gradients */}
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/85 to-navy/90" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/95 via-transparent to-navy/70" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          {/* Subtle Breadcrumb Navigation */}
+          <nav className="mb-6 flex justify-start" aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest text-white/50">
+              <li>
+                <Link href="/" className="hover:text-copper transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>›</li>
+              <li className="text-white/80 font-medium" aria-current="page">
+                Dealers
+              </li>
+            </ol>
+          </nav>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+            <div>
+              {/* Frosted Dark Badge */}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-4">
+                <Handshake className="w-3.5 h-3.5 text-copper" />
+                <span className="text-copper tracking-[0.2em] text-[10px] sm:text-xs uppercase font-bold">
+                  DEALER PARTNERSHIP PROGRAMME
+                </span>
               </div>
-            ))}
+
+              <h1 className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-4 drop-shadow-md">
+                Partner With India&apos;s <span className="text-copper-light font-extrabold">Premium Acrylic</span> Brand
+              </h1>
+
+              <p className="text-gray-200 text-xs sm:text-base md:text-lg leading-relaxed font-light max-w-xl mb-8">
+                Join a network of 80+ authorised dealers across India. Represent
+                Suraj Wood&apos;s premium ACRYLUX, ACRYSILK, ACRYMATTE, ACRYGLASS, and
+                ACRYGLASS MATTE panel collections and build a profitable business
+                in the growing interior surfaces market.
+              </p>
+
+              <div className="flex flex-wrap gap-3 sm:gap-4">
+                <a
+                  href="#dealer-form"
+                  className="inline-flex items-center justify-center gap-2 bg-copper hover:bg-copper-light text-white font-semibold px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl transition-all shadow-lg text-sm sm:text-base"
+                >
+                  Apply for Dealership
+                </a>
+                <a
+                  href="tel:+919009171819"
+                  className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl transition-all border border-white/20 backdrop-blur-md text-sm sm:text-base"
+                >
+                  <PhoneCall size={16} className="text-copper" />
+                  +91-9009171819
+                </a>
+              </div>
+            </div>
+
+            {/* Stats card */}
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
+              {[
+                { value: "80+", label: "Active Dealer Partners" },
+                { value: "15+", label: "Years in Business" },
+                { value: "50+", label: "Premium Finishes" },
+                { value: "10K+", label: "Projects Delivered" },
+              ].map(({ value, label }) => (
+                <div
+                  key={label}
+                  className="bg-black/40 backdrop-blur-md rounded-2xl p-4 sm:p-6 text-center border border-white/10 shadow-xl"
+                >
+                  <div className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl text-copper">
+                    {value}
+                  </div>
+                  <div className="text-white/70 text-xs sm:text-sm mt-1">{label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
