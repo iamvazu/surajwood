@@ -5,6 +5,8 @@ services:
     build: .
     container_name: surajwood-wa-agent
     restart: always
+    ipc: host
+    shm_size: "2gb"
     ports:
       - "3005:3005"
     volumes:
