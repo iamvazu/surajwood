@@ -684,7 +684,7 @@ export default function MembraneClient() {
             <div className="divide-y divide-gray-200">
               <div className="p-5 sm:p-6 grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 items-center bg-white">
                 <span className="font-bold text-[#0F172A] text-sm sm:text-base">Substrate Core</span>
-                <span className="text-gray-700 text-sm sm:col-span-2">High-Density Moisture Resistant (HDMR) / E1 Grade Calibrated MDF</span>
+                <span className="text-gray-700 text-sm sm:col-span-2">High-Density Moisture Resistant (HDMR) / E1 Grade MDF</span>
               </div>
               <div className="p-5 sm:p-6 grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 items-center">
                 <span className="font-bold text-[#0F172A] text-sm sm:text-base">Thermoforming Tech</span>

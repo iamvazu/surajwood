@@ -108,7 +108,7 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
       {
         question: "What is the recommended substrate for acrylic kitchen shutters?",
         answer:
-          "We recommend factory lamination on 18mm E1-Grade Action TESA HDMR (High Density Moisture Resistant) board or calibrated BWP marine-grade plywood. This guarantees complete dimensional stability and termite resistance in wet kitchen zones.",
+          "We recommend factory lamination on 18mm E1-Grade HDHMR (High Density Moisture Resistant) board or calibrated BWP marine-grade plywood. This guarantees complete dimensional stability and termite resistance in wet kitchen zones.",
       },
       {
         question: "How should acrylic modular kitchen shutters be cleaned and maintained?",
@@ -290,7 +290,7 @@ const APPLICATION_CONFIG: Record<string, ApplicationConfig> = {
       {
         question: "What is the standard sheet size and thickness for wall cladding?",
         answer:
-          "SurajWood acrylic wall panels come in standard 8ft x 4ft (2440mm x 1220mm) sheets, with custom thickness options from 6mm, 12mm, 18mm up to 25mm on Action TESA HDMR or calibrated BWP plywood substrates. Acrylic surface thickness is available in 1.0mm, 1.5mm, and 2.0mm PMMA.",
+          "SurajWood acrylic wall panels come in standard 8ft x 4ft (2440mm x 1220mm) sheets, with custom thickness options from 6mm, 12mm, 18mm up to 25mm on HDHMR or calibrated BWP plywood substrates. Acrylic surface thickness is available in 1.0mm, 1.5mm, and 2.0mm PMMA.",
       },
       {
         question: "How are acrylic wall panels installed on interior walls?",
@@ -895,7 +895,7 @@ export default async function ApplicationPage({
               <span className="text-2xl mb-3 block">🪵</span>
               <h3 className="font-heading font-bold text-navy text-base mb-2">Core Substrates</h3>
               <p className="text-gray-600 text-xs leading-relaxed">
-                Factory-pressed onto E1-Grade Action TESA HDMR or calibrated BWP marine-grade plywood with calibrated balancing reverse sheets.
+                Factory-pressed onto E1-Grade HDHMR or calibrated BWP marine-grade plywood with balancing reverse sheets.
               </p>
             </div>
 

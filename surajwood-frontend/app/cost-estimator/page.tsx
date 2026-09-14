@@ -787,7 +787,7 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
                           : "border-gray-200 text-gray-600 bg-white"
                       }`}
                     >
-                      <p className="text-xs font-bold">Action TESA HDHMR</p>
+                      <p className="text-xs font-bold">HDHMR</p>
                       <p className="text-[10px] text-gray-500">High Density Moisture Resistant</p>
                     </button>
 
@@ -800,8 +800,8 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
                           : "border-gray-200 text-gray-600 bg-white"
                       }`}
                     >
-                      <p className="text-xs font-bold">Calibrated MDF</p>
-                      <p className="text-[10px] text-gray-500">Economical Smooth Core (-₹20/sft)</p>
+                      <p className="text-xs font-bold">MDF</p>
+                      <p className="text-[10px] text-gray-500">Smooth Core (-₹20/sft)</p>
                     </button>
 
                     <button
@@ -1109,8 +1109,8 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
                 <tr className="bg-navy text-white font-bold">
                   <th className="p-4 border-b border-gray-700">Product Range</th>
                   <th className="p-4 border-b border-gray-700">Series / Tone</th>
-                  <th className="p-4 border-b border-gray-700 text-center">Calibrated MDF</th>
-                  <th className="p-4 border-b border-gray-700 text-center bg-copper text-white">Action TESA HDHMR</th>
+                  <th className="p-4 border-b border-gray-700 text-center">MDF</th>
+                  <th className="p-4 border-b border-gray-700 text-center bg-copper text-white">HDHMR</th>
                   <th className="p-4 border-b border-gray-700 text-center">Birch Plywood</th>
                   <th className="p-4 border-b border-gray-700">Backer Options</th>
                   <th className="p-4 border-b border-gray-700 text-center">Edgeband Rate</th>

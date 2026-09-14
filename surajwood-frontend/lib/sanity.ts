@@ -5774,7 +5774,7 @@ const MOCK_POSTS: SanityPost[] = [
     slug: "understanding-mdf-vs-plywood-vs-particle-board",
     title: "Understanding MDF vs Plywood vs Particle Board: Best Substrate for Acrylic",
     excerpt:
-      "Why moisture-resistant HDHMR and calibrated MDF provide the perfectly flat, ripple-free substrate required for optical acrylic lamination.",
+      "Why moisture-resistant HDHMR and MDF provide the perfectly flat, ripple-free substrate required for optical acrylic lamination.",
     content: `<p>Designing modern residential and commercial interiors in India requires surfaces that harmoniously balance visual luxury, acoustic comfort, and rugged everyday durability. <strong>SurajWood premium acrylic panels</strong> and engineered shutters are specifically formulated to withstand the rigorous demands of Indian homes — from high-heat spicy cooking and grease vapours to monsoon humidity and intense sunlight exposure.</p>
 
 <h2>Key Advantages of SurajWood Optical Acrylic Surfaces</h2>

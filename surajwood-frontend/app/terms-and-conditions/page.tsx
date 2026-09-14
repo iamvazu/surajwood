@@ -136,7 +136,7 @@ export default function TermsAndConditionsPage() {
                     <strong>Dimensional Standards:</strong> Standard acrylic sheet dimensions are 2440 mm × 1220 mm (8 ft × 4 ft) with standard manufacturing thickness tolerances of ±0.15 mm adhering to European DIN EN ISO standards.
                   </li>
                   <li>
-                    <strong>Substrates:</strong> Laminated acrylic panels are bonded to E1-grade Action TESA HDMR, BWP Plywood, or calibrated MDF using European Reactive PUR Hot-Melt Adhesive.
+                    <strong>Substrates:</strong> Laminated acrylic panels are bonded to E1-grade HDHMR, BWP Plywood, or MDF using European Reactive PUR Hot-Melt Adhesive.
                   </li>
                   <li>
                     <strong>Color &amp; Batch Variance:</strong> While SurajWood maintains strict Delta-E color calibration (ΔE &lt; 0.8), minor perceptual tone differences may occur between different production batches. For large projects, we strongly recommend procuring full lot requirements in a single batch.
