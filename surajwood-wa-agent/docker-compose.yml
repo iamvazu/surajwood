@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  surajwood-wa-agent:
+    build: .
+    container_name: surajwood-wa-agent
+    restart: always
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    environment:
+      - PORT=3005
+      - NODE_ENV=production
