@@ -2,12 +2,21 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import QRCode from "qrcode";
 import { CONFIG } from "./config";
-import { initWhatsAppBot, getStatus, getLatestQrData } from "./bot/client";
+import { initWhatsAppBot, getStatus, getLatestQrData, getLivePageScreenshot } from "./bot/client";
 import { getRecentLeads } from "./services/leadStore";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+app.get("/qr/live", async (req: Request, res: Response) => {
+  const screenshot = await getLivePageScreenshot();
+  if (screenshot) {
+    res.setHeader("Content-Type", "image/png");
+    return res.send(screenshot);
+  }
+  res.status(404).send("Screenshot unavailable");
+});
 
 // ─── Web Dashboard & QR Scan UI ─────────────────────────────────────────────
 app.get("/qr", async (req: Request, res: Response) => {
@@ -45,72 +54,54 @@ app.get("/qr", async (req: Request, res: Response) => {
     `);
   }
 
-  if (!qrData) {
-    return res.send(`
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>SurajWood Bot - Generating QR Code...</title>
-        <meta http-equiv="refresh" content="3">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-          body { font-family: sans-serif; background: #0B0F17; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
-          .card { background: #151C28; padding: 40px; border-radius: 20px; text-align: center; }
-        </style>
-      </head>
-      <body>
-        <div class="card">
-          <h2>🚀 Initializing WhatsApp Session...</h2>
-          <p style="color: #94A3B8;">Connecting to Chromium. This page will refresh automatically in 3 seconds.</p>
-        </div>
-      </body>
-      </html>
-    `);
+  // If we have rendered QR or live screenshot
+  let imageSource = "/qr/live?t=" + Date.now();
+  if (qrData) {
+    try {
+      imageSource = await QRCode.toDataURL(qrData, { width: 320, margin: 2 });
+    } catch (e) {
+      // fallback to live screenshot
+    }
   }
 
-  try {
-    const qrImage = await QRCode.toDataURL(qrData, { width: 320, margin: 2 });
-    return res.send(`
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>SurajWood WhatsApp Bot - Link Device</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="refresh" content="20">
-        <style>
-          body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0F17; color: #fff; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
-          .card { background: #151C28; border: 1px solid #1E293B; border-radius: 24px; padding: 32px; text-align: center; max-width: 440px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
-          h1 { font-size: 20px; margin: 0 0 8px; }
-          p { color: #94A3B8; font-size: 13px; line-height: 1.5; margin: 0 0 20px; }
-          .qr-box { background: #fff; padding: 12px; border-radius: 16px; display: inline-block; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
-          .qr-box img { display: block; border-radius: 8px; width: 100%; max-width: 280px; height: auto; }
-          .instructions { text-align: left; background: #0B0F17; padding: 16px; border-radius: 12px; margin-top: 24px; font-size: 12px; color: #CBD5E1; border: 1px solid #1E293B; }
-          .instructions ol { margin: 8px 0 0; padding-left: 18px; }
-          .instructions li { margin-bottom: 6px; }
-        </style>
-      </head>
-      <body>
-        <div class="card">
-          <h1>Link SurajWood WhatsApp</h1>
-          <p>Scan this QR code with your WhatsApp Business phone to activate the Claude AI Agent.</p>
-          <div class="qr-box">
-            <img src="${qrImage}" alt="WhatsApp QR Code" />
-          </div>
-          <div class="instructions">
-            <strong>How to Link:</strong>
-            <ol>
-              <li>Open WhatsApp on your phone</li>
-              <li>Tap <strong>Settings / Menu (⋮)</strong> &gt; <strong>Linked Devices</strong></li>
-              <li>Tap <strong>Link a Device</strong> and point your camera at this QR code</li>
-            </ol>
-          </div>
+  return res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>SurajWood WhatsApp Bot - Link Device</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="refresh" content="6">
+      <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0F17; color: #fff; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
+        .card { background: #151C28; border: 1px solid #1E293B; border-radius: 24px; padding: 32px; text-align: center; max-width: 440px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        h1 { font-size: 20px; margin: 0 0 8px; }
+        p { color: #94A3B8; font-size: 13px; line-height: 1.5; margin: 0 0 20px; }
+        .qr-box { background: #fff; padding: 12px; border-radius: 16px; display: inline-block; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+        .qr-box img { display: block; border-radius: 8px; width: 100%; max-width: 280px; height: auto; }
+        .instructions { text-align: left; background: #0B0F17; padding: 16px; border-radius: 12px; margin-top: 24px; font-size: 12px; color: #CBD5E1; border: 1px solid #1E293B; }
+        .instructions ol { margin: 8px 0 0; padding-left: 18px; }
+        .instructions li { margin-bottom: 6px; }
+      </style>
+    </head>
+    <body>
+      <div class="card">
+        <h1>Link SurajWood WhatsApp</h1>
+        <p>Scan this QR code with your WhatsApp Business phone to activate the Claude AI Agent.</p>
+        <div class="qr-box">
+          <img src="${imageSource}" alt="WhatsApp QR Code" />
         </div>
-      </body>
-      </html>
-    `);
-  } catch (err) {
-    return res.status(500).send("Error generating QR code");
-  }
+        <div class="instructions">
+          <strong>How to Link:</strong>
+          <ol>
+            <li>Open WhatsApp on your phone</li>
+            <li>Tap <strong>Settings / Menu (⋮)</strong> &gt; <strong>Linked Devices</strong></li>
+            <li>Tap <strong>Link a Device</strong> and point your camera at this QR code</li>
+          </ol>
+        </div>
+      </div>
+    </body>
+    </html>
+  `);
 });
 
 // ─── Health & API Endpoints ──────────────────────────────────────────────────

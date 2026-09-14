@@ -36,6 +36,17 @@ export function getLatestQrData() {
   return latestQrCodeData;
 }
 
+export async function getLivePageScreenshot(): Promise<Buffer | null> {
+  try {
+    if (waClient && (waClient as any).page) {
+      return await (waClient as any).page.screenshot({ type: "png" });
+    }
+  } catch (e) {
+    // ignore
+  }
+  return null;
+}
+
 export async function initWhatsAppBot(): Promise<Client> {
   console.log("🚀 Initializing SurajWood WhatsApp Bot with Open-WA...");
 
