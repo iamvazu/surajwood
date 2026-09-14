@@ -15,3 +15,12 @@ services:
     environment:
       - PORT=3005
       - NODE_ENV=production
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.surajwood-wa-http.entrypoints=web"
+      - "traefik.http.routers.surajwood-wa-http.rule=Host(`wa.srv1566293.hstgr.cloud`) || Host(`surajwood-wa.srv1566293.hstgr.cloud`) || Host(`wa.surajwood.com`)"
+      - "traefik.http.routers.surajwood-wa.entrypoints=websecure"
+      - "traefik.http.routers.surajwood-wa.rule=Host(`wa.srv1566293.hstgr.cloud`) || Host(`surajwood-wa.srv1566293.hstgr.cloud`) || Host(`wa.surajwood.com`)"
+      - "traefik.http.routers.surajwood-wa.tls=true"
+      - "traefik.http.routers.surajwood-wa.tls.certresolver=letsencrypt"
+      - "traefik.http.services.surajwood-wa.loadbalancer.server.port=3005"
