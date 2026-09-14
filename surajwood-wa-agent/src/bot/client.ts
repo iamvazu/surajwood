@@ -1,28 +1,18 @@
-import { create, Client, ChatId, ev } from "@open-wa/wa-automate";
+import makeWASocket, {
+  useMultiFileAuthState,
+  DisconnectReason,
+  fetchLatestBaileysVersion,
+  WASocket,
+} from "@whiskeysockets/baileys";
+import { Boom } from "@hapi/boom";
+import pino from "pino";
 import qrcodeTerminal from "qrcode-terminal";
-import QRCode from "qrcode";
 import { enqueueMessage, registerHumanResponse } from "../handlers/messageQueue";
 import { CONFIG } from "../config";
 
-let waClient: Client | null = null;
+let sock: WASocket | null = null;
 let latestQrCodeData: string | null = null;
 let connectionStatus: "disconnected" | "qr_ready" | "connected" | "authenticated" = "disconnected";
-
-// Listen to all events emitted by OpenWA
-ev.onAny((event: any, value: any) => {
-  const eventName = Array.isArray(event) ? event.join(".") : String(event);
-  console.log(`[OpenWA Event]: ${eventName}`);
-  if (eventName.includes("qr")) {
-    const qrStr = typeof value === "string" ? value : value?.qr || value?.data;
-    if (typeof qrStr === "string") {
-      handleQrCode(qrStr);
-    }
-  }
-});
-
-ev.on("sessionData.**", () => {
-  connectionStatus = "authenticated";
-});
 
 export function getStatus() {
   return {
@@ -36,99 +26,100 @@ export function getLatestQrData() {
   return latestQrCodeData;
 }
 
-export async function getLivePageScreenshot(): Promise<Buffer | null> {
-  try {
-    if (waClient && (waClient as any).page) {
-      return await (waClient as any).page.screenshot({ type: "png" });
-    }
-  } catch (e) {
-    // ignore
-  }
-  return null;
-}
+export async function initWhatsAppBot(): Promise<WASocket> {
+  console.log("🚀 Initializing SurajWood WhatsApp Bot with Baileys WebSocket...");
 
-export async function initWhatsAppBot(): Promise<Client> {
-  console.log("🚀 Initializing SurajWood WhatsApp Bot with Open-WA...");
+  const { state, saveCreds } = await useMultiFileAuthState(CONFIG.sessionDataPath);
+  const { version, isLatest } = await fetchLatestBaileysVersion();
+  console.log(`Using WA Web protocol v${version.join(".")}, isLatest: ${isLatest}`);
 
-  const client = await create({
-    sessionId: "SURAJWOOD_WA_SESSION",
-    multiDevice: true,
-    authTimeout: 0,
-    blockCrashLogs: true,
-    disableSpins: true,
-    headless: true,
-    logConsole: true,
-    useChrome: true,
-    qrTimeout: 0,
-    sessionDataPath: CONFIG.sessionDataPath,
-    qrRefreshS: 15,
-    qrLogSkip: false,
-    throwErrorOnTosBlock: false,
-    killProcessOnBrowserClose: false,
+  sock = makeWASocket({
+    version,
+    logger: pino({ level: "silent" }) as any,
+    printQRInTerminal: false,
+    auth: state,
+    generateHighQualityLinkPreview: true,
+    browser: ["SurajWood AI Desk", "Chrome", "1.0.0"],
   });
 
-  waClient = client;
-  connectionStatus = "connected";
-  console.log("✅ SurajWood WhatsApp Client Connected & Authenticated!");
+  sock.ev.on("creds.update", saveCreds);
 
-  // Listen for state changes
-  client.onStateChanged((state) => {
-    console.log(`[WA State Changed]: ${state}`);
-    if (state === "CONFLICT" || state === "UNLAUNCHED") {
-      client.forceRefocus();
+  sock.ev.on("connection.update", (update) => {
+    const { connection, lastDisconnect, qr } = update;
+
+    if (qr) {
+      latestQrCodeData = qr;
+      connectionStatus = "qr_ready";
+      console.log("\n==================== SCAN WHATSAPP QR CODE ====================");
+      qrcodeTerminal.generate(qr, { small: true });
+      console.log("===============================================================\n");
+      console.log(`👉 Web QR Code: http://0.0.0.0:${CONFIG.port}/qr\n`);
+    }
+
+    if (connection === "close") {
+      const shouldReconnect =
+        (lastDisconnect?.error as Boom)?.output?.statusCode !== DisconnectReason.loggedOut;
+      console.log(
+        "❌ Connection closed due to:",
+        lastDisconnect?.error,
+        ", reconnecting:",
+        shouldReconnect
+      );
+      connectionStatus = "disconnected";
+      if (shouldReconnect) {
+        initWhatsAppBot();
+      }
+    } else if (connection === "open") {
+      console.log("✅ SurajWood WhatsApp Client Connected & Authenticated via WebSocket!");
+      connectionStatus = "connected";
+      latestQrCodeData = null;
     }
   });
 
-  // Listen for incoming messages
-  client.onMessage(async (message) => {
-    try {
-      const isGroup = message.isGroupMsg;
-      if (isGroup) {
-        // Optionally ignore group chats unless mentioned
-        return;
+  // Listen to incoming messages
+  sock.ev.on("messages.upsert", async ({ messages, type }) => {
+    if (type !== "notify") return;
+
+    for (const msg of messages) {
+      if (!msg.message) continue;
+
+      const senderJid = msg.key.remoteJid;
+      if (!senderJid || senderJid.endsWith("@g.us")) {
+        // Skip group messages
+        continue;
       }
 
-      const chatId = message.from;
-      const text = message.body || message.caption || "";
-      const senderName = message.sender?.pushname || message.sender?.formattedName || "Customer";
-
-      if (!text || text.trim().length === 0) {
-        return;
+      // If message was sent by human sales rep from the business phone
+      if (msg.key.fromMe) {
+        registerHumanResponse(senderJid);
+        continue;
       }
 
-      console.log(`📩 [Incoming WA] ${chatId} (${senderName}): "${text}"`);
+      const text =
+        msg.message.conversation ||
+        msg.message.extendedTextMessage?.text ||
+        msg.message.imageMessage?.caption ||
+        "";
 
-      // Enqueue for AI response with debouncing
-      enqueueMessage(chatId, text, senderName, async (targetChatId, reply) => {
+      const senderName = msg.pushName || "Customer";
+
+      if (!text || text.trim().length === 0) continue;
+
+      console.log(`📩 [Incoming WA] ${senderJid} (${senderName}): "${text}"`);
+
+      // Enqueue with debouncing
+      enqueueMessage(senderJid, text, senderName, async (targetJid, reply) => {
         try {
-          await client.sendText(targetChatId as any, reply);
-          console.log(`📤 [AI Replied to] ${targetChatId}`);
+          if (sock) {
+            await sock.sendMessage(targetJid, { text: reply });
+            console.log(`📤 [AI Replied to] ${targetJid}`);
+          }
         } catch (sendErr) {
-          console.error(`❌ Failed to send reply to ${targetChatId}:`, sendErr);
+          console.error(`❌ Failed to send reply to ${targetJid}:`, sendErr);
         }
       });
-    } catch (err) {
-      console.error("[onMessage Error]:", err);
     }
   });
 
-  // Listen for outgoing messages sent by human from phone
-  client.onAnyMessage(async (message) => {
-    if (message.fromMe && message.to && !message.isGroupMsg) {
-      // Human sales rep answered from mobile device
-      registerHumanResponse(message.to as any);
-    }
-  });
-
-  return client;
-}
-
-// Handler for QR codes before client starts
-export function handleQrCode(qrCode: string) {
-  latestQrCodeData = qrCode;
-  connectionStatus = "qr_ready";
-  console.log("\n==================== SCAN WHATSAPP QR CODE ====================");
-  qrcodeTerminal.generate(qrCode, { small: true });
-  console.log("===============================================================\n");
-  console.log(`Tip: You can also scan via Web Browser at http://YOUR_SERVER_IP:${CONFIG.port}/qr\n`);
+  return sock;
 }

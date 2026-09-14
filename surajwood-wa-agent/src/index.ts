@@ -2,21 +2,12 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import QRCode from "qrcode";
 import { CONFIG } from "./config";
-import { initWhatsAppBot, getStatus, getLatestQrData, getLivePageScreenshot } from "./bot/client";
+import { initWhatsAppBot, getStatus, getLatestQrData } from "./bot/client";
 import { getRecentLeads } from "./services/leadStore";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-app.get("/qr/live", async (req: Request, res: Response) => {
-  const screenshot = await getLivePageScreenshot();
-  if (screenshot) {
-    res.setHeader("Content-Type", "image/png");
-    return res.send(screenshot);
-  }
-  res.status(404).send("Screenshot unavailable");
-});
 
 // ─── Web Dashboard & QR Scan UI ─────────────────────────────────────────────
 app.get("/qr", async (req: Request, res: Response) => {
@@ -54,15 +45,30 @@ app.get("/qr", async (req: Request, res: Response) => {
     `);
   }
 
-  // If we have rendered QR or live screenshot
-  let imageSource = "/qr/live?t=" + Date.now();
-  if (qrData) {
-    try {
-      imageSource = await QRCode.toDataURL(qrData, { width: 320, margin: 2 });
-    } catch (e) {
-      // fallback to live screenshot
-    }
+  if (!qrData) {
+    return res.send(`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>SurajWood Bot - Generating QR Code...</title>
+        <meta http-equiv="refresh" content="2">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0F17; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+          .card { background: #151C28; border: 1px solid #1E293B; border-radius: 20px; padding: 40px; text-align: center; max-width: 440px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        </style>
+      </head>
+      <body>
+        <div class="card">
+          <h2>🚀 Generating QR Code...</h2>
+          <p style="color: #94A3B8;">Connecting to WhatsApp. This page will refresh automatically in 2 seconds.</p>
+        </div>
+      </body>
+      </html>
+    `);
   }
+
+  const qrImage = await QRCode.toDataURL(qrData, { width: 320, margin: 2 });
 
   return res.send(`
     <!DOCTYPE html>
@@ -88,7 +94,7 @@ app.get("/qr", async (req: Request, res: Response) => {
         <h1>Link SurajWood WhatsApp</h1>
         <p>Scan this QR code with your WhatsApp Business phone to activate the Claude AI Agent.</p>
         <div class="qr-box">
-          <img src="${imageSource}" alt="WhatsApp QR Code" />
+          <img src="${qrImage}" alt="WhatsApp QR Code" />
         </div>
         <div class="instructions">
           <strong>How to Link:</strong>
