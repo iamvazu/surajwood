@@ -131,9 +131,9 @@ app.get("/api/leads", (req: Request, res: Response) => {
 });
 
 // ─── Start Server & Bot ──────────────────────────────────────────────────────
-const server = app.listen(CONFIG.port, () => {
-  console.log(`\n🌐 SurajWood WhatsApp Agent Dashboard running at http://localhost:${CONFIG.port}`);
-  console.log(`📱 Web QR Code Page: http://localhost:${CONFIG.port}/qr\n`);
+const server = app.listen(CONFIG.port, "0.0.0.0", () => {
+  console.log(`\n🌐 SurajWood WhatsApp Agent Dashboard running at http://0.0.0.0:${CONFIG.port}`);
+  console.log(`📱 Web QR Code Page: http://0.0.0.0:${CONFIG.port}/qr\n`);
 
   initWhatsAppBot().catch((err) => {
     console.error("❌ Failed to start WhatsApp Bot Client:", err);
