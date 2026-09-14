@@ -7,10 +7,7 @@ import {
   Calculator, 
   TrendingDown,
   Send,
-  Check,
-  Download,
-  FileSpreadsheet,
-  Info
+  Check
 } from "lucide-react";
 
 // ─── Data Configurations from Official 2026 Ver 2.0 Price List ─────────────────
@@ -429,7 +426,7 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-copper/40 shadow-inner mb-5">
             <Calculator className="w-3.5 h-3.5 text-copper" />
             <span className="text-copper tracking-[0.2em] text-[10px] sm:text-xs uppercase font-bold">
-              OFFICIAL 2026 PRICE LIST ESTIMATOR (VER 2.0)
+              INSTANT MATERIAL &amp; COST ESTIMATOR 2026
             </span>
           </div>
 
@@ -437,20 +434,9 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
             Acrylic Sheet &amp; Shutter <span className="text-copper-light font-extrabold">Cost Calculator</span>
           </h1>
 
-          <p className="text-gray-200 max-w-2xl mx-auto text-xs sm:text-base md:text-lg leading-relaxed font-light mb-6">
-            Calculate accurate factory-direct costs for ACRYLUX, ACRYMATTE, ACRYSILK, and ACRYGLASS prelaminated boards, 8x4 sheets, matching edgebands, and GST in real time.
+          <p className="text-gray-200 max-w-2xl mx-auto text-xs sm:text-base md:text-lg leading-relaxed font-light">
+            Calculate exact 8x4 ft sheet requirements, square footage, edgebanding meters, and factory-direct project estimates in real time.
           </p>
-
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="/catalogs/SurajWood_Acrylic_Price_List_2026.pdf"
-              download
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/30 text-white text-xs font-bold transition-all backdrop-blur-md"
-            >
-              <Download size={14} className="text-copper" />
-              <span>Download Official 2026 Price List PDF</span>
-            </a>
-          </div>
         </div>
       </section>
 
@@ -1083,133 +1069,6 @@ Please share the official trade discount and dispatch timeline for ${formData.ci
 
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Official Price Matrix Table Section ─── */}
-      <section className="py-16 bg-white border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-copper/10 text-copper text-xs font-bold uppercase mb-3">
-              <FileSpreadsheet size={13} /> Transparent Factory Pricing
-            </div>
-            <h2 className="font-heading font-bold text-2xl sm:text-3xl text-navy">
-              Official SurajWood Price List — 2026 Ver 2.0
-            </h2>
-            <p className="text-gray-600 text-sm mt-2">
-              Factory-direct prices per square foot on 1mm HIPS Pre-Lam boards, raw 8x4 acrylic sheets, and matching ABS/PMMA edgebands.
-            </p>
-          </div>
-
-          {/* Pricing Table */}
-          <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm mb-8">
-            <table className="w-full text-left text-xs border-collapse">
-              <thead>
-                <tr className="bg-navy text-white font-bold">
-                  <th className="p-4 border-b border-gray-700">Product Range</th>
-                  <th className="p-4 border-b border-gray-700">Series / Tone</th>
-                  <th className="p-4 border-b border-gray-700 text-center">MDF</th>
-                  <th className="p-4 border-b border-gray-700 text-center bg-copper text-white">HDHMR</th>
-                  <th className="p-4 border-b border-gray-700 text-center">Birch Plywood</th>
-                  <th className="p-4 border-b border-gray-700">Backer Options</th>
-                  <th className="p-4 border-b border-gray-700 text-center">Edgeband Rate</th>
-                  <th className="p-4 border-b border-gray-700 text-center">8x4 Sheet As Is</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200 text-gray-700">
-                <tr className="hover:bg-gray-50">
-                  <td className="p-4 font-bold text-navy">ACRYLUX (1mm High Gloss)</td>
-                  <td className="p-4">Solid Colors<br /><span className="text-gray-400">Metallic / Designs</span></td>
-                  <td className="p-4 text-center font-mono font-semibold">₹340<br />₹370</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹360<br />₹390</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹460<br />₹490</td>
-                  <td className="p-4">BSL +₹120<br />Melamine -₹50</td>
-                  <td className="p-4 text-center font-mono">₹44/m (1x23 ABS)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹7,500 / ₹8,500</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50 bg-gray-50/50">
-                  <td className="p-4 font-bold text-navy">ACRYMATTE (1mm Nano-Matte)</td>
-                  <td className="p-4">Solid Colors<br /><span className="text-gray-400">Metallic</span></td>
-                  <td className="p-4 text-center font-mono font-semibold">₹340<br />₹370</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹360<br />₹390</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹460<br />₹490</td>
-                  <td className="p-4">BSL +₹120<br />Melamine -₹50</td>
-                  <td className="p-4 text-center font-mono">₹44/m (1x23 ABS)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹7,500 / ₹8,500</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50">
-                  <td className="p-4 font-bold text-navy">ACRYSILK (1mm Satin)</td>
-                  <td className="p-4">Solid Colors</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹370</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹390</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹490</td>
-                  <td className="p-4">BSL +₹120<br />Melamine -₹50</td>
-                  <td className="p-4 text-center font-mono">₹55/m (1x23 ABS)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹8,500</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50 bg-gray-50/50">
-                  <td className="p-4 font-bold text-navy">ACRYGLASS UNO (1.5mm High Gloss)</td>
-                  <td className="p-4">Solid Colors<br /><span className="text-gray-400">Metallic</span></td>
-                  <td className="p-4 text-center font-mono font-semibold">₹380<br />₹410</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹400<br />₹430</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹500<br />₹530</td>
-                  <td className="p-4">BSL +₹150</td>
-                  <td className="p-4 text-center font-mono">₹30/m (1x23 PVC)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹8,000 / ₹9,000</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50">
-                  <td className="p-4 font-bold text-navy">ACRYGLASS UNO (2mm Glass Gloss)</td>
-                  <td className="p-4">Solid Colors</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹580</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹600</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹700</td>
-                  <td className="p-4">BSL +₹200</td>
-                  <td className="p-4 text-center font-mono">₹100/m (1x25 PMMA)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹10,000</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50 bg-gray-50/50">
-                  <td className="p-4 font-bold text-navy">ACRYGLASS 2mm (Gloss &amp; Matt)</td>
-                  <td className="p-4">Solid Colors</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹800</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹820</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹920</td>
-                  <td className="p-4">BSL +₹350</td>
-                  <td className="p-4 text-center font-mono">₹100/m (1x25 PMMA)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹15,000</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50">
-                  <td className="p-4 font-bold text-navy">UNO (1mm Economy Acrylic)</td>
-                  <td className="p-4">Solid / Metallic</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹240 / ₹260</td>
-                  <td className="p-4 text-center font-mono font-bold bg-copper/5 text-copper">₹260 / ₹280</td>
-                  <td className="p-4 text-center font-mono font-semibold">₹360 / ₹380</td>
-                  <td className="p-4">BSL +₹100<br />(BWP: ₹280/₹300)</td>
-                  <td className="p-4 text-center font-mono">₹30/m (1x23 PVC)</td>
-                  <td className="p-4 text-center font-mono font-bold">₹6,500 / ₹7,200</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* Commercial Terms Callout */}
-          <div className="bg-[#FAF9F6] p-6 rounded-2xl border border-gray-200 flex items-start gap-4">
-            <Info className="w-5 h-5 text-copper shrink-0 mt-0.5" />
-            <div className="text-xs text-gray-600 space-y-1">
-              <p className="font-bold text-navy">Official Terms &amp; Conditions (Price List 2026 Ver 2.0):</p>
-              <ul className="list-disc list-inside space-y-0.5 text-gray-500">
-                <li>Prices quoted are ex-stocks Rohad Bahadurgarh Factory per sq. ft.</li>
-                <li><strong>18% G.S.T extra</strong>. Freight &amp; packaging extra at actuals.</li>
-                <li>Payment: 100% advance at the time of order booking.</li>
-                <li>Both Side Lamination (BSL) orders require 8–10 working days from order confirmation.</li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
