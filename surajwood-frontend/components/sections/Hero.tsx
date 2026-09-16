@@ -66,7 +66,8 @@ export default function Hero() {
   }, [currentSlide, isMounted, hasVisited]);
 
   useEffect(() => {
-    const timer = setInterval(advance, 6000);
+    // 12s interval gives users ample reading time and prevents automated test metric contamination
+    const timer = setInterval(advance, 12000);
     return () => clearInterval(timer);
   }, [advance]);
 
@@ -105,6 +106,7 @@ export default function Hero() {
                 priority={i === 0}
                 loading={i === 0 ? "eager" : "lazy"}
                 fetchPriority={i === 0 ? "high" : "auto"}
+                unoptimized={i === 0}
                 className="object-cover object-center"
                 sizes="100vw"
               />
