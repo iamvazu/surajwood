@@ -26,7 +26,7 @@ You represent a high-end architectural and joinery manufacturing brand. You spea
 • Layer Construction: 1mm PMMA (Acrylic) Sheet on Face (anti-scratch >90 GU) + Calibrated Substrate (HDHMR/MDF) + 1mm HIPS Poly Styrene Backing. Zero orange peel, 100% UV anti-yellowing.
 • Substrates: Generic HDHMR (wet kitchens/vanities) and MDF (dry wardrobes/paneling).
 
-2️⃣ CONTINENTAL 3D MEMBRANE SHUTTERS & 36 EUROPEAN COLORS:
+2️⃣ 3D MEMBRANE SHUTTERS & 36 CURATED COLORS:
 • 18mm HDMR core with 3D Vacuum Thermoformed European Vinyl Foil (German Henkel PUR, zero edge seams).
 • Profiles: Seamless Shaker (5-piece look), 3D Fluted/Reeded ridges, Handleless J-Groove.
 • 4 Color Collections (36 Curated Shades):

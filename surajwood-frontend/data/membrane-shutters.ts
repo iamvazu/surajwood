@@ -10,7 +10,7 @@ export interface MembraneShade {
 }
 
 export const MEMBRANE_CATEGORIES = [
-  { id: "all", label: "All Finishes", count: 36, desc: "Explore the complete Continental 3D Membrane Collection" },
+  { id: "all", label: "All Finishes", count: 36, desc: "Explore the complete 3D Membrane Collection" },
   { id: "WG", label: "Wood Grain (WG)", count: 9, desc: "Ultra-realistic natural oak, walnut, and pine textures" },
   { id: "PT", label: "Porcelain Touch (PT)", count: 13, desc: "Smooth, velvety matte surfaces in sophisticated architectural hues" },
   { id: "PS", label: "Perfect Silk (PS)", count: 7, desc: "Soft-sheen tactile finishes with deep, vibrant saturation" },
@@ -464,7 +464,7 @@ export const MEMBRANE_FAQS = [
     answer: "Acrylic panels offer an ultra-flat, mirror-gloss or velvet-matte surface that is flat-bonded and edge-banded. Traditional laminates are flat sheets with sharp 90° corner joints. Membrane shutters, by contrast, excel at 3D grooved designs (such as Shaker doors, fluted textures, and integrated J-pull handles) with continuous seamless edges wrapped on 5 sides, leaving no edge-banding lines that could peel over time."
   },
   {
-    question: "Are SurajWood Continental Membrane Shutters moisture and steam resistant?",
+    question: "Are SurajWood 3D Membrane Shutters moisture and steam resistant?",
     answer: "Yes. Because the polymer foil is seamlessly molded over the top, bottom, and side edges without glue joints on the face, water droplets, cooking steam, and kitchen grease cannot seep into the edge seams. Combined with our high-density moisture-resistant (HDMR) core, they are engineered specifically to withstand humid Indian kitchen and bathroom conditions."
   },
   {
@@ -472,7 +472,7 @@ export const MEMBRANE_FAQS = [
     answer: "Absolutely. We offer standard shutter dimensions as well as full custom CNC routing for bespoke residential and commercial orders. You can choose from Shaker profiles, fluted panels, micro-bevels, integrated finger-pulls, or supply custom CAD drawings."
   },
   {
-    question: "How do I clean and maintain Continental Membrane Shutters?",
+    question: "How do I clean and maintain 3D Membrane Shutters?",
     answer: "Maintenance is effortless. Simply wipe down with a soft microfibre cloth dampened with warm water. For cooking grease or stubborn spots, use a mild dish soap solution. Avoid abrasive scouring pads, aggressive thinner/acetone solvents, or harsh bleaches."
   },
   {

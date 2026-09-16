@@ -51,11 +51,11 @@ export default function MembraneHomeSection() {
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#C0392B]/10 border border-[#C0392B]/20 mb-3">
               <Sparkles size={13} className="text-[#C0392B]" />
               <p className="text-[#C0392B] tracking-[0.25em] text-[10px] md:text-xs uppercase font-black">
-                Continental 3D Thermoforming
+                Seamless 3D Thermoforming
               </p>
             </div>
             <h2 className="font-heading font-extrabold text-3xl md:text-5xl text-[#0F172A] leading-tight">
-              Continental <br />
+              3D Seamless <br />
               <span className="text-[#C0392B]">Membrane Shutters</span>
             </h2>
             <p className="text-gray-600 mt-4 text-base sm:text-lg leading-relaxed">
@@ -128,7 +128,7 @@ export default function MembraneHomeSection() {
                 Curated 36 European Foils
               </p>
               <h3 className="font-heading font-bold text-xl sm:text-2xl text-[#0F172A]">
-                Popular Continental Membrane Shades
+                Popular 3D Membrane Shades
               </h3>
             </div>
             <Link

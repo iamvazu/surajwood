@@ -18,7 +18,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "SurajWood — India's Best Acrylic Sheet Brand & Panel Manufacturer",
   description:
-    "SurajWood is India's leading manufacturer of high-gloss acrylic sheets, prelaminated PMMA panels, Continental 3D Membrane Shutters, and AL-PROFHAN hardware for modular kitchens and wardrobes.",
+    "SurajWood is India's leading manufacturer of high-gloss acrylic sheets, prelaminated PMMA panels, 3D Membrane Shutters, and AL-PROFHAN hardware for modular kitchens and wardrobes.",
   alternates: { canonical: "https://surajwood.com" },
   openGraph: {
     title: "SurajWood — India's Best Acrylic Sheet Brand & Membrane Shutter Manufacturer",

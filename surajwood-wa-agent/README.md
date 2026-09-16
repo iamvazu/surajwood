@@ -6,7 +6,7 @@ A fully autonomous, multi-device WhatsApp AI Agent built for **Suraj Wood Produc
 
 ## 🌟 Key Features
 
-1. **24/7 Architect & OEM Consultation**: Answers questions regarding Acrylux, Acrymatte, Acrysilk, Acryglass UNO (1.5mm/2mm), and Continental 3D Membrane Shutters with deep technical precision.
+1. **24/7 Architect & OEM Consultation**: Answers questions regarding Acrylux, Acrymatte, Acrysilk, Acryglass UNO (1.5mm/2mm), and 3D Membrane Shutters with deep technical precision.
 2. **Instant Cost Estimator Tool**: Automatically calculates square footage, sheet requirements, edgeband costs, substrate options (HDHMR, MDF, Birch), and GST for kitchen layouts, wardrobes, and wall panels.
 3. **Complimentary Sample Box Capture**: Collects architect/designer studio addresses, phone numbers, and requested finishes and logs them into `data/leads.json`.
 4. **Smart Message Debouncing**: Waits 4 seconds to group rapid-fire incoming WhatsApp messages into a single coherent prompt before replying.

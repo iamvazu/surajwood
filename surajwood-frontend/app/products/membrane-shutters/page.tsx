@@ -5,12 +5,12 @@ import { MEMBRANE_FAQS } from "@/data/membrane-shutters";
 import MembraneClient from "./MembraneClient";
 
 export const metadata: Metadata = {
-  title: "Continental Membrane Shutters | 36 European Shades & CNC Profiles | SurajWood",
+  title: "Membrane Shutters | 36 European Shades & CNC Profiles | SurajWood",
   description:
-    "Explore SurajWood Continental 3D Membrane Shutters. 36 European shades across Wood Grain, Porcelain Touch, Perfect Silk & Ceramic Satin finishes. 100% seamless wrap on HDMR moisture-resistant core with zero edge-banding seams.",
+    "Explore SurajWood 3D Membrane Shutters. 36 curated shades across Wood Grain, Porcelain Touch, Perfect Silk & Ceramic Satin finishes. 100% seamless wrap on HDMR moisture-resistant core with zero edge-banding seams.",
   keywords: [
     "Membrane shutters",
-    "Continental membrane",
+    "3D membrane shutters",
     "3D membrane kitchen shutters",
     "Shaker door shutters India",
     "Seamless wardrobe shutters",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     canonical: "https://www.surajwood.com/products/membrane-shutters",
   },
   openGraph: {
-    title: "Continental Membrane Shutters — 36 European Finishes | SurajWood",
+    title: "Membrane Shutters — 36 European Finishes | SurajWood",
     description:
       "Seamless 3D thermoformed membrane shutters with zero edge-banding seams. 36 shades across Wood Grain, Porcelain, Silk, and Ceramic finishes on moisture-resistant HDMR core.",
     url: "https://www.surajwood.com/products/membrane-shutters",
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
         url: "/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
         width: 1200,
         height: 630,
-        alt: "Continental Membrane Shutters by SurajWood",
+        alt: "Membrane Shutters by SurajWood",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Continental Membrane Shutters — 36 European Finishes | SurajWood",
+    title: "Membrane Shutters — 36 European Finishes | SurajWood",
     description:
       "Seamless 3D thermoformed membrane shutters with zero edge-banding seams. 36 shades on moisture-resistant HDMR core.",
     images: ["/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg"],
@@ -53,7 +53,7 @@ export default function MembraneShuttersPage() {
       { name: "Home", url: "https://www.surajwood.com" },
       { name: "Products", url: "https://www.surajwood.com/products" },
       {
-        name: "Continental Membrane Shutters",
+        name: "Membrane Shutters",
         url: "https://www.surajwood.com/products/membrane-shutters",
       },
     ]),
@@ -61,7 +61,7 @@ export default function MembraneShuttersPage() {
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      name: "SurajWood Continental Membrane Shutters",
+      name: "SurajWood Membrane Shutters",
       image: "https://www.surajwood.com/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
       description:
         "High-performance 3D vacuum thermoformed membrane shutters on moisture-resistant HDMR core. 36 European shades across Wood Grain, Porcelain Touch, Perfect Silk, and Ceramic Satin finishes.",

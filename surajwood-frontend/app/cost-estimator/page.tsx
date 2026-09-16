@@ -195,7 +195,7 @@ const PRODUCTS_PRICING: ProductPricing[] = [
   },
   {
     id: "membrane-shutter",
-    name: "Continental Membrane Shutter",
+    name: "3D Membrane Shutter",
     thickness: "18mm 3D Thermoformed",
     category: "Seamless 3D Wrapped HDMR",
     tagline: "3D Monolithic Thermoformed Shaker, J-Pull & Fluted Shutters",

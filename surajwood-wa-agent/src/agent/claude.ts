@@ -312,7 +312,7 @@ Are you designing a kitchen, wardrobe, or vanity? Let me know which shade codes 
     queueImage(chatId, CATALOG_IMAGES.membrane_alpin_white.url, CATALOG_IMAGES.membrane_alpin_white.caption);
     queueImage(chatId, CATALOG_IMAGES.membrane_shaker.url, CATALOG_IMAGES.membrane_shaker.caption);
 
-    return `Here is our *Continental 3D Membrane Shutter* color collection (36 European shades) 🚪✨
+    return `Here is our *3D Membrane Shutter* color collection (36 European shades) 🚪✨
 
 • *Wood Grain (WG)*: Natural synchronized timber grains (*Artisan Oak Nature 030-WG, Wotan Eiche 032-WG, Nussbaum Columbia 035-WG, Pino Aurelo 028-WG*)
 • *Porcelain Touch (PT)*: Velvety ultra-matte (*Alpin Weiß 008-PT, Parisian Blue 017-PT, Fjord Blue 016-PT, Indigo 019-PT, Denim 018-PT, Stone Grey 014-PT, Black 020-PT*)
@@ -384,7 +384,7 @@ Would you like to schedule a visit or request physical samples? 😊`;
     session.lastTopic = "quote";
     return `Here is an overview of our direct-from-factory pricing 📊✨
 
-• *Continental 3D Membrane Shutters*: ₹230 – ₹240 / sq. ft. (18mm HDMR with seamless wrap)
+• *3D Membrane Shutters*: ₹230 – ₹240 / sq. ft. (18mm HDMR with seamless wrap)
 • *ACRYLUX & ACRYMATTE (1mm)*: ₹340 – ₹360 / sq. ft. on HDHMR/MDF (Solid) | ₹370 – ₹390 / sq. ft. (Metallic)
 • *ACRYGLASS UNO (1.5mm & 2mm)*: ₹380 – ₹600 / sq. ft. (Solid crystal polymer glass)
 • *AL-PROFHAN Aluminum Profiles*: Gola, LED & glass shutter systems in 3-meter lengths
@@ -400,7 +400,7 @@ Share your kitchen running feet or wardrobe dimensions, and I'll calculate an ex
       queueImage(chatId, CATALOG_IMAGES.membrane_parisian_blue.url, CATALOG_IMAGES.membrane_parisian_blue.caption);
       queueImage(chatId, CATALOG_IMAGES.membrane_alpin_white.url, CATALOG_IMAGES.membrane_alpin_white.caption);
 
-      return `Here are our *Continental Membrane Shutter* colors (36 European shades) 🚪✨
+      return `Here are our *3D Membrane Shutter* colors (36 European shades) 🚪✨
 • *Wood Grain (WG)*: Artisan Oak Nature 030-WG, Wotan Eiche 032-WG, Nussbaum Columbia 035-WG
 • *Porcelain Touch (PT)*: Alpin Weiß 008-PT, Parisian Blue 017-PT, Fjord Blue 016-PT, Indigo 019-PT
 • *Perfect Silk (PS)*: Reed Green 004-PS, Estate Green 005-PS, Frost White 001-PS
@@ -437,7 +437,7 @@ Share your kitchen running feet or wardrobe dimensions, and I'll calculate an ex
 
 We manufacture:
 • *1mm & 2mm Acrylic Panels & Sheets* (Acrylux Mirror Gloss, Acrymatte Velvet, Acryglass Crystal)
-• *Continental 3D Membrane Shutters* (36 European colors, Shaker & Fluted profiles)
+• *3D Membrane Shutters* (36 European colors, Shaker & Fluted profiles)
 • *AL-PROFHAN Aluminum Profiles* (Gola handles, LED lighting profiles)
 
 How can I assist you with your project today? 😊`;

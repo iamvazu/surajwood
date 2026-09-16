@@ -33,7 +33,7 @@ const HERO_SLIDES = [
   },
   { 
     src: "/images/gallery/tv-unit-1.jpg", 
-    alt: "Continental 3D membrane shutters and fluted acrylic panels",
+    alt: "Seamless 3D membrane shutters and fluted panels",
     title: "Seamless 3D Membrane & Fluted Shutters",
     subtitle: "Zero edge-banding seamless kitchen and wardrobe doors with integrated J-pull handles."
   },

@@ -1,6 +1,6 @@
 /**
  * SurajWood Definitive Shade Database
- * Extracted directly from Official 2025 E-Book & Continental Membrane Catalog
+ * Extracted directly from Official 2025 E-Book & 3D Membrane Catalog
  */
 
 export interface ShadeItem {
@@ -647,45 +647,45 @@ export const ALL_SURAJ_SHADES: ShadeItem[] = [
     searchTerms: ["341", "341 titanio", "titanio"],
   },
 
-  // ── Continental 3D Membrane Colors (36 Shades) ──
+  // ── 3D Membrane Colors (36 Shades) ──
   {
     code: "030-WG",
     name: "Artisan Oak Nature",
     finish: "Synchronized Timber Grain",
-    collection: "Continental 3D Membrane (Wood Grain)",
+    collection: "3D Membrane (Wood Grain)",
     category: "membrane",
     imageUrl: "https://www.surajwood.com/images/products/membrane-shutters/030-wg-artisan-oak-nature.jpg",
-    caption: "🌳 *030-WG Artisan Oak Nature* — Continental 3D Membrane Natural Wood Grain.",
+    caption: "🌳 *030-WG Artisan Oak Nature* — 3D Membrane Natural Wood Grain.",
     searchTerms: ["030-wg", "030", "artisan oak", "artisan oak nature", "oak membrane"],
   },
   {
     code: "004-PS",
     name: "Reed Green",
     finish: "Soft-Sheen Silk Solid",
-    collection: "Continental 3D Membrane (Perfect Silk)",
+    collection: "3D Membrane (Perfect Silk)",
     category: "membrane",
     imageUrl: "https://www.surajwood.com/images/products/membrane-shutters/004-ps-reed-green.jpg",
-    caption: "🌿 *004-PS Reed Green* — Continental 3D Membrane Perfect Silk Botanical Green.",
+    caption: "🌿 *004-PS Reed Green* — 3D Membrane Perfect Silk Botanical Green.",
     searchTerms: ["004-ps", "004", "reed green", "membrane green"],
   },
   {
     code: "017-PT",
     name: "Parisian Blue",
     finish: "Velvety Ultra-Matte",
-    collection: "Continental 3D Membrane (Porcelain Touch)",
+    collection: "3D Membrane (Porcelain Touch)",
     category: "membrane",
     imageUrl: "https://www.surajwood.com/images/products/membrane-shutters/017-pt-parisian-blue.jpg",
-    caption: "🔷 *017-PT Parisian Blue* — Continental 3D Membrane Porcelain Touch Velvety Matte.",
+    caption: "🔷 *017-PT Parisian Blue* — 3D Membrane Porcelain Touch Velvety Matte.",
     searchTerms: ["017-pt", "017", "parisian blue", "membrane blue"],
   },
   {
     code: "008-PT",
     name: "Alpin Weiß",
     finish: "Velvety Ultra-Matte",
-    collection: "Continental 3D Membrane (Porcelain Touch)",
+    collection: "3D Membrane (Porcelain Touch)",
     category: "membrane",
     imageUrl: "https://www.surajwood.com/images/products/membrane-shutters/008-pt-alpin-weib.jpg",
-    caption: "⚪ *008-PT Alpin Weiß* — Continental 3D Membrane Porcelain Touch Pristine White.",
+    caption: "⚪ *008-PT Alpin Weiß* — 3D Membrane Porcelain Touch Pristine White.",
     searchTerms: ["008-pt", "008", "alpin weib", "alpin white", "membrane white"],
   },
 ];

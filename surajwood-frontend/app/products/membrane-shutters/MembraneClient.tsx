@@ -154,7 +154,7 @@ export default function MembraneClient() {
               </div>
 
               <h1 className="font-heading font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white tracking-tight leading-[1.08] mb-6">
-                Continental <br />
+                Seamless 3D <br />
                 <span className="bg-gradient-to-r from-[#E06A55] via-[#D4A373] to-amber-200 bg-clip-text text-transparent">
                   Membrane Shutters
                 </span>
@@ -301,7 +301,7 @@ export default function MembraneClient() {
               Next-Generation Manufacturing
             </p>
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#0F172A] leading-tight">
-              Why Continental Membrane Shutters <br className="hidden sm:inline" />
+              Why 3D Membrane Shutters <br className="hidden sm:inline" />
               Surpass Traditional Cabinetry
             </h2>
             <p className="text-gray-600 mt-4 text-base sm:text-lg">
@@ -469,7 +469,7 @@ export default function MembraneClient() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="inline-block text-[#C0392B] bg-[#C0392B]/10 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-3">
-            Continental Color Catalog
+            Membrane Color Catalog
           </span>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#0F172A] mb-4">
             Browse All 36 European Membrane Shades
@@ -531,7 +531,7 @@ export default function MembraneClient() {
 
         {/* Swatch Count Indicator */}
         <div className="flex items-center justify-between mb-6 px-2 text-xs font-semibold text-gray-500">
-          <p>Showing <span className="text-[#0F172A] font-bold">{filteredShades.length}</span> of 36 Continental Shades</p>
+          <p>Showing <span className="text-[#0F172A] font-bold">{filteredShades.length}</span> of 36 Membrane Shades</p>
           {selectedCategory !== "all" && (
             <button
               onClick={() => setSelectedCategory("all")}
@@ -869,7 +869,7 @@ export default function MembraneClient() {
             </h2>
             <p className="text-gray-300 text-sm sm:text-base max-w-xl mx-auto">
               Architects, interior designers, and modular furniture manufacturers: Receive our complete 
-              36-shade Continental Membrane Box with calibrated swatches.
+              36-shade Membrane Shutter Box with calibrated swatches.
             </p>
           </div>
 
@@ -986,7 +986,7 @@ export default function MembraneClient() {
               Frequently Asked Questions
             </h2>
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
-              Everything you need to know about specifying Continental Membrane Shutters.
+              Everything you need to know about specifying 3D Membrane Shutters.
             </p>
           </div>
 

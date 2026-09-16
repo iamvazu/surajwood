@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Premium Acrylic Panels, Membrane Shutters & Aluminum Profiles | Product Index",
-  description: "Browse the complete range of SurajWood products, including ACRYLUX acrylic panels, Continental 3D Membrane Shutters, and AL-PROFHAN aluminum hardware profiles.",
+  description: "Browse the complete range of SurajWood products, including ACRYLUX acrylic panels, 3D Membrane Shutters, and AL-PROFHAN aluminum hardware profiles.",
 };
 
 const categories = [
@@ -25,7 +25,7 @@ const categories = [
     ],
   },
   {
-    title: "Continental Membrane Shutters",
+    title: "3D Membrane Shutters",
     desc: "3D vacuum thermoformed seamless shutters with zero edge-banding seams. 36 European shades across Wood Grain, Porcelain, Silk, and Ceramic finishes on moisture-resistant HDMR cores.",
     image: "/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
     link: "/products/membrane-shutters",

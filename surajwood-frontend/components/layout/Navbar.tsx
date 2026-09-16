@@ -32,7 +32,7 @@ const acrylicProducts = [
 
 const hardwareProducts = [
   { name: "Aluminum profiles", sub: "AL-PROFHAN", href: "/products/aluminum-profiles", active: true },
-  { name: "Membrane shutters", sub: "Continental 3D", href: "/products/membrane-shutters", active: true },
+  { name: "Membrane shutters", sub: "3D Seamless", href: "/products/membrane-shutters", active: true },
   { name: "PetG panels", href: "#", active: false },
   { name: "Acrylic laminates", href: "#", active: false },
   { name: "PetG laminates", href: "#", active: false },
@@ -322,7 +322,7 @@ export default function Navbar() {
                   </div>
                   <div className="space-y-4">
                     <p className="text-[11px] uppercase font-black text-gray-400 tracking-[0.2em]">Hardware & Shutters</p>
-                    <Link href="/products/membrane-shutters" className="block text-[16px] font-bold text-gray-700">Membrane shutters (Continental 3D)</Link>
+                    <Link href="/products/membrane-shutters" className="block text-[16px] font-bold text-gray-700">Membrane shutters (3D Seamless)</Link>
                     <Link href="/products/aluminum-profiles" className="block text-[16px] font-bold text-gray-700">Aluminum profiles (AL-PROFHAN)</Link>
                   </div>
                   <div className="space-y-4">

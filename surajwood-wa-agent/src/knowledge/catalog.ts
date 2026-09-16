@@ -192,7 +192,7 @@ export const SURAJWOOD_CATALOG: ProductInfo[] = [
   },
   {
     id: "membrane-shutters",
-    name: "Continental 3D Membrane Shutters",
+    name: "3D Membrane Shutters",
     category: "18mm 3D Thermoformed HDMR Shutters",
     thickness: "18mm HDMR core with 3D Vacuum Thermoformed Vinyl Foil",
     surfaceFinish: "Seamless Shaker 5-Piece Effect, J-Pull / Handleless Grooves, and 3D Fluted Reeded Profiles",
@@ -214,7 +214,7 @@ export const SURAJWOOD_CATALOG: ProductInfo[] = [
   },
 ];
 
-export const CONTINENTAL_MEMBRANE_COLLECTIONS = {
+export const MEMBRANE_COLLECTIONS = {
   PS: {
     name: "Perfect Silk (PS)",
     description: "Soft-sheen tactile finishes with deep, vibrant saturation",
@@ -447,37 +447,37 @@ export const CATALOG_IMAGES: Record<string, { title: string; url: string; captio
 
   // ── Membrane Shutters & Swatches ──
   membrane: {
-    title: "SurajWood Continental 3D Membrane Shutters",
+    title: "SurajWood 3D Membrane Shutters",
     url: "https://www.surajwood.com/images/products/membrane-shutters/closeups/closeup-shaker.jpg",
-    caption: "🚪 *Continental 3D Membrane Shutters* — Seamless 5-Piece Shaker Profile with 100% moisture sealed edges.",
+    caption: "🚪 *3D Membrane Shutters* — Seamless 5-Piece Shaker Profile with 100% moisture sealed edges.",
   },
   membrane_shaker: {
-    title: "Continental Seamless Shaker Profile",
+    title: "Seamless Shaker Profile",
     url: "https://www.surajwood.com/images/products/membrane-shutters/closeups/closeup-shaker.jpg",
     caption: "🚪 *Seamless Shaker Profile* — 5-piece classic look with zero edgeband joints.",
   },
   membrane_fluted: {
-    title: "Continental 3D Fluted Reeded Profile",
+    title: "3D Fluted Reeded Profile",
     url: "https://www.surajwood.com/images/products/membrane-shutters/closeups/closeup-fluted.jpg",
     caption: "🌊 *3D Fluted Reeded Profile* — Precision CNC routed texture for feature walls & cabinetry.",
   },
   membrane_woodgrain: {
-    title: "Continental Membrane: Artisan Oak Nature (030-WG)",
+    title: "3D Membrane: Artisan Oak Nature (030-WG)",
     url: "https://www.surajwood.com/images/products/membrane-shutters/030-wg-artisan-oak-nature.jpg",
     caption: "🌳 *030-WG Artisan Oak Nature* — Natural timber grain Wood Grain collection.",
   },
   membrane_reed_green: {
-    title: "Continental Membrane: Reed Green (004-PS)",
+    title: "3D Membrane: Reed Green (004-PS)",
     url: "https://www.surajwood.com/images/products/membrane-shutters/004-ps-reed-green.jpg",
     caption: "🌿 *004-PS Reed Green* — Perfect Silk collection soft-sheen botanical green.",
   },
   membrane_parisian_blue: {
-    title: "Continental Membrane: Parisian Blue (017-PT)",
+    title: "3D Membrane: Parisian Blue (017-PT)",
     url: "https://www.surajwood.com/images/products/membrane-shutters/017-pt-parisian-blue.jpg",
     caption: "🔷 *017-PT Parisian Blue* — Porcelain Touch collection velvety matte.",
   },
   membrane_alpin_white: {
-    title: "Continental Membrane: Alpin Weiß (008-PT)",
+    title: "3D Membrane: Alpin Weiß (008-PT)",
     url: "https://www.surajwood.com/images/products/membrane-shutters/008-pt-alpin-weib.jpg",
     caption: "⚪ *008-PT Alpin Weiß* — Porcelain Touch pristine European matte white.",
   },
