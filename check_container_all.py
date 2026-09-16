@@ -1,0 +1,20 @@
+import paramiko
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+HOST = "187.127.148.61"
+USER = "root"
+PASSWORD = "1302@Sanjose"
+
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.connect(HOST, username=USER, password=PASSWORD, timeout=10)
+
+# Check all logs including stdout/stderr in container
+stdin, stdout, stderr = ssh.exec_command("docker logs surajwood-wa-agent --tail 100")
+print(stdout.read().decode())
+print(stderr.read().decode())
+
+ssh.close()

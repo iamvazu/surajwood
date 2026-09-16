@@ -38,7 +38,7 @@ export function enqueueMessage(
   chatId: string,
   text: string,
   senderName: string | undefined,
-  sendReplyCallback: (chatId: string, reply: string) => Promise<void>
+  sendReplyCallback: (chatId: string, reply: { text: string; images: { url: string; caption: string }[] }) => Promise<void>
 ) {
   // Check if human rep is active
   if (isHumanTakeoverActive(chatId)) {

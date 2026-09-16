@@ -35,7 +35,7 @@ app.get("/qr", async (req: Request, res: Response) => {
         <div class="card">
           <div class="badge"><div class="pulse"></div> BOT LIVE & CONNECTED</div>
           <h1>SurajWood WhatsApp Agent Active</h1>
-          <p>Anthropic Claude 3.5 AI is actively answering inquiries, calculating kitchen/wardrobe estimates, and dispatching sample requests.</p>
+          <p>AI Agent (${CONFIG.aiProvider === "openrouter" ? CONFIG.openRouterModel : CONFIG.anthropicModel}) is actively answering inquiries, calculating kitchen/wardrobe estimates, and dispatching sample requests.</p>
           <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #1E293B;">
             <a href="/api/leads" style="color: #C28E5C; font-size: 13px; text-decoration: none; font-weight: bold;">View Recent Leads & Quotes →</a>
           </div>
@@ -117,7 +117,8 @@ app.get("/health", (req: Request, res: Response) => {
     uptime: process.uptime(),
     bot: getStatus(),
     company: CONFIG.companyName,
-    model: CONFIG.anthropicModel,
+    provider: CONFIG.aiProvider,
+    model: CONFIG.aiProvider === "openrouter" ? CONFIG.openRouterModel : CONFIG.anthropicModel,
   });
 });
 

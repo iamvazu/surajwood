@@ -82,16 +82,23 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
         <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
-        {/* Schema markup placeholder — import SchemaMarkup + schema generators when lib/schema.ts is ready */}
+        {/* Preload primary above-the-fold hero background image for instant LCP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/banner/bg3.jpg"
+          fetchPriority="high"
+        />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </head>
       <body className="font-[family-name:var(--font-dm-sans)] antialiased">
         {gaId && (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-              strategy="afterInteractive"
+              strategy="lazyOnload"
             />
-            <Script id="ga4-init" strategy="afterInteractive">
+            <Script id="ga4-init" strategy="lazyOnload">
               {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}
             </Script>
           </>

@@ -5,3 +5,9 @@ out/
 *.log
 tsc_errors*.txt
 key.txt
+
+# managed
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed

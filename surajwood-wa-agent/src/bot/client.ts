@@ -7,6 +7,8 @@ import makeWASocket, {
 import { Boom } from "@hapi/boom";
 import pino from "pino";
 import qrcodeTerminal from "qrcode-terminal";
+import fs from "fs";
+import path from "path";
 import { enqueueMessage, registerHumanResponse } from "../handlers/messageQueue";
 import { CONFIG } from "../config";
 
@@ -110,8 +112,50 @@ export async function initWhatsAppBot(): Promise<WASocket> {
       // Enqueue with debouncing
       enqueueMessage(senderJid, text, senderName, async (targetJid, reply) => {
         try {
-          if (sock) {
-            await sock.sendMessage(targetJid, { text: reply });
+          if (!sock) return;
+
+          // 1. If images are attached, send each photo with caption
+          if (reply.images && reply.images.length > 0) {
+            for (const img of reply.images) {
+              try {
+                let imagePayload: any = null;
+                const urlPath = img.url.replace(/^https?:\/\/[^\/]+/, "");
+                const possibleLocalPaths = [
+                  path.join(process.cwd(), "public", urlPath),
+                  path.join("/app/public", urlPath),
+                  path.join("/var/www/surajwood-wa-agent/public", urlPath),
+                ];
+
+                let foundPath: string | null = null;
+                for (const p of possibleLocalPaths) {
+                  if (fs.existsSync(p)) {
+                    foundPath = p;
+                    break;
+                  }
+                }
+
+                if (foundPath) {
+                  imagePayload = fs.readFileSync(foundPath);
+                  console.log(`🖼️ [Photo Loaded Locally from ${foundPath}]`);
+                } else {
+                  imagePayload = { url: img.url };
+                  console.log(`🖼️ [Photo Loading from URL: ${img.url}]`);
+                }
+
+                await sock.sendMessage(targetJid, {
+                  image: imagePayload,
+                  caption: img.caption || "",
+                });
+                console.log(`🖼️ [Photo Sent to] ${targetJid}: ${img.url}`);
+              } catch (imgErr) {
+                console.error(`❌ Failed to send image to ${targetJid}:`, imgErr);
+              }
+            }
+          }
+
+          // 2. Send the main text reply
+          if (reply.text && reply.text.trim().length > 0) {
+            await sock.sendMessage(targetJid, { text: reply.text });
             console.log(`📤 [AI Replied to] ${targetJid}`);
           }
         } catch (sendErr) {
