@@ -23,11 +23,11 @@ import {
 // ─── Data Configurations ──────────────────────────────────────────────────
 
 const acrylicProducts = [
-  { name: "ACRYLUX", href: "/products/acrylux", desc: "Satin finish", color: "#C0392B" },
-  { name: "ACRYSILK", href: "/products/acrysilk", desc: "Soft satin", color: "#D4A373" },
-  { name: "ACRYMATTE", href: "/products/acrymatte", desc: "Matte finish", color: "#7F8C8D" },
-  { name: "ACRYGLASS", href: "/products/acryglass", desc: "High gloss", color: "#3498DB" },
-  { name: "ACRYGLASS MATTE", href: "/products/acryglass-matte", desc: "Matte glass", color: "#95A5A6" },
+  { name: "ACRYLUX", href: "/products/acrylux", desc: "High Gloss", color: "#C0392B" },
+  { name: "ACRYSILK", href: "/products/acrysilk", desc: "Satin Finish", color: "#D4A373" },
+  { name: "ACRYMATTE", href: "/products/acrymatte", desc: "Super Matte", color: "#7F8C8D" },
+  { name: "ACRYGLASS", href: "/products/acryglass", desc: "Glass Finish", color: "#3498DB" },
+  { name: "ACRYGLASS MATTE", href: "/products/acryglass-matte", desc: "Matte Glass", color: "#95A5A6" },
 ];
 
 const hardwareProducts = [

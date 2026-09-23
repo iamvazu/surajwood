@@ -419,7 +419,7 @@ export const MEMBRANE_FEATURES = [
     icon: "Sparkle",
   },
   {
-    title: "10-Year Anti-Fade Pigmentation",
+    title: "Anti-Fade Pigmentation",
     subtitle: "UV-Stabilized European Foils",
     description: "Formulated with UV absorbers to prevent yellowing or color degradation under direct tropical sunlight and intense interior LED spotlights.",
     icon: "Sun",
@@ -446,11 +446,6 @@ export const MEMBRANE_PROFILES = [
     name: "Beveled Chamfer Edge",
     desc: "Gentle 45° angled bevel around the perimeter that softens the shutter outline while ensuring ergonomic ease of opening.",
     badge: "Minimalist",
-  },
-  {
-    name: "Monolithic Flat Slab",
-    desc: "Ultra-clean flat front with smoothly radiused 2mm to 4mm soft-edges for a seamless, handle-free aesthetic.",
-    badge: "Timeless",
   },
 ];
 
