@@ -15,7 +15,6 @@ import {
   ArrowRight,
   Eye,
   X,
-  Sparkles,
   ChevronRight,
   ZoomIn,
 } from "lucide-react";
@@ -116,7 +115,7 @@ export default function AluminumProfilesClient() {
       )}
 
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] flex flex-col justify-between overflow-hidden bg-navy">
+      <section className="relative min-h-[85vh] flex flex-col justify-between overflow-hidden bg-navy pt-36 sm:pt-40 md:pt-44 pb-8">
         <div className="absolute inset-0 z-0 opacity-40">
           <div className="relative w-full h-full animate-ken-burns">
             <Image
@@ -129,24 +128,24 @@ export default function AluminumProfilesClient() {
           </div>
         </div>
 
-        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/70 to-transparent" />
-        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy via-transparent to-transparent" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-navy/95 via-navy/75 to-navy/30" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy via-transparent to-navy/60" />
 
-        <div className="h-28 lg:h-36" />
-
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center my-auto">
           <div className="max-w-3xl">
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-6 md:w-8 h-[2px] bg-copper shadow-sm shrink-0" />
-              <p className="inline-flex items-center text-copper font-extrabold tracking-[0.2em] text-[10px] sm:text-xs uppercase bg-black/60 backdrop-blur-md px-3.5 py-1 rounded-full border border-copper/40 shadow-lg">
-                <Sparkles size={12} className="mr-1.5" />
+            {/* Clean, perfectly aligned pill badge */}
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-copper/20 border border-copper/40 mb-6 backdrop-blur-md">
+              <span className="w-2 h-2 rounded-full bg-copper animate-ping" />
+              <span className="text-copper-light text-xs font-black uppercase tracking-[0.25em]">
                 Hardware Excellence &middot; 2025 Sourcing
-              </p>
+              </span>
             </div>
 
-            <h1 className="font-playfair text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-5 drop-shadow-md">
+            <h1 className="font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl text-white tracking-tight leading-[1.1] mb-5 drop-shadow-md">
               AL-PROFHAN <br />
-              <span className="text-copper-light font-bold">Aluminum Profiles</span>
+              <span className="bg-gradient-to-r from-copper-light via-amber-200 to-copper bg-clip-text text-transparent">
+                Aluminum Profiles
+              </span>
             </h1>
 
             <p className="text-white/85 text-sm md:text-lg max-w-xl leading-relaxed mb-8 font-light">
@@ -157,14 +156,14 @@ export default function AluminumProfilesClient() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="#series-explorer"
-                className="bg-copper hover:bg-copper-light text-white font-bold px-7 py-3 rounded-xl transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm flex items-center gap-2"
+                className="bg-copper hover:bg-copper-light text-white font-bold px-7 py-3.5 rounded-xl transition-all duration-300 shadow-xl shadow-copper/20 hover:-translate-y-0.5 text-xs md:text-sm flex items-center gap-2"
               >
                 Explore All 7 Series
                 <ArrowRight size={16} />
               </Link>
               <Link
                 href="/contact?inquiry=hardware-catalog"
-                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-7 py-3 rounded-xl transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm flex items-center gap-2"
+                className="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white hover:text-navy font-bold px-7 py-3.5 rounded-xl transition-all duration-300 hover:-translate-y-0.5 text-xs md:text-sm flex items-center gap-2"
               >
                 <Download size={16} />
                 Download Catalog (PDF)
@@ -174,8 +173,8 @@ export default function AluminumProfilesClient() {
         </div>
 
         {/* Series Quick-Jump Bar */}
-        <div className="relative z-10 w-full bg-navy-dark/80 backdrop-blur-lg border-t border-white/10">
-          <div className="max-w-7xl mx-auto px-6 py-4">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 mt-8">
+          <div className="bg-navy-dark/90 backdrop-blur-xl border border-white/15 rounded-2xl p-3 md:p-4 shadow-2xl">
             <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
               <span className="text-[10px] font-bold text-copper uppercase tracking-widest shrink-0 mr-2">
                 Quick Select:
