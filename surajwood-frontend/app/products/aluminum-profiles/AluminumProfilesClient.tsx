@@ -13,12 +13,11 @@ import {
   Package,
   Download,
   ArrowRight,
-  Eye,
   X,
   ChevronRight,
   ZoomIn,
 } from "lucide-react";
-import { ALUMINUM_SERIES } from "@/data/aluminum-profiles";
+import { ALUMINUM_SERIES, AluminumSeries, AluminumProduct } from "@/data/aluminum-profiles";
 
 const SERIES_ICONS: Record<string, typeof Maximize> = {
   ottimo: Maximize,
@@ -49,6 +48,16 @@ export default function AluminumProfilesClient() {
     luminare: "PAPS-3136A",
     velaro: "PAPS-1351A",
   });
+  const [selectedPhotoIndexMap, setSelectedPhotoIndexMap] = useState<Record<string, number>>({
+    ottimo: 0,
+    aerolinea: 0,
+    handle: 0,
+    shelf: 0,
+    hanging: 0,
+    luminare: 0,
+    velaro: 0,
+  });
+
   const [lightboxImage, setLightboxImage] = useState<{ src: string; title: string; desc?: string } | null>(null);
 
   const handleSelectProduct = (seriesId: string, productCode: string) => {
@@ -58,8 +67,15 @@ export default function AluminumProfilesClient() {
     }));
   };
 
+  const handleSelectPhoto = (seriesId: string, index: number) => {
+    setSelectedPhotoIndexMap((prev) => ({
+      ...prev,
+      [seriesId]: index,
+    }));
+  };
+
   return (
-    <>
+    <div className="bg-[#FAF9F6] text-[#1F1F1F]">
       {/* Lightbox Modal */}
       {lightboxImage && (
         <div
@@ -73,7 +89,7 @@ export default function AluminumProfilesClient() {
             <div className="flex items-center justify-between pb-4 border-b border-gray-100">
               <div>
                 <span className="text-[10px] font-extrabold uppercase tracking-widest text-copper bg-copper/10 px-2.5 py-0.5 rounded-full">
-                  Official Technical 2D Spec
+                  Official Catalog Asset &middot; SURAJ WOOD 2025
                 </span>
                 <h3 className="font-heading text-xl font-bold text-navy mt-1">
                   {lightboxImage.title}
@@ -102,7 +118,7 @@ export default function AluminumProfilesClient() {
             </div>
 
             <div className="mt-4 flex items-center justify-between text-xs text-gray-400">
-              <span>Precision-dimensioned from SURAJ WOOD ALUMINIUM FOLDER 2025</span>
+              <span>Extracted directly from SURAJ WOOD ALUMINIUM FOLDER 2025</span>
               <button
                 onClick={() => setLightboxImage(null)}
                 className="text-copper font-bold hover:underline"
@@ -133,7 +149,7 @@ export default function AluminumProfilesClient() {
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex-grow flex flex-col justify-center my-auto">
           <div className="max-w-3xl">
-            {/* Clean, perfectly aligned pill badge */}
+            {/* Clean Pill Badge */}
             <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-copper/20 border border-copper/40 mb-6 backdrop-blur-md">
               <span className="w-2 h-2 rounded-full bg-copper animate-ping" />
               <span className="text-copper-light text-xs font-black uppercase tracking-[0.25em]">
@@ -209,7 +225,7 @@ export default function AluminumProfilesClient() {
       </section>
 
       {/* Series Explorer Section */}
-      <section id="series-explorer" className="bg-cream py-16 md:py-24">
+      <section id="series-explorer" className="bg-[#FAF9F6] py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-copper tracking-[0.25em] text-[11px] uppercase font-bold mb-2">
@@ -226,13 +242,17 @@ export default function AluminumProfilesClient() {
 
           {/* Series Cards */}
           <div className="space-y-20">
-            {ALUMINUM_SERIES.map((series, idx) => {
+            {ALUMINUM_SERIES.map((series: AluminumSeries, idx: number) => {
               const Icon = SERIES_ICONS[series.id] || Maximize;
               const currentProductCode =
                 selectedProductMap[series.id] || series.products[0].code;
-              const currentProduct =
+              const currentProduct: AluminumProduct =
                 series.products.find((p) => p.code === currentProductCode) ||
                 series.products[0];
+
+              const currentPhotoIndex = selectedPhotoIndexMap[series.id] || 0;
+              const activeShowcaseImage =
+                series.showcaseImages[currentPhotoIndex] || series.showcaseImages[0];
 
               return (
                 <div
@@ -276,123 +296,147 @@ export default function AluminumProfilesClient() {
                   <div className="p-6 md:p-10">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
                       
-                      {/* Left Column: Visual Showcase & Corner Closeups */}
-                      <div className="lg:col-span-6 flex flex-col gap-5">
-                        <div className="flex items-center justify-between">
-                          <p className="text-xs font-extrabold uppercase tracking-widest text-navy">
-                            Installation &amp; Application Showcase
-                          </p>
-                          <span className="text-[10px] text-copper font-bold uppercase tracking-wider bg-copper/10 px-2.5 py-0.5 rounded-full">
-                            Actual Sourcing
-                          </span>
-                        </div>
-
-                        {/* Main Kitchen / Hero Image */}
-                        <div
-                          className="relative aspect-[16/10] rounded-2xl md:rounded-3xl overflow-hidden shadow-lg border border-gray-100 group cursor-pointer"
-                          onClick={() =>
-                            setLightboxImage({
-                              src: series.heroImage,
-                              title: `${series.name} — Real Modular Application`,
-                              desc: series.description,
-                            })
-                          }
-                        >
-                          <Image
-                            src={series.heroImage}
-                            alt={`${series.name} application`}
-                            fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-700"
-                            sizes="(max-width: 1024px) 100vw, 50vw"
-                          />
-                          <div className="absolute inset-0 bg-navy/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span className="bg-white/90 backdrop-blur text-navy text-xs font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-lg">
-                              <ZoomIn size={14} /> Click to Enlarge
+                      {/* Left Column: Real Individual Photos & Gallery Showcase */}
+                      <div className="lg:col-span-6 flex flex-col justify-between space-y-6">
+                        <div>
+                          <div className="flex items-center justify-between mb-3">
+                            <p className="text-xs font-extrabold uppercase tracking-widest text-navy">
+                              Installation Showcase &middot; Real Sourcing
+                            </p>
+                            <span className="text-[10px] text-copper font-bold uppercase tracking-wider bg-copper/10 px-2.5 py-0.5 rounded-full">
+                              Photo {currentPhotoIndex + 1} of {series.showcaseImages.length}
                             </span>
                           </div>
-                        </div>
 
-                        {/* Close-ups Grid (Specifically detailed for Ottimo Series) */}
-                        {series.closeups && series.closeups.length > 0 && (
-                          <div className="space-y-2 pt-2">
-                            <p className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
-                              Profile Corner &amp; Shutter Joinery Details:
-                            </p>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                              {series.closeups.map((imgSrc, cIdx) => (
-                                <div
-                                  key={cIdx}
-                                  className="relative aspect-[4/3] rounded-xl overflow-hidden border border-gray-200 shadow-sm group cursor-pointer hover:border-copper transition-all"
-                                  onClick={() =>
-                                    setLightboxImage({
-                                      src: imgSrc,
-                                      title: `${series.name} — Detail ${cIdx + 1}`,
-                                      desc: "Actual corner joinery & handleless integration",
-                                    })
-                                  }
-                                >
-                                  <Image
-                                    src={imgSrc}
-                                    alt={`${series.name} corner detail ${cIdx + 1}`}
-                                    fill
-                                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                                    sizes="(max-width: 768px) 50vw, 25vw"
-                                  />
-                                  <div className="absolute bottom-1 right-1 bg-black/60 rounded p-1 text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <Eye size={12} />
-                                  </div>
-                                </div>
-                              ))}
+                          {/* Main Active Application Photo */}
+                          <div
+                            className="relative aspect-[16/10] rounded-2xl md:rounded-3xl overflow-hidden shadow-lg border border-gray-100 group cursor-pointer bg-gray-50"
+                            onClick={() =>
+                              setLightboxImage({
+                                src: activeShowcaseImage.src,
+                                title: `${series.name} &mdash; ${activeShowcaseImage.title}`,
+                                desc: activeShowcaseImage.desc || series.description,
+                              })
+                            }
+                          >
+                            <Image
+                              src={activeShowcaseImage.src}
+                              alt={activeShowcaseImage.title}
+                              fill
+                              className="object-cover group-hover:scale-105 transition-transform duration-700"
+                              sizes="(max-width: 1024px) 100vw, 50vw"
+                            />
+                            <div className="absolute inset-0 bg-navy/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                              <span className="bg-white/90 backdrop-blur text-navy text-xs font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-lg">
+                                <ZoomIn size={14} /> Click to Enlarge Full Photo
+                              </span>
+                            </div>
+                            <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 text-white">
+                              <p className="text-xs font-bold leading-snug">{activeShowcaseImage.title}</p>
+                              {activeShowcaseImage.desc && (
+                                <p className="text-[10px] text-white/80 mt-0.5">{activeShowcaseImage.desc}</p>
+                              )}
                             </div>
                           </div>
-                        )}
 
-                        <p className="text-gray-600 text-sm leading-relaxed italic bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                          {/* Multiple Individual Photos Thumbnails (e.g. 3 Handle Photos, 5 Ottimo Photos, etc.) */}
+                          {series.showcaseImages.length > 1 && (
+                            <div className="mt-4 space-y-2">
+                              <p className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                                All {series.showcaseImages.length} Installation Perspectives from Catalog:
+                              </p>
+                              <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+                                {series.showcaseImages.map((imgItem, pIdx) => {
+                                  const isSelectedPhoto = currentPhotoIndex === pIdx;
+                                  return (
+                                    <button
+                                      key={pIdx}
+                                      onClick={() => handleSelectPhoto(series.id, pIdx)}
+                                      className={`relative aspect-[16/10] rounded-xl overflow-hidden border-2 transition-all group ${
+                                        isSelectedPhoto
+                                          ? "border-copper shadow-md scale-102"
+                                          : "border-gray-200 hover:border-gray-400 opacity-70 hover:opacity-100"
+                                      }`}
+                                    >
+                                      <Image
+                                        src={imgItem.src}
+                                        alt={imgItem.title}
+                                        fill
+                                        className="object-cover group-hover:scale-110 transition-transform duration-300"
+                                        sizes="(max-width: 768px) 33vw, 15vw"
+                                      />
+                                      <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent" />
+                                      <div className="absolute bottom-1 right-1 bg-black/70 rounded px-1 text-[8px] font-bold text-white">
+                                        #{pIdx + 1}
+                                      </div>
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+
+                        <p className="text-gray-600 text-xs md:text-sm leading-relaxed italic bg-gray-50 p-4 rounded-2xl border border-gray-100">
                           &ldquo;{series.description}&rdquo;
                         </p>
                       </div>
 
-                      {/* Right Column: Interactive 2D CAD Drawings & Product Breakdown */}
-                      <div className="lg:col-span-6 flex flex-col justify-between">
+                      {/* Right Column: 3D Profile Sample, 2D CAD Cross-Section & Specs */}
+                      <div className="lg:col-span-6 flex flex-col justify-between space-y-6">
                         <div>
-                          <div className="flex items-center justify-between mb-4">
+                          <div className="flex items-center justify-between mb-3">
                             <p className="text-xs font-extrabold uppercase tracking-widest text-navy">
-                              Product Breakdown &amp; 2D Drawings
+                              Profile Specification &amp; CAD Specs
                             </p>
                             <span className="text-[10px] text-gray-400 uppercase tracking-widest">
-                              Select a Profile:
+                              Select Profile:
                             </span>
                           </div>
 
-                          {/* Product Selection Tabs */}
-                          <div className="flex flex-wrap gap-2 mb-6">
-                            {series.products.map((p) => {
+                          {/* Profile Selection Tabs with Sample Thumbnails */}
+                          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 mb-6">
+                            {series.products.map((p: AluminumProduct) => {
                               const isSelected = p.code === currentProductCode;
                               return (
                                 <button
                                   key={p.code}
                                   onClick={() => handleSelectProduct(series.id, p.code)}
-                                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 flex items-center gap-1.5 ${
+                                  className={`p-2.5 rounded-2xl text-left border transition-all duration-200 flex items-center gap-3 ${
                                     isSelected
-                                      ? "bg-navy text-white shadow-md shadow-navy/20 scale-102"
-                                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                                      ? "bg-navy text-white border-navy shadow-lg shadow-navy/20 scale-102"
+                                      : "bg-white text-gray-700 border-gray-200 hover:border-copper/50 hover:bg-gray-50"
                                   }`}
                                 >
-                                  <span>{p.code}</span>
-                                  {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-copper" />}
+                                  {p.sampleImage && (
+                                    <div className="relative w-10 h-10 rounded-lg overflow-hidden bg-gray-100 shrink-0 border border-gray-200/40">
+                                      <Image
+                                        src={p.sampleImage}
+                                        alt={p.code}
+                                        fill
+                                        className="object-contain p-0.5"
+                                      />
+                                    </div>
+                                  )}
+                                  <div className="min-w-0">
+                                    <p className="text-xs font-bold truncate">{p.code}</p>
+                                    <p className={`text-[9px] truncate ${isSelected ? "text-white/70" : "text-gray-400"}`}>
+                                      {p.size}
+                                    </p>
+                                  </div>
                                 </button>
                               );
                             })}
                           </div>
 
-                          {/* Selected Product Spotlight Card */}
-                          <div className="bg-cream/60 rounded-3xl p-5 md:p-6 border border-gray-200 shadow-inner space-y-6">
+                          {/* Selected Profile Detailed Specs Box */}
+                          <div className="bg-[#F6F4EE] rounded-3xl p-5 md:p-6 border border-gray-200/80 shadow-inner space-y-5">
                             
                             {/* Product Header */}
-                            <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 border-b border-gray-200/80 pb-4">
+                            <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 border-b border-gray-200/80 pb-3">
                               <div>
                                 <span className="text-[10px] font-extrabold text-copper uppercase tracking-wider">
-                                  Standard Size: {currentProduct.size}
+                                  Profile Gauge &amp; Length: {currentProduct.size}
                                 </span>
                                 <h4 className="font-heading text-lg md:text-xl font-bold text-navy">
                                   {currentProduct.code}
@@ -405,7 +449,7 @@ export default function AluminumProfilesClient() {
                                 onClick={() =>
                                   setLightboxImage({
                                     src: currentProduct.cardImage || currentProduct.drawing2d,
-                                    title: `${currentProduct.code} Technical Specification Card`,
+                                    title: `${currentProduct.code} Official Catalog Card`,
                                     desc: currentProduct.desc,
                                   })
                                 }
@@ -415,12 +459,91 @@ export default function AluminumProfilesClient() {
                               </button>
                             </div>
 
-                            {/* 2D Cross Section Drawing & End Cap Box */}
+                            {/* Dual Display: 3D Product Sample + 2D CAD Cross-Section */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                               
+                              {/* 3D Sample Photo Box (or End Cap) */}
+                              {currentProduct.sampleImage ? (
+                                <div className="bg-white rounded-2xl p-3 border border-gray-200 shadow-sm flex flex-col items-center justify-between">
+                                  <div className="w-full flex items-center justify-between mb-1.5">
+                                    <span className="text-[9px] font-extrabold uppercase tracking-widest text-navy bg-gray-100 px-2 py-0.5 rounded">
+                                      Actual Sample Photo
+                                    </span>
+                                    <span className="text-[8px] text-copper font-bold">3D Profile</span>
+                                  </div>
+                                  <div
+                                    className="relative w-full aspect-[4/3] cursor-pointer group"
+                                    onClick={() =>
+                                      setLightboxImage({
+                                        src: currentProduct.sampleImage!,
+                                        title: `${currentProduct.code} &mdash; 3D Profile Sample with End Caps`,
+                                        desc: currentProduct.desc,
+                                      })
+                                    }
+                                  >
+                                    <Image
+                                      src={currentProduct.sampleImage}
+                                      alt={`${currentProduct.code} 3D sample`}
+                                      fill
+                                      className="object-contain p-1 group-hover:scale-105 transition-transform"
+                                    />
+                                    <div className="absolute inset-0 bg-navy/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl flex items-center justify-center">
+                                      <span className="bg-white/90 text-navy text-[10px] font-bold px-2 py-1 rounded shadow">
+                                        Zoom Sample
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <p className="text-[9px] text-gray-500 font-bold mt-1 text-center truncate w-full">
+                                    Actual profile &amp; matching cap
+                                  </p>
+                                </div>
+                              ) : (
+                                /* Fallback End Cap Box if sample photo already in gallery */
+                                currentProduct.endCap && (
+                                  <div className="bg-white rounded-2xl p-3 border border-gray-200 shadow-sm flex flex-col items-center justify-between">
+                                    <div className="w-full flex items-center justify-between mb-1.5">
+                                      <span className="text-[9px] font-extrabold uppercase tracking-widest text-copper bg-copper/10 px-2 py-0.5 rounded">
+                                        {currentProduct.endCap.code}
+                                      </span>
+                                      <span className="text-[8px] text-gray-400 font-bold">
+                                        {currentProduct.endCap.priceUnit || "Accessory"}
+                                      </span>
+                                    </div>
+                                    <div
+                                      className="relative w-full aspect-[4/3] cursor-pointer group"
+                                      onClick={() => {
+                                        if (currentProduct.endCap?.image) {
+                                          setLightboxImage({
+                                            src: currentProduct.endCap.image,
+                                            title: `${currentProduct.endCap.code} &mdash; ${currentProduct.endCap.desc}`,
+                                            desc: `Matching hardware accessory for ${currentProduct.code}`,
+                                          });
+                                        }
+                                      }}
+                                    >
+                                      {currentProduct.endCap.image ? (
+                                        <Image
+                                          src={currentProduct.endCap.image}
+                                          alt={`${currentProduct.endCap.code} end cap`}
+                                          fill
+                                          className="object-contain p-1 group-hover:scale-105 transition-transform"
+                                        />
+                                      ) : (
+                                        <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs text-center p-2">
+                                          End Cap &amp; Fasteners
+                                        </div>
+                                      )}
+                                    </div>
+                                    <p className="text-[9px] text-navy font-bold mt-1 text-center">
+                                      {currentProduct.endCap.desc}
+                                    </p>
+                                  </div>
+                                )
+                              )}
+
                               {/* 2D Technical Drawing Box */}
-                              <div className="bg-white rounded-2xl p-4 border border-gray-200 shadow-sm flex flex-col items-center justify-between">
-                                <div className="w-full flex items-center justify-between mb-2">
+                              <div className="bg-white rounded-2xl p-3 border border-gray-200 shadow-sm flex flex-col items-center justify-between">
+                                <div className="w-full flex items-center justify-between mb-1.5">
                                   <span className="text-[9px] font-extrabold uppercase tracking-widest text-navy bg-gray-100 px-2 py-0.5 rounded">
                                     2D CAD Cross-Section
                                   </span>
@@ -431,7 +554,7 @@ export default function AluminumProfilesClient() {
                                   onClick={() =>
                                     setLightboxImage({
                                       src: currentProduct.drawing2d,
-                                      title: `${currentProduct.code} — 2D Cross-Section Dimensions`,
+                                      title: `${currentProduct.code} &mdash; 2D Cross-Section Dimensions`,
                                       desc: currentProduct.desc,
                                     })
                                   }
@@ -440,7 +563,7 @@ export default function AluminumProfilesClient() {
                                     src={currentProduct.drawing2d}
                                     alt={`${currentProduct.code} 2D drawing`}
                                     fill
-                                    className="object-contain p-2 group-hover:scale-105 transition-transform"
+                                    className="object-contain p-1 group-hover:scale-105 transition-transform"
                                   />
                                   <div className="absolute inset-0 bg-navy/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl flex items-center justify-center">
                                     <span className="bg-white/90 text-navy text-[10px] font-bold px-2 py-1 rounded shadow">
@@ -448,61 +571,48 @@ export default function AluminumProfilesClient() {
                                     </span>
                                   </div>
                                 </div>
-                                <p className="text-[8px] text-gray-400 uppercase tracking-tight mt-2 text-center font-bold">
+                                <p className="text-[8px] text-gray-400 uppercase tracking-tight mt-1 text-center font-bold">
                                   Architectural 6063-T5 Gauge
                                 </p>
                               </div>
 
-                              {/* End Cap / Connector Box */}
-                              {currentProduct.endCap ? (
-                                <div className="bg-white rounded-2xl p-4 border border-gray-200 shadow-sm flex flex-col items-center justify-between">
-                                  <div className="w-full flex items-center justify-between mb-2">
-                                    <span className="text-[9px] font-extrabold uppercase tracking-widest text-copper bg-copper/10 px-2 py-0.5 rounded">
-                                      {currentProduct.endCap.code}
-                                    </span>
-                                    <span className="text-[8px] text-gray-400 font-bold">
-                                      {currentProduct.endCap.priceUnit || "Accessories"}
-                                    </span>
-                                  </div>
-                                  <div
-                                    className="relative w-full aspect-[4/3] cursor-pointer group"
-                                    onClick={() => {
-                                      if (currentProduct.endCap?.image) {
+                            </div>
+
+                            {/* Matching End Cap / Connector Strip (if sampleImage is shown above) */}
+                            {currentProduct.sampleImage && currentProduct.endCap && (
+                              <div className="bg-white rounded-2xl p-3 border border-gray-200 flex items-center justify-between gap-3">
+                                <div className="flex items-center gap-3">
+                                  {currentProduct.endCap.image && (
+                                    <div
+                                      className="relative w-12 h-12 rounded-xl bg-gray-50 border border-gray-100 overflow-hidden cursor-pointer shrink-0"
+                                      onClick={() =>
                                         setLightboxImage({
-                                          src: currentProduct.endCap.image,
-                                          title: `${currentProduct.endCap.code} — ${currentProduct.endCap.desc}`,
+                                          src: currentProduct.endCap!.image!,
+                                          title: `${currentProduct.endCap!.code} &mdash; ${currentProduct.endCap!.desc}`,
                                           desc: `Matching hardware accessory for ${currentProduct.code}`,
-                                        });
+                                        })
                                       }
-                                    }}
-                                  >
-                                    {currentProduct.endCap.image ? (
+                                    >
                                       <Image
                                         src={currentProduct.endCap.image}
-                                        alt={`${currentProduct.endCap.code} end cap`}
+                                        alt={currentProduct.endCap.code}
                                         fill
-                                        className="object-contain p-2 group-hover:scale-105 transition-transform"
+                                        className="object-contain p-1"
                                       />
-                                    ) : (
-                                      <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs text-center p-2">
-                                        End Cap &amp; Fasteners Available
-                                      </div>
-                                    )}
+                                    </div>
+                                  )}
+                                  <div>
+                                    <p className="text-xs font-bold text-navy">{currentProduct.endCap.code}</p>
+                                    <p className="text-[10px] text-gray-500">{currentProduct.endCap.desc}</p>
                                   </div>
-                                  <p className="text-[9px] text-navy font-bold mt-2 text-center">
-                                    {currentProduct.endCap.desc}
-                                  </p>
                                 </div>
-                              ) : (
-                                <div className="bg-white rounded-2xl p-4 border border-gray-200 shadow-sm flex flex-col items-center justify-center text-center">
-                                  <Package size={24} className="text-copper mb-2" />
-                                  <p className="text-xs font-bold text-navy">Direct Profile Mount</p>
-                                  <p className="text-[10px] text-gray-500 mt-1">
-                                    Standard continuous fastening along shutter length
-                                  </p>
-                                </div>
-                              )}
-                            </div>
+                                {currentProduct.endCap.priceUnit && (
+                                  <span className="text-xs font-black text-copper bg-copper/10 px-2.5 py-1 rounded-lg">
+                                    {currentProduct.endCap.priceUnit}
+                                  </span>
+                                )}
+                              </div>
+                            )}
 
                             {/* Finishes & Pricing Breakdown */}
                             {currentProduct.finishes && currentProduct.finishes.length > 0 && (
@@ -531,8 +641,8 @@ export default function AluminumProfilesClient() {
                           </div>
                         </div>
 
-                        {/* Series Quick Action */}
-                        <div className="pt-6 flex flex-wrap items-center gap-3">
+                        {/* Series Action Buttons */}
+                        <div className="pt-2 flex flex-wrap items-center gap-3">
                           <Link
                             href={`/contact?inquiry=aluminum-${series.id}`}
                             className="bg-navy hover:bg-copper text-white font-bold px-6 py-3 rounded-xl transition-all text-xs flex items-center gap-2 shadow-md"
@@ -563,7 +673,7 @@ export default function AluminumProfilesClient() {
       <section className="relative py-28 overflow-hidden bg-navy">
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
-            src="/images/products/aluminum/ottimo-showcase.png"
+            src="/images/products/aluminum/ottimo-kitchen.png"
             alt="Finishes Background"
             fill
             className="object-cover"
@@ -604,7 +714,7 @@ export default function AluminumProfilesClient() {
       </section>
 
       {/* Lead Form Section */}
-      <section className="bg-cream py-20 text-center">
+      <section className="bg-[#FAF9F6] py-20 text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-playfair text-3xl md:text-5xl text-navy mb-4">
             Request Architectural Samples &amp; Quotes
@@ -635,6 +745,6 @@ export default function AluminumProfilesClient() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
