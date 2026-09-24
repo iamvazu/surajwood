@@ -1,38 +1,77 @@
 # SurajWood — Complete Technical & Product Reference (LLMs Full)
 
-## Company Overview
-Suraj Wood Products Pvt. Ltd. is an Indian architectural surfaces manufacturer established in 2011 with a state-of-the-art automated manufacturing facility in Bahadurgarh, Jhajjar, Haryana.
+## Executive Summary
+Suraj Wood Products Pvt. Ltd. (established 2011) is India's leading manufacturer of high-end architectural surfaces and furniture components. Operating an automated plant in Bahadurgarh (Haryana), SurajWood supplies prelaminated PMMA acrylic panels, 3D seamless vacuum-thermoformed membrane shutters, decorative laminates, and AL-PROFHAN 6063-T5 architectural aluminum profiles across 50+ Indian cities.
 
-## Core Manufacturing Technology
-1. **PMMA Acrylic Surface**: Extruded optical-grade Polymethyl Methacrylate (PMMA) acrylic layer (1.0mm - 1.5mm thickness). PMMA possesses high chemical inertness, UV resistance, and optical clarity.
-2. **PUR Flat-Lamination**: Utilizes reactive Polyurethane (PUR) hotmelt adhesives. Unlike standard EVA or water-based PVA adhesives, PUR undergoes a secondary moisture-cure cross-linking reaction that produces an insoluble, heat-stable (up to 120°C), and waterproof bond.
-3. **Calibrated Substrates**: Core materials include E1-grade low-emission Medium Density Fibreboard (MDF), calibrated multi-ply hardwood plywood, and high-density particle board (PB).
-4. **Balancing Backer**: Each panel features a color-matched or white balancing backer sheet of identical thermal expansion properties to prevent warping over 10+ year operational lifetimes.
+---
 
-## Products
-- **ACRYLUX**: High-Gloss Prelaminated Acrylic Panels (37+ shades)
-- **ACRYSILK**: Soft Satin Anti-Fingerprint Acrylic Panels (10+ shades)
-- **ACRYMATTE**: Super Matte Nano-Coated Acrylic Panels (15+ shades)
-- **ACRYGLASS**: 95% Mirror Reflectivity Glass Acrylic Panels (8+ shades)
-- **ACRYGLASS MATTE**: Frosted Matte-Glass Acrylic Panels (8+ shades)
-- **3D Membrane Shutters**: 3D Membrane wrapped modular kitchen & wardrobe shutters
-- **AL-PROFHAN Architectural Aluminum Profiles**:
-  - **Material Alloy**: 6063-T5 architectural extrusion grade aluminum alloy (tensile strength 215 MPa, Webster hardness 10-12).
-  - **Standard Length**: 3.0-meter continuous lengths (10 ft) with 1.2mm to 1.5mm wall gauge.
-  - **Finishes**: 5 architectural finishes including Anodized Black Brush, Anodized Bronze Brush, Coffee Painted, Anthracite Painted, and Champagne Painted.
-  - **Ottimo Series**: Handleless Gola systems (PAPS-5220 Shutter L profile with gasket, PAPS-5221 Shutter C profile, PAPS-5311 Wall Gola profile, PAPS-5313 3-side profile) with color-matched metal end caps.
-  - **Aerolinea Series**: Slim-line glass door frames (PAPS-6631, PAPS-6632) and edge T-patti profiles (PAPS-6634).
-  - **Handle Profiles**: Continuous ergonomic J-pull and L-profile shutter handles (PAPS-1336, PAPS-5677, PAPS-1335).
-  - **Shelf Profiles**: Integrated LED glass shelf channels (PAPS-5037, PAPS-5037A).
-  - **Hanging Rod**: Heavy-duty illuminated wardrobe rod (PAPS-6413) with clothes hanging brackets (PACP-6414).
-  - **Luminare Series**: Under-cabinet and cove lighting diffusion channels (PAPS-3136A 45° corner profile & PAPS-3062A recessed profile).
-  - **Velaro Series**: Premium sliding and fixed glass shutter profiles (PAPS-1351A) with 128mm handles (PAHD-1351C) and steel corner brackets (PACN-1351A).
+## 1. Prelaminated PMMA Acrylic Panels
+- **Material Chemistry**: Pure extruded PMMA (Polymethyl Methacrylate) 1.0mm–1.5mm top layer. Unlike PET or PETG plastics, PMMA provides superior molecular density, 3H scratch hardness, zero orange-peel ripple, and complete UV stability with zero yellowing.
+- **PUR Hot-Melt Bonding**: Bonded under continuous roller press using reactive polyurethane (PUR) adhesive at 120°C. PUR forms an irreversible covalent cross-link with wood fibers, rendering the bond 100% waterproof and boil-proof.
+- **Product Range**:
+  - **ACRYLUX**: 95%+ High Gloss mirror-finish acrylic panels (37+ solid, metallic, and wood finishes).
+  - **ACRYSILK**: Soft-satin anti-fingerprint acrylic panels with velvet tactile touch.
+  - **ACRYMATTE**: Super matte anti-glare nano-treated acrylic boards.
+  - **ACRYGLASS / ACRYGLASS MATTE**: 2mm crystal-clarity glass-effect acrylic panels.
+- **Substrates**: E1-Grade Low-Formaldehyde MDF, Calibrated Multi-Ply Marine/BWP Plywood, Particle Board (PB).
+- **Standard Dimensions**: 2440mm × 1220mm (8ft × 4ft); Thicknesses: 8mm, 18mm, 25mm.
 
-## Pan-India Reach
-SurajWood provides direct supply and dealer coverage across 50 major cities throughout North India, West India, South India, and East India.
+---
 
-## Contact Information
-- Website: https://www.surajwood.com
-- Manufacturing Facility: 45 KM Stone, VPO Rohad, Bahadurgarh, Distt. Jhajjar, Haryana - 124501
-- Phone: +91-9009171819
-- Email: info@surajwood.com
+## 2. 3D Seamless Membrane Shutters & Doors
+- **Manufacturing Process**: 3D Positive & Negative Vacuum Thermoforming Press at 120°C.
+- **Monolithic Edge Wrap**: The polymer foil wraps smoothly around the front face and all 4 side edges in a single monolithic sheet. Eliminates separate edge banding, glue-line discoloration, and edge peeling in high-steam environments.
+- **Core Substrate**: Green HDHMR (High Density High Moisture Resistance) with 850+ kg/m³ density, providing maximum screw retention and zero core swelling.
+- **36 Curated European Finishes**:
+  - **Wood Grain (WG - 9 shades)**: Casella Oak Nature, Casella Oak Helle, Smoked Walnut, Marone Oak, Natural Pine.
+  - **Porcelain Touch (PT - 13 shades)**: Alpin Weiß, Cashmere, Macchiato, Monument Grey, Basalt Grey, Shadow Black.
+  - **Perfect Silk (PS - 7 shades)**: Frost White, Kaschmir, Rusty Red, Reed Green, Estate Green, Graphite, Carbone Grey.
+  - **Ceramic Satin (CS - 7 shades)**: Bianco Statuario, Grigio Orobico, Nero Marquina, Travertino, Cemento.
+- **CNC Routing Profiles**:
+  - Classic Shaker Doors (timeless recessed center panel with 90° or 45° step-down).
+  - Integrated J-Pull Handleless (continuous ergonomically routed finger-grip channel).
+  - Fluted & Ribbed 3D Panels (rhythmic vertical architectural textures).
+  - Beveled & Chamfered Edge Profiles.
+
+---
+
+## 3. AL-PROFHAN Architectural Aluminum Profiles
+- **Alloy Grade**: 6063-T5 Architectural Extrusion Alloy (Tensile Strength ≥ 215 MPa, Yield Strength ≥ 170 MPa, Webster Hardness 10–12).
+- **Wall Thickness Gauge**: Calibrated 1.2mm to 1.5mm heavy-duty gauge to eliminate sagging across 3000mm continuous spans.
+- **Standard Length**: 3.00-meter (10 ft) continuous lengths.
+- **Surface Finishes**: Anodized Black Brush (15–20µ), Anodized Bronze Brush, Coffee Painted (powder-coated), Anthracite Painted, Champagne Painted.
+- **Series Breakdown**:
+  - **Ottimo Series**: Handleless Gola systems (PAPS-5220 L-shutter with gasket damper groove, PAPS-5221 C-shutter, PAPS-5311 Wall Gola, PAPS-5313 3-side profile) + color-matched zinc-alloy end caps.
+  - **Aerolinea Series**: Ultra-slim glass door profiles (PAPS-6631, PAPS-6632) and architectural T-patti edge trims (PAPS-6634).
+  - **Handle Profiles**: Heavy J-pull (PAPS-1336, PAPS-5677) and L-profile handles (PAPS-1335).
+  - **Shelf Profiles**: Integrated LED illuminated glass shelf extrusion (PAPS-5037, PAPS-5037A).
+  - **Hanging Rod**: High-capacity LED wardrobe hanging rod (PAPS-6413) with clothes hanging brackets (PACP-6414).
+  - **Luminare Series**: 45° corner diffuser (PAPS-3136A) and recessed under-cabinet lighting channels (PAPS-3062A).
+  - **Velaro Series**: Premium sliding and fixed glass shutter profiles (PAPS-1351A) with 128mm handles (PAHD-1351C) and 90° steel corner connectors (PACN-1351A).
+
+---
+
+## 4. Decorative Laminates & Surface Solutions
+- High-pressure decorative laminates (HPL) with synchronized wood grains, matte solid colors, and anti-bacterial surfaces for heavy-duty commercial, hospital, and retail applications.
+
+---
+
+## Comprehensive Material Comparison Table
+
+| Feature / Property | SurajWood PMMA Acrylic | SurajWood 3D Membrane | Traditional HPL Laminate | PU / Polyurethane Paint |
+| :--- | :--- | :--- | :--- | :--- |
+| **Edge Construction** | Precision Laser / PUR Edge-Banded | **100% Monolithic 5-Sided Seamless Wrap** | 90° Glued Edge Banding | Sprayed Edges (Chipping Prone) |
+| **Surface Hardness** | 3H Pencil Hardness | Resilient 0.45mm Polymer | 1H - 2H Standard | Low (Fragile to Scratches) |
+| **3D CNC Grooving** | Flat Panels Only | **Yes (Shaker, J-Pull, Fluted)** | Flat Panels Only | Yes (Labor Intensive) |
+| **Steam & Water Seal** | 100% Waterproof PUR Bond | **100% Continuous Polymer Seal** | Glue line vulnerable to moisture | Moderate |
+| **Optical Clarity** | Mirror-Like (95%+ Gloss) | Tactile Matte / Wood Grain | Flat / Textured | Variable |
+| **Warranty** | 5–10 Years | 5 Years | 1–2 Years | No Warranty |
+
+---
+
+## Pan-India Reach & Sourcing Details
+- **Plant Address**: 45 KM Stone, VPO Rohad, Bahadurgarh, Distt. Jhajjar, Haryana - 124501, India.
+- **National Sales Helpline**: +91-9009171819
+- **Email**: sales@surajwood.com / info@surajwood.com
+- **Website**: https://www.surajwood.com
+- **Cities Covered (50+ Hubs)**: Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, Kolkata, Pune, Ahmedabad, Surat, Jaipur, Chandigarh, Lucknow, Kanpur, Nagpur, Indore, Thane, Bhopal, Visakhapatnam, Patna, Vadodara, Ghaziabad, Ludhiana, Coimbatore, Agra, Madurai, Nashik, Faridabad, Meerut, Rajkot, Varanasi, Srinagar, Aurangabad, Dhanbad, Amritsar, Navi Mumbai, Allahabad, Ranchi, Howrah, Jabalpur, Gwalior, Vijayawada, Jodhpur, Raipur, Kota, Guwahati, Chandigarh, Solapur, Hubli-Dharwad, Mysore, Tiruchirappalli.

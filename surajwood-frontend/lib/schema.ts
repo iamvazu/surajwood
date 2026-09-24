@@ -503,4 +503,128 @@ export function generateAluminumProfilesSchema() {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Comprehensive 3D Membrane Shutters Schema (ProductGroup & Variants)
+// ---------------------------------------------------------------------------
+
+export function generateMembraneShuttersSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProductGroup",
+    name: "SurajWood 3D Seamless Membrane Shutters & Doors",
+    alternateName: [
+      "Suraj Wood Membrane Shutters",
+      "PVC Membrane Kitchen Shutters",
+      "3D Thermoformed Shaker Shutters",
+      "MDF Membrane Wardrobe Doors",
+      "HDHMR Membrane Cabinet Shutters",
+    ],
+    description:
+      "Precision 3D vacuum thermoformed PVC membrane shutters wrapped over moisture-resistant Green HDHMR/MDF core. 100% seamless wrap on 5 sides with zero edge-banding seams. Available in 36 curated European shades (Wood Grain, Porcelain Touch, Perfect Silk, Ceramic Satin) and CNC Shaker, J-pull & Fluted profiles.",
+    brand: {
+      "@type": "Brand",
+      name: "Suraj Wood",
+      logo: "https://www.surajwood.com/images/logo/suraj-logo.png",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Suraj Wood Products Pvt. Ltd.",
+      url: "https://www.surajwood.com",
+      telephone: "+91-9009171819",
+      email: "sales@surajwood.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "45 KM Stone, VPO Rohad",
+        addressLocality: "Bahadurgarh",
+        addressRegion: "Haryana",
+        postalCode: "124501",
+        addressCountry: "IN",
+      },
+    },
+    url: "https://www.surajwood.com/products/membrane-shutters",
+    image: "https://www.surajwood.com/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
+    material: "0.45mm UV-Stabilized European PVC Foil + 850kg/m³ Green HDHMR Core + German Reactive PUR Adhesive",
+    countryOfOrigin: {
+      "@type": "Country",
+      name: "India",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "890",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "INR",
+      lowPrice: "450",
+      highPrice: "950",
+      priceUnit: "Per Square Feet",
+      offerCount: "36",
+      availability: "https://schema.org/InStock",
+      priceValidUntil: "2027-12-31",
+      seller: {
+        "@type": "Organization",
+        name: "Suraj Wood Products Pvt. Ltd.",
+      },
+    },
+    hasVariant: [
+      {
+        "@type": "Product",
+        name: "Wood Grain (WG) 3D Membrane Shutters",
+        description: "Ultra-realistic natural oak, walnut, and pine thermoformed wood textures with continuous wrapped edges.",
+        image: "https://www.surajwood.com/images/products/membrane-shutters/031-wg-casella-eiche-nature.jpg",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "550",
+          priceUnit: "Per Sq Ft",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "Porcelain Touch (PT) Matte Membrane Shutters",
+        description: "Velvety anti-fingerprint architectural matte finish with zero light glare and smooth tactile feel.",
+        image: "https://www.surajwood.com/images/products/membrane-shutters/008-pt-alpin-weib.jpg",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "520",
+          priceUnit: "Per Sq Ft",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "Classic Shaker Door 3D Membrane Shutters",
+        description: "Precision CNC-routed recessed Shaker profile wrapped seamlessly with European polymer foil.",
+        image: "https://www.surajwood.com/images/products/membrane-shutters/hero/hero-kitchen-1.jpg",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "600",
+          priceUnit: "Per Sq Ft",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "Integrated J-Pull Handleless Membrane Shutters",
+        description: "Continuously routed ergonomic J-groove handle wrapped in a single foil sheet for clean handleless kitchens.",
+        image: "https://www.surajwood.com/images/products/membrane-shutters/hero/hero-kitchen-2.jpg",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "650",
+          priceUnit: "Per Sq Ft",
+          availability: "https://schema.org/InStock",
+        },
+      },
+    ],
+  };
+}
+
+
 

@@ -135,6 +135,12 @@ const PRODUCT_SPECS: Record<
     colours: "5 Finishes (Black Brush, Bronze Brush, Coffee, Anthracite, Champagne)",
     material: "6063-T5 Architectural Aluminum Alloy + Rubber Gasket Channel",
   },
+  "membrane-shutters": {
+    thickness: "18mm, 25mm Calibrated Core",
+    dimensions: "Custom CNC Modular Shutter & Wardrobe Heights up to 2800mm",
+    colours: "36 European Foils (Wood Grain, Porcelain Touch, Perfect Silk, Ceramic)",
+    material: "0.45mm UV-Polymer Foil + German PUR Adhesive + Green HDHMR Board",
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -148,6 +154,7 @@ const PRODUCT_HERO_IMAGES: Record<string, string> = {
   acryglass: "/images/products/acryglass/acryglass-1.png",
   "acryglass-matte": "/images/products/acryglass-matte/acryglass-matte-1.png",
   "aluminum-profiles": "/images/products/aluminum/ottimo-kitchen.png",
+  "membrane-shutters": "/images/products/membrane-shutters/hero/hero-kitchen-1.jpg",
 };
 
 // ---------------------------------------------------------------------------
