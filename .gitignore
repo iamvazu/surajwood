@@ -5,6 +5,8 @@ out/
 *.log
 tsc_errors*.txt
 key.txt
+pdf_pages/
+extracted_raw_images/
 
 # managed
 **.data.json

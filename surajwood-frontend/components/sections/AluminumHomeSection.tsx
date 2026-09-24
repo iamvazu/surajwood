@@ -5,15 +5,15 @@ import { ArrowRight, Box, ShieldCheck, Zap } from "lucide-react";
 const series = [
   {
     name: "Ottimo Series",
-    desc: "Premium Gola & Profile Handles with seamless PUR bonding.",
-    image: "/images/banner/bg2.jpg",
+    desc: "Premium Gola & Profile Handles with seamless PUR bonding and matching end-caps.",
+    image: "/images/products/aluminum/ottimo-kitchen.png",
     link: "/products/aluminum-profiles#ottimo",
     icon: <Box size={20} />,
   },
   {
-    name: "Aerolinea",
-    desc: "Ultra-slim glass shutter profiles for contemporary kitchens.",
-    image: "/images/banner/bg1.jpg",
+    name: "Aerolinea Series",
+    desc: "Ultra-slim glass shutter profiles and T-patti edge profiles for contemporary cabinetry.",
+    image: "/images/products/aluminum/aerolinea-wardrobe.png",
     link: "/products/aluminum-profiles#aerolinea",
     icon: <Zap size={20} />,
   },
