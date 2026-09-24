@@ -111,6 +111,14 @@ const PSEO_PRODUCTS: Record<string, PSEOProduct> = {
     description:
       "Optical-grade glass clarity with a sophisticated matte surface — the pinnacle of Suraj Wood's panel range for discerning luxury interiors.",
   },
+  "aluminum-profiles": {
+    slug: "aluminum-profiles",
+    name: "AL-PROFHAN Aluminum Profiles",
+    finishType: "architectural-anodized",
+    finishLabel: "Architectural 6063-T5 Gola & Shutter Profiles",
+    description:
+      "Precision-engineered 6063-T5 architectural aluminum profiles, handleless Gola profiles, J-pull shutter handles, LED channels, and glass door frames.",
+  },
 };
 
 // ---------------------------------------------------------------------------

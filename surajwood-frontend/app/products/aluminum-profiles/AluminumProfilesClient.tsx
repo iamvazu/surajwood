@@ -713,6 +713,205 @@ export default function AluminumProfilesClient() {
         </div>
       </section>
 
+      {/* Architectural Specifications & Technical Authority */}
+      <section className="py-20 bg-white border-t border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-copper/10 text-copper text-xs font-black uppercase tracking-widest mb-3">
+              Engineering Excellence
+            </div>
+            <h2 className="font-playfair text-3xl md:text-5xl text-navy">
+              Architectural Grade 6063-T5 Specifications
+            </h2>
+            <p className="text-gray-600 text-sm md:text-base mt-3">
+              SurajWood AL-PROFHAN aluminium profiles are manufactured in accordance with strict international metallurgical standards for luxury interior fit-outs and modular furniture systems.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <div className="p-6 rounded-2xl bg-gray-50 border border-gray-200/80 hover:border-copper/40 transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-copper/10 text-copper flex items-center justify-center mb-4 font-bold">
+                6063
+              </div>
+              <h3 className="font-heading text-lg font-bold text-navy mb-2">
+                6063-T5 Architectural Alloy
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed mb-3">
+                High-strength magnesium-silicon aluminum alloy treated with artificial aging (T5 temper). Provides superior mechanical strength, zero distortion under heavy door loads, and unmatched surface smoothness.
+              </p>
+              <ul className="text-[11px] text-gray-500 space-y-1">
+                <li>&bull; <strong>Tensile Strength:</strong> &ge; 215 MPa</li>
+                <li>&bull; <strong>Yield Strength:</strong> &ge; 170 MPa</li>
+                <li>&bull; <strong>Hardness:</strong> 8 &ndash; 12 Webster</li>
+              </ul>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-gray-50 border border-gray-200/80 hover:border-copper/40 transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-copper/10 text-copper flex items-center justify-center mb-4 font-bold">
+                1.5
+              </div>
+              <h3 className="font-heading text-lg font-bold text-navy mb-2">
+                Heavy Gauge 1.2mm &ndash; 1.5mm Wall
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed mb-3">
+                Unlike local market profiles that reduce wall thickness to 0.7mm to cut costs, AL-PROFHAN maintains a calibrated 1.2mm&ndash;1.5mm gauge to ensure zero flex and rock-solid screw retention.
+              </p>
+              <ul className="text-[11px] text-gray-500 space-y-1">
+                <li>&bull; <strong>Standard Continuous Length:</strong> 3.0 Meters (approx. 10 ft)</li>
+                <li>&bull; <strong>Tolerance:</strong> &plusmn; 0.15mm CNC mitre accuracy</li>
+                <li>&bull; <strong>Sagging Resistance:</strong> Span tested up to 2800mm</li>
+              </ul>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-gray-50 border border-gray-200/80 hover:border-copper/40 transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-copper/10 text-copper flex items-center justify-center mb-4 font-bold">
+                18&mu;
+              </div>
+              <h3 className="font-heading text-lg font-bold text-navy mb-2">
+                15&ndash;20&mu; Anodizing &amp; Coating
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed mb-3">
+                Double-sealed electrolytic anodization (Black Brush, Bronze Brush) and thermosetting polyester powder coating (Coffee, Anthracite, Champagne) for long-term corrosion immunity.
+              </p>
+              <ul className="text-[11px] text-gray-500 space-y-1">
+                <li>&bull; <strong>Corrosion Class:</strong> C3/C4 High Humid Resistance</li>
+                <li>&bull; <strong>Surface Hardness:</strong> Anti-Scratch &amp; Fingerprint Resistant</li>
+                <li>&bull; <strong>UV Stability:</strong> 10+ Years Zero Color Fading</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Comparison Table */}
+          <div className="bg-navy text-white rounded-3xl p-6 md:p-10 shadow-2xl overflow-hidden relative">
+            <div className="mb-8">
+              <span className="text-[10px] font-black uppercase tracking-widest text-copper">
+                Quality Comparison
+              </span>
+              <h3 className="font-heading text-2xl md:text-3xl font-bold mt-1 text-white">
+                SurajWood AL-PROFHAN vs. Generic Local Extrusions
+              </h3>
+              <p className="text-white/70 text-xs md:text-sm mt-1">
+                Why architects, interior contractors, and modular furniture OEM factories specify AL-PROFHAN.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-white/15 text-white/60 uppercase tracking-wider text-[10px]">
+                    <th className="pb-4 font-bold">Feature / Specification</th>
+                    <th className="pb-4 font-bold text-copper-light">SurajWood AL-PROFHAN</th>
+                    <th className="pb-4 font-bold text-white/50">Generic Commercial Grade</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/10 text-white/90">
+                  <tr>
+                    <td className="py-3.5 font-medium">Alloy Composition</td>
+                    <td className="py-3.5 font-bold text-amber-300">Certified 6063-T5 Virgin Ingot</td>
+                    <td className="py-3.5 text-white/50">Recycled scrap aluminum (brittle)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">Wall Thickness Gauge</td>
+                    <td className="py-3.5 font-bold text-amber-300">1.2mm &ndash; 1.5mm calibrated</td>
+                    <td className="py-3.5 text-white/50">0.7mm &ndash; 0.9mm (causes hinge strip-out)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">Standard Extrusion Length</td>
+                    <td className="py-3.5 font-bold text-amber-300">3.00 Meters Continuous (9.84 ft)</td>
+                    <td className="py-3.5 text-white/50">2.44m (8 ft) &mdash; leaves joint lines</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">Gasket &amp; Damper Channel</td>
+                    <td className="py-3.5 font-bold text-amber-300">Integrated rubber seal groove for silent closure</td>
+                    <td className="py-3.5 text-white/50">None (metal-on-wood rattling)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">End Caps &amp; Accessories</td>
+                    <td className="py-3.5 font-bold text-amber-300">Color-matched precision metal/ABS end caps</td>
+                    <td className="py-3.5 text-white/50">Mismatched plastic or open raw cut edges</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">LED Diffuser Integration</td>
+                    <td className="py-3.5 font-bold text-amber-300">High-transmission opal polycarbonate diffusers</td>
+                    <td className="py-3.5 text-white/50">Yellowing PVC diffusers with visible hotspots</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 font-medium">Surface Warranty &amp; Longevity</td>
+                    <td className="py-3.5 font-bold text-amber-300">10-Year Warranty against peeling &amp; oxidation</td>
+                    <td className="py-3.5 text-white/50">No warranty; oxidizes in humid kitchens</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Frequently Asked Questions (FAQ) Interactive Accordion */}
+      <section className="py-20 bg-[#FAF9F6]">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <span className="text-[10px] font-black uppercase tracking-widest text-copper bg-copper/10 px-3 py-1 rounded-full">
+              Got Questions?
+            </span>
+            <h2 className="font-playfair text-3xl md:text-5xl text-navy mt-3">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-gray-600 text-sm md:text-base mt-2 italic">
+              Everything you need to know about AL-PROFHAN aluminium profiles, gola handles, finishes, and order dispatch.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {[
+              {
+                q: "Who is the best aluminium profile manufacturer in India for modular kitchens?",
+                a: "Suraj Wood (AL-PROFHAN) is a leading Indian manufacturer and supplier of architectural 6063-T5 aluminium profiles. We manufacture integrated Gola handleless profiles, J-pull shutter handles, LED light diffusion channels, and luxury glass shutter systems with German-standard tolerances and pan-India factory direct supply.",
+              },
+              {
+                q: "What is the standard length and wall thickness of AL-PROFHAN aluminum profiles?",
+                a: "Our standard architectural profiles are manufactured in 3.0-meter (approx. 10 feet) continuous lengths with an engineered gauge thickness of 1.2mm to 1.5mm for superior structural rigidity, zero sagging, and long-term durability.",
+              },
+              {
+                q: "What aluminum alloy grade is used in SurajWood profiles?",
+                a: "We exclusively use high-grade 6063-T5 architectural aluminum alloy. This alloy provides optimal tensile strength, high corrosion resistance, zero oxidation, and a flawless surface for anodizing and powder-coated finishes.",
+              },
+              {
+                q: "What are the available finishes for AL-PROFHAN aluminum profiles?",
+                a: "Profiles are available in 5 curated architectural finishes: Black Brush (Anodized), Bronze Brush (Anodized), Coffee Painted (Powder Coated), Anthracite Painted (Metallic Grey), and Champagne Painted (exclusive to Velaro glass shutter series), complete with color-matched metal end caps.",
+              },
+              {
+                q: "What is a Gola profile handle and why is it used in modular kitchens?",
+                a: "A Gola profile is a recessed continuous aluminum extrusion mounted directly to the cabinet carcass or door top. It creates a completely handleless, minimalist aesthetic while offering an ergonomic finger-grip channel and integrated rubber gasket for soft, silent shutter closure.",
+              },
+              {
+                q: "Which aluminum profiles are suitable for integrated LED lighting?",
+                a: "Our Luminare Series (PAPS-3136A 45° corner profile & PAPS-3062A recessed profile) and Shelf Profiles (PAPS-5037A) feature built-in aluminum heat-sink channels and frosted polycarbonate diffusers for spot-free under-cabinet and wardrobe illumination.",
+              },
+              {
+                q: "How do I order aluminum profile samples or get wholesale dealer pricing?",
+                a: "You can request architectural sample swatches and the complete AL-PROFHAN 2026 Price List directly through our website contact form or by calling our national sales team at +91-9009171819. We provide same-day dispatch to major hubs including Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, and Ahmedabad.",
+              },
+            ].map((faq, i) => (
+              <details
+                key={i}
+                className="group bg-white rounded-2xl border border-gray-200/80 p-5 md:p-6 transition-all duration-200 open:shadow-lg open:border-copper/40"
+              >
+                <summary className="font-heading font-bold text-navy text-base md:text-lg cursor-pointer flex items-center justify-between list-none select-none">
+                  <span>{faq.q}</span>
+                  <span className="ml-4 w-7 h-7 rounded-full bg-gray-100 group-open:bg-copper group-open:text-white flex items-center justify-center shrink-0 transition-transform duration-200 group-open:rotate-90">
+                    <ChevronRight size={16} />
+                  </span>
+                </summary>
+                <p className="text-gray-600 text-sm leading-relaxed mt-4 pt-3 border-t border-gray-100">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Lead Form Section */}
       <section className="bg-[#FAF9F6] py-20 text-center">
         <div className="max-w-3xl mx-auto px-6">

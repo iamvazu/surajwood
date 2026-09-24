@@ -129,6 +129,12 @@ const PRODUCT_SPECS: Record<
     colours: "25+ luxury matte-glass shades",
     material: "Optical matte PMMA + PUR adhesive + E1 MDF",
   },
+  "aluminum-profiles": {
+    thickness: "1.2mm – 1.5mm Precision Gauge",
+    dimensions: "3.0 Meter Continuous Lengths (10 ft)",
+    colours: "5 Finishes (Black Brush, Bronze Brush, Coffee, Anthracite, Champagne)",
+    material: "6063-T5 Architectural Aluminum Alloy + Rubber Gasket Channel",
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -141,6 +147,7 @@ const PRODUCT_HERO_IMAGES: Record<string, string> = {
   acrymatte: "/images/products/acrymatte/acrymatte-1.png",
   acryglass: "/images/products/acryglass/acryglass-1.png",
   "acryglass-matte": "/images/products/acryglass-matte/acryglass-matte-1.png",
+  "aluminum-profiles": "/images/products/aluminum/ottimo-kitchen.png",
 };
 
 // ---------------------------------------------------------------------------

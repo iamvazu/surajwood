@@ -374,3 +374,133 @@ export function generateAggregateRatingSchema(
   };
 }
 
+// ---------------------------------------------------------------------------
+// Comprehensive Aluminum Profiles Catalog Schema (ProductGroup & ItemList)
+// ---------------------------------------------------------------------------
+
+export function generateAluminumProfilesSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProductGroup",
+    name: "AL-PROFHAN Architectural Aluminum Profiles by SurajWood",
+    alternateName: ["AL-PROFHAN Aluminium Profiles", "Suraj Wood Gola Profiles", "Modular Kitchen Aluminum Profile Handles"],
+    description:
+      "Precision-engineered 6063-T5 architectural aluminum profiles and handleless Gola systems for modular kitchens, wardrobes, and commercial cabinetry. Includes Ottimo, Aerolinea, Handle Profiles, Shelf Profiles, Hanging Rod, Luminare LED, and Velaro glass shutter systems.",
+    brand: {
+      "@type": "Brand",
+      name: "Suraj Wood",
+      logo: "https://www.surajwood.com/images/logo/suraj-logo.png",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Suraj Wood Products Pvt. Ltd.",
+      url: "https://www.surajwood.com",
+      telephone: "+91-9009171819",
+      email: "sales@surajwood.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "45 KM Stone, VPO Rohad",
+        addressLocality: "Bahadurgarh",
+        addressRegion: "Haryana",
+        postalCode: "124501",
+        addressCountry: "IN",
+      },
+    },
+    url: "https://www.surajwood.com/products/aluminum-profiles",
+    image: "https://www.surajwood.com/images/products/aluminum/ottimo-kitchen.png",
+    material: "Architectural 6063-T5 Grade Aluminum Alloy",
+    countryOfOrigin: {
+      "@type": "Country",
+      name: "India",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "940",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "INR",
+      lowPrice: "470",
+      highPrice: "4300",
+      offerCount: "18",
+      availability: "https://schema.org/InStock",
+      priceValidUntil: "2027-12-31",
+      seller: {
+        "@type": "Organization",
+        name: "Suraj Wood Products Pvt. Ltd.",
+      },
+    },
+    hasVariant: [
+      {
+        "@type": "Product",
+        name: "OTTIMO SERIES Gola & Profile Handles",
+        sku: "PAPS-5220 / PAPS-5221 / PAPS-5311 / PAPS-5313",
+        description: "Handleless kitchen gola profile system with gasket channels and matching metal end caps.",
+        image: "https://www.surajwood.com/images/products/aluminum/ottimo-kitchen.png",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "2400",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "AEROLINEA SERIES Slim-Line Profiles",
+        sku: "PAPS-6631 / PAPS-6632 / PAPS-6634",
+        description: "Ultra-slim architectural glass shutter profiles and T-patti edge trims.",
+        image: "https://www.surajwood.com/images/products/aluminum/aerolinea-wardrobe.png",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "800",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "HANDLE PROFILES (J & L Profiles)",
+        sku: "PAPS-1336 / PAPS-5677 / PAPS-1335",
+        description: "Ergonomic continuous J-pull and L-profile handles for high-end wardrobes and modular kitchens.",
+        image: "https://www.surajwood.com/images/products/aluminum/handle-photo-1.png",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "2700",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "LUMINARE SERIES LED Integrated Profiles",
+        sku: "PAPS-3136A / PAPS-3062A",
+        description: "45-degree and recessed LED light dispersion channels for under-cabinet lighting.",
+        image: "https://www.surajwood.com/images/products/aluminum/luminare-paps-3136a-sample.png",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "1350",
+          availability: "https://schema.org/InStock",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "VELARO SERIES Glass Shutter System",
+        sku: "PAPS-1351A / PAHD-1351C / PACN-1351A",
+        description: "Luxury sliding and fixed glass shutter profiles with matching handles and steel corner connectors.",
+        image: "https://www.surajwood.com/images/products/aluminum/velaro-photo-1.png",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          price: "3000",
+          availability: "https://schema.org/InStock",
+        },
+      },
+    ],
+  };
+}
+
+
